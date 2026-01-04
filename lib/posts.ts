@@ -21,7 +21,13 @@ export function getSortedPostsData(): PostData[] {
         return [];
     }
 
-    const fileNames = fs.readdirSync(postsDirectory);
+    const fileNames = fs.readdirSync(postsDirectory)
+        // Filter out directories and non-.md files
+        .filter((fileName) => {
+            const fullPath = path.join(postsDirectory, fileName);
+            return fs.statSync(fullPath).isFile() && fileName.endsWith('.md');
+        });
+
     const allPostsData = fileNames.map((fileName) => {
         // Remove ".md" from file name to get id
         const id = fileName.replace(/\.md$/, '');
@@ -52,7 +58,11 @@ export function getSortedPostsData(): PostData[] {
 export function getAllPostIds() {
     if (!fs.existsSync(postsDirectory)) return [];
 
-    const fileNames = fs.readdirSync(postsDirectory);
+    const fileNames = fs.readdirSync(postsDirectory)
+        .filter((fileName) => {
+            const fullPath = path.join(postsDirectory, fileName);
+            return fs.statSync(fullPath).isFile() && fileName.endsWith('.md');
+        });
     return fileNames.map((fileName) => {
         return {
             params: {
