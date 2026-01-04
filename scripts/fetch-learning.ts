@@ -325,7 +325,7 @@ async function fetchLatestVideos() {
             channelId: channelId,
             part: ['snippet'],
             order: 'date',
-            maxResults: 1, // Only check the very latest for speed test
+            maxResults: 5, // Fetch 5 latest videos per channel to restore volume (~30 posts total)
             type: ['video']
         });
 
