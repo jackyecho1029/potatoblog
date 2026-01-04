@@ -3,6 +3,7 @@ import { getSortedLearningPostsData } from "../../lib/learning";
 import Header from "../components/Header";
 
 export default function LearningPage() {
+    // Fetch learning data
     const posts = getSortedLearningPostsData();
 
     return (
