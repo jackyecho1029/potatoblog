@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@giscus/react": "^3.1.0",
+    "@google/generative-ai": "^0.24.1",
     "@tailwindcss/typography": "^0.5.19",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
@@ -17,16 +18,20 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "youtube-transcript": "^1.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.27",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "googleapis": "^169.0.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
