@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getSortedPostsData } from "@/lib/posts";
 
+import Header from "./components/Header";
+
 export default function Home() {
   const allPostsData = getSortedPostsData();
 
@@ -8,19 +10,9 @@ export default function Home() {
     <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
       <main className="max-w-2xl mx-auto px-6 py-20">
 
-        {/* Header / Logo Area */}
-        <header className="mb-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-              P
-            </div>
-            <h1 className="text-2xl font-bold tracking-tight">PotatoEcho</h1>
-          </div>
-          <nav className="flex gap-6 text-sm font-medium text-zinc-500">
-            <Link href="/" className="hover:text-amber-600 transition">Blog</Link>
-            <Link href="/about" className="hover:text-amber-600 transition">About</Link>
-          </nav>
-        </header>
+        <Header />
+
+        {/* Hero / Intro */}
 
         {/* Hero / Intro */}
         <section className="mb-20">
