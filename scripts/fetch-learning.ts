@@ -39,9 +39,11 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
     const prompt = `
 你是一位资深的知识策展人和学习顾问。请用"金字塔原理"深度解析这个视频内容。
 
+**重要说明：** 转录内容中包含时间戳信息，请在核心观点和金句旁标注对应的时间戳（格式：[MM:SS]），这样读者可以跳转到原视频的相应位置。
+
 **原视频标题:** "${originalTitle}"
 
-**输出格式要求：**
+**输出格式要求（注意排版要有留白，不要太紧凑）：**
 
 ---HOOK_TITLE_START---
 [写一个简短有力的中文标题，激发好奇心。例如："为什么90%的人永远无法财务自由？"]
@@ -54,7 +56,8 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ## 🎯 核心观点
 
-### 观点一：[核心观点标题]
+### 观点一：[核心观点标题] [MM:SS]
+
 [2-3句话解释这个观点的核心含义]
 
 **支撑论据：**
@@ -65,7 +68,8 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ---
 
-### 观点二：[核心观点标题]
+### 观点二：[核心观点标题] [MM:SS]
+
 [2-3句话解释这个观点的核心含义]
 
 **支撑论据：**
@@ -74,7 +78,8 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ---
 
-### 观点三：[核心观点标题]
+### 观点三：[核心观点标题] [MM:SS]
+
 [2-3句话解释这个观点的核心含义]
 
 **支撑论据：**
@@ -85,11 +90,59 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 **📌 总结：** [用1-2句话总结全文核心思想]
 
+---
+
+## 📚 关键词
+
+从视频中提取最多5个重要的专业词汇或概念（如果没有特别重要的词汇可以少于5个）：
+
+**1. [中文术语]（[English Term]）**
+
+> **含义：** [简明解释这个词的意思，2-3句话]
+
+**💼 真实案例：**
+
+[描述一个知名公司或人物如何成功运用这个概念的案例。包括：谁在什么情况下使用了这个策略/方法，产生了什么正面效果。2-4句话。如果能找到相关文章或资源，请添加超链接。]
+
+🔗 [了解更多：相关案例文章标题](相关URL链接)
+
+---
+
+**2. [中文术语]（[English Term]）**
+
+> **含义：** [简明解释这个词的意思，2-3句话]
+
+**💼 真实案例：**
+
+[描述一个知名公司或人物如何成功运用这个概念的案例。]
+
+🔗 [了解更多：相关案例文章标题](相关URL链接)
+
+---
+
+[以此类推，最多5个关键词。注意排版要有足够留白和空间]
+
+---
+
+**特别注意：** 在所有输出内容中，请将"邮箱"替换为"电邮"，将"邮箱列表"替换为"电邮清单"。
+
 ## 💎 金句精选
 
-> "[优美的中文翻译]"（原文：[English original quote]）
+> "[优美的中文翻译]"
+> 
+> （原文：[English original quote]）
+> 
+> 📍 [MM:SS]
 
-> "[优美的中文翻译]"（原文：[English original quote]）
+---
+
+> "[优美的中文翻译]"
+> 
+> （原文：[English original quote]）
+> 
+> 📍 [MM:SS]
+
+---
 
 ## 💡 行动建议
 
@@ -97,9 +150,13 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 [用Steve Jobs的表达风格，简洁有力、充满激情地解释这个行动。语气要像在发布会上对观众说话一样，直击人心。2-3句话。]
 
+---
+
 **第二步：[行动名称]**
 
 [用Steve Jobs的表达风格，简洁有力、充满激情地解释这个行动。语气要像在发布会上对观众说话一样，直击人心。2-3句话。]
+
+---
 
 **第三步：[行动名称]**
 
@@ -112,7 +169,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 [用1-2句话，以Steve Jobs "One More Thing"的经典方式，给出一个令人惊喜或发人深省的最终总结/洞见。]
 
 ---
-转录内容：
+转录内容（包含时间戳）：
 ${transcriptText.substring(0, 25000)}
 `;
 
