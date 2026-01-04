@@ -166,6 +166,12 @@ async function fetchLatestVideos() {
 
             const videoId = video.id.videoId;
             const title = video.snippet?.title || 'Unknown Title';
+
+            // Skip YouTube Shorts
+            if (title.toLowerCase().includes('#shorts') || title.toLowerCase().includes('shorts')) {
+                console.log(`Skipping Shorts: ${title}`);
+                continue;
+            }
             const date = video.snippet?.publishedAt?.split('T')[0] || '2026-01-01';
             const cleanTitle = title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50);
             const filename = `${date}-${cleanTitle}.md`;
