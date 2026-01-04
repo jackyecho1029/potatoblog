@@ -39,8 +39,6 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
     const prompt = `
 你是一位资深的知识策展人和学习顾问。请用"金字塔原理"深度解析这个视频内容。
 
-**重要说明：** 转录内容中包含时间戳信息，请在核心观点和金句旁标注对应的时间戳（格式：[MM:SS]），这样读者可以跳转到原视频的相应位置。
-
 **原视频标题:** "${originalTitle}"
 
 **输出格式要求（注意排版要有留白，不要太紧凑）：**
@@ -56,7 +54,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ## 🎯 核心观点
 
-### 观点一：[核心观点标题] [MM:SS]
+### 观点一：[核心观点标题]
 
 [2-3句话解释这个观点的核心含义]
 
@@ -68,7 +66,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ---
 
-### 观点二：[核心观点标题] [MM:SS]
+### 观点二：[核心观点标题]
 
 [2-3句话解释这个观点的核心含义]
 
@@ -78,7 +76,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ---
 
-### 观点三：[核心观点标题] [MM:SS]
+### 观点三：[核心观点标题]
 
 [2-3句话解释这个观点的核心含义]
 
@@ -100,11 +98,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 > **含义：** [简明解释这个词的意思，2-3句话]
 
-**💼 案例：**
-
-[描述一个知名公司或人物如何成功运用这个概念的案例。包括：谁在什么情况下使用了这个策略/方法，产生了什么正面效果。2-4句话。如果能找到相关文章或资源，请添加超链接。]
-
-🔗 [了解更多：相关案例文章标题](相关URL链接)
+**💼 案例：** [描述一个知名公司或人物如何成功运用这个概念的真实案例。2-3句话，不需要提供链接。]
 
 ---
 
@@ -112,11 +106,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 > **含义：** [简明解释这个词的意思，2-3句话]
 
-**💼 案例：**
-
-[描述一个知名公司或人物如何成功运用这个概念的案例。]
-
-🔗 [了解更多：相关案例文章标题](相关URL链接)
+**💼 案例：** [描述一个真实案例，不需要提供链接。]
 
 ---
 
@@ -124,23 +114,19 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 ---
 
-**特别注意：** 在所有输出内容中，请将"邮箱"替换为"电邮"，将"邮箱列表"替换为"电邮清单"。
+**特别注意：** 在所有输出内容中，请将"邮箱"替换为"电邮"，将"邮箱列表"替换为"电邮清单"。不要生成任何URL链接或时间戳。
 
 ## 💎 金句精选
 
 > "[优美的中文翻译]"
 > 
 > （原文：[English original quote]）
-> 
-> 📍 [MM:SS]
 
 ---
 
 > "[优美的中文翻译]"
 > 
 > （原文：[English original quote]）
-> 
-> 📍 [MM:SS]
 
 ---
 
@@ -169,7 +155,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 [用1-2句话，以Steve Jobs "One More Thing"的经典方式，给出一个令人惊喜或发人深省的最终总结/洞见。]
 
 ---
-转录内容（包含时间戳）：
+转录内容：
 ${transcriptText.substring(0, 25000)}
 `;
 
@@ -341,6 +327,36 @@ async function fetchLatestVideos() {
                 console.log(`Skipping Shorts: ${title}`);
                 continue;
             }
+
+            // Get video duration to filter out short clips (<5 min)
+            try {
+                const videoDetails = await youtube.videos.list({
+                    key: YOUTUBE_API_KEY,
+                    id: [videoId],
+                    part: ['contentDetails']
+                });
+
+                const duration = videoDetails.data.items?.[0]?.contentDetails?.duration;
+                if (duration) {
+                    // Parse ISO 8601 duration (PT1M30S, PT5M, PT1H2M3S)
+                    const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+                    if (match) {
+                        const hours = parseInt(match[1] || '0');
+                        const minutes = parseInt(match[2] || '0');
+                        const seconds = parseInt(match[3] || '0');
+                        const totalMinutes = hours * 60 + minutes + seconds / 60;
+
+                        // Skip videos shorter than 5 minutes
+                        if (totalMinutes < 5) {
+                            console.log(`Skipping short video (${Math.round(totalMinutes)}min): ${title}`);
+                            continue;
+                        }
+                    }
+                }
+            } catch (durationError) {
+                console.log(`Could not check duration for: ${title}, processing anyway...`);
+            }
+
             const date = video.snippet?.publishedAt?.split('T')[0] || '2026-01-01';
             const cleanTitle = title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50);
             const filename = `${date}-${cleanTitle}.md`;
