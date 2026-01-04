@@ -26,7 +26,7 @@ export default function LearningPage() {
                                 <div className="flex flex-col gap-2">
                                     <time className="text-sm text-gray-400 font-mono">{post.date}</time>
                                     <h2 className="text-xl font-semibold group-hover:text-amber-600 transition-colors">
-                                        {post.title}
+                                        {decodeHtmlEntities(post.title)}
                                     </h2>
                                     {post.tags && (
                                         <div className="flex gap-2 mt-2">
@@ -52,3 +52,18 @@ export default function LearningPage() {
         </div>
     );
 }
+
+// Helper function to decode HTML entities
+function decodeHtmlEntities(text: string): string {
+    const entities: { [key: string]: string } = {
+        '&amp;': '&',
+        '&lt;': '<',
+        '&gt;': '>',
+        '&quot;': '"',
+        '&#39;': "'",
+        '&#x27;': "'",
+        '&apos;': "'",
+    };
+    return text.replace(/&amp;|&lt;|&gt;|&quot;|&#39;|&#x27;|&apos;/g, (match) => entities[match] || match);
+}
+
