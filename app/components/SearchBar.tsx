@@ -1,29 +1,54 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 
-interface SearchBarProps {
-    items: Array<{ title: string; tags?: string[]; author?: string; id: string; date: string }>;
-    onFilteredItems: (filtered: typeof items) => void;
-    placeholder?: string;
+interface SearchableItem {
+    title: string;
+    tags?: string[];
+    author?: string;
+    id: string;
+    date: string;
 }
 
-export default function SearchBar({ items, onFilteredItems, placeholder = "搜索..." }: SearchBarProps) {
+interface SearchBarProps<T extends SearchableItem> {
+    items: T[];
+    onFilteredItems: (filtered: T[]) => void;
+    placeholder?: string;
+    showAuthorFilter?: boolean;
+}
+
+export default function SearchBar<T extends SearchableItem>({
+    items,
+    onFilteredItems,
+    placeholder = "搜索...",
+    showAuthorFilter = false
+}: SearchBarProps<T>) {
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedTag, setSelectedTag] = useState<string | null>(null);
+    const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
-    // Get all unique tags
+    // Get all unique tags (excluding authors)
     const allTags = useMemo(() => {
         const tags = new Set<string>();
         items.forEach(item => {
-            item.tags?.forEach(tag => tags.add(tag));
-            if (item.author) tags.add(item.author);
+            item.tags?.forEach(tag => {
+                if (tag !== item.author) tags.add(tag);
+            });
         });
         return Array.from(tags);
     }, [items]);
 
-    // Filter items based on search term and selected tag
-    useMemo(() => {
+    // Get all unique authors
+    const allAuthors = useMemo(() => {
+        const authors = new Set<string>();
+        items.forEach(item => {
+            if (item.author) authors.add(item.author);
+        });
+        return Array.from(authors);
+    }, [items]);
+
+    // Filter items based on search term, selected tag, and selected author
+    useEffect(() => {
         let filtered = items;
 
         if (searchTerm) {
@@ -36,13 +61,15 @@ export default function SearchBar({ items, onFilteredItems, placeholder = "搜�
         }
 
         if (selectedTag) {
-            filtered = filtered.filter(item =>
-                item.tags?.includes(selectedTag) || item.author === selectedTag
-            );
+            filtered = filtered.filter(item => item.tags?.includes(selectedTag));
+        }
+
+        if (selectedAuthor) {
+            filtered = filtered.filter(item => item.author === selectedAuthor);
         }
 
         onFilteredItems(filtered);
-    }, [searchTerm, selectedTag, items, onFilteredItems]);
+    }, [searchTerm, selectedTag, selectedAuthor, items, onFilteredItems]);
 
     return (
         <div className="mb-8 space-y-4">
@@ -73,30 +100,61 @@ export default function SearchBar({ items, onFilteredItems, placeholder = "搜�
                 )}
             </div>
 
-            {/* Tag Filters */}
-            <div className="flex flex-wrap gap-2">
-                <button
-                    onClick={() => setSelectedTag(null)}
-                    className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedTag === null
-                            ? "bg-amber-600 text-white"
-                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                        }`}
-                >
-                    全部
-                </button>
-                {allTags.map((tag) => (
+            {/* Author Filter (for Learning Hub) */}
+            {showAuthorFilter && allAuthors.length > 0 && (
+                <div className="flex flex-wrap gap-2 items-center">
+                    <span className="text-sm text-gray-500 mr-2">按作者：</span>
                     <button
-                        key={tag}
-                        onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
-                        className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedTag === tag
+                        onClick={() => setSelectedAuthor(null)}
+                        className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedAuthor === null
                                 ? "bg-amber-600 text-white"
                                 : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                             }`}
                     >
-                        {tag}
+                        全部
                     </button>
-                ))}
-            </div>
+                    {allAuthors.map((author) => (
+                        <button
+                            key={author}
+                            onClick={() => setSelectedAuthor(selectedAuthor === author ? null : author)}
+                            className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedAuthor === author
+                                    ? "bg-amber-600 text-white"
+                                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                }`}
+                        >
+                            {author}
+                        </button>
+                    ))}
+                </div>
+            )}
+
+            {/* Tag Filters */}
+            {allTags.length > 0 && (
+                <div className="flex flex-wrap gap-2 items-center">
+                    <span className="text-sm text-gray-500 mr-2">按分类：</span>
+                    <button
+                        onClick={() => setSelectedTag(null)}
+                        className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedTag === null
+                                ? "bg-zinc-700 text-white"
+                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                            }`}
+                    >
+                        全部
+                    </button>
+                    {allTags.map((tag) => (
+                        <button
+                            key={tag}
+                            onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+                            className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedTag === tag
+                                    ? "bg-zinc-700 text-white"
+                                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                }`}
+                        >
+                            {tag}
+                        </button>
+                    ))}
+                </div>
+            )}
         </div>
     );
 }

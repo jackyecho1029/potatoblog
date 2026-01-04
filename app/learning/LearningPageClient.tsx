@@ -34,6 +34,7 @@ export default function LearningPageClient({ posts }: LearningPageClientProps) {
                     items={posts}
                     onFilteredItems={handleFilteredItems}
                     placeholder="搜索标题、作者..."
+                    showAuthorFilter={true}
                 />
 
                 {/* Gallery Grid */}
