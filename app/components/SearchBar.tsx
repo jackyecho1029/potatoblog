@@ -118,7 +118,7 @@ export default function SearchBar<T extends SearchableItem>({
             {/* Author Filter (for Learning Hub) */}
             {showAuthorFilter && allAuthors.length > 0 && (
                 <div className="flex flex-wrap gap-2 items-center">
-                    <span className="text-sm text-gray-500 mr-2">按作者：</span>
+                    <span className="text-sm text-gray-500 mr-2">按频道：</span>
                     <button
                         onClick={() => setSelectedAuthor(null)}
                         className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedAuthor === null
