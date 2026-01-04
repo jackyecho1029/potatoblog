@@ -38,13 +38,28 @@ export default function SearchBar<T extends SearchableItem>({
         return Array.from(tags);
     }, [items]);
 
-    // Get all unique authors
-    const allAuthors = useMemo(() => {
-        const authors = new Set<string>();
+    // Get all unique authors with counts
+    const { allAuthors, authorCounts } = useMemo(() => {
+        const counts = new Map<string, number>();
         items.forEach(item => {
-            if (item.author) authors.add(item.author);
+            if (item.author) {
+                counts.set(item.author, (counts.get(item.author) || 0) + 1);
+            }
         });
-        return Array.from(authors);
+        return { allAuthors: Array.from(counts.keys()), authorCounts: counts };
+    }, [items]);
+
+    // Get tag counts
+    const tagCounts = useMemo(() => {
+        const counts = new Map<string, number>();
+        items.forEach(item => {
+            item.tags?.forEach(tag => {
+                if (tag !== item.author) {
+                    counts.set(tag, (counts.get(tag) || 0) + 1);
+                }
+            });
+        });
+        return counts;
     }, [items]);
 
     // Filter items based on search term, selected tag, and selected author
@@ -107,22 +122,22 @@ export default function SearchBar<T extends SearchableItem>({
                     <button
                         onClick={() => setSelectedAuthor(null)}
                         className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedAuthor === null
-                                ? "bg-amber-600 text-white"
-                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                            ? "bg-amber-600 text-white"
+                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                             }`}
                     >
-                        全部
+                        全部 {items.length}
                     </button>
                     {allAuthors.map((author) => (
                         <button
                             key={author}
                             onClick={() => setSelectedAuthor(selectedAuthor === author ? null : author)}
                             className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedAuthor === author
-                                    ? "bg-amber-600 text-white"
-                                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                ? "bg-amber-600 text-white"
+                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                                 }`}
                         >
-                            {author}
+                            {author} <span className="ml-1 text-xs opacity-75">{authorCounts.get(author)}</span>
                         </button>
                     ))}
                 </div>
@@ -135,22 +150,22 @@ export default function SearchBar<T extends SearchableItem>({
                     <button
                         onClick={() => setSelectedTag(null)}
                         className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedTag === null
-                                ? "bg-zinc-700 text-white"
-                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                            ? "bg-zinc-700 text-white"
+                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                             }`}
                     >
-                        全部
+                        全部 {items.length}
                     </button>
                     {allTags.map((tag) => (
                         <button
                             key={tag}
                             onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
                             className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedTag === tag
-                                    ? "bg-zinc-700 text-white"
-                                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                ? "bg-zinc-700 text-white"
+                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                                 }`}
                         >
-                            {tag}
+                            {tag} <span className="ml-1 text-xs opacity-75">{tagCounts.get(tag)}</span>
                         </button>
                     ))}
                 </div>
