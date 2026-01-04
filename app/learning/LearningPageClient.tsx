@@ -64,10 +64,16 @@ export default function LearningPageClient({ posts }: LearningPageClientProps) {
                                     <h2 className="text-lg font-semibold line-clamp-2 group-hover:text-amber-600 transition-colors mb-2">
                                         {decodeHtmlEntities(post.title)}
                                     </h2>
-                                    <div className="flex items-center gap-2 text-xs text-gray-500">
-                                        {post.author && <span>作者：{post.author}</span>}
-                                        <span>·</span>
+                                    <div className="flex items-center flex-wrap gap-2 text-xs text-gray-500">
                                         <span>{post.date}</span>
+                                        {post.category && (
+                                            <>
+                                                <span>·</span>
+                                                <span className="bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">
+                                                    {post.category}
+                                                </span>
+                                            </>
+                                        )}
                                     </div>
                                 </div>
                             </Link>

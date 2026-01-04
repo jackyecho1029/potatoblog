@@ -11,6 +11,7 @@ export interface LearningPostData {
     title: string;
     original_title?: string;
     author?: string;
+    category?: string;
     date: string;
     tags?: string[];
     source_url?: string;

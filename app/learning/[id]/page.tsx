@@ -39,6 +39,11 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                                     <span className="text-gray-400">发布日期：</span>
                                     <span>{postData.date}</span>
                                 </span>
+                                {postData.category && (
+                                    <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full font-medium">
+                                        {postData.category}
+                                    </span>
+                                )}
                             </div>
 
                             {postData.source_url && (

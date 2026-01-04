@@ -33,7 +33,7 @@ async function getChannelId(handle: string) {
     }
 }
 
-async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, summary: string }> {
+async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, category: string, summary: string }> {
     const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
 
     const prompt = `
@@ -46,6 +46,11 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 ---HOOK_TITLE_START---
 [写一个简短有力的中文标题，激发好奇心。例如："为什么90%的人永远无法财务自由？"]
 ---HOOK_TITLE_END---
+
+---CATEGORY_START---
+[根据视频内容选择最合适的一个分类标签，只能从以下选项中选择一个：
+思维成长 | 商业创业 | 健康生活 | 职场效率 | 人际关系 | 科技趋势 | 投资理财 | 创意艺术]
+---CATEGORY_END---
 
 ## 🎯 核心观点
 
@@ -120,13 +125,18 @@ ${transcriptText.substring(0, 25000)}
         const titleMatch = text.match(/---HOOK_TITLE_START---([\s\S]*?)---HOOK_TITLE_END---/);
         const hookTitle = titleMatch ? titleMatch[1].trim() : originalTitle;
 
-        // Remove the title markers from summary
-        const summary = text.replace(/---HOOK_TITLE_START---[\s\S]*?---HOOK_TITLE_END---/, '').trim();
+        // Extract category
+        const categoryMatch = text.match(/---CATEGORY_START---([\s\S]*?)---CATEGORY_END---/);
+        const category = categoryMatch ? categoryMatch[1].trim() : '思维成长';
 
-        return { hookTitle, summary };
+        // Remove the markers from summary
+        let summary = text.replace(/---HOOK_TITLE_START---[\s\S]*?---HOOK_TITLE_END---/, '').trim();
+        summary = summary.replace(/---CATEGORY_START---[\s\S]*?---CATEGORY_END---/, '').trim();
+
+        return { hookTitle, category, summary };
     } catch (error) {
         console.error("Gemini Error:", error);
-        return { hookTitle: originalTitle, summary: "AI Summarization Failed." };
+        return { hookTitle: originalTitle, category: '思维成长', summary: "AI Summarization Failed." };
     }
 }
 
@@ -193,15 +203,16 @@ async function fetchLatestVideos() {
                 const transcriptText = transcriptItems.map(item => item.text).join(' ');
 
                 console.log("   Summarizing with Gemini...");
-                const { hookTitle, summary } = await summarizeVideo(title, transcriptText);
+                const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
 
                 const authorName = handle.replace('@', '');
                 const fileContent = `---
 title: "${hookTitle.replace(/"/g, '\\"')}"
 original_title: "${title.replace(/"/g, '\\"')}"
 author: "${authorName}"
+category: "${category}"
 date: "${date}"
-tags: ["${authorName}"]
+tags: ["${category}", "${authorName}"]
 source_url: "https://www.youtube.com/watch?v=${videoId}"
 thumbnail: "${thumbnailUrl}"
 ---
