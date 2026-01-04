@@ -23,24 +23,39 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                 <main className="max-w-2xl mx-auto px-6 py-20">
                     <Header />
 
-                    <article className="prose prose-zinc max-w-none">
-                        <div className="mb-8">
-                            <time className="text-sm text-gray-400 font-mono">{postData.date}</time>
-                            <h1 className="text-3xl font-bold mt-2 mb-4">{decodeHtmlEntities(postData.title)}</h1>
+                    <article>
+                        {/* Title and Meta */}
+                        <header className="mb-8 pb-6 border-b border-gray-200">
+                            <h1 className="text-3xl font-bold mb-4 leading-tight">{decodeHtmlEntities(postData.title)}</h1>
+
+                            <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                                {postData.author && (
+                                    <span className="flex items-center gap-1">
+                                        <span className="text-gray-400">作者：</span>
+                                        <span className="font-medium text-zinc-700">{postData.author}</span>
+                                    </span>
+                                )}
+                                <span className="flex items-center gap-1">
+                                    <span className="text-gray-400">发布日期：</span>
+                                    <span>{postData.date}</span>
+                                </span>
+                            </div>
+
                             {postData.source_url && (
                                 <a
                                     href={postData.source_url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 text-sm text-amber-600 hover:underline"
+                                    className="inline-flex items-center gap-2 mt-4 text-sm text-amber-600 hover:underline"
                                 >
                                     📺 观看原视频
                                 </a>
                             )}
-                        </div>
+                        </header>
 
+                        {/* Content */}
                         <div
-                            className="prose-headings:font-bold prose-h2:text-xl prose-h3:text-lg prose-blockquote:border-l-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-2 prose-blockquote:px-4"
+                            className="prose prose-zinc max-w-none prose-headings:font-bold prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-lg prose-blockquote:border-l-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-zinc-700 prose-li:my-1"
                             dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
                         />
                     </article>

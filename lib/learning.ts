@@ -10,6 +10,7 @@ export interface LearningPostData {
     id: string;
     title: string;
     original_title?: string;
+    author?: string;
     date: string;
     tags?: string[];
     source_url?: string;
