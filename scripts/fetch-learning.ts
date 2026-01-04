@@ -33,40 +33,56 @@ async function getChannelId(handle: string) {
     }
 }
 
-async function summarizeVideo(title: string, transcriptText: string): Promise<string> {
+async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, summary: string }> {
     const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
 
     const prompt = `
-  You are an expert learning assistant. Summarize this YouTube video transcript.
-  Video Title: "${title}"
-  
-  Please output in the following Markdown format (in Chinese, simple and profound):
-  
-  ## 核心观点 (Key Takeaways)
-  - [Point 1]
-  - [Point 2]
-  - [Point 3]
-  
-  ### 💎 金句 (Golden Quotes)
-  > "[Quote 1]"
-  > "[Quote 2]"
-  
-  ### 💡 行动建议 (Actionable Advice)
-  - [Advice 1]
-  - [Advice 2]
-  
-  ---
-  Transcript:
-  ${transcriptText.substring(0, 30000)} // Limit to avoid token limits mostly
-  `;
+You are an expert content creator and learning assistant. Your task is to:
+1. Create a compelling, curiosity-inducing Chinese title (NOT a direct translation)
+2. Summarize the video content
+
+**Original Video Title:** "${originalTitle}"
+
+**Your output MUST follow this EXACT format:**
+
+---HOOK_TITLE_START---
+[Write a short, punchy Chinese title that creates curiosity or FOMO. Use rhetorical questions, bold claims, or intriguing hooks. Example: "为什么90%的人永远无法财务自由？" or "这个习惯，让我一年多赚了50万"]
+---HOOK_TITLE_END---
+
+## 核心观点
+- [Point 1 in Chinese]
+- [Point 2 in Chinese]
+- [Point 3 in Chinese]
+
+### 💎 金句
+> "[Impactful quote 1 in Chinese]"
+> "[Impactful quote 2 in Chinese]"
+
+### 💡 行动建议
+- [Actionable advice 1 in Chinese]
+- [Actionable advice 2 in Chinese]
+
+---
+Transcript:
+${transcriptText.substring(0, 25000)}
+`;
 
     try {
         const result = await model.generateContent(prompt);
         const response = await result.response;
-        return response.text();
+        const text = response.text();
+
+        // Extract hook title
+        const titleMatch = text.match(/---HOOK_TITLE_START---([\s\S]*?)---HOOK_TITLE_END---/);
+        const hookTitle = titleMatch ? titleMatch[1].trim() : originalTitle;
+
+        // Remove the title markers from summary
+        const summary = text.replace(/---HOOK_TITLE_START---[\s\S]*?---HOOK_TITLE_END---/, '').trim();
+
+        return { hookTitle, summary };
     } catch (error) {
         console.error("Gemini Error:", error);
-        return "AI Summarization Failed.";
+        return { hookTitle: originalTitle, summary: "AI Summarization Failed." };
     }
 }
 
@@ -118,22 +134,25 @@ async function fetchLatestVideos() {
 
             console.log(`🎥 Found new video: ${title}`);
 
+            // Get YouTube thumbnail (high quality)
+            const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+
             try {
                 console.log("   Fetching transcript...");
                 const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
                 const transcriptText = transcriptItems.map(item => item.text).join(' ');
 
                 console.log("   Summarizing with Gemini...");
-                const summary = await summarizeVideo(title, transcriptText);
+                const { hookTitle, summary } = await summarizeVideo(title, transcriptText);
 
                 const fileContent = `---
-title: "学习笔记: ${title}"
+title: "${hookTitle.replace(/"/g, '\\"')}"
+original_title: "${title.replace(/"/g, '\\"')}"
 date: "${date}"
 tags: ["Learning", "YouTube", "${handle.replace('@', '')}"]
 source_url: "https://www.youtube.com/watch?v=${videoId}"
+thumbnail: "${thumbnailUrl}"
 ---
-
-# ${title}
 
 ${summary}
 

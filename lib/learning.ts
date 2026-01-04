@@ -9,9 +9,11 @@ const postsDirectory = path.join(process.cwd(), 'posts/learning');
 export interface LearningPostData {
     id: string;
     title: string;
+    original_title?: string;
     date: string;
     tags?: string[];
     source_url?: string;
+    thumbnail?: string;
     contentHtml?: string;
 }
 
@@ -36,7 +38,7 @@ export function getSortedLearningPostsData(): LearningPostData[] {
         // Combine the data with the id
         return {
             id,
-            ...matterResult.data as { title: string; date: string; tags?: string[], source_url?: string },
+            ...matterResult.data as { title: string; date: string; tags?: string[], source_url?: string, thumbnail?: string, original_title?: string },
         };
     });
     // Sort posts by date

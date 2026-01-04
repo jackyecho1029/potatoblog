@@ -1,5 +1,6 @@
 import { getLearningPostData, getSortedLearningPostsData } from "../../../lib/learning";
 import Header from "../../components/Header";
+import GiscusComments from "../../components/GiscusComments";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -31,9 +32,9 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                                     href={postData.source_url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-sm text-amber-600 hover:underline"
+                                    className="inline-flex items-center gap-2 text-sm text-amber-600 hover:underline"
                                 >
-                                    📺 Watch Original Video
+                                    📺 观看原视频
                                 </a>
                             )}
                         </div>
@@ -46,8 +47,14 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
 
                     <div className="mt-16 pt-8 border-t border-zinc-200">
                         <Link href="/learning" className="text-amber-600 hover:underline">
-                            ← Back to Learning Hub
+                            ← 返回学习中心
                         </Link>
+                    </div>
+
+                    {/* Comments Section */}
+                    <div className="mt-12">
+                        <h3 className="text-lg font-semibold mb-4">💬 讨论区</h3>
+                        <GiscusComments />
                     </div>
                 </main>
             </div>
