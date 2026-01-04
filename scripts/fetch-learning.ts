@@ -60,7 +60,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 [2-3句话解释这个观点的核心含义]
 
-**支撑论据：**
+**因為：**
 - [论据1]
 - [论据2]
 
@@ -72,7 +72,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 [2-3句话解释这个观点的核心含义]
 
-**支撑论据：**
+**因為：**
 - [论据1]
 - [论据2]
 
@@ -82,7 +82,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 [2-3句话解释这个观点的核心含义]
 
-**支撑论据：**
+**因為：**
 - [论据1]
 - [论据2]
 
@@ -100,7 +100,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 > **含义：** [简明解释这个词的意思，2-3句话]
 
-**💼 真实案例：**
+**💼 案例：**
 
 [描述一个知名公司或人物如何成功运用这个概念的案例。包括：谁在什么情况下使用了这个策略/方法，产生了什么正面效果。2-4句话。如果能找到相关文章或资源，请添加超链接。]
 
@@ -112,7 +112,7 @@ async function summarizeVideo(originalTitle: string, transcriptText: string): Pr
 
 > **含义：** [简明解释这个词的意思，2-3句话]
 
-**💼 真实案例：**
+**💼 案例：**
 
 [描述一个知名公司或人物如何成功运用这个概念的案例。]
 
@@ -197,7 +197,109 @@ ${transcriptText.substring(0, 25000)}
     }
 }
 
+async function fetchVideoByUrl(videoUrl: string) {
+    if (!YOUTUBE_API_KEY || !GEMINI_API_KEY) {
+        console.error('API Keys are missing');
+        return;
+    }
+
+    try {
+        const urlObj = new URL(videoUrl);
+        const videoId = urlObj.searchParams.get("v");
+        if (!videoId) {
+            console.error("Invalid YouTube URL");
+            return;
+        }
+
+        console.log(`Processing specific video: ${videoId}`);
+
+        // Fetch video details to get title and channel
+        const response = await youtube.videos.list({
+            key: YOUTUBE_API_KEY,
+            part: ['snippet'],
+            id: [videoId]
+        });
+
+        const video = response.data.items?.[0];
+        if (!video) {
+            console.error("Video not found");
+            return;
+        }
+
+        const title = video.snippet?.title || 'Unknown Title';
+        const channelTitle = video.snippet?.channelTitle || 'Unknown Channel';
+        const date = video.snippet?.publishedAt?.split('T')[0] || '2026-01-01'; // Use current date for sorting if needed, or actual date
+
+        // Process logic (duplicated from fetchLatestVideos for now to ensure consistency)
+        const cleanTitle = title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50);
+        const dateString = video.snippet?.publishedAt?.split('T')[0] || '2026-01-01';
+        const filename = `${dateString}-${cleanTitle}.md`;
+        const postsDir = path.join(process.cwd(), 'posts/learning');
+        if (!fs.existsSync(postsDir)) fs.mkdirSync(postsDir, { recursive: true });
+
+        const filePath = path.join(postsDir, filename);
+
+        // Auto-link timestamps
+        const linkTimestamp = (content: string, videoId: string) => {
+            return content.replace(/\[(\d{2}):(\d{2})\]/g, (match, mm, ss) => {
+                const totalSeconds = parseInt(mm) * 60 + parseInt(ss);
+                const link = `https://www.youtube.com/watch?v=${videoId}&t=${totalSeconds}s`;
+                return `<a href="${link}" target="_blank" class="text-xs text-amber-600 hover:underline"><small>[${mm}:${ss}]</small></a>`;
+            });
+        };
+
+        const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+
+        console.log("   Fetching transcript...");
+        const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
+        const transcriptText = transcriptItems.map(item => {
+            // Basic attempt to keep timestamp if library provides it, but youtube-transcript returns text and offset
+            // We need to inject timestamps into the text for Gemini if we want it to use them.
+            // The library returns {text: string, duration: number, offset: number}
+            const minutes = Math.floor(item.offset / 60000);
+            const seconds = Math.floor((item.offset % 60000) / 1000);
+            const timeStr = `[${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}]`;
+            return `${timeStr} ${item.text}`;
+        }).join(' ');
+
+        console.log("   Summarizing with Gemini...");
+        const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
+
+        const linkedSummary = linkTimestamp(summary, videoId);
+
+        // Handle might not be available directly from video detail in same format as CHANNELS list
+        // We use channelTitle which is "Tim Ferriss" etc.
+        const authorName = channelTitle;
+
+        const fileContent = `---
+title: "${hookTitle.replace(/"/g, '\\"')}"
+original_title: "${title.replace(/"/g, '\\"')}"
+author: "${authorName}"
+category: "${category}"
+date: "${dateString}"
+tags: ["${category}", "${authorName}"]
+source_url: "https://www.youtube.com/watch?v=${videoId}"
+thumbnail: "${thumbnailUrl}"
+---
+
+${linkedSummary}`;
+
+        fs.writeFileSync(filePath, fileContent);
+        console.log(`✅ Saved: ${filename}`);
+
+    } catch (error) {
+        console.error("Error processing specific video:", error);
+    }
+}
+
 async function fetchLatestVideos() {
+    // Check if a specific URL is provided as argument
+    const specificUrl = process.argv[2];
+    if (specificUrl && specificUrl.includes('youtube.com')) {
+        await fetchVideoByUrl(specificUrl);
+        return;
+    }
+
     if (!YOUTUBE_API_KEY || !GEMINI_API_KEY) {
         console.error('API Keys are missing');
         return;

@@ -31,7 +31,7 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
                                 {postData.author && (
                                     <span className="flex items-center gap-1">
-                                        <span className="text-gray-400">作者：</span>
+                                        <span className="text-gray-400">频道：</span>
                                         <span className="font-medium text-zinc-700">{postData.author}</span>
                                     </span>
                                 )}
