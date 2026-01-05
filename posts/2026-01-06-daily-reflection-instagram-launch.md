@@ -1,6 +1,6 @@
 ---
 title: "一人公司日记：用 AI 打造陶瓷品牌启动系统"
-date: 2026-01-06
+date: 2026-01-05
 author: Jacky
 tags: ["一人公司", "Building in Public", "AI工具"]
 ---
