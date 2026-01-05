@@ -4,6 +4,8 @@ date: "2026-01-05"
 tags: ["AI编程", "Chrome插件", "Antigravity", "个人成长"]
 ---
 
+> 📎 [原文](https://mp.weixin.qq.com/s/Dlbc-lombf3tSr0Ze5RP_g)
+
 今天想跟大家聊聊一个让我"痛并快乐着"的"新玩具" - 谷歌的 Antigravity。
 
 我有个坏习惯：每天忙得像个陀螺，晚上躺在床上却觉得心里发虚——"今天到底干了啥？离目标近了吗？"完全说不清。
