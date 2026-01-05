@@ -32,6 +32,8 @@ tags: ["AI编程", "Chrome插件", "Antigravity", "个人成长"]
 
 我先把《曾国藩传》丢给 NotebookLM，让它总结曾国藩是怎么做自省复盘的。
 
+![NotebookLM 总结曾国藩的自省方法](/images/notebooklm-zeng.png)
+
 拿到方法论后，我直接发给 Antigravity："嘿，帮我按这个逻辑搭个插件框架。"
 
 它就帮我搞定了一个简洁的新标签页，包含：
