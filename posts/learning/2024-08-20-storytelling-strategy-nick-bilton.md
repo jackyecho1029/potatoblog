@@ -5,7 +5,7 @@ category: "创作技能"
 date: "2024-08-20"
 tags: ["创作技能", "David Perell", "故事", "新闻"]
 source_url: "https://www.youtube.com/watch?v=H6oJ4yZJfbA"
-thumbnail: "https://img.youtube.com/vi/H6oJ4yZJfbA/maxresdefault.jpg"
+thumbnail: "https://img.youtube.com/vi/H6oJ4yZJfbA/hqdefault.jpg"
 ---
 
 ## 🎯 核心观点
