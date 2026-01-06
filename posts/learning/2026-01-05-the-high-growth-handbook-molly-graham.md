@@ -5,8 +5,8 @@ author: "LennysPodcast"
 category: "商业创业"
 date: "2026-01-05"
 tags: ["商业创业", "LennysPodcast"]
-source_url: "https://www.youtube.com/watch?v=gDBJpMmVpPA"
-thumbnail: "https://img.youtube.com/vi/gDBJpMmVpPA/maxresdefault.jpg"
+source_url: "https://www.youtube.com/watch?v=twzLDx9iers"
+thumbnail: "https://img.youtube.com/vi/twzLDx9iers/maxresdefault.jpg"
 ---
 
 ## 🎯 核心观点
