@@ -34,7 +34,7 @@ async function getChannelId(handle: string) {
 }
 
 async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, category: string, summary: string }> {
-    const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const prompt = `
 你是一位资深的知识策展人和学习顾问。请用"金字塔原理"深度解析这个视频内容。
