@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>半于辰 写作风格深度拆解</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8f5f2;
+            --card-bg: #ffffff;
+            --primary: #3d3d3d;
+            --accent: #c07d66; 
+            --highlight: #e8dccc;
+            --text-main: #2d3436;
+            --text-light: #636e72;
+        }
+        body { font-family: 'Noto Serif SC', serif; background-color: var(--bg); color: var(--text-main); line-height: 1.8; margin: 0; padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.8rem; margin-bottom: 10px; color: var(--primary); text-align: center; }
+        .tag { display:block; text-align:center; margin-bottom: 50px; font-family:'Lato'; color: var(--accent); letter-spacing: 1px; }
+
+        /* Card Styles */
+        .card { background: var(--card-bg); padding: 40px; border-radius: 12px; margin-bottom: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid var(--accent); }
+        .card h2 { font-size: 1.5rem; margin-bottom: 25px; color: var(--primary); border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        
+        /* Grid Layouts */
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .info-item h4 { margin: 0 0 8px 0; color: #999; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+        .info-item p { margin: 0; font-size: 1.1rem; font-weight: bold; color: var(--primary); }
+
+        /* Framework Mapping */
+        .map-row { display: flex; gap: 20px; margin-bottom: 20px; border-left: 3px solid #eee; padding-left: 20px; }
+        .map-step { font-weight: bold; color: var(--accent); min-width: 80px; }
+        .map-content { background: #fafaf9; padding: 15px; border-radius: 8px; flex: 1; }
+        .user-logic { margin-top: 10px; font-size: 0.9rem; color: #d35400; background: #fff5f0; padding: 8px; border-radius: 4px; display: inline-block; }
+
+        /* Detailed Article List */
+        details { margin-bottom: 15px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.03); }
+        summary { padding: 15px 20px; cursor: pointer; font-weight: bold; display: flex; justify-content: space-between; align-items: center; background: #fff; transition: background 0.2s; }
+        summary:hover { background: #f9f9f9; }
+        details[open] summary { border-bottom: 1px solid #eee; color: var(--accent); }
+        .det-content { padding: 25px; font-size: 0.95rem; }
+        
+        .det-grid { display: grid; grid-template-columns: Repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 20px; }
+        .det-box { background: #fdfbf9; padding: 15px; border-radius: 6px; border: 1px solid #f2ece8; }
+        .det-box h5 { margin: 0 0 10px 0; color: var(--accent); }
+        
+        .golden-sent { border-left: 3px solid var(--accent); padding-left: 15px; font-style: italic; color: #666; margin: 10px 0; }
+        
+        .nav-back { display: block; text-align: center; margin-top: 50px; color: #999; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>半于辰</h1>
+        <span class="tag">职场生存老司机</span>
+
+        <!-- 1. 用户画像 -->
+        <div class="card">
+            <h2>🎯 目标用户深度透视</h2>
+            <div class="grid-2">
+                <div class="info-item"><h4>Who 读者是谁</h4><p>对职场生存感到焦虑、困惑、迷茫的年轻打工人，尤其是初入职场或有一定经验但遇到瓶颈的员工。</p></div>
+                <div class="info-item"><h4>Pain 深层痛点</h4><p>渴望获得实用的职场生存技巧、人际关系处理方法，以及应对各种职场挑战的策略，最终目标是更好地保护自己、提升职业发展，并获得幸福感。</p></div>
+                <div class="info-item"><h4>Role 作者角色</h4><p>过来人/朋友/职场导师</p></div>
+                <div class="info-item"><h4>Hook 吸引力法则</h4><p>作者通常以过来人的身份分享亲身经历或观察到的案例，语言风格贴近口语，容易产生共鸣。通过揭示职��潜规则、提供实用建议，帮助读者认清现实，找到应对策略，从而建立信任感和亲近感。同时，作者并非高高在上的专家，而是以朋友或导师的身份，提供建议和思考方向，更容易被读者接受。</p></div>
+            </div>
+        </div>
+
+        <!-- 2. 常用框架 -->
+        <div class="card">
+            <h2>🏗️ 核心写作框架拆解</h2>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">🔍</span> 
+                    3/4 要素分析框架
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：这篇文章的读者是【读者画像】，他们主要的痛点是【痛点挖掘】，作者以【角色设定】的身份，提供了【解决方案/建议】。</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：《你上班千万别和这3个��较劲》</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">读者画像</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"职场人士，特别是那些在工作中感到人际关系压力较大的人。"</div>
+                            <div class="user-logic">💖 💖 用户视角：精准定位了职场中受人际关系困扰的群体，引发共鸣。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">痛点挖掘</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"在工作中与人相处产生的负面情绪和精力消耗，以及由此带来的工作效率降低和个人幸福感缺失。"</div>
+                            <div class="user-logic">💖 💖 用户视角：点明了人际关系问题带来的实际损失，激发读者寻求解决方案的欲望。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">角色设定</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"作者以过来人的身份，分享职场经验和处世哲学，旨在帮助读者更好地应对职场挑战。"</div>
+                            <div class="user-logic">💖 💖 用户视角：增强了文章的可信度和实用性，让读者觉得可以从作者的经验中获益。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">���</span> 
+                    问题-分析-建议框架
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：文章首先提出了【问题】，然后分析了【原因】，最后给出了【建议】。</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：《上班太较真那会榨干你》</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">提出问题</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"上班太较真那会榨干你"</div>
+                            <div class="user-logic">💖 💖 用户视角：直接点出职场中“较真”可能带来的负面影响，吸引读者关注。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分析原因</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"在工作中过度认真，导致内耗严重，情绪受领导和同事影响，承担过多责任，身心俱疲。"</div>
+                            <div class="user-logic">💖 💖 用户视角：具体分析了“较真”导致的各种问题，让读者更容易产生共鸣。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">提供建议</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"作者以过来人的身份，分享经验和建议，希望读者能够放松心态，更好地应对职场挑战。"</div>
+                            <div class="user-logic">💖 💖 用户视角：提供了解决问题的方法，增强了文章的实用性。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">🚦</span> 
+                    迹象/原因/特征 + 应对框架
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：文章列举了【迹象/原因/特征】，分析了【影响】，并提供了【应对策略】。</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：《4个迹象领导在试探你的底线》</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">列举迹象/原因/特征</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"4个迹象领导在试探你的底线"</div>
+                            <div class="user-logic">💖 💖 用户视角：直接点明主题，引发读者的好奇心和警惕性。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分析影响</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"职场中被领导压榨、摸不清领导意图、难以维护自身权益"</div>
+                            <div class="user-logic">💖 💖 用户视角：描绘了被试探底线可能带来的负面影响，激发读者寻求保护自身利益的欲望。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">提供应对策略</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"作者以过来人的身份，分享经验和建议，旨在帮助读者识别并应对职场PUA"</div>
+                            <div class="user-logic">💖 💖 用户视角：承诺提供应对方法，增强文章的吸引力。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- 3. 拒绝自嗨指南 -->
+        <div class="card">
+             <h2>🚫 拒绝自嗨：小白行动指南</h2>
+             <div class="grid-2">
+                
+                <div style="background:#fafafa; padding:20px; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--accent);">拒绝自嗨建议1：避免说教式语言</h4>
+                    <p style="margin:0; font-size:0.95rem;">虽然以过来人的身份分享经验是优势，但要避免过于说教，或者用高高在上的姿态评判读者。要用平等的口吻，分享真实的经历和感受，引发读者的共鸣和思考，而不是强行灌输观点。</p>
+                </div>
+                
+                <div style="background:#fafafa; padding:20px; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--accent);">拒绝自嗨建议2：避免过度简化职场问题</h4>
+                    <p style="margin:0; font-size:0.95rem;">职场问题往往是复杂且多方面的，要避免将问题过度简化，或者提供过于简单的解决方案。要承认职场挑战的复杂性，并鼓励读者独立思考，找到适合自己的应对策略。同时也要避免过度贩卖焦虑，提供积极的解决方案，而不是让读者陷入更深的焦虑中。</p>
+                </div>
+                
+             </div>
+        </div>
+
+        <!-- 4. 所有文章详细拆解 (New) -->
+        <div style="margin-top: 60px;">
+            <h2 style="text-align:center; margin-bottom:30px; color:#ccc;">📂 所有文章详细拆解清单</h2>
+            
+            <details>
+                <summary>
+                    <span>📄 你上班千万别和这3个人较劲</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些在工作中感到人际关系压力较大的人。</p>
+                            <p><strong>痛点:</strong> 在工作中与人相处产生的负面情绪和精力消耗，以及由此带来的工作效率降低和个人幸福感缺失。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>使用否定式建议和明确的对象，引发好奇和共鸣。</p>
+                            <p style="font-size:0.85rem; color:#888;">“千万别”强调了重要性，而“这3个人”则引发了读者的好奇，想知道是谁，从而吸引读者阅读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出常见问题，引发共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过强调保护好收入、精力、生活的重要性，引发读者对个人价值和幸福的思考。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"上班时，大多数与人较劲，都只是自我折磨，它真没必要。"</div><div class="golden-sent">"稳稳当当把钱赚到，就是成功。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出中心论点：上班不要和特定的人较劲。然后分别论述不要和直属领导、工作客户、自己较劲的原因和应对方法。最后总结全文，强调“不较劲”的意义，并升华主题。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3种员工最容易被领导甩锅</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，尤其是初入职场或在职场中感到困惑的员工。</p>
+                            <p><strong>痛点:</strong> 害怕承担不属于自己的责任，希望避免被领导甩锅，维护自身权益，寻求职场生存技巧。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，引发焦虑和好奇。</p>
+                            <p style="font-size:0.85rem; color:#888;">标题直��揭示了职场中常见的痛点问题，容易吸引对职场生存有焦虑的读者点击阅读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>通过描述职场中常见的错误和责任承担问题，引发读者共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调个人价值和强大自身的重要性，鼓励读者积极应对职场挑战。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"工作的“锅”，从不会消失，它只会转移。"</div><div class="golden-sent">"人性的恶，就是“柿子挑软的捏”。"</div><div class="golden-sent">"无论在哪，你的价值，不只体现在你能做什么，更体现在你能让别人不��对你做什么。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出职场甩锅现象的总论，然后分别论述三种容易被甩锅的员工类型，最后总结并提出应对建议。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 上班太较真那会榨干你</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，尤其是在工作中容易较真、责任心强，因此感到疲惫和内耗的人。</p>
+                            <p><strong>痛点:</strong> 在工作中过度认真，导致内耗严重，情绪受领导和同事影响，承担过多责任，身心俱疲。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>口语化、警告式</p>
+                            <p style="font-size:0.85rem; color:#888;">使用口语化的表达方式，更贴近生活，容易引起共鸣。 "榨干你" 具有强烈的警示作用，能够迅速抓住读者的注意力，引发对自身工作状态的反思。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>案例引入</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调工作是为了赚钱和个人成长，下班后要过好自己的生活，引发读者对工作意义的思考。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"在职场上，太较真不是优点，它会让���吃尽苦头。"</div><div class="golden-sent">"你是来赚钱的，不是来求表扬的。"</div><div class="golden-sent">"你改变不了别人，但可以管好自己分内的事。"</div><div class="golden-sent">"公司离了谁，都能转！"</div><div class="golden-sent">"工作就是工作，最好的状态不是大包大揽，而是清楚地知道——什么事情值得全力以赴，什么事情根本不值得费心。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先通过案例提出问题（总），然后从“别把领导的话太当回事”、“别跟烂人烂事较劲”、“别觉得自己的岗位很重要”三个方面进行分析和论证（分），最后总结全文，给出建议（总）。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3个迹象你被领导穿小鞋了</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些感觉在工作中受到不公平待遇或人际关系困扰的员工。</p>
+                            <p><strong>痛点:</strong> 职场中被领导打压、排挤，却难以察觉或无法有效应对的困境，以及由此产生的自我怀疑和内耗。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>问题导向型标题，直接点明主题，引发读者���鸣。</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“穿小鞋”这个形象的比喻，快速抓住读者注意力，预示文章内容与职场潜规则和人际关系有关，引发读者对自身经历的反思。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>以读者评论开篇，引发共鸣，引出话题。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>结尾强调工作是为了生活，而不是被权术消耗，鼓励读者认清现实，主动破局，拿回主动权。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"一边夸你好一边又不给实际甜头，这套路伤人于无形。"</div><div class="golden-sent">"有些领导，本事不大，控制欲很强。他不需要你有想法，只需要你听话。"</div><div class="golden-sent">"你的失败，本就是他计划的一部分，你就是那个内定的背锅侠。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出职场中“穿小鞋”的现象，然后分别从三个迹象进行详细分析，最后总结并��出应对建议。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3件事说明你的工作很体面</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 刚毕业的年轻人，以及对工作意义感到困惑的人群。</p>
+                            <p><strong>痛点:</strong> 对“体面”工作的定义感到迷茫，不确定如何选择适合自己的职业道路，以及如何平衡父母期望与个人追求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字+总结式</p>
+                            <p style="font-size:0.85rem; color:#888;">使用数字“3”能够快速抓住读者眼球，并预示着文章内容的简洁明了。直接点明主题，引发读者对“体面”工作的好奇。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入+问题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励读者为自己而活，找到适合自己的节奏，走好自己的路。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"体面不是装给别人看的面子，而是发自内心的踏实与自信。"</div><div class="golden-sent">"真正体面的生活，是找到自己的节奏，走好自己的路。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出“体面工作”的问题，然后分析世俗眼中的“体面”标准，接着指出其局限性，最后提出作者对“体面”的重新定义。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 说实话你在哪上班都会痛苦</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是对工作现状不满、感到迷茫的年轻人</p>
+                            <p><strong>痛点:</strong> 对工作环境、人际关系、职业发展感到焦虑和痛苦，希望找到解决问题的方法。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直白、坦诚，引发共鸣</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，用“说实话”拉近与读者的距离，引发读者对自身经历的反思，从而产生阅读兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出问题，引发思考</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励读者破除幻想，提升自身价值，实现真正的自由。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"打工人上班痛苦的根源不在于“环境”，而在于“结构”。"</div><div class="golden-sent">"真正的自由，从来不是找到了一个没有痛苦的地方。而是当你拥有了随时离开的底气，以及在任何环境中都能榨取价值的能力时，眼前这份工作的那点痛苦，其实就没啥了。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出中心论点：在哪上班都会痛苦；然后从“结构性”原因、赚钱和偷师两个方面进行论述；最后总结，鼓励读者提升自身价值，实现真正的自由。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 上班心眼子千万别主动帮同事</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是初入职场或有一定工作经验但人际关系处理上遇到困惑的人。</p>
+                            <p><strong>痛点:</strong> 职场中好心帮同事却不被领情，甚至被反咬一口的困扰；人际关系复杂，不知道如何把握帮助同事的尺度；害怕自己的付出得不到回报，甚至影响自身发展。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>反常识 + 强调 + 负面引导</p>
+                            <p style="font-size:0.85rem; color:#888;">利用“心眼子”这种带有负面色彩的词汇，制造反差感，引发读者好奇；“千万别”的强调语气，抓住职场人士的痛点，吸引点击。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入 + 朋友吐槽</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过引用“允许他人犯错”的观点，引发读者对人际关系和个人成长的思考。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"上班时有个大忌：别好为人师。"</div><div class="golden-sent">"成年人的世界，只筛选，不教育。"</div><div class="golden-sent">"允许对方掉坑，看着对方摔疼，再靠自己的力量爬出来，这可能才是对他人的“大善”。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">先通过朋友的经历引出“不要主动帮同事”的观点，然后从多个角度（对方感受、自身利益、未来竞争）论证该观点，最后提出“有条件的帮助”的建���，并升华到人生哲理。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 和同事有暧昧关系不是啥好事</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，尤其是对办公室恋情或暧昧关系感到困惑或正在经历此类情况的读者。</p>
+                            <p><strong>痛点:</strong> 担心办公室暧昧关系可能带来的负面影响，例如影响工作、人际关系、职业发展等，以及在关系破裂后如何处理尴尬局面。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，使用口��化的表达方式。</p>
+                            <p style="font-size:0.85rem; color:#888;">简洁明了，直接抓住读者眼球，引发读者对办公室暧昧关系的思考和共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入，引发读者兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过提问引发读者思考和讨论。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"办公室是讲利益的地方，它需要理性。你带着感性来上班，真不是啥好事。"</div><div class="golden-sent">"职场关系很特殊，大家因利而聚，情感投入就要有所边界。"</div><div class="golden-sent">"和同事暧昧，就像在公司的消防通道里偷偷抽烟。你以为很刺激很隐秘，但迟早会触发警报，弄得一身烟味还下不来台。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出“和同事有暧昧关系不是啥好事”的观点，然后从脑子一乱、成为办公室谈资、关系破裂三个方面进行论证，最后再次强调观点，并提出建议。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 4个迹象领导在试探你的底线</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是初入职场或感到职场压力的人群</p>
+                            <p><strong>痛点:</strong> 职场中被领导压榨、摸不清领导意图、难以维护自身权益</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字+现象/问题</p>
+                            <p style="font-size:0.85rem; color:#888;">使用数字能够快速抓住读者眼球，直接点明文章主题，使读者明确文章内容与自身相关，激发阅读兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>心理学概念引入+职场现象</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过鼓励读者建立边界、冷静周旋、精准反击、及时止损，引发情感共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"职场就是如此：你越顺从，越容易被吃干抹净。"</div><div class="golden-sent">"加班是情分，准时下班才是本分。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出领导试探底线的现象，然后分别列举4个迹象进行详细分析，最后总结并给出应对策略。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 现在这大环境到底能不能辞职</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对是否应该辞职感到迷茫的职场人士，尤其是在当前经济环境下。</p>
+                            <p><strong>痛点:</strong> 在大环境不确定性下，对辞职的担忧和对现状的不满之间的矛盾。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式标题，引发共鸣</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明读者普遍关心的现实问题，吸引目标受众。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>场景引入，对话开场</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调个人感受和未来，鼓励读者做出适合自己的选择。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"环境是大家的，难受是你自己的。"</div><div class="golden-sent">"别让一句“环境不好”，困住了你整个人生。"</div><div class="golden-sent">"活到最后的人，才能看见天亮。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出问题（现在是否能辞职），然后分析环境影响和个人因素，最后给出建议和鼓励。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 只要中一条你就别想升职了</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，尤其是渴望升职但遇到瓶颈的员工</p>
+                            <p><strong>痛点:</strong> 对升职的渴望与现实的差距，以及对职场规则和人际关系的困惑。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>恐吓式标题，制造焦虑</p>
+                            <p style="font-size:0.85rem; color:#888;">利用人们对升职的渴望和对失败的恐惧，快速抓住读者的注意力，激发阅读欲望。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>开门见山，提出核心观点</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调选择的重要性，以及为自己选择负责的态度。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"工作业绩、情绪价值、利益输送  ”，这三项你至少得占俩，才有入围资格。"</div><div class="golden-sent">"职场晋升的本质，是杠杆化：即让你的能力和价值，通过团队被放大和复制。"</div><div class="golden-sent">"人活着最大的清醒，就是���自己的选择负责。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点：工作能力强不等于稳步升职。然后，分别列举了三个阻碍升职的常见错误（得罪关键领导、只会埋头干活、拥有独狼心态），并进行详细分析。最后，再次强调选择的重要性，并呼吁读者为自己的选择负责。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 上班最傻的就是害怕工作做不完</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些容易焦虑、责任心强，并且常常感到工作做不完的打工人。</p>
+                            <p><strong>痛点:</strong> 害怕工作做不完，因工作过度焦虑，感觉付出与回报不成正比，个人生活受到工作严重影响。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点题，反常识</p>
+                            <p style="font-size:0.85rem; color:#888;">直接抓住读者痛点，用看似反常识的观点吸引注意力，激发读者阅读兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>场景描述，引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>呼吁关注生活，强调工作与生活的平衡</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"工作本来就是做不完的。"</div><div class="golden-sent">"你越好用，就越用你；你越能���，就越吃亏。"</div><div class="golden-sent">"公司只为功劳买单，不为苦劳感动。"</div><div class="golden-sent">"我们努力工作，是为了更好的生活；而不是为了工作，毁掉自己的生活。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出核心观点（害怕工作做不完很傻），然后从多个角度（工作永远做不完、过度责任心替公司省钱、公司只为功劳买单）进行论证，最后总结并升华主题，强调工作与生活的平衡。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 月薪4000你会花多少钱租房这个答案无法反驳</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 刚毕业或初入职场的年轻人，以及面临租房困境的低收入群体。</p>
+                            <p><strong>痛点:</strong> 工资低、房租高，在大城市生活压力大，面临租房选择的困惑和焦虑，以及对未来生活的不确定性。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问+结论+争议</p>
+                            <p style="font-size:0.85rem; color:#888;">通过提问引发读者思考，用“无法反驳”强调观点的独特性和说服力，激发读者好奇心。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入+问题抛出</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引用名言，鼓励读者自主选择，定义自己的生活。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"上班打工，房租别超过月薪的30%。"</div><div class="golden-sent">"对于人生的很多事，是你的选择，定义了你的生活，而不是你的生活被选择所定义。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">先提出问题和观点，然后通过案例、分阶段分析、话题延伸等方式进行论证，最后总结并升华主题。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 你汇报能力越强工资越高</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，尤其是希望提升职场竞争力和收入的年轻人。</p>
+                            <p><strong>痛点:</strong> 在职场中默默无闻，努力工作却得不到应有的认可和回报，不知道如何有效地与领导沟通，提升自己的价值。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，利益驱动</p>
+                            <p style="font-size:0.85rem; color:#888;">直接关联读者最关心的工资问题，激发阅读兴趣。简单明了，易于理解。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出问题，引发思考</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调现实，激发进取心</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"你不会汇报，功劳就少一半。"</div><div class="golden-sent">"汇报不是让你讲自己的故事，而是让领导快速做决定。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出“汇报能力越强，工资越高”的中心论点，然后从“汇报的重要性”、“如何正确汇报”、“汇报的本质”三个方面进行详细阐述，最后总结全文，强调汇报的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 人一旦当上领导性格就变了</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些对职场人际关系、领导行为感到困惑的员工。</p>
+                            <p><strong>痛点:</strong> 对同事升职后性格大变感到困惑和不适应，以及对职场人际关系复杂性的理解需求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式+结论式</p>
+                            <p style="font-size:0.85rem; color:#888;">引发读者好奇心，直接点明主题��吸引目标受众。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入+读者互动</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过总结和建议，引发读者共鸣，传递积极的职场态度。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"不是变了，是把“性格暗面”释放了。"</div><div class="golden-sent">"职场最幼稚的想法，就是指望领导和你称兄道弟。最清醒的活法，是看透规则却不被规则同化。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">先提出问题（领导性格变化），然后分析原因（权力、角色转变、生存策略），最后给出建议和总结。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 你利用领导的虚荣心有3个好处</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是需要与领导打交道的员工</p>
+                            <p><strong>痛点:</strong> 如何与虚荣心强的领导相处，以及如何在职场中更好地发展</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>利益诱导型标题</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，用“好处”吸引读者，引发好奇心，想了解如何利用领导的虚荣心来获得利益。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出问题+反向观点</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调清醒的工作态度和行动的重要性</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"上班和领导相处的过程，其实就是满足领导虚荣心的过程。"</div><div class="golden-sent">"用对方喜欢的方式，说他想听的话，办成自己想办的事。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出领导虚荣心并非坏事，然后从三个方面论述利用领导虚荣心的好处（工作更顺、更容易升职、锻炼自身能力），最后总结并强调清醒的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3个原因你千万别借钱给同事</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些面临同事借钱请求，或者曾经有借钱给同事经历的人。</p>
+                            <p><strong>痛点:</strong> 害怕借钱给同事后钱要不回来，影响同事关系，或者因为借钱产生不必要的职场尴尬和人际内耗。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>使用数字和否定词来吸引眼球，制造悬念。</p>
+                            <p style="font-size:0.85rem; color:#888;">数字'3'让读者觉得内容有条理，'千万别'强化了严重性，激发读者好奇心，想知道为什么不能借钱。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>通过读者提问引出话题，增强代入感。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调拒绝借钱是守住个人边界和好心情，引发读者情感共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"不要借钱给同事，除非你已经做好了钱和关系一起丢掉的准备。"</div><div class="golden-sent">"借出去的钱，就做好对方不还的打算。"</div><div class="golden-sent">"职场上，清晰简单的边界感，比什么都重要。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头提出问题，然后从三个方面论述为什么不应该借钱给同事，最后总结并给出建议。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 说实话没必要怪领导不帮你</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些对领导行为感到困惑或不满的员工。</p>
+                            <p><strong>痛点:</strong> 在职场中感到委屈、不公平，期望得到领导的帮助和支持但未能如愿，从而产生困惑、不满和内耗。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直白、反常识</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，以一种略带冒犯的口吻吸引读者注意，引发好奇心，想知道为什么“没必要怪领导”。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>案例引入</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过鼓励读者改变思维方式，从依赖他人到依靠自己，激发积极性和行动力。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"成年人的世界，你永远不要对任何��抱有过高的期待。"</div><div class="golden-sent">"帮你，他能得到什么？不帮你，他会损失什么？"</div><div class="golden-sent">"职场认的不是苦劳，而是功劳；看的不是态度，而是结果。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点：没必要怪领导不帮你，因为领导首先考虑的是自身利益。然后从三个方面进行论述：1. 领导更在乎自己；2. 站位不同，想法不同；3. 与其指望别人，不如依靠自己。最后总结全文，强调依靠自身的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 4种员工最容易被公司清退</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，尤其是对自身职业发展感到焦虑或希望提升职场生存能力的人。</p>
+                            <p><strong>痛点:</strong> 担心被裁员、降薪，对自身在公司的价值感到不确定，希望了解如何避免被公司淘汰。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，制造焦虑</p>
+                            <p style="font-size:0.85rem; color:#888;">直接抓住职场人士普遍的担忧，引���点击欲望。'最容易'一词暗示了可预防性，引导读者寻求解决方案。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>营造共情，引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调双向选择，守住底线</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"你性价比低，让你走人很合理。"</div><div class="golden-sent">"真正的通透，是看懂规则，但不被规则压垮。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头点明主题，中间分点论述四种容易被清退的员工类型，结尾总结并升华主题，强调双向选择。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 和领导关系再好也别信这3句话</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些希望与领导建立良好关系，但又担心被利用或误导的员工。</p>
+                            <p><strong>痛点:</strong> 如何在职场中与领导保持适当的距离，避免被虚假承诺或表面关系所迷惑，从而保护自身利益。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>警示性标题，使用“也别信”等否定词语，引发读者的好奇心和危���感。</p>
+                            <p style="font-size:0.85rem; color:#888;">能够迅速抓住读者的注意力，因为职场人普遍关心与领导的关系，并且对职场中的潜在风险保持警惕。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出问题，引发思考；承认普遍现象，建立共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过强调人性出发，呼吁读者依赖自身能力而非他人承诺，引发读者共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"你和领导之间的“关系好”，只是一种⼯作管理与被管理的平稳状态，⽽不是友谊状态。"</div><div class="golden-sent">"和领导相处，表面关系上可以亲近，但心理位置上，要永远记得他是给你打绩效、决定你升迁的领导，而不是和你撸串喝酒的兄弟。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点：与领导关系再好，也要保持警惕。然后，分别论述了三种不能轻信的领导说辞，并分析��其中的原因和应对策略。最后，总结全文，强调依靠自身能力的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 改掉急性子可以改命</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 在大城市打拼、生活节奏快、有焦虑情绪的年轻人，以及被世俗观念裹挟的人群。</p>
+                            <p><strong>痛点:</strong> 生活节奏快、压力大，被社会和同辈压力裹挟，感到焦虑和迷茫，渴望改变现状，但又不知如何下手。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点题，引发好奇</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，用“改命”这样的词语吸引读者，让人好奇如何通过改变性格来改变命运。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入，拉近距离</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引发思考，展望未来</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"我们追逐着每一个结果，却把过程过得一片狼藉、焦虑不堪。"</div><div class="golden-sent">"事缓则圆、人缓则安。"</div><div class="golden-sent">"当你不再被“急”牵着鼻子走，你会发现，事情反而顺了，关系反而好了，日子反而踏实了。这，不就是改命吗？"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先通过故事引出主题（总），然后分析“急性子”的成因和危害（分），最后提出解决方案并总结（总）。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 打工人最新出路下班后摆摊</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 面临经济压力、对现状不满、寻求额外收入的打工人，以及关注社会现象和就业趋势的读者。</p>
+                            <p><strong>痛点:</strong> 工资收入难以满足生活需求，对未来感到焦虑和不确定，渴望找到增加收入和提升安全感的方法。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式+热点词汇</p>
+                            <p style="font-size:0.85rem; color:#888;">使用'打工人'这一热点词汇，直接点明目标读者群体；'最新出路'引发好奇；'下班后摆摊'点明主题，简洁明了，吸引目标读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>案例引入+数据支撑</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过强调不放弃自救、努力就能让生活好起来，以及真正的出路在于打工人心中不甘心的劲，引发读者共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"上班是给老板赚钱，摆摊是给自己打工。"</div><div class="golden-sent">"真正的体面是：放得下架子，养得起家子。"</div><div class="golden-sent">"真正的出路从来不在某个具体行为里，而在每个不甘心的打工人心中。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出'下班后摆摊'是打工人的新出路，然后从'为什么摆摊'和'为什么有精力'两个方面进行分析，最后总结强调努力的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 4件事永远不要和领导说实话</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是初入职场或希望提升职场生存技能的人。</p>
+                            <p><strong>痛点:</strong> 在职场中如何更好地保护自己，避免因坦诚而受到伤害；如何与领导相处，维护自身利益。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，制造悬念。</p>
+                            <p style="font-size:0.85rem; color:#888;">简洁明了，直接抓住读者眼球，引发读者好奇��：到底哪4件事不能说实话？</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>开门见山，点明职场环境的复杂性，引发共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调真诚要留给值得的人，引发情感共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"懂得藏事，是打工人的必修课。"</div><div class="golden-sent">"职场要的永远是解决方案，而不是投降书。"</div><div class="golden-sent">"警言慎行、藏锋守拙才可以更好守护自己的心力。"</div><div class="golden-sent">"你的真诚真心，只留给值得的人。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点：不要和领导说实话。然后分点阐述了4件不要说实话的事情，并进行详细分析。最后总结全文，强调职场生存之道。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3个暗示领导想要你站队</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些希望在职场中获得晋升和避免站队风险的人。</p>
+                            <p><strong>痛点:</strong> 在复杂的职场环境中，如何识别领导的站队暗示，并做出对自己最有利的选择，同时避免站错队带来的风险。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>悬念式标题，数字+暗示</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“暗示”一词引发读���好奇，并用数字“3”降低阅读门槛，让读者觉得容易理解和掌握。 标题直接点明了职场中普遍存在的站队问题，贴合职场人的痛点。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>先抑后扬，对比手法</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调“看懂规则，保持清醒，守住底线”的重要性，引发读者对自身职场行为的反思。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"在职场不要背后���价他人，好话传不出去，坏话人尽皆知。"</div><div class="golden-sent">"知道太多不是好事。"</div><div class="golden-sent">"做不违心的事、得应得的利、赚干净的钱。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出职场站队的重要性及风险，然后分别从三个方面（暗示一：要你点评他的对家；暗示二：给你一些“信息特权”；暗示三：开始给你“画大饼”）详细阐述领导想要你站队的暗示，最后总结站队的风险和应对策略。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3个时机最适合你跳槽离职</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是对目前工作不满，考虑跳槽的人群。</p>
+                            <p><strong>痛点:</strong> 对目前工作不满，但不知道何时跳槽合适，担心跳槽后情况更糟。希望找到更好的发展机会，实现职业跃迁。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字+明确利益</p>
+                            <p style="font-size:0.85rem; color:#888;">使用数字“3”吸引眼球，直接点明文章主题是关于跳槽时机，并承诺提供有价值的建议，激发读者的阅读兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>故事引入+引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过提问和总结，引发读者思考，强化文章观点。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"跳槽是一种策略，更多的是为了更好的发展。"</div><div class="golden-sent">"在错误的时间跳槽，可能跳出火坑又进泥潭；而在正确的时间行动，就是一场跃迁。"</div><div class="golden-sent">"人生胜者，从不打无准备之仗。看准时机，谋定而后动。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先通过朋友的抱怨引出话题，然后提出跳槽需要把握时机的观点。接着，分别阐述了三个适合跳槽的时机，包括市场需求旺盛、取得高光成绩、以及感到窒息时。最后，总结全文，强调区分情绪和策略的重要性，并鼓励读者在必要时果断离开。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 4件事说明你上班没苦硬吃</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些在工作中感到痛苦和内耗的年轻人。</p>
+                            <p><strong>痛点:</strong> 在工作中感到痛苦、内耗、无法摆脱的负面情绪，以及对职场规则的不适应。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问句 + 否定式</p>
+                            <p style="font-size:0.85rem; color:#888;">使用户产生好奇心，并引发共鸣，��引读者阅读，想要了解哪些“苦”是不必要的。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>观点先行 + 引用</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过鼓励读者划清界限、明确职责、直接沟通等方式，与读者产生共鸣，鼓励读者积极改变。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"责任心≠当圣人，把分内事干好，我们就对得起那份工资。"</div><div class="golden-sent">"你的价值在于“被需要”（工作能力），不在于“被喜欢”（卑微讨好）。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出中心论点，即很多上班的痛苦是“没苦硬吃”，然后分别从“讨好型人格”、“大包大揽”、“自我感动式内卷”、“过度揣摩领导心思”四个方面进行论述，最后总结全文，并提出建议。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 你领导什么水平就看这一点</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是正在经历或思考领导行为的员工。</p>
+                            <p><strong>痛点:</strong> 渴望识别领导力水平，判断是否值得跟随，以及如何在职场中更好地应对不同类型的领导。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>悬念式标题，引发好奇</p>
+                            <p style="font-size:0.85rem; color:#888;">通过提问的方式，直接点明了读者关心的问题，激发读者阅读的兴趣，想知道“这一点”是什么。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>开门见山，提出核心观点</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过总结性的语句，引发读者对自身经历和选择的反思，强调选择领导的重要性。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"怎么对待“员工犯错”，就这么一件工作常事，就可以判断出你领导的水��。"</div><div class="golden-sent">"只知道追责的环境，大家都会变得谨小慎微，有问题不敢报，有错误忙着藏；而共同负责的环境，大家才敢放开手脚做事。"</div><div class="golden-sent">"一个领导是让你每天上班像上刑场，还是让你即使在批评中也能进步，这直接决定了你是在消耗生命，还是在积累本事。"</div><div class="golden-sent">"跟对人，是幸事；遇烂人，是修行。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出中心论点：如何对待员工犯错可以判断领导水平。然后从三个方面（第一反应、批评出发点、事后态度）进行分论点论述，最后总结全文，强调选择领导的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 你同事心眼多有3个特征</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是初入职场或在职场中感到困惑的人</p>
+                            <p><strong>痛点:</strong> 在职场中难以辨别同事的真实意图，容易被利用或受到伤害，希望能够保护自己。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，引发读者好奇</p>
+                            <p style="font-size:0.85rem; color:#888;">标题使用通俗易懂的语言，直接��出职场中常见的问题，能够迅速抓住读者的注意力，并引发他们对内容的兴趣，希望找到应对方法。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出普遍观点，引出话题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调实力和真诚的重要性，鼓励读者保持本色。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"善良要有锋芒，真诚必须理智。"</div><div class="golden-sent">"职场修心，修的是内心的清明与平衡：既能看清他人的套路，又不迷失自己的本色；既懂得保护自己，又不变成自己讨厌的那种人。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出职场中需要“带点心眼”的总论点，然后分别从三个特征进行具体分析，最后总结全文，强调职场修心的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 上班遇小人你先搞他心态</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是那些在工作中遇到人际关系问题，尤其是受到“小人”困扰的个体。</p>
+                            <p><strong>痛点:</strong> 在职场中受到“小人”的困扰，包括被恶意中伤、工作受阻、心态崩溃等，希望找到有效的应对方法，保护自己，维护自身利益。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接、挑衅、实用</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，使用“搞他心态”这种带有挑衅意味的词语，能够迅速抓住读者的眼球，激起他们的兴趣。同时也暗示了文章将提供实用的反击策略。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出问题，引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过“菩萨心肠，金刚手段”的比喻，以及祝愿读者专心走自己的路，不被小人阻碍，引发情感共鸣，提升文章的感染力。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"跟小人讲道理没用，生气更没用。最管用的办法，就是抢先出手，搞回去——你也搞他的心态。以彼之道，还施彼身。"</div><div class="golden-sent">"内心保持善良，但要有不被欺负的能力。愿你出门上班，既有菩萨的心肠，也有金刚的手段。既能专心走自己的路，也能让路上的小人，不敢挡你的道。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出问题（遇到小人），然后分析小人“搞心态”的原因和常用手段，接着给出反击策略，最后总结并升华主题，强调守住本心的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 3件事说明你在硬撑着上班</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是感到工作压力大、身心俱疲的年轻人。</p>
+                            <p><strong>痛点:</strong> 在内卷的职场环境中，为了生存和发展，不得不强撑着上班，但内心感到痛苦和迷茫。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式+总结式</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章主题，引发读者���考和共鸣，吸引目标读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>反常态+提问</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调“自知”的重要性，引发读者对自身状态的反思。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"强撑不是坚韧，而是在透支未来的自己。"</div><div class="golden-sent">"工作是为了生活，而不是活着为了工作。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出问题（很多人在硬撑着上班），然后分三个方面阐述硬撑的表现，最后总结并给出建议。</p>
+                </div>
+            </details>
+            
+        </div>
+        
+        <a href="/writing-analysis" class="nav-back">&larr; 返回作者列表</a>
+    </div>
+</body>
+</html>

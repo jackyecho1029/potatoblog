@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dontbesilent 写作风格深度拆解</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8f5f2;
+            --card-bg: #ffffff;
+            --primary: #3d3d3d;
+            --accent: #c07d66; 
+            --highlight: #e8dccc;
+            --text-main: #2d3436;
+            --text-light: #636e72;
+        }
+        body { font-family: 'Noto Serif SC', serif; background-color: var(--bg); color: var(--text-main); line-height: 1.8; margin: 0; padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.8rem; margin-bottom: 10px; color: var(--primary); text-align: center; }
+        .tag { display:block; text-align:center; margin-bottom: 50px; font-family:'Lato'; color: var(--accent); letter-spacing: 1px; }
+
+        /* Card Styles */
+        .card { background: var(--card-bg); padding: 40px; border-radius: 12px; margin-bottom: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid var(--accent); }
+        .card h2 { font-size: 1.5rem; margin-bottom: 25px; color: var(--primary); border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        
+        /* Grid Layouts */
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .info-item h4 { margin: 0 0 8px 0; color: #999; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+        .info-item p { margin: 0; font-size: 1.1rem; font-weight: bold; color: var(--primary); }
+
+        /* Framework Mapping */
+        .map-row { display: flex; gap: 20px; margin-bottom: 20px; border-left: 3px solid #eee; padding-left: 20px; }
+        .map-step { font-weight: bold; color: var(--accent); min-width: 80px; }
+        .map-content { background: #fafaf9; padding: 15px; border-radius: 8px; flex: 1; }
+        .user-logic { margin-top: 10px; font-size: 0.9rem; color: #d35400; background: #fff5f0; padding: 8px; border-radius: 4px; display: inline-block; }
+
+        /* Detailed Article List */
+        details { margin-bottom: 15px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.03); }
+        summary { padding: 15px 20px; cursor: pointer; font-weight: bold; display: flex; justify-content: space-between; align-items: center; background: #fff; transition: background 0.2s; }
+        summary:hover { background: #f9f9f9; }
+        details[open] summary { border-bottom: 1px solid #eee; color: var(--accent); }
+        .det-content { padding: 25px; font-size: 0.95rem; }
+        
+        .det-grid { display: grid; grid-template-columns: Repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 20px; }
+        .det-box { background: #fdfbf9; padding: 15px; border-radius: 6px; border: 1px solid #f2ece8; }
+        .det-box h5 { margin: 0 0 10px 0; color: var(--accent); }
+        
+        .golden-sent { border-left: 3px solid var(--accent); padding-left: 15px; font-style: italic; color: #666; margin: 10px 0; }
+        
+        .nav-back { display: block; text-align: center; margin-top: 50px; color: #999; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>dontbesilent</h1>
+        <span class="tag">务实洞察，问题解决专家</span>
+
+        <!-- 1. 用户画像 -->
+        <div class="card">
+            <h2>🎯 目标用户深度透视</h2>
+            <div class="grid-2">
+                <div class="info-item"><h4>Who 读者是谁</h4><p>对商业、自媒体、App开发、AI应用等领域有实际需求，渴望解决问题并提升能力的实践者。</p></div>
+                <div class="info-item"><h4>Pain 深层痛点</h4><p>希望获得直接、有效、可操作的解决方案，避免空洞理论，追求实际收益和成长。</p></div>
+                <div class="info-item"><h4>Role 作者角色</h4><p>经验分享者、问题解决者、行业观察者，有时带有批判性思维。</p></div>
+                <div class="info-item"><h4>Hook 吸引力法则</h4><p>作者的文章往往聚焦于具体的痛点和问题，例如App Store审核、自媒体变现、AI应用等，并提供相应的解决方案或分析。这种务实的内容能够快速吸引目标读者，建立信任感。同时，作者有时会以一种略带批判的视角进行分析，引发读者共鸣，增强互动。</p></div>
+            </div>
+        </div>
+
+        <!-- 2. 常用框架 -->
+        <div class="card">
+            <h2>🏗️ 核心写作框架拆解</h2>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">🔍</span> 
+                    问题分析与解决方案
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：读者痛点：[具体描述]；问题根源：[深入分析]；解决方案：[详细步骤/建议]</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：应对苹果审核的非技术因素</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">识别读者痛点</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"App Store审核越来越严格，容易被误伤，且不清楚如何应对审核中的非技术性问题"</div>
+                            <div class="user-logic">💖 💖 用户视角：直接点明开发者面临的审核困境，抓住开发者急于解决问题的心理。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分析问题根源</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"App Store审核机制存在不透明性，开发者难以准确把握审核标准。"</div>
+                            <div class="user-logic">💖 💖 用户视角：指出问题在于机制的不透明，引发共鸣，因为开发者普遍觉得审核标准不清晰。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">提供解决方案</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"提供应对建议，例如准备充分的材料、与审核人员有效沟通等。"</div>
+                            <div class="user-logic">💖 💖 用户视角：提供具体可操作的建议，满足开发者寻求实际指导的需求。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">💡</span> 
+                    经验分享与实用技巧
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：问题/现象：[描述]；个人经验：[具体案例]；实用技巧：[步骤化建议]</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：自媒体如何快速起号</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">提出问题/现象</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"自媒体新手或有一定经验但增长缓慢的��媒体运营者，缺乏有效的起号策略。"</div>
+                            <div class="user-logic">💖 💖 用户视角：精准定位目标读者群体，点明他们面临的增长难题。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分享个人经验</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"分享快速增长粉丝和提高影响力的经验。"</div>
+                            <div class="user-logic">💖 💖 用户视角：通过分享经验，增强文章的说服力，让读者觉得作者是过来人。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">总结实用技巧</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"提供实用的技巧和方法，帮助读者解决起号难题。"</div>
+                            <div class="user-logic">💖 💖 用户视角：提供具体操作方法，满足读者希望快速见效的需求。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">📚</span> 
+                    概念解析与价值挖掘
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：概念：[名称]；内涵：[解释]；价值：[应用/意义]</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：正本清源共享经济</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">定义/提出概念</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"对共享经济概念模糊，对拼多多、闲鱼等平台存在偏见。"</div>
+                            <div class="user-logic">💖 💖 用户视角：直接指出读者对共享经济的常见误解。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分析概念内涵</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"从经济学角度分析共享经济的本质。"</div>
+                            <div class="user-logic">💖 💖 用户视角：通过专业分析，帮助读者更深入地理解共享经济。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">挖掘潜在价值</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"阐述共享经济在资源优化配置等方面的价值。"</div>
+                            <div class="user-logic">💖 💖 用户视角：让读者认识到共享经济的积极意义，改变原有偏见。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- 3. 拒绝自嗨指南 -->
+        <div class="card">
+             <h2>🚫 拒绝自嗨：小白行动指南</h2>
+             <div class="grid-2">
+                
+                <div style="background:#fafafa; padding:20px; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--accent);">拒绝自嗨建议1</h4>
+                    <p style="margin:0; font-size:0.95rem;">避免内容过于宽泛或抽象。聚焦于读者具体的痛点，例如'App Store审核4.3条款'，'自媒体快速起号'，而不是泛泛而谈'成功'或'赚钱'。 即使是方法论，也要结合具体案例拆解，方便读者理解和实践。</p>
+                </div>
+                
+                <div style="background:#fafafa; padding:20px; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--accent);">拒绝自嗨建议2</h4>
+                    <p style="margin:0; font-size:0.95rem;">在分享经验时，坦诚地分享失败的教训或遇到的挑战。这能够增加文章的真实性和可信度，让读者觉得作者是站在他们的角度思考问题，而不是高高在上的说教。比如分享'马甲包'经验时，也要客观分析风险。</p>
+                </div>
+                
+             </div>
+        </div>
+
+        <!-- 4. 所有文章详细拆解 (New) -->
+        <div style="margin-top: 60px;">
+            <h2 style="text-align:center; margin-bottom:30px; color:#ccc;">📂 所有文章详细拆解清单</h2>
+            
+            <details>
+                <summary>
+                    <span>📄 什么叫赚钱</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 由于文章内容为空，无法确定目标读者。一般来说，这类标题可能面向对赚钱感兴趣、寻求财富积累方法的人群。</p>
+                            <p><strong>痛点:</strong> 由于文章内容为空，无法确定用户的痛点。潜在的痛点可能包括：缺乏赚钱的清晰概念、找不到合适的赚钱方法、对现有收入不满意等。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式标题，引发思考</p>
+                            <p style="font-size:0.85rem; color:#888;">简单直接，抓住读者对赚钱的普遍兴趣，激发好奇心，促使读者点击阅读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容为空，无法分析开头技巧。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>由于文章内容为空，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"由于文章内容为空，无法提取金句。"</div><div class="golden-sent">"由于文章内容为空，无法提取金句。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容为空，无法进行结构简述。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 生产主义</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 由于文章内容缺失，无法确定目标读者</p>
+                            <p><strong>痛点:</strong> 由于文章内容缺失，无法确定读者痛点/需求</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>由于文章内容缺失，无法分析标题技巧</p>
+                            <p style="font-size:0.85rem; color:#888;">由于文章内容缺失，无法分析标题为何有效</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容缺失，无法分析开头技巧</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>由于文章内容缺失，无法分析结尾共鸣方式</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"由于文章内容缺失，无法提取金句"</div><div class="golden-sent">"由于文章内容缺失，无法提取金句"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容缺失，无法进行结构简述</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 大家都是上过班的人怎么没有常识呢</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场人士，特别是对职场生态感到困惑或不满的人群。</p>
+                            <p><strong>痛点:</strong> 对职场中缺乏常识、不专业行为的困扰和不满；希望获得职场生存和发展的指南。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问句式，反问语气</p>
+                            <p style="font-size:0.85rem; color:#888;">激发读者好奇心和共鸣，引发读者思考职场常识问题，并吸引读者阅读文章寻找答案。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容缺失，无法分析开头技巧。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>由于文章内容缺失，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"由于文章内容缺失，无法提取金句。"</div><div class="golden-sent">"由于文章内容缺失，无法提取金句。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容缺失，无法简述结构。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 做生意有意思的地方就是让自己被折磨然后又从折磨里面解脱</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 潜在创业者、正在创业者、对创业感兴趣的人群</p>
+                            <p><strong>痛点:</strong> 创业过程中的焦虑、痛苦、迷茫以及对如何克服这些挑战的渴望</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>矛盾式标题，引发好奇</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“折磨”和“解脱”这两个看似矛盾的概念并置，引发读者对创业本质的好奇心，吸引他们点击阅读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>缺失内容，无法分析</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>缺失内容，无法分析</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">缺失内容，无法分析</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 1973通讯产品演进史</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对互联网历史、通讯产品演进感兴趣的读者，科技从业者，产品经理。</p>
+                            <p><strong>痛点:</strong> 了解互联网通讯产品的发展历程，寻找产品创新的灵感，对当前创新匮乏的现状感到困惑。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>年份限定，历史感</p>
+                            <p style="font-size:0.85rem; color:#888;">用���体的年份“1973”作为切入点，引发读者对早期通讯技术的兴趣，暗示文章将追溯通讯产品的历史。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>引用+个人经历</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>对当前创新匮乏的现状的反思，以及对未来科技发展的期待。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"我们以为是新发明的发些东西，其实早在我们还没摸过电脑的时候，��已经出现了。"</div><div class="golden-sent">"相比于以前每隔几年（甚至不到一年）就会有革命性的产品涌现，如今我们好像正在遭遇极大的创新的匮乏，一个小小的被惊喜打磨过的产品就能让人惊喜一阵子。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章按照时间顺序，从1973年的Talkomatic开始，依次介绍了E-mail discussion lists、BBS、Usenet、SNS以及Build-your-own social networks等不同阶段的通讯产品形态，最后总结了当前创新匮乏的现状。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 我和AI的每日亲切对话</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对AI感兴趣，特别是AI对话和应用场景的读者</p>
+                            <p><strong>痛点:</strong> 可能对AI技术的实际应用和如何与之互动存在疑问，希望了解AI如何融入日常生活</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>亲切化、日常化</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“亲切”和“每日”两个关键词，降低了读者对AI的距离感，营造了一种轻松、日常的��围，更容易引起读者的兴趣，并暗示文章内容贴近生活。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>缺乏实际内容，无法分析</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>缺乏实际内容，无法分析</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容缺失，无法分析文章的结构。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 执行的价值永远被低估</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 可能是有一定工作经验，希望提升自身职业发展的人群，尤其是那些希望在职场上获得更大成就，却感到执行力不足的人。</p>
+                            <p><strong>痛点:</strong> 缺乏执行力，导致目标难以实现，职业发展受阻。同时，可能也存在对执行力价值的低估。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>价值判断+强调+总结</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，引发读者思考，并暗示文章的核心观点。'永远被低估' 激起读者好奇心，想知道为什么执行的价值会被低估。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>未知</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>未知</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"由于文章内容缺失，无法提取金句。"</div><div class="golden-sent">"由于文章内容缺失，无法提取金句。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容缺失，无法判断文章结构。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 自媒体变现最有价值的点</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 希望通过自媒体实现有效变现的博主和内容创作者。</p>
+                            <p><strong>痛点:</strong> 如何在自媒体变现过程中避免过度依赖个人品牌，降低工作负担，并提高变现效率和可持续性。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，突出“价值”二字。</p>
+                            <p style="font-size:0.85rem; color:#888;">直接吸引了对自媒体变现感兴趣的读者，明确了文章的核心内容。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>开门见山，直接提出核心观点。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>文章没有明显的结尾共鸣，但通过强调将价值点转移到产品而非个人，暗示了可持续发展的方向。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"买家可以冲着博主这个人付费，但是付费点一定要落在产品上面，而不是人上面"</div><div class="golden-sent">"要么买工具，要么买课程，把价值点变成事物而不是人"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点，然后通过分析两种变现模式（依赖个人和依赖产品）的优缺点来论证观点。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 人越傻事儿越稳</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 可能为职场人士、创业者、以及对人际关系和成功之道感兴趣的读者。</p>
+                            <p><strong>痛点:</strong> 渴望在复杂的人际关系和事业环境中获得成功，但又常常感到迷茫和困惑，不知道如何才能稳妥地达成目标。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>逆向思维，反常识。</p>
+                            <p style="font-size:0.85rem; color:#888;">利用“傻”和“稳”的反差，引发读者好奇心，吸引点击。挑战了人们对聪明才智的传统认知，让人想一探究竟。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容缺失，无法分析开头技巧。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>文章内容缺失，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"文章内容缺失，无法提取金句1"</div><div class="golden-sent">"文章内容缺失，无法提取金句2"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章内容缺失，无法简述结构。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 应对苹果审核的非技术因素</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> App开发者，尤其是那些认真做产品但被苹果审核困扰的开发者</p>
+                            <p><strong>痛点:</strong> App Store审核越来越严格，容易被误伤，且不清楚如何应对审核中的非技术性问题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>明确问题导向</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章主题，吸引遇到苹果审核问题的开发者</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>描述现状，引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引导关注公众号和专栏，加入开发者社群</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"App Store 审核，一般分为机器审核和人工审核两部分，先机审、后人审。"</div><div class="golden-sent">"尽量间隔 2-3 天再进行回复。"</div><div class="golden-sent">"你两次上传 App 用的都是同一个 WiFi，当审核团队都是傻子吗？"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先点明主题，指出App Store审核的非技术性因素问题；然后分部分详细阐述了机审人审的区分、回复时机、换账号的问题等；最后总结并引导读者关注。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 比特币与堡垒之夜的共同本质</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对加密货币、元宇宙、技术哲学感兴趣的读者，尤其是对社会趋势和技术影响有思考的群体。</p>
+                            <p><strong>痛点:</strong> 渴望理解新兴技术背后的深层逻辑和社会影响，以及如何在新旧秩序交替中找到自身定位。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>对���与关联</p>
+                            <p style="font-size:0.85rem; color:#888;">将看似无关的两个事物（比特币和堡垒之夜）并列，引发读者好奇，暗示两者之间存在某种深层联系，吸引读者深入阅读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>引出背景，表达个人感受</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调新旧秩序的辩证关系和技术发展的局限性</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"比特���的出现，让这个世界上的一部分人变得更爽了一点点，这就是比特币的价值。"</div><div class="golden-sent">"想要从原有的社会秩序中动用足够多的生产力（算力、人力、能源、资本……），那就得催化出足够多的多巴胺。在时间上更持久，在空间上更广阔。"</div><div class="golden-sent">"元宇宙的发展必然促进现实世界的生产力提升，生产力的提升又会促进元宇宙的进一步发展。而元宇宙大概率不会以共产主义的形态发展，也就大概率会像它所想要打倒的 old money 一样，产生内部的贫富分化，在个体与个体之间产生分裂。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出比特币和堡垒之夜的共同本质，然后分别从新秩序的产生、元宇宙的反身性等方面进行分析，最后总结强调新旧秩序的辩证关系和技术发展的局限性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 正本清源共享经济</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对共享经济概念模糊，对拼多多、闲鱼等平台存在偏见，以及对市场经济运作逻辑不甚了解的读者。</p>
+                            <p><strong>痛点:</strong> 对共享经济的误解，对低价商品质量的担忧，以及对资本运作的负面情绪。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>使用成语“正本清源”，表明文章旨在纠正对共享经济的错误认��，回归其本质。</p>
+                            <p style="font-size:0.85rem; color:#888;">能够快速吸引对共享经济话题感兴趣，并持有疑问或误解的读者，引发其阅读兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>通过提及滴滴的例子，直接切入主题，引发读者共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过强调“从商业角度讲，只有赚钱才是道德的”以及帕累托改进，引发读者对商业伦理和社会价值的思考。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"用存量，解决增量的问题。"</div><div class="golden-sent">"从商业角度讲，只有赚钱才是道德的。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出对共享经济的常见质疑，然后通过滴滴、Kindle、拼多多和闲鱼等案例进行分论点论述，最后总结共享经济的本质和价值，并回应常见质疑。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 自媒体变现能力从弱到强分三层</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 自媒体从业者，特别是那些希望提高变现能力的作者。</p>
+                            <p><strong>痛点:</strong> 变现困难，收入不稳定，缺乏有效的变现策略。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>分层递进式标题，强调变现能力提升的过程。</p>
+                            <p style="font-size:0.85rem; color:#888;">通过'从弱到强'的对比，吸引读者关注，表明文章提供了可操作的���升路径。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>缺失开头内容，无法分析。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>缺失结尾内容，无法分析。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容缺失，无法分析。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 不是因为你擅长才去做是因为你做了才擅长</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 可能面向有拖延症、对新事物感到畏惧、或希望提升自身能力的人群，特别是那些在职业发展或个人成长中寻求突破的读者。</p>
+                            <p><strong>痛点:</strong> 害怕失败、缺乏自信、不敢尝试新事物、认为需要具备足够的能力才能开始行动。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>反常识、对比、强调行动的重要性</p>
+                            <p style="font-size:0.85rem; color:#888;">利用常见的误解（先擅长再行动）进行反驳，引发读者好奇心，并直接点明文章主旨，即行动先于擅长。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容为空，无法分析开头技巧</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>由于文章内容为空，无法分析结尾共鸣方式</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容为空，无法简述结构</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 平衡的艺术</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 由于文章内容缺失，目标读者无法确定。但根据作者头像和可能的公众号文章形式，推测目标读者可能是对个人成长、生活方式、或者与作者职业相关领域感兴趣的人群。</p>
+                            <p><strong>痛点:</strong> 由于文章内容缺失，无法确定读者的痛点/需求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>标题使用抽象概念，引发思考。</p>
+                            <p style="font-size:0.85rem; color:#888;">“平衡”是一个普遍追求的状态，容易引起读者共鸣和好奇，想了解作者如何理解和实现平衡。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>文章内容缺失，无法分析开头技巧。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>文章内容缺失，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"文章内容缺失，无法提取金句"</div><div class="golden-sent">"文章内容缺失，无法提取金句"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章内容缺失，无法简述结构。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2019年1月读书心得</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对读书感兴趣，希望提升自我认知和知识水平的读者；可能也包括对作者本人及其推荐书籍感兴趣的读者。</p>
+                            <p><strong>痛点:</strong> 如何高效地读书，如何将读书转化为实际的知识和能力提升，以及如何找到适合自己的好书。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接明了</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章主题，让读者快速了解文章内容是关于2019年1月的读书心得。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>坦诚自谦</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过分享找书的渠道，满足读者对“如何找到好书”的需求，并暗示持续关注作者的动态。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"的确，我觉得看书，还是功利一点比较好。"</div><div class="golden-sent">"我发现，这种没有大量数据分析、也不去引用论文，而仅仅是谈个人体会与经验的书，也会让我有所收获，体现在我会按照作者所说的逻辑，去检验我自己平时的行为中，有没有需要改正的地方。"</div><div class="golden-sent">"但是核心在于答案的方向应该是：如果我一定要把这件事做成，我该怎么办？"</div><div class="golden-sent">"这是这个月对我意义最大的一本书。打开了我对心理学书籍的兴趣，也驱使我把另外几本书放到了书单"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">先总述自己读书习惯的转变和目标，然后分别介绍阅读过的书籍，并分享心得，最后总结找书的经验。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 自媒体如何快速起号</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 希望快速起号的自媒体新手或有一定经验但增长缓慢的自媒体运营者。</p>
+                            <p><strong>痛点:</strong> 缺乏有效的起号策略，希望找到快速增长粉丝和提高影响力的有效方法。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，使用“快速”等关键词吸引眼球。</p>
+                            <p style="font-size:0.85rem; color:#888;">满足了读者对快速获得结果的期望，直接指向了他们的核心需求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容缺失，无法分析开头技巧。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>文章内容缺失，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"文章内容缺失，无法提取金句"</div><div class="golden-sent">"文章内容缺失，无法提取金句"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章内容缺失，无法进行结构简述</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 把一个情感专家做成了知识库agent全面分析了我自己</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对九型人格、AI Agent、个人成长、自我分析感兴趣的读者，以及可能面临类似工作和生活挑战的人群。</p>
+                            <p><strong>痛点:</strong> 希望了解如何提高工作效率、情绪管理能力、逻辑表达能力，以及如何利用AI工具进行自我提升。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>悬念式标题，技术化包装</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“情感专家”、“知识库 agent”、“全面分析”等关键词，引发读者好奇，暗示文章内容具有专业性和实用性。将情感专家包装成知识库 Agent，提升了文章的科技感。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>开门见山，提出核心观点</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调分析结果建立在中高阶状态，并警示低阶状态可能导致特征崩坏，引发读者思考自身状态。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"直播作为标准化流程，会被 dontbesilent 纳入'有序运转'的机械模块中处理。"</div><div class="golden-sent">"持续工作既是生产力输出，更是对抗焦虑的仪式——每个完成的 TODO 事项都是对混乱世界的封印。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点，然后分别从直播无情绪波动、全天候工作续航、短视频逻辑表达三个方面进行详细分析，最后总结强调分析结果的适用范��。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 把一条推文翻译成短视频有很多条路径</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 内容创作者，短视频制作者，营销人员</p>
+                            <p><strong>痛点:</strong> 如何将文字内容高效转化为吸引人的短视频内容，缺乏创意和方法</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>强调路径多样性</p>
+                            <p style="font-size:0.85rem; color:#888;">降低用户心理门槛，暗示方法的可行性和灵活性，激发用户探索的兴趣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>内容缺失，无法分析</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>内容缺失，无法分析</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"内容缺失，无法分析"</div><div class="golden-sent">"内容缺失，无法分析"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">内容缺失，无法分析</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 dontbesilent变现定律001</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 可能面向希望通过内容创作或个人品牌实现变现的读者，例如自媒体从业者、知识付费内容生产者等。</p>
+                            <p><strong>痛点:</strong> 变现困难，缺乏有效的变现策略和方法，对如何将影响力转化为实际收益感到困惑。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>使用“变现定律”这样的词语，暗��文章提供经过验证的、具有普遍适用性的变现方法。使用编号“001”暗示这是一个系列文章的开篇，吸引读者持续关注。</p>
+                            <p style="font-size:0.85rem; color:#888;">“变现定律”能够抓住读者对成功变现的渴望，引发好奇心。编号则暗示了内容的系统性和深度，增加了文章的价值感。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容缺失，无法分析开头技巧及前三句的作用。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>文章内容缺失，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"文章内容缺失，无法提取金句。"</div><div class="golden-sent">"文章内容缺失，无法提取金句。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章内容缺失，无法确定结构简述。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 逃避正解悖论</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 渴望成功但长期无法实现财务自由的人，或者对自身努力感到困惑的人。</p>
+                            <p><strong>痛点:</strong> 明明知道正确的方向，却总是找借口逃避，最终陷入长期贫穷的困境。对自身努力的价值产生怀疑，感到迷茫和无力。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>悖论式标题</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“逃避”和“正解”这两个看似矛盾的概念，引发读者好奇心，吸引他们深入了解文章内容。悖论本身就具有一定的吸引力，能够激发读者的思考。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>直接点明核心问题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过对比自由的沉重和牢笼的轻松，引发读者对自身选择的深刻反思。这种对比具有强烈的冲击力，能够触动读者的内心。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"绝大多数忙于赚钱却赚不到钱的人，并非不知道正确答案，而是在明知正解的情况下，竭尽全力寻找绕过它的方法。"</div><div class="golden-sent">"最大的悲剧不是不知道答案，而是明知答案却选择逃避——因为自由太沉重，牢笼更轻松。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心悖论，然后通过三大公理和三大推论进行详细论证，最后得出结论，再次强调核心观点。这种结构清晰明了，逻辑严谨。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 没用过agent等于没用过AI</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对AI技术感兴趣，特别是希望将其应用于实际工作和生活中的人群，包括自媒体创作者、知识工作者等。</p>
+                            <p><strong>痛点:</strong> 希望AI工具能真正解决实际问题，而不仅仅是提供快速但不准确的答案；希望了解如何选择和搭建适合自身需求的AI智能体和知识库。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>强对比、强调重要性</p>
+                            <p style="font-size:0.85rem; color:#888;">使用“没用过...等于没用过...”的句式，直接点明Agent的重要性，引发读者好奇心和紧迫感。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>直接点明主题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>提供持续更新的AI课程和社群答疑，增强用户粘性。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"会用 agent（而不仅仅是 LLM）是日常用好 AI 的基础"</div><div class="golden-sent">"真正的 AI 助手应该像人类专家一样，知道什么时候需要'查资料'，什么时候可以直接回答。这种任务规划能力才是 AI 工具实用性的关键。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出核心观点（没用过Agent等于没用过AI），然后对比Agent和Chat的区别，阐述GenSpark和Manus的价值，最后总结并引导购买课程。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 一万人的公司想要实现盈亏平衡是不是只需一人公司的订单量的一千倍毕竟一个人的小生意采购价高</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 可能面向小企业主、创业者或对商业模式感兴趣的读者。</p>
+                            <p><strong>痛点:</strong> 小企业生存困境、采购成本高、难以与大企业竞争</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式标题，对比式标题</p>
+                            <p style="font-size:0.85rem; color:#888;">引发读者思考，激发好奇心，将大公司和小公司进行对比，吸引关注。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>缺失，文章内容为空</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>缺失，文章内容为空</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">缺失，文章内容为空</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 对标选择定理</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 创业者、管理者、以及任何希望通过模仿和学习来提升自身业务能力的人</p>
+                            <p><strong>痛点:</strong> 在寻找对标对象时，容易被各种因素干扰，导致决策效率低下，难以找到真正有效的对标方向；以及在执行过程中，容易受到自身资源、经验等限制，产生焦虑和犹豫。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>直接点明主题，使用“定理”二字，提升专业性和权威性。</p>
+                            <p style="font-size:0.85rem; color:#888;">简洁明了，直接吸引目标读者，并暗示文章提供一套系统化的方法论。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>直接提出核心定理，开门见山。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过强调执行的重要性，引发读者对自身行动力的思考。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"对标的价值在于筛选而非寻找：真正有效的对标对象必须同时满足「超额盈利」和「可复制性」两个硬性条件��"</div><div class="golden-sent">"讨论现有资源、个人经历、兴趣偏好，本质是在为不行动找借口。有效的对标筛选只问一个问题：这个业务我能不能干？"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心定理，然后通过三大公理和三大推论进行详细阐述，最后总结全文，强调对标的目的和执行的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 解读AppStore审核黑箱政策远没有你想象的那么邪恶</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> App开发者，尤其是独立开发者，以及对App Store审核机制感兴趣的人。</p>
+                            <p><strong>痛点:</strong> App审核被拒、延期，无法获得清晰的违规原因，对App Store审核机制感到困惑和不满。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>反转预期</p>
+                            <p style="font-size:0.85rem; color:#888;">标题首先点明了App Store审核的“黑箱”性质，引发读者对审核不透明的负面联想。然后通过“远没有你想象的那么邪恶”来反转这种预期，激发读者好奇心，想要了解作者的不同解读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>经验背书</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>理解开发者的困境，但呼吁理性看待问题，不要陷入阴谋论。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"如果 App Store 现在公开审核过程的所有细节，马上第二天就会有无数的应用提交，全都是针对审核政策去打擦边球的。所以，只有黑箱的政策，才是对 App Store 真正有意义的政策。"</div><div class="golden-sent">"App Store 所面临的应用数量之庞大、App 违规手段之复杂、作出正确裁决之难度，是会让几乎任何一个团队都望而却步的。我们所面临的 “被坑”，主要是  是因为问题本身过于难以解决，而不是 “资本主义无情剥削”。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出App Store审核黑箱政策的问题，然后从“黑箱原因”、“难以给出答复”、“双标现象”三个方面进行分析，最后总结观点，给出建议。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 dontbesilent商业概念表工作目标</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 由于文章内容为空，无法确定目标读者。</p>
+                            <p><strong>痛点:</strong> 由于文章内容为空，无法确定读者痛点/需求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>标题直接点明主题，简洁明了</p>
+                            <p style="font-size:0.85rem; color:#888;">直接告知读者文章内容关于商业概念表的工作目标，节省读者时间，提高阅读效率。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>文章内容为空，无法分析开头技巧</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>文章内容为空，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章内容为空，无法进行结构简述。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 韭菜程序员</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对技术课程感兴趣，但又对付费知识产品抱有抵触情绪的程序员群体，以及更广泛的对知识付费持有类似观念的人群。</p>
+                            <p><strong>痛点:</strong> 明明可以通过免费渠道获取信息，却需要为知识付费感到不解和抵触；看到他人通过知识付费获利，产生心理不平衡。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>标签化、负面暗示</p>
+                            <p style="font-size:0.85rem; color:#888;">使用带有贬义色彩的词汇“韭菜”，能够迅速抓住读者眼球，引发好奇和争议，同时暗示了文章的主题和批判对象。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>身份声明、反转</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过“垃圾人定律”引发共鸣，强调远离负能量人群的重要性，并提供了免费和付费两种选择，满足不同读者的需求。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"一切免费的���容，背后都有真实的价码。你换了 2 个搜索关键词，跳转过 3 个网站，花费 5 分钟最终找到一篇免费教程。这个过程本身就说明这个教程不是免费的。"</div><div class="golden-sent">"自由交易没有“坑”的概念，如果我真的巧舌如簧，在晓以利害、风险之后，让你 500w 买了个破石头，这说明什么？说明我前期积累知识、后期加以实践，最终让你付费 500w 这件事情，所蕴含的价值，高于 500w，至少是 500万零一毛，因为只有你认为它的价值高于 500w 你才会买单，否则没必要浪费时间做等价交换。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出“韭菜程序员”的概念，然后通过具体案例和分析，阐述其特点和成因，最后总结并提出建议，同时进行自我推广。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 马甲包指南攻克AppStore43条款</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> App开发者，特别是那些面临App Store 4.3条款问题的开发者，以及希望通过马甲包策略获取更多流量和收入的开发者。</p>
+                            <p><strong>痛点:</strong> App因违反App Store 4.3条款被拒，难以通过审核，影响收入和推广；对如何规避4.3条款缺乏有效方法。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>目标明确型标题</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章主题，抓住读者痛点，承诺提供解决方案，吸引面临4.3条款问题的开发者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>开门见山，引用条款</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励和肯定</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"4.3 条款麻烦在哪：第一点在于这个条款宁可错杀也不放过，  就算你什么错都没犯，也很��能被误伤。"</div><div class="golden-sent">"不要迷信苹果，不要自我怀疑。上架 App 是商业行为，App Store 拒绝你上架不能说明任何问题。苹果公司能力极强，但是 App Store 的审核团队并不神圣。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出问题（App Store 4.3条款的挑战），然后分析问题的原因和难点，最后提供详细的解决方案和规避策略，包括工程混淆、App Store Connect清理、分阶段测试审核等。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 假如说你卖的产品明明没有这个功能明明起不到这个效果但是你又要宣传怎么办</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 销售人员、市场营销人员、产品经理，以及任何需要推广产品但产品本身存在缺陷或功能不足的人员。</p>
+                            <p><strong>痛点:</strong> 如何推广一个功能不完善或效果不佳的产品，同时避免虚假宣传带来的风险，并最终实现销售目标。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>问题导向型标题，直接点明痛点。</p>
+                            <p style="font-size:0.85rem; color:#888;">直接抓住读者面临的实际问题，激发好奇心，吸引读者点击。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>由于文章内容缺失，无法分析开头技巧和前三句的作用。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>由于文章内容缺失，无法分析结尾共鸣方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"由于文章内容缺失，无法提取金句。"</div><div class="golden-sent">"由于文章内容缺失，无法提取金句。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">由于文章内容缺失，无法分析结构简述。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 为什么乔布斯辍学了却能做成苹果</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 对乔布斯、苹果公司、创业、成功人士的经历感兴趣的读者，可能包括学生、创业者、职场人士等。</p>
+                            <p><strong>痛点:</strong> 渴望了解成功人士的成功秘诀，希望能从乔布斯的经历中获得启发和指导，解决自身在学习、工作或创业中遇到的困惑。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式标题，对比反差。</p>
+                            <p style="font-size:0.85rem; color:#888;">通过提出一个引人深思的问题，激发读者的好奇心，并暗示文章将解释乔布斯辍学与他成功创立苹果公司之间的关系。利用“辍学”和“做成苹果”的巨大反差，制造悬念，吸引读者点击阅读。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>（由于文章内容缺失，无法分析开头技巧）</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>（由于文章内容缺失，无法分析结尾共鸣方式）</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"（由于文章内容缺失，无法提取金句）"</div><div class="golden-sent">"（由于文章内容缺失，无法提取金句）"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">（由于文章内容缺失，无法简述结构）</p>
+                </div>
+            </details>
+            
+        </div>
+        
+        <a href="/writing-analysis" class="nav-back">&larr; 返回作者列表</a>
+    </div>
+</body>
+</html>

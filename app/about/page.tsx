@@ -1,23 +1,12 @@
 
 import Link from 'next/link';
+import Header from '../components/Header';
 
 export default function About() {
     return (
         <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
             <main className="max-w-2xl mx-auto px-6 py-20">
-
-                {/* Header */}
-                <header className="mb-16 flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                        <Link href="/" className="font-bold tracking-tight text-xl hover:text-amber-600 transition">
-                            PotatoEcho
-                        </Link>
-                    </div>
-                    <nav className="flex gap-6 text-sm font-medium text-zinc-500">
-                        <Link href="/" className="hover:text-amber-600 transition">Blog</Link>
-                        <Link href="/about" className="text-amber-600">About</Link>
-                    </nav>
-                </header>
+                <Header />
 
                 <article className="prose prose-zinc prose-lg">
                     <h1 className="text-3xl font-extrabold tracking-tight mb-8">About Me</h1>

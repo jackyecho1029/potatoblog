@@ -12,6 +12,7 @@ export default function Header() {
             <nav className="flex gap-6 text-sm font-medium text-zinc-500">
                 <Link href="/" className="hover:text-amber-600 transition">Blog</Link>
                 <Link href="/learning" className="hover:text-amber-600 transition">Learning</Link>
+                <Link href="/writing-analysis" className="hover:text-amber-600 transition">Writing Analysis</Link>
                 <Link href="/about" className="hover:text-amber-600 transition">About</Link>
             </nav>
         </header>

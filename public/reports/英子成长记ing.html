@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英子成长记ing 写作风格深度拆解</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8f5f2;
+            --card-bg: #ffffff;
+            --primary: #3d3d3d;
+            --accent: #c07d66; 
+            --highlight: #e8dccc;
+            --text-main: #2d3436;
+            --text-light: #636e72;
+        }
+        body { font-family: 'Noto Serif SC', serif; background-color: var(--bg); color: var(--text-main); line-height: 1.8; margin: 0; padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.8rem; margin-bottom: 10px; color: var(--primary); text-align: center; }
+        .tag { display:block; text-align:center; margin-bottom: 50px; font-family:'Lato'; color: var(--accent); letter-spacing: 1px; }
+
+        /* Card Styles */
+        .card { background: var(--card-bg); padding: 40px; border-radius: 12px; margin-bottom: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid var(--accent); }
+        .card h2 { font-size: 1.5rem; margin-bottom: 25px; color: var(--primary); border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        
+        /* Grid Layouts */
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .info-item h4 { margin: 0 0 8px 0; color: #999; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+        .info-item p { margin: 0; font-size: 1.1rem; font-weight: bold; color: var(--primary); }
+
+        /* Framework Mapping */
+        .map-row { display: flex; gap: 20px; margin-bottom: 20px; border-left: 3px solid #eee; padding-left: 20px; }
+        .map-step { font-weight: bold; color: var(--accent); min-width: 80px; }
+        .map-content { background: #fafaf9; padding: 15px; border-radius: 8px; flex: 1; }
+        .user-logic { margin-top: 10px; font-size: 0.9rem; color: #d35400; background: #fff5f0; padding: 8px; border-radius: 4px; display: inline-block; }
+
+        /* Detailed Article List */
+        details { margin-bottom: 15px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.03); }
+        summary { padding: 15px 20px; cursor: pointer; font-weight: bold; display: flex; justify-content: space-between; align-items: center; background: #fff; transition: background 0.2s; }
+        summary:hover { background: #f9f9f9; }
+        details[open] summary { border-bottom: 1px solid #eee; color: var(--accent); }
+        .det-content { padding: 25px; font-size: 0.95rem; }
+        
+        .det-grid { display: grid; grid-template-columns: Repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 20px; }
+        .det-box { background: #fdfbf9; padding: 15px; border-radius: 6px; border: 1px solid #f2ece8; }
+        .det-box h5 { margin: 0 0 10px 0; color: var(--accent); }
+        
+        .golden-sent { border-left: 3px solid var(--accent); padding-left: 15px; font-style: italic; color: #666; margin: 10px 0; }
+        
+        .nav-back { display: block; text-align: center; margin-top: 50px; color: #999; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>英子成长记ing</h1>
+        <span class="tag">AI总结失败</span>
+
+        <!-- 1. 用户画像 -->
+        <div class="card">
+            <h2>🎯 目标用户深度透视</h2>
+            <div class="grid-2">
+                <div class="info-item"><h4>Who 读者是谁</h4><p>AI总结失败</p></div>
+                <div class="info-item"><h4>Pain 深层痛点</h4><p>AI总结失败</p></div>
+                <div class="info-item"><h4>Role 作者角色</h4><p>请检查API</p></div>
+                <div class="info-item"><h4>Hook 吸引力法则</h4><p>可能由于Token超限</p></div>
+            </div>
+        </div>
+
+        <!-- 2. 常用框架 -->
+        <div class="card">
+            <h2>🏗️ 核心写作框架拆解</h2>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">🗓️</span> 
+                    年度/未来规划布局
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：在[目标年份]，我希望实现[具体目标]。目前我的主要痛点是[痛点1]，[痛点2]，[痛点3]。为了达成目标，我计划[行动计划1]，[行动计划2]，[行动计划3]。</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：我开始布局我的2025了</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">设定目标年份</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"我开始布局我的2025了"</div>
+                            <div class="user-logic">💖 💖 用户视角：直接点明主题，吸引同样对未来有规划需求的读者。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">反思现状与痛点</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"面临困境、生活困苦、身不由己、对未来感到迷茫和焦虑。"</div>
+                            <div class="user-logic">💖 💖 用户视角：精准描述目标受众的痛点，引发共鸣。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">制定具体行动计划</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"（文章后续内容，需根据实际文章展开，此处省略）"</div>
+                            <div class="user-logic">💖 💖 用户视角：后续文章应围绕如何解决痛点，制定可执行的计划展开，提供实际帮助。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">🔄</span> 
+                    周期性复盘（周/月）
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：本[周期]我设定的目标是[目标]。实际完成情况是[完成情况]。偏差原因是[原因]。下[周期]我将调整[策略]，具体行动包括[行动1]，[行动2]，[行动3]。</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：7月复盘和过去握手言和朝未来步履不停</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">回顾���标</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"（文章需包含7月初设定的目标，此处假设为：提升工作效率）"</div>
+                            <div class="user-logic">💖 💖 用户视角：让读者了解复盘的基础，即目标是什么。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分析结果与偏差</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"（文章需包含对7月实际工作效率的评估，以及与目标的差距分析，此处假设为：效率提升不明显，受家庭事务影响）"</div>
+                            <div class="user-logic">💖 💖 用户视角：坦诚分析问题，让读者感受到真实性，并思考自身情况。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">调整策略与行动</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"（文章需包含针对问题提出的改进措施，例如：优化时间管理，寻求家人支持等）"</div>
+                            <div class="user-logic">💖 💖 用户视角：提供可操作的解决方案，帮助读者解决实际问题。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 50px;">
+                <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px;">
+                    <span style="background:var(--accent); color:white; padding:2px 10px; border-radius:4px; font-size:0.8em;">💡</span> 
+                    经验/感悟分享
+                </h3>
+                <p style="color:#888; margin-bottom:20px; font-size:0.9rem;">填空模板：我遇到了[问题/困境]。为了解决这个问题，我[个人经历/解决方案]。从中我得到的启发是[启发]。我建议[建议1]，[建议2]，[建议3]。</p>
+                
+                <div style="background:#fff; padding:20px; border:1px solid #eee; border-radius:8px;">
+                    <h4 style="margin-top:0; color:var(--text-light);">📜 案例映射：大S去世我顿悟了生命的意义</h4>
+                    
+                    <div class="map-row">
+                        <div class="map-step">提出问题/困境</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"面临生活困境，尤其是经历情感挫折的女性，以及对人生意义感到迷茫的人群。"</div>
+                            <div class="user-logic">💖 💖 用户视角：通过热点事件引入，快速抓住读者眼球，点明主题。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">分享个人经历/解决方案</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"（文章需包含作者自身的经历和思考，以及如何从困境中走出来的过程，此处省略）"</div>
+                            <div class="user-logic">💖 💖 用户视角：通过分享个人经历，引发读者共鸣，建立信任感。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-row">
+                        <div class="map-step">总结启发/建议</div>
+                        <div class="map-content">
+                            <div style="font-style:italic; margin-bottom:8px;">"（文章需包含作者对生命意义的感悟，以及给读者的建议，例如：珍惜当下，积极面对生活等）"</div>
+                            <div class="user-logic">💖 💖 用户视角：升华主题，传递积极向上的价值观，给读者带来希望和力量。</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- 3. 拒绝自嗨指南 -->
+        <div class="card">
+             <h2>🚫 拒绝自嗨：小白行动指南</h2>
+             <div class="grid-2">
+                
+             </div>
+        </div>
+
+        <!-- 4. 所有文章详细拆解 (New) -->
+        <div style="margin-top: 60px;">
+            <h2 style="text-align:center; margin-bottom:30px; color:#ccc;">📂 所有文章详细拆解清单</h2>
+            
+            <details>
+                <summary>
+                    <span>📄 我开始布局我的2025了</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 面临困境、渴望改变的读者，特别是带着孩子的母亲。</p>
+                            <p><strong>痛点:</strong> 生活困苦、身不由己、对未来感到迷茫和焦虑。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>目标明确型标题</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章主题，吸引对未来规划和改变感兴趣的读者。'布局'一词暗示了作者的主动性和掌控感。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>时间点切入+情感铺垫</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引用摩西奶奶的名言，鼓励读者从现在开始改变，不浪费时间，并表达对未来的期许。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"真正能给你撑腰的是丰富的知识储备，足够的经济基础，持续的情绪稳定，可控的生活节奏，和那个打不败的自己。"</div><div class="golden-sent">"想，全是问题；做，总有答案。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先回顾过去一年的困境，然后提出2025年的目标和规划（九宫格），最后以积极的展望和行动号召结尾。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2025117坚持很难但一定很酷</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 正在经历焦虑、内耗，希望通过坚持和成长改变现状的单亲妈妈或女性群体，以及对个人成长、时间管理、理财、极简生活方式感兴趣的人。</p>
+                            <p><strong>痛点:</strong> 焦虑、内耗、缺乏方向、财务压力、难以坚持、渴望改变。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>对比+承诺</p>
+                            <p style="font-size:0.85rem; color:#888;">通过“坚持很难”与“一定很酷”的对比，引发读者好奇，并承诺坚持的价值，鼓励读者克服困难。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>自我介绍+目标</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引用积极向上的句子，强调个人选择的重要性，鼓励读者追求自己喜欢的生活方式。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"你怎样度过一天，就怎样度过一生。"</div><div class="golden-sent">"凡是发生，必有利于我。"</div><div class="golden-sent">"自己喜欢的日子就是好日子。自己喜欢的活法就是好活法。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出主题（坚持的意义），然后通过每日复盘的五个方面（学习成长、记账、一日一舍、爱自己、今日感恩）进行详细阐述，最后总结升华，强调个人选择和积极生活态度的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 11月写公众号文章15篇涨粉1456人流量主收入170</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 希望通过公众号写作实现成长、变现的自媒体新手，以及对个人成长、时间管理、家庭生活平衡感兴趣的读者。</p>
+                            <p><strong>痛点:</strong> 对公众号写作的迷茫，渴望成长但缺乏方法，在个人成长和家庭生活之间难以平衡，希望通过自媒体实现个人价值。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数据化标题，结果导向</p>
+                            <p style="font-size:0.85rem; color:#888;">直接展示了文章的核心内容和结果（涨粉人数、收入），吸引对公众号运营和变现感兴趣的读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>总结概括，引出主题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励读者接纳不完美，坚持有方向，并展望未来。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"时间是一天一天过的，它不会偏向任何人，同样也不会为谁而��下脚步。"</div><div class="golden-sent">"没有哪个人的成功是轻而易举的，都是从一件件小事中成长起来的。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先总述11月的成就，然后分别从复盘学习、公众号写作、输入型成长、家庭付出、不足与改进、目标制定等方面进行详细阐述，最后总结全文并展望未来。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 7月复盘和过去握手言和朝未来步履不停</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 面临生活和工作压力的成年人，特别是需要照顾家庭的职场妈妈，以及对未来感到迷茫的人群。</p>
+                            <p><strong>痛点:</strong> 经济压力、工作不稳定、子女教育问题、个人成长瓶颈、时间管理困难。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>对比和愿景</p>
+                            <p style="font-size:0.85rem; color:#888;">前��部分“7月复盘/和过去握手言和”体现了对过去的总结和释怀，后半部分“朝未来步履不停”则表达了积极向上的展望，形成对比，引人深思，激发读者对未来的希望。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>时间流逝和个人反思</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>表达了作者即使在生活重压下，依然保持对美好生活的向往和追求，鼓励读者即使被生活磨平棱角，也要为自己的目标努力。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"和过去握手言和，朝未来步履不停"</div><div class="golden-sent">"虽然已经被生活磨平了棱角，但是也要为自己想要的生活努力呀！"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先总述了7月的转变和新征程的开启，然后分别从房子问题、工作问题和兼职问题三个方面详��描述了7月经历的挑战和应对，最后以八月计划作为总结和展望，表达了对未来的期许。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2025年第6周偶尔的放松是为了更好的重启</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 85后、二胎单亲妈妈、希望成长和改变的人群，以及对个人复盘、时间管理、财务管理感兴趣的读者</p>
+                            <p><strong>痛点:</strong> 时间管理、财务压力、个人成长焦虑、单亲妈妈的困境、如何在忙碌生活中找到平衡点</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>悬念+希望</p>
+                            <p style="font-size:0.85rem; color:#888;">前半部分制造悬念，引发读者好奇，后半部分给出希望，吸引读者阅读。'偶尔的放松'与'更好的重启'形成对比，引人深思，暗示文章内容是关于如何平衡放松和努力。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>时间+状态+问候</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过分享个人经历和感悟，鼓励读者爱自己，并邀请读者关注，建立长期互动关系。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"我的“丧”是真的，我的努力也是真的。"</div><div class="golden-sent">"爱自己才是这辈子最重要的课题。"</div><div class="golden-sent">"若前方无路，我便踏出一条路；若天理不容，我便逆转这乾坤。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头点明主题（放松是为了更好的重启），中间部分详细复盘一周的生活（学习成长、家庭生活、财务理财、休闲娱乐），结尾总结并展望未来，同时与读者互动。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2022年第三周复盘努力向想要的生活迈进</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 喜欢手帐、复盘、育儿，以及对个人成长和生活方式改善感兴趣的读者，尤其是妈妈群体。</p>
+                            <p><strong>痛点:</strong> 渴望改变一成不变的生活，追求更理想的生活状态，但面临时间管理、家庭责任、自我提升等方面的挑战。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>目标导向+积极心态</p>
+                            <p style="font-size:0.85rem; color:#888;">清晰地表达了本周复盘的主题：回顾过去一周的努力，并朝着理想的生活前进。'努力'一词体现了积极向上的心态，容易引起读者共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>自我介绍+内容预告</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励+展望</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"不喜欢一层不变的生活，所以努力向自己喜欢的生活迈进，即使节奏很慢，即使被周边的人嘲笑。"</div><div class="golden-sent">"我一定要��力，有能力陪伴在父母身边。"</div><div class="golden-sent">"如果我们的人生拥有了这些闪闪发光的珍珠该是多么闪耀啊，写下梦想清单离我的梦想更进一步。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头点明主题，中间详细复盘工作、家庭、自我成长等方面，结尾总结并展望未来。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 202307周复盘时刻关注目标就不会偏离方向</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 想要提升自我管理能力、时间管理能力、以及生活幸福感的读者，特别是二胎妈妈群体。</p>
+                            <p><strong>痛点:</strong> 时间不够用，生活琐事繁多，目标难以达成，容易焦虑，缺乏清晰的生活方向。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>目标导向，强调行动</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章核心：关注目标的重要性，以及复盘带来的积极效果，吸引希望提升效率和方向感的读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>亲切问候，建立连接，点明主题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调共同成长，鼓励行动</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"有了目标与计划，时刻关注，就不会偏离方向。"</div><div class="golden-sent">"接触到复盘以后我的改变是巨大的，我喜欢上了早起，爱上了精简生活，阅读量增加了，对想要的生活更加清晰了。"</div><div class="golden-sent">"个人成长路上不要急，好好沉淀自己，慢慢来会更快。"</div><div class="golden-sent">"存钱是成年人最大的底气。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出中心论点（关注目标的重要性），然后通过详细的周复盘内容（目标回顾、工作事业、家庭生活、自我成长、休闲娱乐、财务理财、身体健康、本周反思、下周计划）进行论证，最后再次强调个人成长需要沉淀，并鼓励读者一起成长。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2026年我决定一年只深耕一个技能</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 追求个人成长、时间管理、技能提升的读者，特别是那些感到焦虑，想要改变现状，但又容易半途而废的人群。</p>
+                            <p><strong>痛点:</strong> 在追求“多面手”的时代，感到焦虑，想要学习很多技能，但精力有限，容易陷入“样样通、样样松”的困境，缺乏专注和持续性。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>时间点+明确行动</p>
+                            <p style="font-size:0.85rem; color:#888;">使用明确的时间点“2026年”引发读者对未来的思考和期待，同时“深耕一个技能”点明了文章的核心内容，简洁明了，吸引读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>提出问题+引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引用名言+鼓励</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"与其什么都想要，不如先要一样，死磕到底。"</div><div class="golden-sent">"与其花许多时间和精力去凿很多井，不如花同样的时间和精力去凿一口深井。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出问题（多技能焦虑），然后分析问题（精力有限，浅尝辄止），提出解决方案（一年只深耕一个技能），并详细阐述选择写作的原因、好处、如���坚持以及阶段性奖励，最后总结强调专注的重要性。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 88年37岁开始布局我的2026年了</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 30-40岁左右，对个人成长、目标管理、时间管理感兴趣的职场人士或自由职业者，尤其是女性。</p>
+                            <p><strong>痛点:</strong> 缺乏清晰的目标，执行力不足，对未来感到迷茫，希望找到可操作的方法来实现个人成长和目标。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字+年份+行动型动词</p>
+                            <p style="font-size:0.85rem; color:#888;">使用具体数字（88年，37岁，2026年）能够快速吸引目标读者，行动型动词“布局”暗示文章内容具有实际指导意义，引发读者对如何规划未来的好奇。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>情景式开头，引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过对未来的美好期许和对过去的总结，引发读者对自身成长和目标的思考。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"不是一场仓促的奔赴，��是一次胸有成竹的布局，让每一步前行都踏在坚实的土地上。"</div><div class="golden-sent">"想都是问题，行动才有答案。我要用持续的行动去完成制定的目标。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出布局2026年的主题，然后分别从复盘、目标拆解、执行规划和生活期许四个方面进行详细阐述，最后进行总结和展望。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 202305周复盘在慢慢变好的路上</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 职场妈妈，对个人成长、时间管理、家庭生活平衡感兴趣的读者</p>
+                            <p><strong>痛点:</strong> 时间不够用，生活琐事繁多，个人成长受限，购物欲望难以控制</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>双标题，主标题概括内容，副标题点明主题</p>
+                            <p style="font-size:0.85rem; color:#888;">主标题简洁明了，直接点明周复盘，副标题则更具情感色彩，引发读者共鸣，预示着作者积极向上的心态和逐渐进步的状态</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>节日问候，引出新开始</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>用个人成长路上不要急，好好沉淀自己，慢慢来会更快引起共鸣</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"能不买的尽量不要买，生活质量不但没有提高，看着乱糟糟的环境也很闹心。"</div><div class="golden-sent">"其实我们做任何事情都有一个平台期，度过平台期，以后可能就会拥有复利效应。"</div><div class="golden-sent">"不和别人比较，只和自己的过去做比较，美好的生活会如约而至。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头点明主题，中间详细复盘一周的工作、生活、自我成长等各方面情况，结尾进行反思和计划，并鼓励自己和读者共同进步。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 自律几天我有哪些变化</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 希望自我提升、时间管理有困难、育儿焦虑的妈妈群体</p>
+                            <p><strong>痛点:</strong> 时间不够用、无法坚持自律、育儿压力大、自我价值感低</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>疑问式+结果导向</p>
+                            <p style="font-size:0.85rem; color:#888;">引发读者好奇，想知道作者自律后发生了哪些积极变化，贴近生��，易于产生共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>问候语+身份介绍+内容预告</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>用积极向上的话语鼓励读者，强调持续进步的重要性</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"首先是自己，然后才是妈妈"</div><div class="golden-sent">"女人就是要富养自己，不被世俗浸透，才能一直优雅到老"</div><div class="golden-sent">"说教一百遍，不如自己以身作则"</div><div class="golden-sent">"没有一蹴而就的事，要沉下心来慢慢向前，今天比昨天的自己进步了就好"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头点明主题，中间详细描述自律带来的变化，结尾总结并展望未来</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2025年第7周因为是自己的人生呀所以要过好每一天</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 二胎单亲妈妈、对个人成长和生活方式有追求的女性，以及面临生活迷茫期的人群。</p>
+                            <p><strong>痛点:</strong> 如何在忙碌的生活中找到自我，实现个人成长，摆脱迷茫和焦虑，以及如何在财务上更加理性。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>情感共鸣式标题</p>
+                            <p style="font-size:0.85rem; color:#888;">标题直接点明了文章的主题，强调了个人人生的重要性，能够迅速吸引那些对自我成长和生活品质有追求的读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>引用+个人介绍</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励和共勉</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"过好每一天，��是靠近成功的阶梯。"</div><div class="golden-sent">"买奢侈品，不如把自己变成奢侈品，能够在岁月了发光，而不是在账单中仓皇。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出主题（过好每一天，做自己），然后分部分别从本周计划完成情况、学习成长、身体健康、多彩生活、亲密关系、金钱财务和100件小事等方面进行详细的复盘和总结，最后再次强调主题并进行总结和展望。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 88年37岁请好好经营你3746岁的黄金十年</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 35+的女性，特别是单亲妈妈，对现状不满，渴望改变和成长的人群。</p>
+                            <p><strong>痛点:</strong> 对婚姻失败的痛苦，对未来感到迷茫，经济压力大，渴望提升自我价值，实现经济独立和精神自由。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字强调 + 年龄焦虑 + 行动号召</p>
+                            <p style="font-size:0.85rem; color:#888;">通过具体的年龄数字，引发同龄人的共鸣和焦虑感；“经营”一词暗示着主动性和可控性；“黄金十年”则描绘了一个充满希望的未来，激发读者阅读的兴趣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>引用名人名言 + 提出观点</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>描绘十年后悠闲美好的生活状态，与读者产生共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"人生最大的捷径就是，强大自己，当你有钱了，有本事了，有资源了，命运才会奉上它的馈赠，社会才会对你和颜悦色。"</div><div class="golden-sent">"钱是一个人最大的底气，世上90%的事情可以用钱解决，剩下的10%也可以用钱缓解。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出中心论点：35-45岁是人生的黄金年龄，要好好经营。然后，从健康、成长、金钱、圈子、时间、情绪六个方面进行详细阐述。最后，再次强调积累的重要性，并描绘了十年后美好的生活状态。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 迎接202621天做21件小事与2025年好好告别</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 希望以积极的方式告别旧年、迎接新年，并对生活有一定规划意愿的读者。</p>
+                            <p><strong>痛点:</strong> 时间流逝的焦虑感，对过去一年的回顾和总结的迷茫，以及对新一年的期待和规划的困惑。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字和行动结合</p>
+                            <p style="font-size:0.85rem; color:#888;">使用具体数字“21天”、“21件小事”增强了可操作性，并明确了主题，引发读者兴趣。 "告别"一词带有仪式感，引人深思。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>引发共鸣</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>引用名言和鼓励行动</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"这最后的21天，不是简单的倒计时，而是对一年的梳理、沉淀与致敬，是对未来一年的美好期待。"</div><div class="golden-sent">"��别，从来不是结束。它是清空舞台的过程，好让新的故事，从容登场。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出主题，引发读者共鸣；然后通过清单式的列举，详细介绍了21天内可以做的21件小事，分为整理回顾、改变行动、展望准备三个阶段；最后总结升华主题，鼓励读者积极行动。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 8月复盘先成为自己的太阳再成为别人的光</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 年轻妈妈、职场女性、个人成长爱好者</p>
+                            <p><strong>痛点:</strong> 平衡家庭、工作和个人成长之间的矛盾，时间管理焦虑，自我提升的需求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>双重隐喻</p>
+                            <p style="font-size:0.85rem; color:#888;">前半部分'8月复盘'点明文章主题，后半部分'先成���自己的太阳再成为别人的光'，既表达了个人成长的重要性，又富有哲理，引人深思。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>时间地点天气引入</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>用'我想先成为自己的太阳，再成为别人的光'再次呼应主题，引发读者共鸣，鼓励读者积极面对生活。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"一个均衡发展的幸福人生，划分为五个维度。包括：身体健康、物质财富、家庭生活、学习成长和工作事业。"</div><div class="golden-sent">"女生最顶级的自律是攒钱，最漂亮的自律是健��，最健康的自律是早睡，最改变气质的自律是读书，最有安全感的自律是经济独立。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头总结八月，中间详细回顾八月完成情况、计划外完成情况、收入开销情况，以及对自律的思考，结尾提出九月计划，展望未来。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 开始布局2026建议你一定要频繁的记录自己越记录越幸运</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 主要面向希望提升自我、记录生活、并从中获得成长和灵感的读者，特别是二胎宝妈和有写作需求的人群。</p>
+                            <p><strong>痛点:</strong> 易遗忘、焦虑、缺乏写作素材、难以坚持。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>标题包含明确的时间节点（2026）和行动建议（频繁记录），并暗示了记录带来的好处（越记录越幸运）。</p>
+                            <p style="font-size:0.85rem; color:#888;">时间节点引发读者对未来的思考和规划，行动建议直接明确，而“越记录越幸运”则激发了读者的好奇心和行动欲望。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>通过描述一种普遍存在的“日子像被按下了快进键”的感受，引发读者的共鸣。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>结尾通过表达“喜欢频繁记录生活”的感受，并强调记录对塑造新自我的价值，引发读者的情感共鸣。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"幸运从来不是凭空降临的礼物，而是一场“记录”与“成长”的双向奔赴。"</div><div class="golden-sent">"记录是抵抗遗忘最好的方式，也是与自己对话最温柔的途径。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出“频繁记录自己，越记录越幸运”的观点，然后从“为什么要频繁记录”和“可以���哪些方法记录”、“记录哪些内容”三个方面进行详细阐述，最后再次强调记录的重要性，并鼓励读者行动。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 大S去世我顿悟了生命的意义</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 面临生活困境，尤其是经历情感挫折的女性，以及对人生意义感到迷茫的人群。</p>
+                            <p><strong>痛点:</strong> 情感挫折、生活压力、对未来感到迷茫、渴望找到生活的意义和方向。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>名人效应 + 顿悟/反思</p>
+                            <p style="font-size:0.85rem; color:#888;">利用名人去世引发关注���并结合个人顿悟，能够快速抓住读者的眼球，激发他们对人生意义的思考。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>事件引入 + 情感铺垫</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>强调个人价值、幸福权利和自主性，鼓励读者关注自身感受。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"没有什么是一定要拥有的，也没有什么是不能失去的，珍惜当下，人生短短三万天，不知道明天和意外哪个先来。"</div><div class="golden-sent">"不管别人怎么对待你，无论你是被抛弃了，被背叛了还是被伤害了，别人对待你的方式都不足以证明你的好坏。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">开头由大S去世引出对人生意义的思考，中间部分分别从珍惜当下、保持好心态、修复自己和照顾身体四个方面进行阐述，结尾再次强调个人价值和幸福权利，并鼓励读者。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 8月第一周和第二周复盘结束工作带孩子出去玩</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 面临相似生活困境的职场妈妈，尤其是需要平衡工作、家庭和自我成长的妈妈。</p>
+                            <p><strong>痛点:</strong> 如何在工作、照顾孩子和自我提升之间找到平衡点，如何克服焦虑和内疚感，如何规划时间并有效执行。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>简洁明了，概括性强</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明文章核心内容：时间范围（8月第一周和第二周），主要事件（复盘工作、带孩子出去玩），方便读者快速判断文章是否符合需求。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>时间流逝的感慨，引出暑假的主题</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>通过描述小女儿生病，表达了对孩子健康的担忧，以及对未来生活的期许。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"无论这个世界怎样对你，都请你一如既往地努力、勇敢、充满希望。因为世界上最幸福的事情，莫过于，经过一番努力后，一切都在慢慢变成你想要的样子。"</div><div class="golden-sent">"不要在该努力的年纪选择安逸，不要停下努力的脚步。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先总述了八月第一周和第二周的整体情况，然后分别从工作事业、家庭生活、自我成长、财务理财和反思等几个方面进行详细描述，最后以总结和下周计划收尾���</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 2025年12周复盘一定要频繁记录自己</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 二胎单亲妈妈，希望通过手账和复盘实现目标和梦想的人群，以及对时间管理、个人成长和生活记录感兴趣的读者。</p>
+                            <p><strong>痛点:</strong> 时间管理困难，生活琐事繁多，缺乏清晰的目标和方向，难以坚持记录和复盘，财务压力。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>强调行动和结果，突出复盘的重要性。</p>
+                            <p style="font-size:0.85rem; color:#888;">直接点明主题，吸引希望提升自我管理能力和实现目标的读者。'一定要频繁记录自己' 具有强烈的行动号召力。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>简洁的自我介绍和开门见山的主题引入。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>鼓励读者关注作者，共同成长蜕变，并提供微信号方便进一步交流。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"一个人在空白时间所做的事，决定��这个人和他人的不同。"</div><div class="golden-sent">"日复盘可以让生活有迹可循，每天在朋友圈复盘，可以随时查看。以后每日、每周、每月都要认真记录。频繁记录，让每一个日子都随风起舞。"</div><div class="golden-sent">"目标非常重要，它是指引前行的灯塔，结合了《只管去做》里的九宫格年度目标计划去规划，如何落地还需要日复一日的坚持。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">文章首先提出核心观点（频繁记录），然后详细描述了过去两周的行动、反思、收获、年度计划检视和下周计划，最后再次强调共同成长。</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span>📄 开始布局2026我手机里舍不得删的6个宝藏免费APP每一个都超级实用</span>
+                    <span style="font-size:0.8rem; color:#ccc; font-weight:normal;">点击查看拆解</span>
+                </summary>
+                <div class="det-content">
+                    <div class="det-grid">
+                        <div class="det-box">
+                            <h5>🎯 用户视角</h5>
+                            <p><strong>读者:</strong> 注重效率、时间管理、自我提升的智能手机用户，尤其是宝妈、创作者、职场人士和学生。</p>
+                            <p><strong>痛点:</strong> 手机内存不足、信息过载、效率低下、时间管理困难、找不到实用工具。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🏹 标题技巧</h5>
+                            <p>数字+关键词+痛���</p>
+                            <p style="font-size:0.85rem; color:#888;">使用“2026”引发对未来的思考，用“宝藏免费APP”抓住用户对实用工具的需求，通过“舍不得删”强调价值和实用性，整体简洁明了，吸引目标读者。</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🎣 开头策略</h5>
+                            <p>痛点导入+行动</p>
+                        </div>
+                        <div class="det-box">
+                            <h5>🔚 结尾升华</h5>
+                            <p>总结APP的核心价值，强调懂用户需求，引发用户对美好生活的向往。</p>
+                        </div>
+                    </div>
+                    
+                    <h5 style="color:var(--accent); margin-bottom:10px;">🌟 金句收集</h5>
+                    <div class="golden-sent">"它们在个人规划、自我提升、写作辅助���财务管控等维度，极大提高了我的效率，帮我把琐碎的日常过成了有章法的成长轨迹。"</div><div class="golden-sent">"好的工具，从来不是堆砌功能，而是懂你的需求。"</div>
+                    
+                    <h5 style="color:var(--accent); margin-top:20px; margin-bottom:10px;">🏗️ 全文结构解析</h5>
+                    <p style="background:#f9f9f9; padding:10px; border-radius:4px;">首先提出问题（手机内存不足），然后引出主题（推荐6个宝藏APP），接着详细介绍每个APP的功能和优点，最后总结APP的价值并引导互动。</p>
+                </div>
+            </details>
+            
+        </div>
+        
+        <a href="/writing-analysis" class="nav-back">&larr; 返回作者列表</a>
+    </div>
+</body>
+</html>
