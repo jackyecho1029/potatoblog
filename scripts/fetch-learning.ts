@@ -391,7 +391,7 @@ async function fetchLatestVideos() {
                         const totalMinutes = hours * 60 + minutes + seconds / 60;
 
                         // Dynamic duration threshold based on channel
-                        let minDuration = 20; // Default increased to 20 mins to avoid long clips
+                        let minDuration = 15; // Set to 15 mins to exclude Shorts and most slices
                         if (handle.includes('timferriss')) {
                             minDuration = 45; // Tim Ferriss episodes are long, 45m ensures no clips/slices
                         }
