@@ -279,7 +279,9 @@ ${linkedSummary}`;
 }
 
 const BLOCKED_IDS = new Set([
-    'ncnFrh2rdpY', // Tim Ferriss Ketosis (User requested removal)
+    '7ndW5kb7HsA', // Be Still (Slice)
+    'y36uEmFz2Ys', // Sleep Drug (Slice)
+    'qSUqZtipYf0', // Half-ass your dreams (Slice)
 ]);
 
 // Helper to extract video ID from YouTube URL
