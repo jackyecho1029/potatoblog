@@ -1,10 +1,10 @@
 ---
 title: "为什么你越忙碌，内心反而越焦虑？禅宗大师揭示的“无为”技术。"
 original_title: "Be Still — Guided Meditation with Zen Master Henry Shukman"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "健康生活"
 date: "2026-01-05"
-tags: ["健康生活", "timferriss"]
+tags: ["健康生活", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=7ndW5kb7HsA"
 thumbnail: "https://img.youtube.com/vi/7ndW5kb7HsA/maxresdefault.jpg"
 ---

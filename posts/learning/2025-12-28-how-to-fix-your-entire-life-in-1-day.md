@@ -1,10 +1,10 @@
 ---
 title: "你的人生卡住了吗？启动变革，只需要24小时的残酷诚实。"
 original_title: "How to fix your entire life in 1 day"
-author: "DanKoeTalks"
+author: "Dan Koe"
 category: "思维成长"
 date: "2025-12-28"
-tags: ["思维成长", "DanKoeTalks"]
+tags: ["思维成长", "Dan Koe"]
 source_url: "https://www.youtube.com/watch?v=K8K09g9XR4s"
 thumbnail: "https://img.youtube.com/vi/K8K09g9XR4s/maxresdefault.jpg"
 ---

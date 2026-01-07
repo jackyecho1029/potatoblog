@@ -1,10 +1,10 @@
 ---
 title: "为什么你必须停止取悦所有人，只为自己而活？"
 original_title: "This one&#39;s for me."
-author: "b.cormier"
+author: "Brooke Cormier"
 category: "思维成长"
 date: "2025-11-07"
-tags: ["思维成长", "b.cormier"]
+tags: ["思维成长", "Brooke Cormier"]
 source_url: "https://www.youtube.com/watch?v=FlpiCfHkokI"
 thumbnail: "https://img.youtube.com/vi/FlpiCfHkokI/maxresdefault.jpg"
 ---

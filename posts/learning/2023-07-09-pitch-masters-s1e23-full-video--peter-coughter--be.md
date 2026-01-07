@@ -1,10 +1,10 @@
 ---
 title: "伟大的提案，为什么总是反常识的简单？"
 original_title: "PITCH MASTERS S1E23 FULL VIDEO: Peter Coughter, bestselling author of The Art of the Pitch"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "商业创业"
 date: "2023-07-09"
-tags: ["商业创业", "danielpinktv"]
+tags: ["商业创业", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=76YHm674OLk"
 thumbnail: "https://img.youtube.com/vi/76YHm674OLk/maxresdefault.jpg"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "AI未来学家如何在一分钟内，让投资人相信你的万亿级梦想？"
 original_title: "PITCH MASTERS S2E02: Chris Hay, AI Technologist &amp; Futurist"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "商业创业"
 date: "2025-06-22"
-tags: ["商业创业", "danielpinktv"]
+tags: ["商业创业", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=il4V23X09bE"
 thumbnail: "https://img.youtube.com/vi/il4V23X09bE/maxresdefault.jpg"
 ---

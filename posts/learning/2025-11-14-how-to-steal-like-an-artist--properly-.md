@@ -1,10 +1,10 @@
 ---
 title: "创作的终极秘籍：如何优雅地“盗窃”灵感并实现真正原创？"
 original_title: "How to Steal Like An Artist (Properly)"
-author: "b.cormier"
+author: "Brooke Cormier"
 category: "创意艺术"
 date: "2025-11-14"
-tags: ["创意艺术", "b.cormier"]
+tags: ["创意艺术", "Brooke Cormier"]
 source_url: "https://www.youtube.com/watch?v=JrWQiG6U5UA"
 thumbnail: "https://img.youtube.com/vi/JrWQiG6U5UA/maxresdefault.jpg"
 ---

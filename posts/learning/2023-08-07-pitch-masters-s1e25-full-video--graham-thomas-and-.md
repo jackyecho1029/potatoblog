@@ -1,10 +1,10 @@
 ---
 title: "为什么你的“好点子”总是被否决？掌握最高效的商业说服术"
 original_title: "PITCH MASTERS S1E25 FULL VIDEO: Graham Thomas and the pitch for British Rail"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "商业创业"
 date: "2023-08-07"
-tags: ["商业创业", "danielpinktv"]
+tags: ["商业创业", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=KdqjQNeHIOo"
 thumbnail: "https://img.youtube.com/vi/KdqjQNeHIOo/maxresdefault.jpg"
 ---

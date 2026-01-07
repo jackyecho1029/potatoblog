@@ -1,10 +1,10 @@
 ---
 title: "为什么你的好点子，总被世界忽略？"
 original_title: "PITCH MASTERS S2E03 FULL VIDEO: Julian Treasure, Listening Expert and TED Talk Legend"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "职场效率"
 date: "2025-08-06"
-tags: ["职场效率", "danielpinktv"]
+tags: ["职场效率", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=BroEzwCEFsk"
 thumbnail: "https://img.youtube.com/vi/BroEzwCEFsk/maxresdefault.jpg"
 ---

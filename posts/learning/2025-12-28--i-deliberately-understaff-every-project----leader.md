@@ -1,10 +1,10 @@
 ---
 title: "高增长的秘密：为什么顶尖CEO故意让团队“人手不足”？"
 original_title: "“I deliberately understaff every project” | Leadership lessons from Rippling’s $16B journey"
-author: "LennysPodcast"
+author: "Lenny's Podcast"
 category: "商业创业"
 date: "2025-12-28"
-tags: ["商业创业", "LennysPodcast"]
+tags: ["商业创业", "Lenny's Podcast"]
 source_url: "https://www.youtube.com/watch?v=O_W76LR77Vw"
 thumbnail: "https://img.youtube.com/vi/O_W76LR77Vw/maxresdefault.jpg"
 ---

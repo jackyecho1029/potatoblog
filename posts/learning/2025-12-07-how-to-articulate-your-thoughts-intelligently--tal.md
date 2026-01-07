@@ -1,10 +1,10 @@
 ---
 title: "为什么有些人一开口，就展现出顶级思维能力？"
 original_title: "How To Articulate Your Thoughts Intelligently (Talk Like This)"
-author: "DanKoeTalks"
+author: "Dan Koe"
 category: "思维成长"
 date: "2025-12-07"
-tags: ["思维成长", "DanKoeTalks"]
+tags: ["思维成长", "Dan Koe"]
 source_url: "https://www.youtube.com/watch?v=DKT6m_8vCkA"
 thumbnail: "https://img.youtube.com/vi/DKT6m_8vCkA/maxresdefault.jpg"
 ---

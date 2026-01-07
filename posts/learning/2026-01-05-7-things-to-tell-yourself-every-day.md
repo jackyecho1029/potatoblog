@@ -1,10 +1,10 @@
 ---
 title: "每天对自己说这7句话，改变你的人生轨迹"
 original_title: "7 Things to Tell Yourself Every Day"
-author: "melrobbins"
+author: "Mel Robbins"
 category: "个人成长"
 date: "2026-01-05"
-tags: ["个人成长", "melrobbins"]
+tags: ["个人成长", "Mel Robbins"]
 source_url: "https://www.youtube.com/watch?v=-UYbtU-wRvU"
 thumbnail: "https://img.youtube.com/vi/-UYbtU-wRvU/maxresdefault.jpg"
 ---

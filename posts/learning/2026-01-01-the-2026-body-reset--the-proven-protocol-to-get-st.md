@@ -1,10 +1,10 @@
 ---
 title: "为什么你的\"健身新年愿望\"年年落空？2026身体重启的终极协议。"
 original_title: "The 2026 Body Reset: The Proven Protocol to Get Stronger, Lose Fat, &amp; Take Control of Your Health"
-author: "melrobbins"
+author: "Mel Robbins"
 category: "健康生活"
 date: "2026-01-01"
-tags: ["健康生活", "melrobbins"]
+tags: ["健康生活", "Mel Robbins"]
 source_url: "https://www.youtube.com/watch?v=JnFWrAA2oxM"
 thumbnail: "https://img.youtube.com/vi/JnFWrAA2oxM/maxresdefault.jpg"
 ---

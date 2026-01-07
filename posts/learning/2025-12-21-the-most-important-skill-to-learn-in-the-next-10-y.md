@@ -1,10 +1,10 @@
 ---
 title: "为什么内容爆炸时代，你拥有的“技能”却越来越不值钱？"
 original_title: "The Most Important Skill To Learn In The Next 10 Years"
-author: "DanKoeTalks"
+author: "Dan Koe"
 category: "商业创业"
 date: "2025-12-21"
-tags: ["商业创业", "DanKoeTalks"]
+tags: ["商业创业", "Dan Koe"]
 source_url: "https://www.youtube.com/watch?v=0XI_Xt0ci2Y"
 thumbnail: "https://img.youtube.com/vi/0XI_Xt0ci2Y/maxresdefault.jpg"
 ---

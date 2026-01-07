@@ -1,10 +1,10 @@
 ---
 title: "如何像摇滚巨星一样，在极限压力下保持创造力火花？"
 original_title: "Rock and Roll Hall of Famer Stewart Copeland — Fear{less} with Tim Ferriss"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "创意艺术"
 date: "2022-03-18"
-tags: ["创意艺术", "timferriss"]
+tags: ["创意艺术", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=qvVCc01dm_c"
 thumbnail: "https://img.youtube.com/vi/qvVCc01dm_c/maxresdefault.jpg"
 ---

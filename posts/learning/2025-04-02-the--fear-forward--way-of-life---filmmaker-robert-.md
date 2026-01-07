@@ -1,10 +1,10 @@
 ---
 title: "恐惧不是刹车，而是涡轮增压器：好莱坞大师的\"恐惧驱动\"哲学"
 original_title: "The “Fear-Forward” Way of Life — Filmmaker Robert Rodriguez"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "思维成长"
 date: "2025-04-02"
-tags: ["思维成长", "timferriss"]
+tags: ["思维成长", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=fbPEvPERqpE"
 thumbnail: "https://img.youtube.com/vi/fbPEvPERqpE/maxresdefault.jpg"
 ---

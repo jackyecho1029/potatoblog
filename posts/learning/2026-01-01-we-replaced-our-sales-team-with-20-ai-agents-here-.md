@@ -1,10 +1,10 @@
 ---
 title: "AI替代20名销售员的真相：你的SaaS公司正走向效率天堂，还是关系地狱？"
 original_title: "We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin (SaaStr)"
-author: "LennysPodcast"
+author: "Lenny's Podcast"
 category: "商业创业"
 date: "2026-01-01"
-tags: ["商业创业", "LennysPodcast"]
+tags: ["商业创业", "Lenny's Podcast"]
 source_url: "https://www.youtube.com/watch?v=I-R1bc1rlFs"
 thumbnail: "https://img.youtube.com/vi/I-R1bc1rlFs/maxresdefault.jpg"
 ---

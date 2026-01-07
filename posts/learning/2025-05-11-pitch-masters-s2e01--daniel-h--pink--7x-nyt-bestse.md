@@ -1,10 +1,10 @@
 ---
 title: "掌握说服的艺术：揭秘丹尼尔·平克的必胜沟通法"
 original_title: "PITCH MASTERS S2E01: Daniel H. Pink, 7x NYT bestselling author"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "商业创业"
 date: "2025-05-11"
-tags: ["商业创业", "danielpinktv"]
+tags: ["商业创业", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=ZhwAmlg8OPA"
 thumbnail: "https://img.youtube.com/vi/ZhwAmlg8OPA/maxresdefault.jpg"
 ---

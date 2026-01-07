@@ -1,10 +1,10 @@
 ---
 title: "为什么你付出了99%的努力，最终仍然会颗粒无收？"
 original_title: "Don&#39;t Half-Ass Your Dreams — Bill Gurley"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "商业创业"
 date: "2025-12-30"
-tags: ["商业创业", "timferriss"]
+tags: ["商业创业", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=qSUqZtipYf0"
 thumbnail: "https://img.youtube.com/vi/qSUqZtipYf0/maxresdefault.jpg"
 ---

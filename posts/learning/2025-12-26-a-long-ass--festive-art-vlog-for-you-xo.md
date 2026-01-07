@@ -1,10 +1,10 @@
 ---
 title: "为什么冗长的“无用”Vlog，才是打造超级粉丝的秘密武器？"
 original_title: "A Long-Ass, Festive Art Vlog For You xo"
-author: "b.cormier"
+author: "Brooke Cormier"
 category: "创意艺术"
 date: "2025-12-26"
-tags: ["创意艺术", "b.cormier"]
+tags: ["创意艺术", "Brooke Cormier"]
 source_url: "https://www.youtube.com/watch?v=5hDpvWF5zYU"
 thumbnail: "https://img.youtube.com/vi/5hDpvWF5zYU/maxresdefault.jpg"
 ---

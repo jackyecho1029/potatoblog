@@ -1,10 +1,10 @@
 ---
 title: "AI侵入艺术圈：为什么说这不再是“是否可以”的问题，而是“如何生存”的命题？"
 original_title: "Is it ok for artists to use AI??"
-author: "b.cormier"
+author: "Brooke Cormier"
 category: "创意艺术"
 date: "2025-12-12"
-tags: ["创意艺术", "b.cormier"]
+tags: ["创意艺术", "Brooke Cormier"]
 source_url: "https://www.youtube.com/watch?v=nXSYXk5QEsM"
 thumbnail: "https://img.youtube.com/vi/nXSYXk5QEsM/maxresdefault.jpg"
 ---

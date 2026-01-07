@@ -1,10 +1,10 @@
 ---
 title: "顶级投资人偷学MrBeast的“无限增长”秘诀"
 original_title: "What Legendary Investor Bill Gurley Learned from MrBeast About Building a Successful Career"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "商业创业"
 date: "2026-01-04"
-tags: ["商业创业", "timferriss"]
+tags: ["商业创业", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=qLCUN_R5l28"
 thumbnail: "https://img.youtube.com/vi/qLCUN_R5l28/maxresdefault.jpg"
 ---

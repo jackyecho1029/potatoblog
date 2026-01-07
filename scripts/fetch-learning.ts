@@ -428,7 +428,9 @@ async function fetchLatestVideos() {
                 console.log("   Summarizing with Gemini...");
                 const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
 
-                const authorName = handle.replace('@', '');
+                // Use the official channel title instead of the handle for display
+                const authorName = video.snippet?.channelTitle || handle.replace('@', '');
+
                 const fileContent = `---
 title: "${hookTitle.replace(/"/g, '\\"')}"
 original_title: "${title.replace(/"/g, '\\"')}"

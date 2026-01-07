@@ -1,10 +1,10 @@
 ---
 title: "你不是在卖产品，而是在卖框架：如何让对方主动求你成交？"
 original_title: "PITCH MASTERS S1E24 FULL VIDEO: Oren Klaff, bestselling author of Pitch Anything"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "商业创业"
 date: "2023-07-23"
-tags: ["商业创业", "danielpinktv"]
+tags: ["商业创业", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=lAXlPyYSpZs"
 thumbnail: "https://img.youtube.com/vi/lAXlPyYSpZs/maxresdefault.jpg"
 ---

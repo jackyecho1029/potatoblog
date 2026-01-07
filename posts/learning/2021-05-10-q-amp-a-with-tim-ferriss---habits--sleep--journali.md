@@ -1,10 +1,10 @@
 ---
 title: "为什么90%的人无法持续高能？答案藏在你的生物数据里。"
 original_title: "Q&amp;A with Tim Ferriss — Habits, Sleep, Journaling, Psychedelics, HRV Training, and More"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "健康生活"
 date: "2021-05-10"
-tags: ["健康生活", "timferriss"]
+tags: ["健康生活", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=CfnZOu-T-TE"
 thumbnail: "https://img.youtube.com/vi/CfnZOu-T-TE/maxresdefault.jpg"
 ---

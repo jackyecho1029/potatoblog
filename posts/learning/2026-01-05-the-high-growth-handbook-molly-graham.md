@@ -1,10 +1,10 @@
 ---
 title: "高速增长公司的管理秘籍：Molly Graham 的混乱领导力框架"
 original_title: "The high-growth handbook: Molly Graham's frameworks for leading through chaos, change, and scale"
-author: "LennysPodcast"
+author: "Lenny's Podcast"
 category: "商业创业"
 date: "2026-01-05"
-tags: ["商业创业", "LennysPodcast"]
+tags: ["商业创业", "Lenny's Podcast"]
 source_url: "https://www.youtube.com/watch?v=twzLDx9iers"
 thumbnail: "https://img.youtube.com/vi/twzLDx9iers/maxresdefault.jpg"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "掌控15秒的权力：CEO教练揭示顶级沟通的金字塔秘诀。"
 original_title: "PITCH MASTERS S2E04: Oliver Aust, CEO Coach, TEDx speaker, ex-easyJet Chief Communicator"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "职场效率"
 date: "2025-10-26"
-tags: ["职场效率", "danielpinktv"]
+tags: ["职场效率", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=W9u-0tTvBh4"
 thumbnail: "https://img.youtube.com/vi/W9u-0tTvBh4/maxresdefault.jpg"
 ---

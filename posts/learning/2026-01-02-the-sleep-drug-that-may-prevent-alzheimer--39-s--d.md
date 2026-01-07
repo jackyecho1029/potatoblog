@@ -1,10 +1,10 @@
 ---
 title: "你的睡眠，是阿兹海默症的解药？"
 original_title: "The Sleep Drug That May Prevent Alzheimer&#39;s (DORAs Explained)"
-author: "timferriss"
+author: "Tim Ferriss"
 category: "健康生活"
 date: "2026-01-02"
-tags: ["健康生活", "timferriss"]
+tags: ["健康生活", "Tim Ferriss"]
 source_url: "https://www.youtube.com/watch?v=y36uEmFz2Ys"
 thumbnail: "https://img.youtube.com/vi/y36uEmFz2Ys/maxresdefault.jpg"
 ---

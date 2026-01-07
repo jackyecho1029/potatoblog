@@ -1,10 +1,10 @@
 ---
 title: "AI时代：人类保持优势的三个黄金法则"
 original_title: "What skills I would learn in the age of AI"
-author: "DanKoeTalks"
+author: "Dan Koe"
 category: "思维成长"
 date: "2025-12-31"
-tags: ["思维成长", "DanKoeTalks"]
+tags: ["思维成长", "Dan Koe"]
 source_url: "https://www.youtube.com/watch?v=vkSqeH5bsTM"
 thumbnail: "https://img.youtube.com/vi/vkSqeH5bsTM/maxresdefault.jpg"
 ---

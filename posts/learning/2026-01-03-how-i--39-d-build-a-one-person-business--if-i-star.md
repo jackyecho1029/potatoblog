@@ -1,10 +1,10 @@
 ---
 title: "2026年，打造一人高收入事业的终极路线图"
 original_title: "How I&#39;d build a one-person business (if I started over in 2026)"
-author: "DanKoeTalks"
+author: "Dan Koe"
 category: "商业创业"
 date: "2026-01-03"
-tags: ["商业创业", "DanKoeTalks"]
+tags: ["商业创业", "Dan Koe"]
 source_url: "https://www.youtube.com/watch?v=VyR8nqD3sQ8"
 thumbnail: "https://img.youtube.com/vi/VyR8nqD3sQ8/maxresdefault.jpg"
 ---

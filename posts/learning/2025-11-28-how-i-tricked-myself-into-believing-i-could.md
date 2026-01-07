@@ -1,10 +1,10 @@
 ---
 title: "成功者如何“欺骗”自己迈出第一步？"
 original_title: "How I Tricked Myself Into Believing I Could"
-author: "b.cormier"
+author: "Brooke Cormier"
 category: "思维成长"
 date: "2025-11-28"
-tags: ["思维成长", "b.cormier"]
+tags: ["思维成长", "Brooke Cormier"]
 source_url: "https://www.youtube.com/watch?v=_nfMSscxBhQ"
 thumbnail: "https://img.youtube.com/vi/_nfMSscxBhQ/maxresdefault.jpg"
 ---

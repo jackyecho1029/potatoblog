@@ -1,10 +1,10 @@
 ---
 title: "为什么你的完美提案，总是在最后一刻被否决？"
 original_title: "S1E22 FULL VIDEO EPISODE: Hilary Salzman, the Business Storyteller on Pitch Masters"
-author: "danielpinktv"
+author: "Daniel Pink"
 category: "商业创业"
 date: "2023-06-25"
-tags: ["商业创业", "danielpinktv"]
+tags: ["商业创业", "Daniel Pink"]
 source_url: "https://www.youtube.com/watch?v=tiI2g4poLvo"
 thumbnail: "https://img.youtube.com/vi/tiI2g4poLvo/maxresdefault.jpg"
 ---
