@@ -37,14 +37,14 @@ export default function WritingAnalysis() {
                         文案风格<span className="text-amber-700">深度拆解</span>
                     </h1>
                     <p className="text-lg text-zinc-600 max-w-2xl mx-auto leading-relaxed">
-                        基于 Gemini 2.0 模型，对数十位顶级微信公众号作者进行的全量风格分析。
+                        基于 Gemini 3 模型，对数十位顶级微信公众号作者进行的全量风格分析。
                         <br />
                         揭秘他们的<span className="font-bold text-zinc-800">用户画像、写作套路与金句逻辑</span>。
                     </p>
                 </section>
 
                 {reports.length > 0 ? (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {reports.map(file => {
                             const name = file.replace(/_/g, ' ').replace('.html', '');
                             // Use encodeURIComponent to handle Chinese characters in URLs
