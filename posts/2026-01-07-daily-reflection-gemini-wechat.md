@@ -1,6 +1,6 @@
 ---
 title: "一人公司日记：深度对话，从 AI 幻觉到全知视角"
-date: "2026-01-08"
+date: "2026-01-07"
 author: Jacky
 tags: ["一人公司", "Building in Public", "AI工具", "微信分析"]
 ---
