@@ -278,6 +278,32 @@ ${linkedSummary}`;
     }
 }
 
+const BLOCKED_IDS = new Set([
+    'ncnFrh2rdpY', // Tim Ferriss Ketosis (User requested removal)
+]);
+
+// Helper to extract video ID from YouTube URL
+function extractVideoId(url: string): string | null {
+    const match = url.match(/[?&]v=([^&]+)/);
+    return match ? match[1] : null;
+}
+
+// Helper to get all existing video IDs from posts directory
+function getExistingVideoIds(postsDir: string): Set<string> {
+    const existingIds = new Set<string>();
+    if (!fs.existsSync(postsDir)) return existingIds;
+
+    const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'));
+    for (const file of files) {
+        const content = fs.readFileSync(path.join(postsDir, file), 'utf-8');
+        const match = content.match(/source_url: "https:\/\/www\.youtube\.com\/watch\?v=([^"]+)"/);
+        if (match && match[1]) {
+            existingIds.add(match[1]);
+        }
+    }
+    return existingIds;
+}
+
 async function fetchLatestVideos() {
     // Check if a specific URL is provided as argument
     const specificUrl = process.argv[2];
@@ -299,6 +325,10 @@ async function fetchLatestVideos() {
     if (!fs.existsSync(postsDir)) {
         fs.mkdirSync(postsDir, { recursive: true });
     }
+
+    // Build index of existing videos
+    const existingIds = getExistingVideoIds(postsDir);
+    console.log(`📚 Found ${existingIds.size} existing videos in library.`);
 
     for (const handle of CHANNELS) {
         const channelId = await getChannelId(handle);
@@ -322,13 +352,25 @@ async function fetchLatestVideos() {
             const videoId = video.id.videoId;
             const title = video.snippet?.title || 'Unknown Title';
 
+            // 1. Check strict duplicates via ID
+            if (existingIds.has(videoId)) {
+                console.log(`Skipping already processed (ID match): ${title}`);
+                continue;
+            }
+
+            // 2. Check Blocklist
+            if (BLOCKED_IDS.has(videoId)) {
+                console.log(`Skipping blocked video: ${title}`);
+                continue;
+            }
+
             // Skip YouTube Shorts
             if (title.toLowerCase().includes('#shorts') || title.toLowerCase().includes('shorts')) {
                 console.log(`Skipping Shorts: ${title}`);
                 continue;
             }
 
-            // Get video duration to filter out short clips (<5 min)
+            // Get video duration to filter out short clips (<15 min)
             try {
                 const videoDetails = await youtube.videos.list({
                     key: YOUTUBE_API_KEY,
@@ -346,9 +388,15 @@ async function fetchLatestVideos() {
                         const seconds = parseInt(match[3] || '0');
                         const totalMinutes = hours * 60 + minutes + seconds / 60;
 
-                        // Skip videos shorter than 5 minutes
-                        if (totalMinutes < 5) {
-                            console.log(`Skipping short video (${Math.round(totalMinutes)}min): ${title}`);
+                        // Dynamic duration threshold based on channel
+                        let minDuration = 20; // Default increased to 20 mins to avoid long clips
+                        if (handle.includes('timferriss')) {
+                            minDuration = 45; // Tim Ferriss episodes are long, 45m ensures no clips/slices
+                        }
+
+                        // Skip videos shorter than threshold
+                        if (totalMinutes < minDuration) {
+                            console.log(`Skipping short video (${Math.round(totalMinutes)}min < ${minDuration}m): ${title}`);
                             continue;
                         }
                     }
@@ -363,7 +411,7 @@ async function fetchLatestVideos() {
             const filePath = path.join(postsDir, filename);
 
             if (fs.existsSync(filePath)) {
-                console.log(`Skipping already processed: ${title}`);
+                console.log(`Skipping already processed (File match): ${title}`);
                 continue;
             }
 
@@ -400,6 +448,7 @@ ${summary}
 
                 fs.writeFileSync(filePath, fileContent);
                 console.log(`✅ Saved: ${filename}`);
+                existingIds.add(videoId); // Add to set to prevent duplicate in same run
 
             } catch (err) {
                 console.error(`   Failed to process ${title}: No transcript or error.`);
