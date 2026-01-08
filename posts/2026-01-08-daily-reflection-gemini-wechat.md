@@ -41,6 +41,9 @@ tags: ["一人公司", "Building in Public", "AI工具", "微信分析", "Sound 
 
 **Connecting the Dots**：今天通过对比 Gemini 3 Flash 和普通版，我意识到同一个模型在不同场景（Antigravity vs web）下的限制是不同的，只有多体验才能摸清边界。既然我有这么多散落的"亮点"（dots），接下来的目标就是像 Steve Jobs 说的那样，**把这些点连成线**，让知识产生复利，而不是零散的存在。
 
+**Vibe Coding**：今天最令人惊喜的时刻，莫过于直接用语音甚至“感觉”来写代码。无需再逐字敲击，想到哪里说哪里，Antigravity 就能把它实现。这种体验让我觉得，编程终于不再是枯燥的逻辑堆砌，而是一种流动的、充满“Vibe”的创作。我希望能把这种自由的感觉传递给更多人。
+
+
 
 ---
 
@@ -58,7 +61,7 @@ tags: ["一人公司", "Building in Public", "AI工具", "微信分析", "Sound 
 
 ---
 
-**今日关键词**：Gemini 3、全量分析、 Puppeteer 长图、审美力、Audio Input、Connecting Dots
+**今日关键词**：Gemini 3、全量分析、 Puppeteer 长图、审美力、Audio Input、Connecting Dots、Vibe Coding
 
 **今日工作时长**：约 5 小时（通宵达旦）
 
