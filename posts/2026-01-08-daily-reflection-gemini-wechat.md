@@ -1,8 +1,8 @@
 ---
-title: "一人公司日记：深度对话，从 AI 幻觉到全知视角"
+title: "一人公司日记：深度对话与听觉交互 (Gemini 3 + Sound Studio)"
 date: "2026-01-08"
 author: Jacky
-tags: ["一人公司", "Building in Public", "AI工具", "微信分析"]
+tags: ["一人公司", "Building in Public", "AI工具", "微信分析", "Sound Studio", "Web Audio API"]
 ---
 
 ## 见（我发现）
@@ -16,6 +16,8 @@ tags: ["一人公司", "Building in Public", "AI工具", "微信分析"]
 **Gemini 3 的进化**：为了解决分析不够深刻的问题，我决定把底层模型全线升级到 Google 最新的 `gemini-3-flash-preview`。
 
 **最后一公里**：群友们反馈 HTML 文件手机看太麻烦。我意识到，在这个"读图时代"，如果不能生成一张直观的长图，那这个工具的传播力就大打折扣。于是引入了 `puppeteer` 来做自动化截图。
+
+**交互的缺失**：在测试 Sound Studio 时，我发现目前的体验是单向的（用户听）。如果能让用户的声音也进入这個"陶瓷窑"，让视觉波纹随人声颤动，沉浸感会倍增。
 
 ---
 
@@ -49,9 +51,11 @@ tags: ["一人公司", "Building in Public", "AI工具", "微信分析"]
 
 4. **开源分享**：整理好 `task.md` 和 `walkthrough.md`，记录下这次升级的全过程，作为技术沉淀。
 
+5. **Sound Studio 升级**：晚间快速迭代了 Sound Studio，新增了音频输入设备选择功能，并实现了基于麦克风输入的实时波纹可视化，让产品从"自言自语"进化为"倾听者"。
+
 ---
 
-**今日关键词**：Gemini 3、全量分析、 Puppeteer 长图、审美力
+**今日关键词**：Gemini 3、全量分析、 Puppeteer 长图、审美力、Audio Input
 
 **今日工作时长**：约 5 小时（通宵达旦）
 
