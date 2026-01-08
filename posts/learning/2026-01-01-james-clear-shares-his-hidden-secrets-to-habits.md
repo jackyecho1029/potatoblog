@@ -1,8 +1,8 @@
 ---
 title: "为什么努力往往徒劳？揭开决定你人生的“底层操作系统”"
 original_title: "James Clear Shares His Hidden Secrets to Habits"
-author: "The Knowledge Project Podcast"
-category: "思维成长"
+author: "James Clear"
+category: "James Clear"
 date: "2026-01-01"
 tags: ["思维成长", "The Knowledge Project Podcast"]
 source_url: "https://www.youtube.com/watch?v=zChiVdbSp5M"

@@ -1,8 +1,8 @@
 ---
 title: "为什么你的意志力总是不够用？揭秘彻底重塑自我的“1%法则”"
 original_title: "Best Ways to Build Better Habits & Break Bad Ones | James Clear"
-author: "Andrew Huberman"
-category: "思维成长"
+author: "James Clear"
+category: "James Clear"
 date: "2026-01-05"
 tags: ["思维成长", "Andrew Huberman"]
 source_url: "https://www.youtube.com/watch?v=bdsc3Spm6Sw"
