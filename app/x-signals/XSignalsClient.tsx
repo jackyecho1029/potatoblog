@@ -38,8 +38,8 @@ export default function XSignalsClient({ posts }: XSignalsClientProps) {
                 />
 
                 {/* X Signals Table View */}
-                <div className="overflow-x-auto mt-8">
-                    <table className="w-full text-left border-collapse">
+                <div className="mt-8">
+                    <table className="w-full text-left border-collapse table-fixed">
                         <thead>
                             <tr className="text-xs text-gray-400 border-b border-gray-200 font-medium tracking-wider uppercase">
                                 <th className="py-4 w-32 font-normal">Date</th>
@@ -54,8 +54,13 @@ export default function XSignalsClient({ posts }: XSignalsClientProps) {
                                     </td>
                                     <td className="py-6 align-top">
                                         <Link href={`/x-signals/${post.id}`} className="block group-hover:translate-x-1 transition-transform duration-200">
-                                            <div className="text-xl font-bold text-zinc-900 mb-3 group-hover:text-amber-600">
-                                                {post.title_best || post.title}
+                                            <div className="flex items-center gap-2 mb-3">
+                                                <span className="text-xl font-bold text-zinc-900 group-hover:text-amber-600">
+                                                    {post.title_best || post.title}
+                                                </span>
+                                                <span className="opacity-0 group-hover:opacity-100 transition-opacity text-amber-600 text-sm font-medium">
+                                                    Read →
+                                                </span>
                                             </div>
                                             {post.anchor_thought && (
                                                 <div className="text-gray-600 font-serif italic text-base leading-relaxed pl-4 border-l-2 border-amber-300">
