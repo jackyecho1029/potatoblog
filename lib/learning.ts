@@ -17,6 +17,8 @@ export interface LearningPostData {
     source_url?: string;
     thumbnail?: string;
     contentHtml?: string;
+    title_best?: string;
+    anchor_thought?: string;
 }
 
 export function getSortedLearningPostsData(): LearningPostData[] {
@@ -40,7 +42,16 @@ export function getSortedLearningPostsData(): LearningPostData[] {
         // Combine the data with the id
         return {
             id,
-            ...matterResult.data as { title: string; date: string; tags?: string[], source_url?: string, thumbnail?: string, original_title?: string },
+            ...matterResult.data as {
+                title: string;
+                date: string;
+                tags?: string[];
+                source_url?: string;
+                thumbnail?: string;
+                original_title?: string;
+                title_best?: string;
+                anchor_thought?: string;
+            },
         };
     });
     // Sort posts by date

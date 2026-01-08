@@ -1,8 +1,9 @@
----
 title: "Daily X Signals: 2026-01-08"
 date: "2026-01-08"
-category: "Signals"
+category: "X Signal"
 tags: ["X", "Daily", "AI", "Marketing", "Wealth", "Mental Models"]
+title_best: "AI's Penicillin Moment"
+anchor_thought: "The definition of 'Zero-to-One' is changing. It's no longer about building the product, but about orchestrating the intelligence that builds it."
 ---
 
 # 📡 Daily X Signals (2026-01-08)
