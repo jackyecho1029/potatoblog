@@ -20,6 +20,8 @@ export interface LearningPostData {
     contentHtml?: string;
     title_best?: string;
     anchor_thought?: string;
+    private?: boolean;
+    password?: string;
 }
 
 export function getSortedLearningPostsData(): LearningPostData[] {
@@ -52,6 +54,8 @@ export function getSortedLearningPostsData(): LearningPostData[] {
                 original_title?: string;
                 title_best?: string;
                 anchor_thought?: string;
+                private?: boolean;
+                password?: string;
             },
         };
     });

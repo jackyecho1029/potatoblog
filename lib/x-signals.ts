@@ -16,6 +16,8 @@ export interface XSignalPostData {
     title_best?: string;
     anchor_thought?: string;
     contentHtml?: string;
+    private?: boolean;
+    password?: string;
 }
 
 export function getSortedXSignalPostsData(): XSignalPostData[] {
@@ -45,6 +47,8 @@ export function getSortedXSignalPostsData(): XSignalPostData[] {
                 tags?: string[];
                 title_best?: string;
                 anchor_thought?: string;
+                private?: boolean;
+                password?: string;
             },
         };
     });

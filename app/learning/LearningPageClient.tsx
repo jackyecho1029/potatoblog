@@ -19,10 +19,12 @@ export default function LearningPageClient({ posts }: LearningPageClientProps) {
         setFilteredPosts(filtered);
     }, []);
 
-    // Filter logic based on tab
+    // Filter logic based on tab and privacy
     const displayPosts = filteredPosts.filter(post => {
+        // Hide private posts from list
+        if (post.private) return false;
         if (activeTab === 'signal') return post.category === 'X Signal';
-        return post.category !== 'X Signal'; // Default 'all' hides signals for now to keep them separate? Or show all? User said "New Column", implying separation. Let's separate.
+        return post.category !== 'X Signal';
     });
 
     return (

@@ -1,6 +1,7 @@
 import { getLearningPostData, getSortedLearningPostsData } from "../../../lib/learning";
 import Header from "../../components/Header";
 import GiscusComments from "../../components/GiscusComments";
+import PasswordProtection from "../../components/PasswordProtection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -18,7 +19,7 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
     try {
         const postData = await getLearningPostData(id);
 
-        return (
+        const content = (
             <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
                 <main className="max-w-2xl mx-auto px-6 py-20">
                     <Header />
@@ -79,6 +80,17 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                 </main>
             </div>
         );
+
+        // If post is private and has password, wrap with protection
+        if (postData.private && postData.password) {
+            return (
+                <PasswordProtection postId={id} correctPassword={postData.password}>
+                    {content}
+                </PasswordProtection>
+            );
+        }
+
+        return content;
     } catch {
         notFound();
     }
