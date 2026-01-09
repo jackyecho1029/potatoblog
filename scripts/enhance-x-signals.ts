@@ -53,6 +53,53 @@ async function generatePromptsForViewpoints(viewpoints: string[]): Promise<strin
     return prompts;
 }
 
+// NEW: Simplify jargon-heavy content for AI beginners
+async function simplifyContent(originalText: string): Promise<string> {
+    console.log(`   Simplifying content for beginners...`);
+
+    const styleGuide = `
+    你是一位专业的科技内容编辑，擅长把复杂的 AI 概念翻译成普通人能懂的语言。
+
+    ## 你的任务
+    将下面的文字改写成 AI 小白也能秒懂的版本。
+
+    ## 改写规则
+    1. **专业术语必须加"人话翻译"**
+       - 例如：LLM → "大语言模型（可以理解为一个读过整个互联网的超级读书人）"
+       - 例如：Agentic AI → "智能体（不只会回答问题，还能自己动手干活的 AI）"
+    2. **多用类比**
+       - 用"就像...一样"来解释抽象概念
+       - 例如：固态电池之于电池，就像抗生素之于医学——一种革命性突破
+    3. **保持核心意思不变**，只是让表达更通俗
+    4. **保留原有的 markdown 格式**（链接、加粗等）
+    5. **语气要亲切**，像朋友在聊天
+
+    ## 常见术语对照
+    - LLM → 大语言模型（超级读书人）
+    - Agentic → 智能体/代理式（能自己动手干活）
+    - Prompt → 提示词（跟AI说话的方式）
+    - Token → AI的阅读单位
+    - Fine-tuning → 专项培训
+    - API → 程序之间的沟通接口
+    - Open Source → 开源（免费公开的代码）
+
+    ## 原文
+    ${originalText}
+
+    ## 输出
+    直接输出改写后的文字，不要加任何解释或前缀。
+    `;
+
+    try {
+        const result = await textModel.generateContent(styleGuide);
+        const response = await result.response;
+        return response.text().trim();
+    } catch (e) {
+        console.error("Error simplifying content:", e);
+        return originalText; // Fallback to original
+    }
+}
+
 async function generateImage(prompt: string, outputPath: string) {
     if (!GEMINI_API_KEY) return;
 
@@ -102,6 +149,10 @@ async function processPost(filePath: string) {
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
+
+        // Skip lines marked as replaced
+        if (line === '___REPLACED___') continue;
+
         newContentLines.push(line);
 
         if (line.trim() === '**重要观点**' || line.trim() === '### 重要观点') {
@@ -113,9 +164,12 @@ async function processPost(filePath: string) {
 
             // Extract context for prompt (next ~5 non-empty lines)
             let context = "";
+            let contextStartIndex = i + 1;
+            let contextEndIndex = i + 1;
             for (let j = i + 1; j < Math.min(i + 10, lines.length); j++) {
                 if (lines[j].trim().startsWith('#') || lines[j].trim().startsWith('---')) break;
                 context += lines[j] + "\n";
+                contextEndIndex = j;
             }
             context = context.trim();
             if (!context) continue;
@@ -123,8 +177,18 @@ async function processPost(filePath: string) {
             viewpointIndex++;
             console.log(`   Found Viewpoint ${viewpointIndex}`);
 
+            // NEW: Simplify content for beginners
+            const simplifiedContext = await simplifyContent(context);
+
+            // Replace original lines with simplified version
+            const simplifiedLines = simplifiedContext.split('\n');
+            for (let k = contextStartIndex; k <= contextEndIndex; k++) {
+                // Mark as replaced (will be skipped in output)
+                lines[k] = '___REPLACED___';
+            }
+
             // Generate Prompt
-            const [prompt] = await generatePromptsForViewpoints([context]);
+            const [prompt] = await generatePromptsForViewpoints([simplifiedContext]);
             if (!prompt) continue;
 
             // Generate Image
@@ -137,9 +201,16 @@ async function processPost(filePath: string) {
             const success = await generateImage(prompt, fullPath);
 
             if (success) {
-                // Insert Image Markdown
-                const markdownImage = `\n![Viewpoint Visualization](/${publicRelPath.replace(/\\/g, '/')}/${filename})\n*${prompt.substring(0, 20)}...*\n`;
+                // Insert Image Markdown + Simplified Content
+                const markdownImage = `\n![Viewpoint Visualization](/${publicRelPath.replace(/\\/g, '/')}/${filename})\n`;
                 newContentLines.push(markdownImage);
+                newContentLines.push(...simplifiedLines);
+                newContentLines.push('');
+            } else {
+                // Fallback: just add simplified content without image
+                newContentLines.push('');
+                newContentLines.push(...simplifiedLines);
+                newContentLines.push('');
             }
         }
     }
