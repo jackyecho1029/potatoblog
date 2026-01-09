@@ -2,12 +2,13 @@
 import { getPostData } from '@/lib/posts';
 import Link from 'next/link';
 import GiscusComments from '@/app/components/GiscusComments';
+import PasswordProtection from '@/app/components/PasswordProtection';
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const postData = await getPostData(slug);
 
-    return (
+    const content = (
         <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
             <main className="max-w-2xl mx-auto px-6 py-20">
 
@@ -44,4 +45,15 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </main>
         </div>
     );
+
+    // If post is private and has password, wrap with protection
+    if (postData.private && postData.password) {
+        return (
+            <PasswordProtection postId={slug} correctPassword={postData.password}>
+                {content}
+            </PasswordProtection>
+        );
+    }
+
+    return content;
 }

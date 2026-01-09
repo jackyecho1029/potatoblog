@@ -14,6 +14,8 @@ export interface PostData {
     date: string;
     tags?: string[];
     contentHtml?: string;
+    private?: boolean;
+    password?: string;
 }
 
 export function getSortedPostsData(): PostData[] {
@@ -43,7 +45,7 @@ export function getSortedPostsData(): PostData[] {
         // Combine the data with the id
         return {
             id,
-            ...matterResult.data as { title: string; date: string; tags?: string[] },
+            ...matterResult.data as { title: string; date: string; tags?: string[]; private?: boolean; password?: string },
         };
     });
     // Sort posts by date
@@ -91,6 +93,6 @@ export async function getPostData(id: string): Promise<PostData> {
     return {
         id,
         contentHtml,
-        ...matterResult.data as { title: string; date: string; tags: string[] },
+        ...matterResult.data as { title: string; date: string; tags: string[]; private?: boolean; password?: string },
     };
 }
