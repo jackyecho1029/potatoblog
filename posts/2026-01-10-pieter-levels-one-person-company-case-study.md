@@ -185,6 +185,8 @@ Idea → Build → Launch → Grow → Monetize → Automate → Exit
 想法 → 构建 → 发布 → 增长 → 变现 → 自动化 → 退出（或循环）
 ```
 
+![独立开发者产品开发周期](/images/product-lifecycle-comic.png)
+
 | 阶段 | 核心原则 |
 |------|---------|
 | **Idea** | 从自己的问题出发，先做小众市场 |
