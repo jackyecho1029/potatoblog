@@ -6,7 +6,7 @@ category: "思维成长"
 date: "2025-12-31"
 tags: ["思维成长", "Dan Koe"]
 source_url: "https://www.youtube.com/watch?v=vkSqeH5bsTM"
-thumbnail: "https://img.youtube.com/vi/vkSqeH5bsTM/maxresdefault.jpg"
+thumbnail: "https://img.youtube.com/vi/vkSqeH5bsTM/hqdefault.jpg"
 ---
 
 ## 🎯 核心观点
