@@ -5,8 +5,6 @@ category: "Case Study"
 tags: ["Solo-preneur", "案例分析", "SaaS", "一人公司", "Indie Hacker"]
 ---
 
-# Ian Carroll: 一人公司年入 $8M 的极简启示录
-
 > "我不是为了创业而创业，我只是想解决自己的问题。" —— Ian Carroll
 
 ---
