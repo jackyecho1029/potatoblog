@@ -6,6 +6,8 @@ category: "一人公司"
 tags: ["一人公司", "Pieter Levels", "独立开发者", "Building in Public", "案例研究"]
 thumbnail: "https://img.youtube.com/vi/StkCdcZ1ovE/maxresdefault.jpg"
 source_url: "https://www.youtube.com/watch?v=StkCdcZ1ovE"
+private: true
+password: "TG2yNxca"
 ---
 
 > 「我不是程序员，我是一个学会了足够多代码来做产品的产品人。」—— Pieter Levels
