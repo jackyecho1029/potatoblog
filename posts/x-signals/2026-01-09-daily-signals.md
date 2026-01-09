@@ -23,6 +23,7 @@ anchor_thought: "在算力与算法的狂飙中，真正的胜负往往不在于
 **Potato's Take**
 
 **重要观点**
+
 AI 正在经历从“对话助手”到“高自主性智能体（Agentic）”的跃迁。无论是 Karpathy 提到的计算拨盘理论，还是 Andrew Ng 强推的 Claude Code 课程，都指向一个事实：未来的开发者不仅是写代码的人，更是定义任务流并管理算力的架构师。正如固态电池被视为电池界的抗生素 [Source](https://x.com/LinusEkenstam/status/2008576755087577359)，自主性 AI 就是软件界的蒸汽机。
 
 **行动建议**
@@ -41,6 +42,7 @@ AI 正在经历从“对话助手”到“高自主性智能体（Agentic）”�
 **Potato's Take**
 
 **重要观点**
+
 Naval 提到的“未来属于初创公司” [Source](https://x.com/StartupArchive_/status/2008221980412043516) 与 Levelsio 的单人 AI 公司赚取 300 万美元 [Source](https://x.com/levelsio/status/2007855491959902404) 异曲同工。随着 AI 赋予个人超越传统团队的生产力，组织形式正在崩解。现在的重点不再是“加入大厂”，而是“建立资产”。
 
 **行动建议**
@@ -58,6 +60,7 @@ Naval 提到的“未来属于初创公司” [Source](https://x.com/StartupArch
 **Potato's Take**
 
 **重要观点**
+
 品牌不再是单纯的 Logo，而是价值观的投射。Liquid Death 卖的不是水，是反叛精神；Tailwind 卖的不是代码，是效率信仰。
 
 **行动建议**
@@ -76,6 +79,7 @@ Naval 提到的“未来属于初创公司” [Source](https://x.com/StartupArch
 **Potato's Take**
 
 **重要观点**
+
 在生产力工具泛滥的今天，James Clear 提到的“剥离（Shedding）” [Source](https://x.com/JamesClear/status/2009395634437259691) 显得尤为珍贵。高效不是处理了多少事情，而是拒绝了多少干扰。
 
 **行动建议**
