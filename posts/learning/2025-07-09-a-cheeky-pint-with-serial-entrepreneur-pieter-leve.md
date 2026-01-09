@@ -1,10 +1,10 @@
 ---
 title: "一个人，如何撑起年入数百万美元的商业帝国？"
 original_title: "A Cheeky Pint with serial entrepreneur Pieter Levels (@levelsio)"
-author: "Stripe"
+author: "Pieter Levels"
 category: "商业创业"
 date: "2025-07-09"
-tags: ["商业创业", "Stripe"]
+tags: ["商业创业", "Pieter Levels"]
 source_url: "https://www.youtube.com/watch?v=StkCdcZ1ovE"
 thumbnail: "https://img.youtube.com/vi/StkCdcZ1ovE/maxresdefault.jpg"
 ---
