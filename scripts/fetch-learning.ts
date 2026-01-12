@@ -343,7 +343,8 @@ async function fetchLatestVideos() {
             channelId: channelId,
             part: ['snippet'],
             order: 'date',
-            maxResults: 5, // Fetch 5 latest videos per channel to restore volume (~30 posts total)
+            // Increase fetch limit to find long-form videos buried by Shorts
+            maxResults: 20,
             type: ['video']
         });
 
@@ -390,11 +391,8 @@ async function fetchLatestVideos() {
                         const seconds = parseInt(match[3] || '0');
                         const totalMinutes = hours * 60 + minutes + seconds / 60;
 
-                        // Dynamic duration threshold based on channel
-                        let minDuration = 15; // Set to 15 mins to exclude Shorts and most slices
-                        if (handle.includes('timferriss')) {
-                            minDuration = 45; // Tim Ferriss episodes are long, 45m ensures no clips/slices
-                        }
+                        // Unified duration threshold: All videos must be > 15 minutes
+                        const minDuration = 15;
 
                         // Skip videos shorter than threshold
                         if (totalMinutes < minDuration) {
