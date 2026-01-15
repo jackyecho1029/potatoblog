@@ -163,6 +163,12 @@ async function run() {
 
     fs.writeFileSync(outputFile, content);
     console.log(`✅ Report saved to: ${outputFile}`);
+
+    // Export Top IDs for deeper analysis
+    const topIdsFile = path.join(outputDir, 'top-ids.json');
+    const topIds = allGems.slice(0, 5).map(gem => gem.videoId);
+    fs.writeFileSync(topIdsFile, JSON.stringify(topIds, null, 2));
+    console.log(`✅ Top IDs exported to: ${topIdsFile}`);
 }
 
 run();

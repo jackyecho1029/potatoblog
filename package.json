@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "update-learning": "npx tsx scripts/fetch-learning.ts"
+    "update-learning": "npx tsx scripts/fetch-learning.ts",
+    "find-gems": "npx tsx scripts/find-hidden-gems.ts",
+    "analyze-gems": "npx tsx scripts/deep-analyze-gems.ts"
   },
   "dependencies": {
     "@giscus/react": "^3.1.0",

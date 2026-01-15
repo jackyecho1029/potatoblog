@@ -15,14 +15,6 @@ const GEMINI_API_KEY = process.env.gemini_api_key;
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
-const VIDEO_IDS = [
-    '_HslddU8kwQ', // Perception vs Reality - 15M views
-    'EUkenxUzlRo', // Jungian Psychology - 3M views
-    'Kp2wWFO3BOE', // $100M Silicone Ring Story - 971k views
-    '2UHLcJbgrJ4', // Timothee Chalamet Marketing - 2.6M views
-    'AHXuHHwOBjk'  // Metaphysics for Self-Growth - 428k views
-];
-
 async function analyzeVideo(videoId: string) {
     console.log(`\n🔍 Analyzing video ID: ${videoId}...`);
 
@@ -38,12 +30,13 @@ async function analyzeVideo(videoId: string) {
 
         const title = video.snippet?.title || '';
         const description = video.snippet?.description || '';
-        const views = video.statistics?.viewCount || '0';
+        const views = parseInt(video.statistics?.viewCount || '0').toLocaleString();
+        const url = `https://www.youtube.com/watch?v=${videoId}`;
 
         let transcript = '';
         try {
             const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
-            transcript = transcriptItems.map(item => item.text).join(' ').substring(0, 10000); // Limit to 10k chars
+            transcript = transcriptItems.map(item => item.text).join(' ').substring(0, 10000);
         } catch (e) {
             console.log(`   (No transcript available for ${videoId}, using description)`);
             transcript = description;
@@ -61,14 +54,14 @@ async function analyzeVideo(videoId: string) {
 
 请根据你的专业知识，给出以下深度的拆解：
 
-1. **爆火原因 (The Why):** 为什么订阅者不到1万，播放量却能达到百万甚至千万？是中了什么算法趋势，还是解决了什么深刻的人性痛点？
-2. **内容优势 (Content Edge):** 这个视频相比同类型的“平庸”视频，赢在哪里？（例如：视觉张力、讲故事的能力、独特的切入点、反直觉的观点等）
-3. **结构框架 (Framework):** 视频的前10秒是如何留人的？中间是如何承接的？最后的结尾是如何引导互动或留存的？（给出结构模型，如：Hook -> Conflict -> Solution -> Payoff）
-4. **受众与需求 (Audience & Needs):** 它的目标受众是谁？满足了受众的什么核心需求？（好奇心、焦虑缓解、金钱欲望、认同感、审美需求等）
-5. **核心观点 (Core Insights):** 视频传递的最核心的一个真相或观点是什么？
-6. **借镜与参考 (Benchmarks):** 作为内容创作者，我们可以从这个视频搬走哪3个具体的“武器”？（比如：特定的标题模版、剪辑节奏、甚至是一个特定的心理学效应的应用）
+1. **爆火原因 (The Why):** 为什么关注人数少且播放量却能达到惊人高度？
+2. **内容优势 (Content Edge):** 这个视频相比同类型的视频，赢在哪里？
+3. **结构框架 (Framework):** 视频的前10秒、中间和结尾是如何设计的？
+4. **受众与需求 (Audience & Needs):** 它的目标受众是谁？满足了什么需求？
+5. **核心观点 (Core Insights):** 视频传递的最核心观点是什么？
+6. **借镜与参考 (Benchmarks):** 我们可以学习的3个具体战术？
 
-请用中文回答，排版清晰美观。
+请用中文回答，排版清晰美观。在回答的开头，请包含原视频链接：${url}
 `;
 
         const result = await model.generateContent(prompt);
@@ -81,17 +74,51 @@ async function analyzeVideo(videoId: string) {
 }
 
 async function run() {
+    const topIdsFile = path.join(process.cwd(), 'reports/gems/top-ids.json');
+    let videoIds = [];
+
+    if (fs.existsSync(topIdsFile)) {
+        videoIds = JSON.parse(fs.readFileSync(topIdsFile, 'utf8'));
+        console.log(`✅ Loaded ${videoIds.length} IDs from top-ids.json`);
+    } else {
+        console.error('❌ top-ids.json not found. Run find-hidden-gems first.');
+        process.exit(1);
+    }
+
     const results = [];
-    for (const id of VIDEO_IDS) {
+    for (const id of videoIds) {
         const analysis = await analyzeVideo(id);
         if (analysis) results.push(analysis);
     }
 
-    const reportPath = path.join(process.cwd(), 'reports/gems/deep-analysis.md');
-    const content = `# 🧬 YouTube 低粉爆款深度拆解报告\n\n` + results.join('\n\n---\n\n');
+    const date = new Date().toISOString().split('T')[0];
 
-    fs.writeFileSync(reportPath, content);
-    console.log(`\n✅ Deep analysis saved to: ${reportPath}`);
+    // 1. Save as internal report
+    const reportPath = path.join(process.cwd(), 'reports/gems/deep-analysis.md');
+    fs.writeFileSync(reportPath, `# 🧬 YouTube 低粉爆款深度拆解报告 (${date})\n\n` + results.join('\n\n---\n\n'));
+
+    // 2. Save as Blog Post
+    const blogPostPath = path.join(process.cwd(), `posts/${date}-youtube-hidden-gems-analysis.md`);
+    const blogContent = `---
+title: "🧬 YouTube 低粉爆款深度拆解 (${date})"
+author: "Antigravity Analysis Bot"
+category: "思维成长"
+date: "${date}"
+tags: ["YouTube", "爆款拆解", "流量增长", "自动挖掘"]
+---
+
+# YouTube 潜力爆款深度分析报告
+
+这是由 **Antigravity Gem Hunter** 自动挖掘并生成的深度内容分析。
+
+` + results.join('\n\n---\n\n') + `
+
+---
+*Generated by PotatoAnalytics Hub Automation*
+`;
+
+    fs.writeFileSync(blogPostPath, blogContent);
+    console.log(`\n✅ Blog post generated: ${blogPostPath}`);
 }
 
 run();
