@@ -6,25 +6,25 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 1594.8x | 15,373,899 | 9,640 | [“Perception vs Reality - Deep Philosophy Shorts”](https://www.youtube.com/watch?v=_HslddU8kwQ) by **𝑾𝒆𝒍𝒍 𝑴𝒊𝒏𝒅 𝑯𝒖𝒃®** |
-| 🔥 1467.21x | 1,069,598 | 729 | [学生は知らなきゃ損！勉強の役に立つ雑学5選 #心理学](https://www.youtube.com/watch?v=V1hysAOpYg0) by **雑学ワンダーズ** |
+| 🔥 1594.8x | 15,373,900 | 9,640 | [“Perception vs Reality - Deep Philosophy Shorts”](https://www.youtube.com/watch?v=_HslddU8kwQ) by **𝑾𝒆𝒍𝒍 𝑴𝒊𝒏𝒅 𝑯𝒖𝒃®** |
+| 🔥 1467.29x | 1,069,651 | 729 | [学生は知らなきゃ損！勉強の役に立つ雑学5選 #心理学](https://www.youtube.com/watch?v=V1hysAOpYg0) by **雑学ワンダーズ** |
 | 🔥 1335.45x | 3,031,469 | 2,270 | [㊗️300万回再生‼️実は本当に人間力の高い人【ユング心理学の真理】 #生き方](https://www.youtube.com/watch?v=EUkenxUzlRo) by **Akari’s Wellness Letter 〜あかりの知恵だより〜** |
 | 🔥 1163.99x | 345,704 | 297 | [go to school VS holiday！#funny #holiday #熱門 #jokes #文案 #homedecor #分享](https://www.youtube.com/watch?v=8yp_tOEsKY8) by **karry pan** |
-| 🔥 1085.94x | 2,584,547 | 2,380 | [#炒饭 #摆摊创业 #炒粉 完整版](https://www.youtube.com/watch?v=1LIhkjeoBq0) by **来一碗炒饭-刘松** |
-| 🔥 689.83x | 3,711,268 | 5,380 | [两难-加木『你到底在为谁等待 无人内心潮澎湃 期不期待会慢慢慢来』【动态歌词】#流行歌曲](https://www.youtube.com/watch?v=TY0FWgCce2E) by **MOONLIGHT. MUSIC** |
-| 🔥 497.18x | 989,390 | 1,990 | [Smart #marketing idea by this #waffle shop owner.. #businessideas #entrepreneur #indore #salestips](https://www.youtube.com/watch?v=7mdK9sQYtUg) by **Mrinal Tiwari** |
+| 🔥 1090.81x | 2,596,136 | 2,380 | [#炒饭 #摆摊创业 #炒粉 完整版](https://www.youtube.com/watch?v=1LIhkjeoBq0) by **来一碗炒饭-刘松** |
+| 🔥 689.85x | 3,711,387 | 5,380 | [两难-加木『你到底在为谁等待 无人内心潮澎湃 期不期待会慢慢慢来』【动态歌词】#流行歌曲](https://www.youtube.com/watch?v=TY0FWgCce2E) by **MOONLIGHT. MUSIC** |
+| 🔥 497.18x | 989,393 | 1,990 | [Smart #marketing idea by this #waffle shop owner.. #businessideas #entrepreneur #indore #salestips](https://www.youtube.com/watch?v=7mdK9sQYtUg) by **Mrinal Tiwari** |
 | 🔥 420.94x | 2,092,087 | 4,970 | [Saiyaara Movie Marketing Strategy 🔥। #shorts #ytshorts #businessstrategy #marketingplan](https://www.youtube.com/watch?v=QwjE1LaoZu4) by **RAHUL KUSHWAHA** |
-| 🔥 387.38x | 1,855,570 | 4,790 | [女を狂うほど沼らせる男の特徴5選#恋愛 #恋愛心理学](https://www.youtube.com/watch?v=h4gY5pWakpE) by **雑学お姉さん【ユイ】** |
+| 🔥 387.38x | 1,855,557 | 4,790 | [女を狂うほど沼らせる男の特徴5選#恋愛 #恋愛心理学](https://www.youtube.com/watch?v=h4gY5pWakpE) by **雑学お姉さん【ユイ】** |
 | 🔥 369.54x | 2,294,855 | 6,210 | [女性が1ミリも興味ない男性にすることTOP5 #恋愛 #心理学 #雑学](https://www.youtube.com/watch?v=h9EJjftU8Q8) by **恋愛雑学OLひな** |
-| 🔥 357.05x | 2,635,063 | 7,380 | [Timothee Chalamet's GENIUS Marketing 🤯🧠🟠](https://www.youtube.com/watch?v=2UHLcJbgrJ4) by **Aspect Ratio** |
-| 🔥 351.57x | 2,330,881 | 6,630 | [\㊗/2000000万回再生！【最後は悪用厳禁】女性が一度は男性にされたいこと5選#恋愛心理学 #恋愛 #恋愛雑学](https://www.youtube.com/watch?v=QdsgzoCJbRQ) by **恋愛雑学AIのアイ** |
+| 🔥 356.28x | 2,636,486 | 7,400 | [Timothee Chalamet's GENIUS Marketing 🤯🧠🟠](https://www.youtube.com/watch?v=2UHLcJbgrJ4) by **Aspect Ratio** |
+| 🔥 351.59x | 2,331,040 | 6,630 | [\㊗/2000000万回再生！【最後は悪用厳禁】女性が一度は男性にされたいこと5選#恋愛心理学 #恋愛 #恋愛雑学](https://www.youtube.com/watch?v=QdsgzoCJbRQ) by **恋愛雑学AIのアイ** |
 | 🔥 339.57x | 971,162 | 2,860 | [车库创业到1亿美金：拯救150万手指的硅胶戒指！](https://www.youtube.com/watch?v=Kp2wWFO3BOE) by **Heidi嗨谈出海** |
 | 🔥 307.95x | 2,050,932 | 6,660 | [大学生回村创业修水池却把水池修在干旱沙漠村里人都以为他读书读傻了！#苹果汁 #工厂 #科普一下](https://www.youtube.com/watch?v=N_JWhbqr0hc) by **米米** |
 | 🔥 278.63x | 15,882 | 57 | [《悲傷的文案》洛伊Kloe｜我哭紅了眼，你卻睡到自然醒｜Sad Chinese Breakup Song「動態歌詞MV」失戀情歌](https://www.youtube.com/watch?v=sdnG9WLa7f0) by **DailyVibe CN
 ** |
-| 🔥 224.21x | 1,486,537 | 6,630 | [9割が知らない有益な恋愛心理雑学 #雑学 #心理学 #恋愛心理学](https://www.youtube.com/watch?v=3oqCl1WqXv4) by **恋愛雑学AIのアイ** |
-| 🔥 210.26x | 428,931 | 2,040 | [旺自己的6个玄学。#人生智慧 #人生感悟 #个人成长 #自我成长 #认知觉醒 #认知提升](https://www.youtube.com/watch?v=AHXuHHwOBjk) by **一直向上的竹子** |
-| 🔥 207.63x | 390,349 | 1,880 | [【第1話】逆説の成功哲学～深夜のラーメン屋で始まった、俺の人生の逆転劇～](https://www.youtube.com/watch?v=ZDJxr7s2scw) by **賢者の物語** |
+| 🔥 224.23x | 1,486,618 | 6,630 | [9割が知らない有益な恋愛心理雑学 #雑学 #心理学 #恋愛心理学](https://www.youtube.com/watch?v=3oqCl1WqXv4) by **恋愛雑学AIのアイ** |
+| 🔥 210.26x | 428,932 | 2,040 | [旺自己的6个玄学。#人生智慧 #人生感悟 #个人成长 #自我成长 #认知觉醒 #认知提升](https://www.youtube.com/watch?v=AHXuHHwOBjk) by **一直向上的竹子** |
+| 🔥 207.69x | 390,459 | 1,880 | [【第1話】逆説の成功哲学～深夜のラーメン屋で始まった、俺の人生の逆転劇～](https://www.youtube.com/watch?v=ZDJxr7s2scw) by **賢者の物語** |
 | 🔥 195.43x | 7,231 | 37 | [你们根本不懂我！ #文案 #硬笔 #手写 #教程](https://www.youtube.com/watch?v=YTFgX3xFWII) by **周书叔** |
 | 🔥 168.67x | 344,094 | 2,040 | [聪明女人的8不要。#人生感悟 #人生智慧 #女性成长 #个人成长 #女性觉醒](https://www.youtube.com/watch?v=WlHge5ffCRo) by **一直向上的竹子** |
 
