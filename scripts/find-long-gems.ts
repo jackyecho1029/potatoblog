@@ -10,12 +10,12 @@ dotenv.config({ path: '.env.local' });
 const youtube = google.youtube('v3');
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 
-// User Preferences for Long-form
-const MAX_SUBSCRIBERS = 10000;
-const MIN_VIEWS = 2000;
+// User Preferences for Long-form (Optimized for First Run)
+const MAX_SUBSCRIBERS = 20000; // Increased slightly for wider net
+const MIN_VIEWS = 500;        // Lowered for small channels
 const MIN_DURATION_SECONDS = 360; // 6 minutes
 const CATEGORIES = [
-    "个人成长", "哲学", "AI", "创业", "学习", "心理学", "营销", "商业拆解"
+    "个人成长", "哲学", "AI", "创业", "学习", "心理学", "营销", "商业拆解", "生活黑客", "深度访谈"
 ];
 
 interface HiddenGem {
@@ -50,7 +50,6 @@ async function getChannelSubscribers(channelId: string): Promise<number | null> 
         const subs = response.data.items?.[0]?.statistics?.subscriberCount;
         return subs ? parseInt(subs) : null;
     } catch (error) {
-        console.error(`Error fetching channel stats:`, error);
         return null;
     }
 }
@@ -68,10 +67,9 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
             maxResults: 50,
             order: 'viewCount',
             videoDuration: 'medium', // 4-20 mins
-            publishedAfter: '2024-01-01T00:00:00Z'
+            publishedAfter: '2023-01-01T00:00:00Z' // More history
         });
 
-        // Also search for 'long' (>20 mins)
         const searchResponseLong = await youtube.search.list({
             key: YOUTUBE_API_KEY,
             part: ['snippet'],
@@ -80,7 +78,7 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
             maxResults: 20,
             order: 'viewCount',
             videoDuration: 'long',
-            publishedAfter: '2024-01-01T00:00:00Z'
+            publishedAfter: '2023-01-01T00:00:00Z'
         });
 
         const videos = [...(searchResponse.data.items || []), ...(searchResponseLong.data.items || [])];
@@ -103,17 +101,16 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
             const durationSec = parseDuration(durationRaw);
             const title = video.snippet?.title || '';
 
-            // Filter by duration and views
             if (!channelId || viewCount < MIN_VIEWS || durationSec < MIN_DURATION_SECONDS) continue;
 
-            // Filter out "Clips" and "Shorts" keywords
             const lowerTitle = title.toLowerCase();
-            if (lowerTitle.includes('clip') || lowerTitle.includes('shorts') || lowerTitle.includes('best of')) continue;
+            if (lowerTitle.includes('clip') || lowerTitle.includes('shorts')) continue;
 
             const subs = await getChannelSubscribers(channelId);
 
             if (subs !== null && subs < MAX_SUBSCRIBERS && subs > 0) {
                 const gemScore = viewCount / subs;
+                if (gemScore < 1.5) continue; // Must have at least 1.5x view-to-sub ratio
 
                 gems.push({
                     title: title,
@@ -132,7 +129,6 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
     } catch (error) {
         console.error("Search failed:", error);
     }
-
     return gems;
 }
 
@@ -145,7 +141,6 @@ async function run() {
         allGems = [...allGems, ...categoryGems];
     }
 
-    // Deduplicate and Sort
     allGems = allGems.filter((gem, index, self) =>
         index === self.findIndex((t) => t.videoId === gem.videoId)
     ).sort((a, b) => b.gemScore - a.gemScore);
@@ -159,18 +154,21 @@ async function run() {
     const outputFile = path.join(outputDir, `${date}-long-gems.md`);
 
     let content = `# 🎥 YouTube Long-form Hidden Gems (${date})\n\n`;
-    content += `| Gem Score | Views | Subs | Duration | Video |\n`;
-    content += `|-----------|-------|------|----------|-------|\n`;
 
-    allGems.slice(0, 10).forEach(gem => {
-        content += `| 🔥 ${gem.gemScore}x | ${gem.viewCount.toLocaleString()} | ${gem.subscriberCount.toLocaleString()} | ${gem.duration} | [${gem.title.replace('|', '-')}](${gem.url}) |\n`;
-    });
+    if (allGems.length === 0) {
+        content += "> [!NOTE]\n> 今天未发现符合严苛指标的长视频爆款。系统将继续巡航。\n";
+    } else {
+        content += `| Gem Score | Views | Subs | Duration | Video |\n`;
+        content += `|-----------|-------|------|----------|-------|\n`;
+        allGems.slice(0, 10).forEach(gem => {
+            content += `| 🔥 ${gem.gemScore}x | ${gem.viewCount.toLocaleString()} | ${gem.subscriberCount.toLocaleString()} | ${gem.duration} | [${gem.title.replace(/\|/g, '-')}](${gem.url}) |\n`;
+        });
+    }
 
     fs.writeFileSync(outputFile, content);
 
-    // Export Top IDs for the Saturday Analysis
     const topIdsFile = path.join(outputDir, 'top-long-ids.json');
-    const topIds = allGems.slice(0, 3).map(gem => gem.videoId); // Just top 3 for long form depth
+    const topIds = allGems.slice(0, 3).map(gem => gem.videoId);
     fs.writeFileSync(topIdsFile, JSON.stringify(topIds, null, 2));
 
     console.log(`✅ Reports saved.`);

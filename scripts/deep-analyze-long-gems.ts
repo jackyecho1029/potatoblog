@@ -86,6 +86,11 @@ async function run() {
     }
 
     const results = [];
+    if (videoIds.length === 0) {
+        console.log("📭 No new long-form gems to analyze today.");
+        return;
+    }
+
     for (const id of videoIds) {
         const analysis = await analyzeLongVideo(id);
         if (analysis) results.push(analysis);
