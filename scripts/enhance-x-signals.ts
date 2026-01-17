@@ -155,7 +155,7 @@ async function processPost(filePath: string) {
 
         newContentLines.push(line);
 
-        if (line.trim() === '**重要观点**' || line.trim() === '### 重要观点') {
+        if (line.trim() === '**重要观点**' || line.trim() === '### 重要观点' || line.trim() === '重要观点') {
             // Check if image already exists next
             if (i + 1 < lines.length && lines[i + 1].trim().startsWith('![')) {
                 console.log("   Skipping, image already exists.");
