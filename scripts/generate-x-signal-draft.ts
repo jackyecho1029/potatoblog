@@ -107,8 +107,9 @@ async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promis
    - **Structure**:
      For each section:
      ### [Section Icon] [Section Name]
-     * [Emoji] **[Headline]**: [Summary of the tweet/topic].
+     * [Emoji] **[Headline]**: [Author Name]([Source Link]) [Summary of the tweet/topic].
      * ...
+     (Make sure to hyperlink the Author Name with the provided Link)
 
      **Potato's Take**
 
