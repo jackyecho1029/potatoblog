@@ -10,12 +10,12 @@ export default function Header() {
                 <h1 className="text-2xl font-bold tracking-tight group-hover:text-amber-700 transition">PotatoEcho</h1>
             </Link>
             <nav className="flex gap-6 text-sm font-medium text-zinc-500">
-                <Link href="/" className="hover:text-amber-600 transition">Blog</Link>
-                <Link href="/xhs-viral" className="hover:text-red-500 transition">🔥 小红书爆款</Link>
-                <Link href="/writing-analysis" className="hover:text-purple-600 transition">✍️ 写作分析</Link>
-                <Link href="/x-signals" className="hover:text-amber-600 transition">X Signals</Link>
-                <Link href="/learning" className="hover:text-amber-600 transition">Learning</Link>
-                <Link href="/about" className="hover:text-amber-600 transition">About</Link>
+                <Link href="/" className="hover:text-amber-600 transition">博客</Link>
+                <Link href="/xhs-viral" className="hover:text-red-500 transition">🔥 小红书</Link>
+                <Link href="/writing-analysis" className="hover:text-purple-600 transition">✍️ 写作</Link>
+                <Link href="/x-signals" className="hover:text-amber-600 transition">X 信号</Link>
+                <Link href="/learning" className="hover:text-amber-600 transition">学习</Link>
+                <Link href="/about" className="hover:text-amber-600 transition">关于</Link>
             </nav>
         </header>
     );
