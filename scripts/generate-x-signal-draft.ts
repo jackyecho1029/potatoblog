@@ -122,11 +122,46 @@ async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promis
      ---
 
    OUTPUT FORMAT:
-   (Just the content sections. Do not preamble.)
+   
+   TITLE_BEST: [A single, punchy headline summarizing the most important trend today. Chinese.]
+   ANCHOR_THOUGHT: [A 1-2 sentence overview of the whole daily signal. What's the vibe? Chinese.]
+   CONTENT_START
+   (The content sections in Markdown...)
    `;
 
     const result = await model.generateContent(prompt);
     return result.response.text();
+}
+
+interface ParsedContent {
+    titleBest: string;
+    anchorThought: string;
+    body: string;
+}
+
+function parseGeneratedContent(text: string): ParsedContent {
+    const lines = text.split('\n');
+    let titleBest = "Daily Signal";
+    let anchorThought = "Insights from the X sphere.";
+    let bodyLines: string[] = [];
+    let isBody = false;
+
+    for (const line of lines) {
+        if (line.includes("CONTENT_START")) {
+            isBody = true;
+            continue;
+        }
+        if (line.includes("CONTENT_END")) {
+            break;
+        }
+        if (isBody) {
+            bodyLines.push(line);
+        } else {
+            if (line.startsWith("TITLE_BEST:")) titleBest = line.replace("TITLE_BEST:", "").trim();
+            if (line.startsWith("ANCHOR_THOUGHT:")) anchorThought = line.replace("ANCHOR_THOUGHT:", "").trim();
+        }
+    }
+    return { titleBest, anchorThought, body: bodyLines.join('\n').trim() };
 }
 
 async function main() {
@@ -189,6 +224,10 @@ async function main() {
     let fullContent = "";
     let isNewFile = false;
 
+    // Generate Content & Metadata
+    const rawContent = await generateDailySignal(uniqueTweets, dateStr);
+    const { titleBest, anchorThought, body } = parseGeneratedContent(rawContent);
+
     if (!fs.existsSync(filepath)) {
         isNewFile = true;
         fullContent = `---
@@ -196,24 +235,20 @@ title: "Daily X Signals: ${dateStr}"
 date: "${dateStr}"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]
-title_best: "Daily Signal"
-anchor_thought: "Insights from the X sphere."
+title_best: "${titleBest}"
+anchor_thought: "${anchorThought}"
 ---
 
 > Daily Curator: Potato.
 
 `;
+        fullContent += body;
     } else {
         console.log(`File exists (${filename}). Appending new updates...`);
         fullContent = fs.readFileSync(filepath, 'utf-8');
         fullContent += `\n\n## 🔄 Update ${localDate.getHours()}:${localDate.getMinutes().toString().padStart(2, '0')}\n\n`;
+        fullContent += body;
     }
-
-    const newContent = await generateDailySignal(uniqueTweets, dateStr);
-    fullContent += newContent;
-
-    // Ensure Quote is at the end (naive approach: just append it if new file, or rely on LLM if standard)
-    // For simplicity in Append mode, we just append the LLM output.
 
     if (!fs.existsSync(POSTS_DIR)) {
         fs.mkdirSync(POSTS_DIR, { recursive: true });
