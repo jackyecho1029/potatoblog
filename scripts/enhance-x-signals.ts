@@ -187,7 +187,8 @@ async function processPost(filePath: string) {
                 lines[k] = '___REPLACED___';
             }
 
-            // Generate Prompt
+            // Generate Prompt & Image (Disabled by user request)
+            /*
             const [prompt] = await generatePromptsForViewpoints([simplifiedContext]);
             if (!prompt) continue;
 
@@ -199,15 +200,20 @@ async function processPost(filePath: string) {
 
             const fullPath = path.join(fullDir, filename);
             const success = await generateImage(prompt, fullPath);
+            */
+            const success = false; // Force skip images
 
             if (success) {
                 // Insert Image Markdown + Simplified Content
+                /*
+                const filename = `x-signal-${date}-v${viewpointIndex}.png`;
+                const publicRelPath = `images/x-signals/${date}`;
                 const markdownImage = `\n![Viewpoint Visualization](/${publicRelPath.replace(/\\/g, '/')}/${filename})\n`;
                 newContentLines.push(markdownImage);
-                newContentLines.push(...simplifiedLines);
-                newContentLines.push('');
+                */
             } else {
                 // Fallback: just add simplified content without image
+                console.log("   Adding simplified text (Image generation disabled).");
                 newContentLines.push('');
                 newContentLines.push(...simplifiedLines);
                 newContentLines.push('');
