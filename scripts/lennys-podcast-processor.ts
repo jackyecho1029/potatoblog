@@ -2,7 +2,6 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
-import * as https from 'https';
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });
@@ -10,35 +9,10 @@ dotenv.config({ path: '.env.local' });
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
-const BASE_RAW_URL = 'https://raw.githubusercontent.com/ChatPRD/lennys-podcast-transcripts/main/episodes';
+const LOCAL_EPISODES_DIR = 'D:/Antigravity/Jackypotato/lennys_transcripts/episodes';
+const POSTS_DIR = path.join(process.cwd(), 'posts/learning');
 
-function fetchDataWithRetry(url: string, retries = 3): Promise<string> {
-    return new Promise((resolve, reject) => {
-        const attempt = (n: number) => {
-            https.get(url, (res) => {
-                let data = '';
-                res.on('data', (chunk) => data += chunk);
-                res.on('end', () => {
-                    if (data.includes('404: Not Found')) {
-                        reject(new Error(`404 Not Found at ${url}`));
-                    } else {
-                        resolve(data);
-                    }
-                });
-            }).on('error', (err) => {
-                if (n > 0) {
-                    console.log(`Retrying ${url} (${n} left)...`);
-                    setTimeout(() => attempt(n - 1), 2000);
-                } else {
-                    reject(err);
-                }
-            });
-        };
-        attempt(retries);
-    });
-}
-
-async function summarizeTranscript(guestName: string, transcript: string) {
+async function summarizeTranscript(guestName: string, transcript: string, retries = 3) {
     const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const prompt = `
@@ -60,7 +34,6 @@ original_title: "Lenny's Podcast with ${guestName}"
 author: "${guestName}"
 category: "思维成长"
 tags: ["LennyPodcast", "AI", "思维模型", "${guestName}"]
-source_url: "[GitHub Raw Link]"
 ---
 
 # 🎯 核心结论
@@ -107,50 +80,88 @@ source_url: "[GitHub Raw Link]"
 ${transcript.substring(0, 30000)}
 `;
 
-    try {
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        return response.text();
-    } catch (error) {
-        console.error(`Gemini Error for ${guestName}:`, error);
-        return null;
+    for (let i = 0; i <= retries; i++) {
+        try {
+            const result = await model.generateContent(prompt);
+            const response = await result.response;
+            return response.text();
+        } catch (error: any) {
+            console.error(`Gemini Error for ${guestName} (Attempt ${i + 1}/${retries + 1}):`, error.message);
+            if (i < retries) {
+                const delay = Math.pow(2, i) * 2000;
+                console.log(`Retrying in ${delay}ms...`);
+                await new Promise(resolve => setTimeout(resolve, delay));
+            } else {
+                return null;
+            }
+        }
     }
 }
 
-async function processEpisode(identifier: string) {
-    try {
-        const url = `${BASE_RAW_URL}/${identifier}/transcript.md`;
-        console.log(`Processing: ${identifier}`);
-        const transcript = await fetchDataWithRetry(url);
+async function processEpisode(guestName: string) {
+    const transcriptPath = path.join(LOCAL_EPISODES_DIR, guestName, 'transcript.md');
 
-        console.log(`Summarizing ${identifier}...`);
-        const summary = await summarizeTranscript(identifier, transcript);
+    // Check if transcript exists
+    if (!fs.existsSync(transcriptPath)) {
+        console.log(`⚠️ Transcript not found for ${guestName}, skipping.`);
+        return;
+    }
+
+    // Check if already processed (idempotency)
+    // We look for any file in POSTS_DIR that matches *lenny-${guestName}.md
+    const existingFiles = fs.readdirSync(POSTS_DIR);
+    const alreadyDone = existingFiles.find(f => f.includes(`lenny-${guestName}.md`));
+    if (alreadyDone) {
+        console.log(`⏩ Already processed ${guestName}, skipping.`);
+        return;
+    }
+
+    try {
+        console.log(`📄 Reading: ${guestName}`);
+        const transcript = fs.readFileSync(transcriptPath, 'utf8');
+
+        console.log(`🧠 AI Summarizing ${guestName}...`);
+        const summary = await summarizeTranscript(guestName, transcript);
 
         if (summary) {
             const date = new Date().toISOString().split('T')[0];
-            const filename = `${date}-lenny-${identifier}.md`;
-            const postsDir = path.join(process.cwd(), 'posts/learning');
-            if (!fs.existsSync(postsDir)) fs.mkdirSync(postsDir, { recursive: true });
+            const filename = `${date}-lenny-${guestName}.md`;
+            const filePath = path.join(POSTS_DIR, filename);
 
-            const filePath = path.join(postsDir, filename);
-            const finalContent = summary.replace('[GitHub Raw Link]', url);
-
-            fs.writeFileSync(filePath, finalContent);
+            fs.writeFileSync(filePath, summary);
             console.log(`✅ Saved: ${filename}`);
         }
-    } catch (error) {
-        console.error(`❌ Failed ${identifier}:`, error.message);
+    } catch (error: any) {
+        console.error(`❌ Failed ${guestName}:`, error.message);
     }
 }
 
-const targetEpisodes = process.argv.slice(2);
+async function main() {
+    const args = process.argv.slice(2);
 
-if (targetEpisodes.length === 0) {
-    console.log("Usage: npx tsx scripts/lennys-podcast-processor.ts <episode-identifier1> ...");
-} else {
-    (async () => {
-        for (const ep of targetEpisodes) {
-            await processEpisode(ep);
+    if (args[0] === '--all') {
+        process.stdout.write("Scanning episodes directory...\n");
+        const allGuests = fs.readdirSync(LOCAL_EPISODES_DIR).filter(file => {
+            return fs.statSync(path.join(LOCAL_EPISODES_DIR, file)).isDirectory();
+        });
+
+        console.log(`Found ${allGuests.length} episodes. Starting batch processing...`);
+
+        // Process in small batches or sequence to avoid rate limits
+        for (const guest of allGuests) {
+            await processEpisode(guest);
+            // Small delay to be polite to the API
+            await new Promise(resolve => setTimeout(resolve, 500));
         }
-    })();
+    } else if (args.length > 0) {
+        for (const guest of args) {
+            await processEpisode(guest);
+        }
+    } else {
+        console.log("Usage:");
+        console.log("  npx tsx scripts/lennys-podcast-processor.ts --all");
+        console.log("  npx tsx scripts/lennys-podcast-processor.ts <guest-name> <guest-name2> ...");
+    }
 }
+
+main().catch(console.error);
