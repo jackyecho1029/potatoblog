@@ -11,6 +11,7 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
 const LOCAL_EPISODES_DIR = 'D:/Antigravity/Jackypotato/lennys_transcripts/episodes';
 const POSTS_DIR = path.join(process.cwd(), 'posts/learning');
+const META_FILE = path.join(process.cwd(), 'posts/lenny-meta.json');
 
 async function summarizeTranscript(guestName: string, transcript: string, retries = 3) {
     const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
@@ -24,8 +25,16 @@ async function summarizeTranscript(guestName: string, transcript: string, retrie
 2. **核心原则**：
    - **金字塔原理**：结论先行，逻辑推进，案例支撑。
    - **查理·芒格思维**：挖掘其背后的思维模型（如反向思维、格栅效应、激励机制等）。
-   - **AI/提效赋能**：特别聚焦 AI 前沿科技如何赋能生活、个人效率或**电商业务**。
+   - **AI/提效赋能**：聚焦 AI 前沿科技如何赋能生活、个人效率或**电商业务**。
    - **认知重构**：重点对比“旧时代观念” vs “AI 时代新现实”。
+
+### 特别任务 (用于索引页)：
+在输出内容的开头，请先提供以下 JSON 格式的元数据（用 \`\`\`json 块包裹）：
+{
+  "guest_bio": "一句话介绍嘉宾背景 (15-30字)",
+  "one_line_summary": "一句话概括最核心观点 (15-30字)",
+  "category": "所属分类 (仅限：AI构建者, 产品与战略, 增长与分发, 领导力与文化)"
+}
 
 ### 输出格式：
 ---
@@ -88,7 +97,7 @@ ${transcript.substring(0, 30000)}
         } catch (error: any) {
             console.error(`Gemini Error for ${guestName} (Attempt ${i + 1}/${retries + 1}):`, error.message);
             if (i < retries) {
-                const delay = Math.pow(2, i) * 2000;
+                const delay = Math.pow(2, i) * 3000;
                 console.log(`Retrying in ${delay}ms...`);
                 await new Promise(resolve => setTimeout(resolve, delay));
             } else {
@@ -96,6 +105,30 @@ ${transcript.substring(0, 30000)}
             }
         }
     }
+}
+
+function updateMetadata(guestName: string, metadataStr: string, slug: string) {
+    let meta: { [key: string]: any } = {};
+    if (fs.existsSync(META_FILE)) {
+        meta = JSON.parse(fs.readFileSync(META_FILE, 'utf8'));
+    }
+
+    try {
+        const jsonMatch = metadataStr.match(/```json\s*([\s\S]*?)\s*```/);
+        if (jsonMatch) {
+            const guestMeta = JSON.parse(jsonMatch[1]);
+            meta[guestName] = {
+                ...guestMeta,
+                slug,
+                date: new Date().toISOString().split('T')[0]
+            };
+            fs.writeFileSync(META_FILE, JSON.stringify(meta, null, 2));
+            return metadataStr.replace(jsonMatch[0], '').trim();
+        }
+    } catch (e) {
+        console.error("Failed to parse metadata JSON", e);
+    }
+    return metadataStr;
 }
 
 async function processEpisode(guestName: string) {
@@ -107,13 +140,13 @@ async function processEpisode(guestName: string) {
         return;
     }
 
-    // Check if already processed (idempotency)
-    // We look for any file in POSTS_DIR that matches *lenny-${guestName}.md
-    const existingFiles = fs.readdirSync(POSTS_DIR);
-    const alreadyDone = existingFiles.find(f => f.includes(`lenny-${guestName}.md`));
-    if (alreadyDone) {
-        console.log(`⏩ Already processed ${guestName}, skipping.`);
-        return;
+    // Even if processed, we might want to re-run to get metadata if missing from META_FILE
+    if (fs.existsSync(META_FILE)) {
+        const meta = JSON.parse(fs.readFileSync(META_FILE, 'utf8'));
+        if (meta[guestName]) {
+            console.log(`⏩ Meta already exists for ${guestName}, skipping.`);
+            return;
+        }
     }
 
     try {
@@ -121,15 +154,16 @@ async function processEpisode(guestName: string) {
         const transcript = fs.readFileSync(transcriptPath, 'utf8');
 
         console.log(`🧠 AI Summarizing ${guestName}...`);
-        const summary = await summarizeTranscript(guestName, transcript);
+        const rawResponse = await summarizeTranscript(guestName, transcript);
 
-        if (summary) {
+        if (rawResponse) {
             const date = new Date().toISOString().split('T')[0];
             const filename = `${date}-lenny-${guestName}.md`;
             const filePath = path.join(POSTS_DIR, filename);
 
-            fs.writeFileSync(filePath, summary);
-            console.log(`✅ Saved: ${filename}`);
+            const finalContent = updateMetadata(guestName, rawResponse, filename);
+            fs.writeFileSync(filePath, finalContent);
+            console.log(`✅ Saved & Meta Updated: ${filename}`);
         }
     } catch (error: any) {
         console.error(`❌ Failed ${guestName}:`, error.message);
