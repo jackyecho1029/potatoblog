@@ -464,4 +464,4 @@ Day 3: 发第一条Twitter/公开post，分享你的开始
 ---
 
 *相关阅读*：
-- [High School Dropout to OpenAI Researcher - Gabriel Petersson 访谈笔记](./learning/2025-11-27-high-school-dropout-to-openai-researcher---gabriel)
+- [High School Dropout to OpenAI Researcher - Gabriel Petersson 访谈](https://www.youtube.com/watch?v=vq5WhoPCWQ8&pp=ygURZ2FicmllbCBwZXRlcnNzb24%3D)
