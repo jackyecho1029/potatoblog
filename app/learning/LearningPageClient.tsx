@@ -85,7 +85,7 @@ export default function LearningPageClient({ posts }: LearningPageClientProps) {
                             </Link>
                         </article>
                     ))}
-                </div>}
+                </div>
 
                 {displayPosts.length === 0 && (
                     <div className="p-12 text-center text-gray-500 bg-gray-50 rounded-lg">
