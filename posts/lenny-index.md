@@ -1,3 +1,10 @@
+---
+title: "🎙️ Lenny's Podcast 深度访谈全索引"
+date: "2026-01-21"
+category: "LennyPodcast"
+tags: ["LennyPodcast", "Product", "Growth", "AI"]
+---
+
 # 🎙️ Lenny's Podcast 深度访谈全索引
 
 > 这里收录了 Lenny's Podcast 的 300+ 场深度访谈笔记。我们运用**金字塔原理**和**查理·芒格思维模型**，为您提取了最核心的商业逻辑和 AI 时代生存法则。

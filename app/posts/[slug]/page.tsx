@@ -10,7 +10,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
     const content = (
         <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
-            <main className="max-w-2xl mx-auto px-6 py-20">
+            <main className="max-w-5xl mx-auto px-6 py-20">
 
                 {/* Navigation */}
                 <header className="mb-12">
