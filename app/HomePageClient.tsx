@@ -19,7 +19,7 @@ export default function HomePageClient({ posts }: HomePageClientProps) {
 
     return (
         <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
-            <main className="max-w-2xl mx-auto px-6 py-20">
+            <main className="max-w-4xl mx-auto px-6 py-20">
                 <Header />
 
                 {/* Hero / Intro */}
