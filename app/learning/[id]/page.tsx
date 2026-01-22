@@ -21,7 +21,7 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
 
         const content = (
             <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
-                <main className="max-w-2xl mx-auto px-6 py-20">
+                <main className="max-w-4xl mx-auto px-6 py-20">
                     <Header />
 
                     <article>
@@ -46,10 +46,19 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                                         <span className="font-medium text-zinc-700">{postData.author}</span>
                                     </span>
                                 )}
-                                <span className="flex items-center gap-1">
-                                    <span className="text-gray-400">发布日期：</span>
-                                    <span>{postData.date}</span>
-                                </span>
+                                {id.includes('lenny-') ? (
+                                    postData.category && (
+                                        <span className="flex items-center gap-1">
+                                            <span className="text-gray-400">标签分类：</span>
+                                            <span>{postData.category}</span>
+                                        </span>
+                                    )
+                                ) : (
+                                    <span className="flex items-center gap-1">
+                                        <span className="text-gray-400">发布日期：</span>
+                                        <span>{postData.date}</span>
+                                    </span>
+                                )}
                                 {postData.category && (
                                     <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full font-medium">
                                         {postData.category}
@@ -66,8 +75,8 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                     </article>
 
                     <div className="mt-16 pt-8 border-t border-zinc-200">
-                        <Link href="/learning" className="text-amber-600 hover:underline">
-                            ← 返回学习中心
+                        <Link href={id.includes('lenny-') ? '/lenny' : '/learning'} className="text-amber-600 hover:underline">
+                            {id.includes('lenny-') ? '← 返回 Lenny播客笔记' : '← 返回学习中心'}
                         </Link>
                     </div>
 
