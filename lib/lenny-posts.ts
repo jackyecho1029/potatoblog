@@ -15,25 +15,92 @@ const LEARNING_DIR = path.join(process.cwd(), 'posts', 'learning');
 
 // Category definitions based on content themes
 const CATEGORY_KEYWORDS: Record<string, string[]> = {
-    'AI构建者': ['AI', 'OpenAI', 'Anthropic', 'LLM', 'Agent', 'Codex', 'GPT', 'Claude'],
-    '产品与战略': ['产品', 'Product', 'Strategy', '战略', 'PM', 'CPO', 'Positioning'],
-    '增长与分发': ['Growth', '增长', 'Marketing', 'PLG', 'Acquisition', 'Retention'],
-    '领导力与文化': ['Leadership', 'CEO', 'Culture', '领导力', 'Management', 'Coach'],
-    '创业与融资': ['Startup', 'Founder', 'VC', 'Venture', '创业', 'Investment'],
-    '设计与体验': ['Design', 'UX', 'Designer', '设计', 'Experience'],
+    'AI构建者': [
+        'OpenAI', 'Anthropic', 'Replit', 'Codex', 'GPT', 'Claude',
+        'LLM', 'Agent', 'AI 产品', 'AI Platform', '大模型',
+        'Cursor', 'Github Copilot', 'AI工程', 'Gemini', 'AI安全',
+        'Lovable', 'GPT Engineer', 'AI构建'
+    ],
+    '产品与战略': [
+        'Product Manager', 'PM', 'CPO', '产品经理', '产品战略',
+        'Product Strategy', 'Positioning', '定位', 'PRD',
+        'Product-Market Fit', 'PMF', 'Jobs-to-be-Done', 'JTBD',
+        '品牌', 'Brand', 'Roadmap', '产品路线', '产品开发',
+        'Onboarding', '新手引导', 'Feature', '功能'
+    ],
+    '增长与分发': [
+        'Growth', '增长', 'Marketing', '营销', 'PLG',
+        'Product-Led Growth', 'Acquisition', '获客', 'Retention', '留存',
+        'Viral', '病毒增长', 'Funnel', '漏斗', 'A/B Test',
+        'Analytics', '数据分析', 'CAC', 'LTV', 'Conversion',
+        '转化', 'Monetization', '变现'
+    ],
+    '领导力与文化': [
+        'Leadership', 'CEO', 'CTO', 'Executive', '领导力',
+        'Management', '管理', 'Coach', '教练', 'Culture', '文化',
+        'Team', '团队', 'Hiring', '招聘', 'Org', '组织',
+        '决策', 'Decision', '沟通', 'Communication'
+    ],
+    '创业与融资': [
+        'Startup', 'Founder', '创始人', '创业', 'VC', 'Venture Capital',
+        'Investment', '投资', 'Fundraising', '融资', 'Seed', 'Series',
+        'Unicorn', '独角兽', 'Exit', 'IPO', 'a16z',
+        'Bootstrapping', '自举', 'Acquisition', '收购'
+    ],
+    '设计与体验': [
+        'Design', '设计', 'UX', 'UI', 'User Experience',
+        '用户体验', 'Designer', '设计师', 'Prototype', '原型',
+        'Figma', 'Interaction', '交互', 'Visual', '视觉',
+        'Interface', '界面', 'Usability', '可用性'
+    ],
 };
 
-function inferCategory(content: string, tags: string[]): string {
-    const fullText = content + ' ' + tags.join(' ');
+function inferCategory(content: string, tags: string[], title: string): string {
+    // 组合分析文本：标题权重最高，然后是 tags，最后是内容片段
+    const titleText = title.toLowerCase();
+    const tagsText = tags.join(' ').toLowerCase();
+    const contentText = content.slice(0, 2000).toLowerCase(); // 只分析前2000字符
+
+    // 为每个分类计算匹配分数
+    const scores: Record<string, number> = {};
 
     for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
+        let score = 0;
+
         for (const keyword of keywords) {
-            if (fullText.toLowerCase().includes(keyword.toLowerCase())) {
-                return category;
+            const lowerKeyword = keyword.toLowerCase();
+
+            // 标题匹配：权重 x5
+            if (titleText.includes(lowerKeyword)) {
+                score += 5;
+            }
+
+            // Tags 匹配：权重 x3
+            if (tagsText.includes(lowerKeyword)) {
+                score += 3;
+            }
+
+            // 内容匹配：权重 x1
+            if (contentText.includes(lowerKeyword)) {
+                score += 1;
             }
         }
+
+        scores[category] = score;
     }
-    return '产品与战略'; // Default category
+
+    // 找到得分最高的分类
+    let maxScore = 0;
+    let bestCategory = '产品与战略'; // 默认分类
+
+    for (const [category, score] of Object.entries(scores)) {
+        if (score > maxScore) {
+            maxScore = score;
+            bestCategory = category;
+        }
+    }
+
+    return bestCategory;
 }
 
 function extractGuestName(filename: string, title: string): string {
@@ -101,7 +168,7 @@ export function getAllLennyPosts(): LennyPost[] {
             const id = file.replace('.md', '');
             const guest = extractGuestName(file, data.title || '');
             const tags: string[] = data.tags || [];
-            const category = data.category || inferCategory(content, tags);
+            const category = inferCategory(content, tags, data.title || '');
             const summary = extractSummary(content);
             const quote = extractQuote(content);
 
