@@ -59,7 +59,7 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                                         <span>{postData.date}</span>
                                     </span>
                                 )}
-                                {postData.category && (
+                                {!id.includes('lenny-') && postData.category && (
                                     <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full font-medium">
                                         {postData.category}
                                     </span>

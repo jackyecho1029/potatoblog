@@ -101,7 +101,7 @@ export function getAllLennyPosts(): LennyPost[] {
             const id = file.replace('.md', '');
             const guest = extractGuestName(file, data.title || '');
             const tags: string[] = data.tags || [];
-            const category = inferCategory(content, tags);
+            const category = data.category || inferCategory(content, tags);
             const summary = extractSummary(content);
             const quote = extractQuote(content);
 
