@@ -12,18 +12,15 @@ interface LearningPageClientProps {
 }
 
 export default function LearningPageClient({ posts }: LearningPageClientProps) {
-    const [activeTab, setActiveTab] = useState<'all' | 'signal'>('all');
     const [filteredPosts, setFilteredPosts] = useState(posts);
 
     const handleFilteredItems = useCallback((filtered: LearningPostData[]) => {
         setFilteredPosts(filtered);
     }, []);
 
-    // Filter logic based on tab and privacy
+    // Filter out X Signal and private posts
     const displayPosts = filteredPosts.filter(post => {
-        // Hide private posts from list
         if (post.private) return false;
-        if (activeTab === 'signal') return post.category === 'X Signal';
         return post.category !== 'X Signal';
     });
 
@@ -34,20 +31,9 @@ export default function LearningPageClient({ posts }: LearningPageClientProps) {
 
                 <header className="mb-12">
                     <h1 className="text-3xl font-bold mb-4 tracking-tight">学习中心</h1>
-                    <div className="flex gap-8 border-b border-gray-200">
-                        <button
-                            onClick={() => setActiveTab('all')}
-                            className={`pb-3 text-sm font-medium transition-colors ${activeTab === 'all' ? 'border-b-2 border-amber-500 text-zinc-900' : 'text-zinc-500 hover:text-zinc-700'}`}
-                        >
-                            精选课程
-                        </button>
-                        <button
-                            onClick={() => setActiveTab('signal')}
-                            className={`pb-3 text-sm font-medium transition-colors ${activeTab === 'signal' ? 'border-b-2 border-amber-500 text-zinc-900' : 'text-zinc-500 hover:text-zinc-700'}`}
-                        >
-                            X Signals (每日情报)
-                        </button>
-                    </div>
+                    <p className="text-gray-600 max-w-2xl">
+                        精选全球顶尖思想家的深度访谈与洞见，助你在AI时代保持认知领先。
+                    </p>
                 </header>
 
                 <SearchBar
@@ -57,84 +43,49 @@ export default function LearningPageClient({ posts }: LearningPageClientProps) {
                     showAuthorFilter={true}
                 />
 
-                {/* X Signals Table View */}
-                {activeTab === 'signal' ? (
-                    <div className="overflow-x-auto">
-                        <table className="w-full text-left border-collapse">
-                            <thead>
-                                <tr className="text-xs text-gray-500 border-b border-gray-200">
-                                    <th className="py-4 w-32 font-normal">DATE</th>
-                                    <th className="py-4 font-normal">TOPIC & THOUGHT</th>
-                                </tr>
-                            </thead>
-                            <tbody className="divide-y divide-gray-100">
-                                {displayPosts.map((post) => (
-                                    <tr key={post.id} className="group hover:bg-white transition-colors">
-                                        <td className="py-6 pr-6 align-top text-sm text-gray-400 font-mono">
-                                            {post.date}
-                                        </td>
-                                        <td className="py-6 align-top">
-                                            <Link href={`/learning/${post.id}`} className="block group-hover:translate-x-1 transition-transform">
-                                                <div className="text-lg font-semibold text-zinc-800 mb-2 group-hover:text-amber-600">
-                                                    {post.title_best || post.title}
-                                                </div>
-                                                {post.anchor_thought && (
-                                                    <div className="text-gray-500 italic font-serif text-sm leading-relaxed border-l-2 border-amber-200 pl-3">
-                                                        "{post.anchor_thought}"
-                                                    </div>
-                                                )}
-                                            </Link>
-                                        </td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                ) : (
-                    /* Gallery Grid (Existing) */
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {displayPosts.map((post) => (
-                            <article key={post.id} className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
-                                <Link href={`/learning/${post.id}`} className="block">
-                                    {/* Thumbnail */}
-                                    <div className="relative aspect-video bg-gray-100 overflow-hidden">
-                                        {post.thumbnail ? (
-                                            <Image
-                                                src={post.thumbnail}
-                                                alt={post.title}
-                                                fill
-                                                className="object-cover group-hover:scale-105 transition-transform duration-300"
-                                                unoptimized
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full flex items-center justify-center text-gray-400">
-                                                <span className="text-4xl">📺</span>
-                                            </div>
+                {/* Gallery Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {displayPosts.map((post) => (
+                        <article key={post.id} className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
+                            <Link href={`/learning/${post.id}`} className="block">
+                                {/* Thumbnail */}
+                                <div className="relative aspect-video bg-gray-100 overflow-hidden">
+                                    {post.thumbnail ? (
+                                        <Image
+                                            src={post.thumbnail}
+                                            alt={post.title}
+                                            fill
+                                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                                            unoptimized
+                                        />
+                                    ) : (
+                                        <div className="w-full h-full flex items-center justify-center text-gray-400">
+                                            <span className="text-4xl">📺</span>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Content */}
+                                <div className="p-4">
+                                    <h2 className="text-lg font-semibold line-clamp-2 group-hover:text-amber-600 transition-colors mb-2">
+                                        {decodeHtmlEntities(post.title)}
+                                    </h2>
+                                    <div className="flex items-center flex-wrap gap-2 text-xs text-gray-500">
+                                        <span>{post.date}</span>
+                                        {post.category && (
+                                            <>
+                                                <span>·</span>
+                                                <span className="bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">
+                                                    {post.category}
+                                                </span>
+                                            </>
                                         )}
                                     </div>
-
-                                    {/* Content */}
-                                    <div className="p-4">
-                                        <h2 className="text-lg font-semibold line-clamp-2 group-hover:text-amber-600 transition-colors mb-2">
-                                            {decodeHtmlEntities(post.title)}
-                                        </h2>
-                                        <div className="flex items-center flex-wrap gap-2 text-xs text-gray-500">
-                                            <span>{post.date}</span>
-                                            {post.category && (
-                                                <>
-                                                    <span>·</span>
-                                                    <span className="bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">
-                                                        {post.category}
-                                                    </span>
-                                                </>
-                                            )}
-                                        </div>
-                                    </div>
-                                </Link>
-                            </article>
-                        ))}
-                    </div>
-                )}
+                                </div>
+                            </Link>
+                        </article>
+                    ))}
+                </div>}
 
                 {displayPosts.length === 0 && (
                     <div className="p-12 text-center text-gray-500 bg-gray-50 rounded-lg">
