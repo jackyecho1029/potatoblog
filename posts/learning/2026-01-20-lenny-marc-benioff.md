@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Marc Benioff 深度访谈"
-original_title: "Lenny's Podcast with Marc Benioff"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Marc-Benioff"]
+title: Lenny's Podcast 笔记：Marc Benioff 深度访谈
+original_title: Lenny's Podcast with Marc Benioff
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Marc-Benioff
+source_url: 'https://www.youtube.com/watch?v=tOGK1nlHdFo'
 ---
 
 # 🎯 核心结论

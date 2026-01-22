@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Nancy Duarte 深度访谈 —— 顶级叙事的力量"
-original_title: "Storytelling with Nancy Duarte: How to craft compelling presentations"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["叙事力", "演示设计", "NancyDuarte"]
+title: Lenny's Podcast 笔记：Nancy Duarte 深度访谈 —— 顶级叙事的力量
+original_title: 'Storytelling with Nancy Duarte: How to craft compelling presentations'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 叙事力
+  - 演示设计
+  - NancyDuarte
+source_url: 'https://www.youtube.com/watch?v=-kHkWgjGD7U'
 ---
 
 # 🎯 核心结论

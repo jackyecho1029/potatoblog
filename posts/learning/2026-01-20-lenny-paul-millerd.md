@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：paul-millerd 深度访谈"
-original_title: "Lenny's Podcast with paul-millerd"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "一人公司"]
+title: Lenny's Podcast 笔记：paul-millerd 深度访谈
+original_title: Lenny's Podcast with paul-millerd
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 一人公司
+source_url: 'https://www.youtube.com/watch?v=yFckwBtiCUM'
 ---
 
 # 🎯 核心结论

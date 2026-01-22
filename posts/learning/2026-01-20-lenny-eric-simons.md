@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：eric-simons 深度访谈"
-original_title: "Inside Bolt: From near-death to one of the fastest-growing products in history | Eric Simons"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Bolt"]
+title: Lenny's Podcast 笔记：eric-simons 深度访谈
+original_title: >-
+  Inside Bolt: From near-death to one of the fastest-growing products in history
+  | Eric Simons
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Bolt
+source_url: 'https://www.youtube.com/watch?v=L22DtAHLmzs'
 ---
 
 # 🎯 核心结论

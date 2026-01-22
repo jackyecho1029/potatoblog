@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：alex-komoroske 深度访谈 —— AI 时代的园艺师思维"
-original_title: "Thinking like a gardener, slime mold, the adjacent possible: Product advice from Alex Komoroske"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "园艺师思维", "复杂系统"]
+title: Lenny's Podcast 笔记：alex-komoroske 深度访谈 —— AI 时代的园艺师思维
+original_title: >-
+  Thinking like a gardener, slime mold, the adjacent possible: Product advice
+  from Alex Komoroske
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 园艺师思维
+  - 复杂系统
+source_url: 'https://www.youtube.com/watch?v=PoWRYBWSqpU'
 ---
 
 # 🎯 核心结论

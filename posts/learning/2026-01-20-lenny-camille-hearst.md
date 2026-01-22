@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Camille Hearst 深度访谈"
-original_title: "Lenny's Podcast with Camille Hearst"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创作者经济"]
+title: Lenny's Podcast 笔记：Camille Hearst 深度访谈
+original_title: Lenny's Podcast with Camille Hearst
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创作者经济
+source_url: 'https://www.youtube.com/watch?v=oB-BjEjxHNw'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：jess-lachs 深度访谈"
-original_title: "Building a world-class data org | Jessica Lachs (VP of Analytics and Data Science at DoorDash)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "数据驱动"]
+title: Lenny's Podcast 笔记：jess-lachs 深度访谈
+original_title: >-
+  Building a world-class data org | Jessica Lachs (VP of Analytics and Data
+  Science at DoorDash)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 数据驱动
+source_url: 'https://www.youtube.com/watch?v=D4PDb_C8Dww'
 ---
 
 # 🎯 核心结论

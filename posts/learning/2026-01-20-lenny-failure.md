@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：failure 深度访谈"
-original_title: "Lenny's Podcast with failure"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "failure"]
+title: Lenny's Podcast 笔记：failure 深度访谈
+original_title: Lenny's Podcast with failure
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - failure
+source_url: 'https://www.youtube.com/watch?v=9euy9gC48lc'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Elena Verna 3.0 深度访谈"
-original_title: "The ultimate guide to product-led sales | Elena Verna"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["创业与变现", "生活与效率", "反向思维"]
+title: Lenny's Podcast 笔记：Elena Verna 3.0 深度访谈
+original_title: The ultimate guide to product-led sales | Elena Verna
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 创业与变现
+  - 生活与效率
+  - 反向思维
+source_url: 'https://www.youtube.com/watch?v=bxghtN-OlJQ'
 ---
 
 # 🎯 核心结论

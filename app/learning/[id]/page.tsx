@@ -30,7 +30,17 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                             <h1 className="text-3xl font-bold mb-4 leading-tight">{decodeHtmlEntities(postData.title)}</h1>
 
                             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
-                                {postData.author && (
+                                {postData.source_url ? (
+                                    <a
+                                        href={postData.source_url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center gap-1 text-amber-600 hover:underline"
+                                    >
+                                        <span className="text-gray-400">原视频：</span>
+                                        <span className="font-medium">📺 YouTube</span>
+                                    </a>
+                                ) : postData.author && (
                                     <span className="flex items-center gap-1">
                                         <span className="text-gray-400">频道：</span>
                                         <span className="font-medium text-zinc-700">{postData.author}</span>
@@ -46,17 +56,6 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                                     </span>
                                 )}
                             </div>
-
-                            {postData.source_url && (
-                                <a
-                                    href={postData.source_url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 mt-4 text-sm text-amber-600 hover:underline"
-                                >
-                                    📺 观看原视频
-                                </a>
-                            )}
                         </header>
 
                         {/* Content */}

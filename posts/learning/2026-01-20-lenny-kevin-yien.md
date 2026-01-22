@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：kevin-yien 深度访谈"
-original_title: "Lenny's Podcast with kevin-yien"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：kevin-yien 深度访谈
+original_title: Lenny's Podcast with kevin-yien
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=xOTO98MXG9o'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：mike-maples-jr 深度访谈"
-original_title: "Pattern Breakers: How to find a breakthrough startup idea | Mike Maples, Jr."
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创业战略"]
+title: Lenny's Podcast 笔记：mike-maples-jr 深度访谈
+original_title: 'Pattern Breakers: How to find a breakthrough startup idea | Mike Maples, Jr.'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创业战略
+source_url: 'https://www.youtube.com/watch?v=h9o6gPQA6LA'
 ---
 
 # 🎯 核心结论

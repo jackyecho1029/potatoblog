@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Paige Costello 深度访谈"
-original_title: "Lenny's Podcast with Paige Costello"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Asana"]
+title: Lenny's Podcast 笔记：Paige Costello 深度访谈
+original_title: Lenny's Podcast with Paige Costello
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Asana
+source_url: 'https://www.youtube.com/watch?v=N7S6nSmOsUI'
 ---
 
 # 🎯 核心结论

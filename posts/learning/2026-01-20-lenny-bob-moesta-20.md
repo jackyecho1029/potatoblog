@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：bob-moesta-20 深度访谈"
-original_title: "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["JTBD", "生活与效率", "职业发展"]
+title: Lenny's Podcast 笔记：bob-moesta-20 深度访谈
+original_title: The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - JTBD
+  - 生活与效率
+  - 职业发展
+source_url: 'https://www.youtube.com/watch?v=xQV7HVyAJjc'
 ---
 
 # 🎯 核心结论

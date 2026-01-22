@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Matt Abrahams 深度访谈"
-original_title: "How to speak more confidently and persuasively | Matt Abrahams"
-author: "Lenny's Podcast"
-category: "产品与增长"
-tags: ["沟通技巧", "心理学", "即兴表达"]
+title: Lenny's Podcast 笔记：Matt Abrahams 深度访谈
+original_title: How to speak more confidently and persuasively | Matt Abrahams
+author: Lenny's Podcast
+category: 产品与增长
+tags:
+  - 沟通技巧
+  - 心理学
+  - 即兴表达
+source_url: 'https://www.youtube.com/watch?v=LpbBzmXrzEY'
 ---
 
 # 🎯 核心结论

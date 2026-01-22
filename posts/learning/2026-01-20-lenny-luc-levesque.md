@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：luc-levesque 深度访谈"
-original_title: "Lenny's Podcast with luc-levesque"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创业与变现"]
+title: Lenny's Podcast 笔记：luc-levesque 深度访谈
+original_title: Lenny's Podcast with luc-levesque
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创业与变现
+source_url: 'https://www.youtube.com/watch?v=Xf_ZXIGCQb0'
 ---
 
 # 🎯 核心结论

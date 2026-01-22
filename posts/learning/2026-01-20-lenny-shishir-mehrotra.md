@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：shishir-mehrotra 深度访谈"
-original_title: "Lenny's Podcast with shishir-mehrotra"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Coda"]
+title: Lenny's Podcast 笔记：shishir-mehrotra 深度访谈
+original_title: Lenny's Podcast with shishir-mehrotra
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Coda
+source_url: 'https://www.youtube.com/watch?v=7uSuMIJhONA'
 ---
 
 # 🎯 核心结论

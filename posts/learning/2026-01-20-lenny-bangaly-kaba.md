@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：bangaly-kaba 深度访谈"
-original_title: "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长框架"]
+title: Lenny's Podcast 笔记：bangaly-kaba 深度访谈
+original_title: >-
+  Unorthodox frameworks for growing your product, career, and impact | Bangaly
+  Kaba
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长框架
+source_url: 'https://www.youtube.com/watch?v=Ub9UkWByFIQ'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：tanguy-crusson 深度访谈"
-original_title: "Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品发现"]
+title: Lenny's Podcast 笔记：tanguy-crusson 深度访谈
+original_title: Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品发现
+source_url: 'https://www.youtube.com/watch?v=cZqpqb5qR5A'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：elena-verna-40 深度访谈"
-original_title: "Lenny's Podcast with Elena Verna: The new AI growth playbook for 2026"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "创业与变现", "生活与效率"]
+title: Lenny's Podcast 笔记：elena-verna-40 深度访谈
+original_title: 'Lenny''s Podcast with Elena Verna: The new AI growth playbook for 2026'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 创业与变现
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=6qAB6aUMIeA'
 ---
 
 # 🎯 核心结论

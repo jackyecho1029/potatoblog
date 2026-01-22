@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：nir-eyal 深度访谈 —— 夺回 AI 时代的注意力主权"
-original_title: "Strategies for becoming less distractible and improving focus | Nir Eyal"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "心理学"]
+title: Lenny's Podcast 笔记：nir-eyal 深度访谈 —— 夺回 AI 时代的注意力主权
+original_title: Strategies for becoming less distractible and improving focus | Nir Eyal
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 心理学
+source_url: 'https://www.youtube.com/watch?v=WSscIIY609c'
 ---
 
 # 🎯 核心结论

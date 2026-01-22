@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：jason-droege 深度访谈"
-original_title: "Lenny's Podcast with jason-droege"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：jason-droege 深度访谈
+original_title: Lenny's Podcast with jason-droege
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=W99jdYZOlN0'
 ---
 
 # 🎯 核心结论

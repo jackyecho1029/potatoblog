@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：janna-bastow 深度访谈"
-original_title: "Lenny's Podcast with janna-bastow"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "路线图"]
+title: Lenny's Podcast 笔记：janna-bastow 深度访谈
+original_title: Lenny's Podcast with janna-bastow
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 路线图
+source_url: 'https://www.youtube.com/watch?v=W3cvqPCGcck'
 ---
 
 # 🎯 核心结论

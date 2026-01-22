@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Kim Scott 深度访谈 —— AI 时代的人文护城河"
-original_title: "Lenny's Podcast with Kim Scott"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：Kim Scott 深度访谈 —— AI 时代的人文护城河
+original_title: Lenny's Podcast with Kim Scott
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 领导力
+source_url: 'https://www.youtube.com/watch?v=gI0ZNhA0rvE'
 ---
 
 # 🎯 核心结论

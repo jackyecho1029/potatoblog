@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ivan-zhao 深度访谈"
-original_title: "Lenny's Podcast with ivan-zhao"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Notion"]
+title: Lenny's Podcast 笔记：ivan-zhao 深度访谈
+original_title: Lenny's Podcast with ivan-zhao
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Notion
+source_url: 'https://www.youtube.com/watch?v=IIPKMixTMfE'
 ---
 
 # 🎯 核心结论

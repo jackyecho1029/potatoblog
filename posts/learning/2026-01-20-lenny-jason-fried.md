@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jason-fried 深度访谈"
-original_title: "Lenny's Podcast with jason-fried"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "一人公司"]
+title: Lenny's Podcast 笔记：jason-fried 深度访谈
+original_title: Lenny's Podcast with jason-fried
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 一人公司
+source_url: 'https://www.youtube.com/watch?v=LZLdoAq3R7Y'
 ---
 
 # 🎯 核心结论

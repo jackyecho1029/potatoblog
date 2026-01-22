@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：zoelle-egner 深度访谈"
-original_title: "Lenny's Podcast with zoelle-egner"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长战略"]
+title: Lenny's Podcast 笔记：zoelle-egner 深度访谈
+original_title: Lenny's Podcast with zoelle-egner
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长战略
+source_url: 'https://www.youtube.com/watch?v=0P8LMyeYl1U'
 ---
 
 # 🎯 核心结论

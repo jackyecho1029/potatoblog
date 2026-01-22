@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：christina-wodtke 深度访谈"
-original_title: "The ultimate guide to OKRs | Christina Wodtke (Stanford)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["OKR", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：christina-wodtke 深度访谈
+original_title: The ultimate guide to OKRs | Christina Wodtke (Stanford)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - OKR
+  - 生活与效率
+  - 领导力
+source_url: 'https://www.youtube.com/watch?v=kvkL18Ue0dE'
 ---
 
 # 🎯 核心结论

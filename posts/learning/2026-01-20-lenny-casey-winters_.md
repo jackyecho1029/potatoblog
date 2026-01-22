@@ -1,11 +1,15 @@
 ---
-
-title: "Lenny's Podcast 笔记：casey-winters_ 深度访谈"
-original_title: "How to sell your ideas and rise within your company | Casey Winters, Eventbrite"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "ZIRP_PM"]
-
+title: Lenny's Podcast 笔记：casey-winters_ 深度访谈
+original_title: >-
+  How to sell your ideas and rise within your company | Casey Winters,
+  Eventbrite
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - ZIRP_PM
+source_url: 'https://www.youtube.com/watch?v=6XMUDEYf2OE'
 ---
 
 # 🎯 核心结论

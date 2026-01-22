@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：dalton-caldwell 深度访谈"
-original_title: "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (YC)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "YC"]
+title: Lenny's Podcast 笔记：dalton-caldwell 深度访谈
+original_title: >-
+  Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more |
+  Dalton Caldwell (YC)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - YC
+source_url: 'https://www.youtube.com/watch?v=m7LvNTbaqSI'
 ---
 
 # 🎯 核心结论

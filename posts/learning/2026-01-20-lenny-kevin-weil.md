@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：kevin-weil 深度访谈"
-original_title: "OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "OpenAI"]
+title: Lenny's Podcast 笔记：kevin-weil 深度访谈
+original_title: >-
+  OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup
+  playbooks, more | Kevin Weil
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - OpenAI
+source_url: 'https://www.youtube.com/watch?v=scsW6_2SPC4'
 ---
 
 # 🎯 核心结论

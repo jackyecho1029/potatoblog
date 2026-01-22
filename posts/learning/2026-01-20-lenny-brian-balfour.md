@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：brian-balfour 深度访谈"
-original_title: "Why ChatGPT will be the next big growth channel (and how to capitalize on it) | Brian Balfour"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长战略"]
+title: Lenny's Podcast 笔记：brian-balfour 深度访谈
+original_title: >-
+  Why ChatGPT will be the next big growth channel (and how to capitalize on it)
+  | Brian Balfour
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长战略
+source_url: 'https://www.youtube.com/watch?v=cX4cL6B-_aU'
 ---
 
 # 🎯 核心结论

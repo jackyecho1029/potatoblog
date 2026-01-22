@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Ken Norton 深度访谈"
-original_title: "How to unlock your product leadership skills | Ken Norton, Ex-Google"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：Ken Norton 深度访谈
+original_title: 'How to unlock your product leadership skills | Ken Norton, Ex-Google'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 领导力
+source_url: 'https://www.youtube.com/watch?v=6P0Es02vIF4'
 ---
 
 # 🎯 核心结论

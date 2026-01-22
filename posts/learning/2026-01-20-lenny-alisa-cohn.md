@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Alisa Cohn 深度访谈"
-original_title: "Scripts for navigating difficult conversations | Alisa Cohn (executive coach)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：Alisa Cohn 深度访谈
+original_title: Scripts for navigating difficult conversations | Alisa Cohn (executive coach)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 领导力
+source_url: 'https://www.youtube.com/watch?v=bvF0ZM8DjuI'
 ---
 
 # 🎯 核心结论

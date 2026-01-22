@@ -1,9 +1,14 @@
 ---
-title: "Lenny's Podcast 笔记：jag-duggal 深度访谈"
-original_title: "Be fundamentally different, not incrementally better | Jag Duggal (Nubank, Facebook, Google)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：jag-duggal 深度访谈
+original_title: >-
+  Be fundamentally different, not incrementally better | Jag Duggal (Nubank,
+  Facebook, Google)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=8A7wXK2MncQ'
 ---
 
 # 🎯 核心结论

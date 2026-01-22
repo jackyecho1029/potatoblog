@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：josh-miller 深度访谈"
-original_title: "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Arc浏览器"]
+title: Lenny's Podcast 笔记：josh-miller 深度访谈
+original_title: >-
+  Competing with giants: An inside look at how The Browser Company builds
+  product | Josh Miller (CEO)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Arc浏览器
+source_url: 'https://www.youtube.com/watch?v=AZpo5785v8A'
 ---
 
 # 🎯 核心结论

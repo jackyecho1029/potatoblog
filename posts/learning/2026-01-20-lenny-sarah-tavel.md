@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Sarah Tavel 深度访谈"
-original_title: "The Hierarchy of Engagement | Sarah Tavel (Benchmark, Pinterest)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "参与度层级"]
+title: Lenny's Podcast 笔记：Sarah Tavel 深度访谈
+original_title: 'The Hierarchy of Engagement | Sarah Tavel (Benchmark, Pinterest)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 参与度层级
+source_url: 'https://www.youtube.com/watch?v=H9g4pzcz6Tk'
 ---
 
 # 🎯 核心结论

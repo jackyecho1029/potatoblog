@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：vijay 深度访谈 —— 极简主义的产品致胜之道"
-original_title: "An inside look at Mixpanel’s product journey | Vijay Iyengar"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品战略"]
+title: Lenny's Podcast 笔记：vijay 深度访谈 —— 极简主义的产品致胜之道
+original_title: An inside look at Mixpanel’s product journey | Vijay Iyengar
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品战略
+source_url: 'https://www.youtube.com/watch?v=t-2oXtZrlEc'
 ---
 
 # 🎯 核心结论

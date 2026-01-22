@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：anneka-gupta 深度访谈"
-original_title: "Becoming more strategic, navigating difficult colleagues, founder mode, more | Anneka Gupta"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "战略思维"]
+title: Lenny's Podcast 笔记：anneka-gupta 深度访谈
+original_title: >-
+  Becoming more strategic, navigating difficult colleagues, founder mode, more |
+  Anneka Gupta
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 战略思维
+source_url: 'https://www.youtube.com/watch?v=E3dUveqt9Bw'
 ---
 
 # 🎯 核心结论

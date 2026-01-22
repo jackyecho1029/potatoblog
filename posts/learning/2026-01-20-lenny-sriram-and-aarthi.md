@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Sriram and Aarthi 深度访谈"
-original_title: "Lenny's Podcast with Sriram and Aarthi"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "个人品牌"]
+title: Lenny's Podcast 笔记：Sriram and Aarthi 深度访谈
+original_title: Lenny's Podcast with Sriram and Aarthi
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 个人品牌
+source_url: 'https://www.youtube.com/watch?v=HsD5ycT_umw'
 ---
 
 # 🎯 核心结论

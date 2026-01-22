@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Melissa Perri & Denise Tilles 深度访谈"
-original_title: "The ultimate guide to product operations | Melissa Perri and Denise Tilles"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "ProductOps"]
+title: Lenny's Podcast 笔记：Melissa Perri & Denise Tilles 深度访谈
+original_title: The ultimate guide to product operations | Melissa Perri and Denise Tilles
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - ProductOps
+source_url: 'https://www.youtube.com/watch?v=9VdixM9KPN4'
 ---
 
 # 🎯 核心结论

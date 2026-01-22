@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：teresa-torres 深度访谈"
-original_title: "Lenny's Podcast with teresa-torres"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品发现"]
+title: Lenny's Podcast 笔记：teresa-torres 深度访谈
+original_title: Lenny's Podcast with teresa-torres
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品发现
+source_url: 'https://www.youtube.com/watch?v=9RFaz9ZBXpk'
 ---
 
 # 🎯 核心结论

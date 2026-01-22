@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：carilu-dietrich 深度访谈"
-original_title: "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "超高速增长"]
+title: Lenny's Podcast 笔记：carilu-dietrich 深度访谈
+original_title: >-
+  How to achieve hypergrowth in your business and career | Carilu Dietrich
+  (Atlassian)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 超高速增长
+source_url: 'https://www.youtube.com/watch?v=Pm7QSWDIEUc'
 ---
 
 # 🎯 核心结论

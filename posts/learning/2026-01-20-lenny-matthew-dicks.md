@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：matthew-dicks 深度访谈"
-original_title: "Lenny's Podcast with matthew-dicks"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "故事力"]
+title: Lenny's Podcast 笔记：matthew-dicks 深度访谈
+original_title: Lenny's Podcast with matthew-dicks
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 故事力
+source_url: 'https://www.youtube.com/watch?v=J4wguyJZI6A'
 ---
 
 # 🎯 核心结论

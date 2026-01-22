@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：robby-stein 深度访谈"
-original_title: "Inside Google's AI turnaround: AI Mode, AI Overviews, and vision for AI-powered search | Robby Stein"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "搜索革命"]
+title: Lenny's Podcast 笔记：robby-stein 深度访谈
+original_title: >-
+  Inside Google's AI turnaround: AI Mode, AI Overviews, and vision for
+  AI-powered search | Robby Stein
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 搜索革命
+source_url: 'https://www.youtube.com/watch?v=kOnsqqVbIeY'
 ---
 
 # 🎯 核心结论

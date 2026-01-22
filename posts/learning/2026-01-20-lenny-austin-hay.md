@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：austin-hay 深度访谈"
-original_title: "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Martech"]
+title: Lenny's Podcast 笔记：austin-hay 深度访谈
+original_title: 'The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Martech
+source_url: 'https://www.youtube.com/watch?v=B79p85DHLkU'
 ---
 
 # 🎯 核心结论

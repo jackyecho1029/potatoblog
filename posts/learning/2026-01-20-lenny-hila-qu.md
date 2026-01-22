@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：hila-qu 深度访谈"
-original_title: "Lenny's Podcast with hila-qu: The ultimate guide to adding a PLG motion"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["PLG", "增长模型", "数据驱动"]
+title: Lenny's Podcast 笔记：hila-qu 深度访谈
+original_title: 'Lenny''s Podcast with hila-qu: The ultimate guide to adding a PLG motion'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - PLG
+  - 增长模型
+  - 数据驱动
+source_url: 'https://www.youtube.com/watch?v=7l1fIxk7SnA'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：tristan-de-montebello 深度访谈"
-original_title: "Lenny's Podcast with tristan-de-montebello"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "公共表达"]
+title: Lenny's Podcast 笔记：tristan-de-montebello 深度访谈
+original_title: Lenny's Podcast with tristan-de-montebello
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 公共表达
+source_url: 'https://www.youtube.com/watch?v=BQM3Yq93nVc'
 ---
 
 # 🎯 核心结论

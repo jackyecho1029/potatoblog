@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Sean Ellis 深度访谈 —— 破译 PMF 与增长的底层逻辑"
-original_title: "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["增长黑客", "PMF", "生活与效率"]
+title: Lenny's Podcast 笔记：Sean Ellis 深度访谈 —— 破译 PMF 与增长的底层逻辑
+original_title: >-
+  The original growth hacker reveals his secrets | Sean Ellis (author of
+  “Hacking Growth”)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 增长黑客
+  - PMF
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=VjJ6xcv7e8s'
 ---
 
 # 🎯 核心结论

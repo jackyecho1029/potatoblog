@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：seth-godin 深度访谈"
-original_title: "Lenny's Podcast with seth-godin"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "策略"]
+title: Lenny's Podcast 笔记：seth-godin 深度访谈
+original_title: Lenny's Podcast with seth-godin
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 策略
+source_url: 'https://www.youtube.com/watch?v=UyWTDmDjNy4'
 ---
 
 # 🎯 核心结论

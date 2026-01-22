@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ebi-atawodi 深度访谈"
-original_title: "Lenny's Podcast with ebi-atawodi"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品愿景"]
+title: Lenny's Podcast 笔记：ebi-atawodi 深度访谈
+original_title: Lenny's Podcast with ebi-atawodi
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品愿景
+source_url: 'https://www.youtube.com/watch?v=tBPTwUmaxDs'
 ---
 
 # 🎯 核心结论

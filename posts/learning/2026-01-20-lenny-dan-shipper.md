@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：dan-shipper 深度访谈"
-original_title: "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code. | Dan Shipper (Every)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "一人公司"]
+title: Lenny's Podcast 笔记：dan-shipper 深度访谈
+original_title: >-
+  The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code. |
+  Dan Shipper (Every)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 一人公司
+source_url: 'https://www.youtube.com/watch?v=crMrVozp_h8'
 ---
 
 # 🎯 核心结论

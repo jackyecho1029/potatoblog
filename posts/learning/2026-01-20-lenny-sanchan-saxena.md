@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：sanchan-saxena 深度访谈 —— 危机中的领导力与产品的艺术"
-original_title: "Why Uber’s CPO delivers food on weekends | Sachin Kansal (Note: Transcript provided is Sanchan Saxena)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品战略"]
+title: Lenny's Podcast 笔记：sanchan-saxena 深度访谈 —— 危机中的领导力与产品的艺术
+original_title: >-
+  Why Uber’s CPO delivers food on weekends | Sachin Kansal (Note: Transcript
+  provided is Sanchan Saxena)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品战略
+source_url: 'https://www.youtube.com/watch?v=MnBZlEQ14fY'
 ---
 
 # 🎯 核心结论

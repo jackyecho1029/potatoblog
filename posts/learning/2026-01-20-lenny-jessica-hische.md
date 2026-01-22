@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：jessica-hische 深度访谈"
-original_title: "How to see like a designer: The hidden power of typography and logos | Jessica Hische"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "设计思维"]
+title: Lenny's Podcast 笔记：jessica-hische 深度访谈
+original_title: >-
+  How to see like a designer: The hidden power of typography and logos | Jessica
+  Hische
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 设计思维
+source_url: 'https://www.youtube.com/watch?v=tLLqE6Ia8-U'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：pete-kazanjy 深度访谈"
-original_title: "Founder-led sales | Pete Kazanjy (Founding Sales, Atrium)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "销售科学"]
+title: Lenny's Podcast 笔记：pete-kazanjy 深度访谈
+original_title: 'Founder-led sales | Pete Kazanjy (Founding Sales, Atrium)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 销售科学
+source_url: 'https://www.youtube.com/watch?v=cZd5234Eem0'
 ---
 
 # 🎯 核心结论

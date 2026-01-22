@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：April Dunford 深度访谈 —— 破解定位与销售增长的底层代码"
-original_title: "How to nail your product positioning | April Dunford (Obviously Awesome)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["定位理论", "生活与效率", "B2B销售"]
+title: Lenny's Podcast 笔记：April Dunford 深度访谈 —— 破解定位与销售增长的底层代码
+original_title: How to nail your product positioning | April Dunford (Obviously Awesome)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 定位理论
+  - 生活与效率
+  - B2B销售
+source_url: 'https://www.youtube.com/watch?v=hdjlCLb9Hl8'
 ---
 
 # 🎯 核心结论

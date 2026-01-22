@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Melissa Tan 深度访谈"
-original_title: "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["增长战略", "第一性原理", "人才管理"]
+title: Lenny's Podcast 笔记：Melissa Tan 深度访谈
+original_title: 'Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 增长战略
+  - 第一性原理
+  - 人才管理
+source_url: 'https://www.youtube.com/watch?v=DoEfXj1b_ko'
 ---
 
 # 🎯 核心结论

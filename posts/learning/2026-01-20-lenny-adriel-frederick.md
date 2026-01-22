@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：adriel-frederick 深度访谈"
-original_title: "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长增长"]
+title: Lenny's Podcast 笔记：adriel-frederick 深度访谈
+original_title: 'Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长增长
+source_url: 'https://www.youtube.com/watch?v=uMhBej6-Ey4'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Brendan Foody 深度访谈"
-original_title: "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "评估理论"]
+title: Lenny's Podcast 笔记：Brendan Foody 深度访谈
+original_title: >-
+  Why experts writing AI evals is creating the fastest-growing companies in
+  history | Brendan Foody
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 评估理论
+source_url: 'https://www.youtube.com/watch?v=ja6fWTDPQl4'
 ---
 
 # 🎯 核心结论

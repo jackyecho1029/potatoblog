@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Claire Butler 深度访谈 —— 解构 Figma 的增长神话"
-original_title: "An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)"
-author: "Lenny's Podcast"
-category: "产品与增长"
-tags: ["GTM", "Figma", "社区驱动增长"]
+title: Lenny's Podcast 笔记：Claire Butler 深度访谈 —— 解构 Figma 的增长神话
+original_title: An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)
+author: Lenny's Podcast
+category: 产品与增长
+tags:
+  - GTM
+  - Figma
+  - 社区驱动增长
+source_url: 'https://www.youtube.com/watch?v=UmirRfy-gzA'
 ---
 
 # 🎯 核心结论

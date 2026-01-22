@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：dr-fei-fei-li 深度访谈"
-original_title: "Lenny's Podcast with dr-fei-fei-li"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "空间智能"]
+title: Lenny's Podcast 笔记：dr-fei-fei-li 深度访谈
+original_title: Lenny's Podcast with dr-fei-fei-li
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 空间智能
+source_url: 'https://www.youtube.com/watch?v=Ctjiatnd6Xk'
 ---
 
 # 🎯 核心结论

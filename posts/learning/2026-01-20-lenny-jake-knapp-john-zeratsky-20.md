@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：jake-knapp-john-zeratsky-20 深度访谈"
-original_title: "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品战略"]
+title: Lenny's Podcast 笔记：jake-knapp-john-zeratsky-20 深度访谈
+original_title: >-
+  Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make
+  Time, Character VC)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品战略
+source_url: 'https://www.youtube.com/watch?v=cuce7zvOFHY'
 ---
 
 # 🎯 核心结论

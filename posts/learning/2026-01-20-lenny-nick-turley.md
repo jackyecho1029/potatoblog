@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Nick Turley 深度访谈 —— 揭秘 ChatGPT 的极速进化史"
-original_title: "Inside ChatGPT: The fastest growing product in history | Nick Turley (OpenAI)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "OpenAI"]
+title: Lenny's Podcast 笔记：Nick Turley 深度访谈 —— 揭秘 ChatGPT 的极速进化史
+original_title: 'Inside ChatGPT: The fastest growing product in history | Nick Turley (OpenAI)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - OpenAI
+source_url: 'https://www.youtube.com/watch?v=ixY2PvQJ0To'
 ---
 
 # 🎯 核心结论

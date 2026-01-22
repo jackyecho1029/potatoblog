@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：uri-levine-20 深度访谈"
-original_title: "A founder’s guide to crisis management | Uri Levine"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "危机管理", "创业逻辑"]
+title: Lenny's Podcast 笔记：uri-levine-20 深度访谈
+original_title: A founder’s guide to crisis management | Uri Levine
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 危机管理
+  - 创业逻辑
+source_url: 'https://www.youtube.com/watch?v=lQdogVBHMdA'
 ---
 
 # 🎯 核心结论

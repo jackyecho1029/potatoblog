@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ramesh-johari 深度访谈"
-original_title: "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "市场设计"]
+title: Lenny's Podcast 笔记：ramesh-johari 深度访谈
+original_title: 'Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 市场设计
+source_url: 'https://www.youtube.com/watch?v=BVzTfsUMaK8'
 ---
 
 # 🎯 核心结论

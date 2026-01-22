@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jonny-miller 深度访谈"
-original_title: "Lenny's Podcast with jonny-miller"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "神经系统"]
+title: Lenny's Podcast 笔记：jonny-miller 深度访谈
+original_title: Lenny's Podcast with jonny-miller
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 神经系统
+source_url: 'https://www.youtube.com/watch?v=-kN8Agqee4w'
 ---
 
 # 🎯 核心结论

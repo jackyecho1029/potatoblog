@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：adam-fishman 深度访谈"
-original_title: "Lenny's Podcast with adam-fishman"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创业与变现"]
+title: Lenny's Podcast 笔记：adam-fishman 深度访谈
+original_title: Lenny's Podcast with adam-fishman
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创业与变现
+source_url: 'https://www.youtube.com/watch?v=wP8YyWH524A'
 ---
 
 # 🎯 核心结论

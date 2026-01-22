@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：katie-dill 深度访谈"
-original_title: "Building beautiful products with Stripe’s Head of Design | Katie Dill"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "设计策略"]
+title: Lenny's Podcast 笔记：katie-dill 深度访谈
+original_title: Building beautiful products with Stripe’s Head of Design | Katie Dill
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 设计策略
+source_url: 'https://www.youtube.com/watch?v=gfEEcssu304'
 ---
 
 # 🎯 核心结论

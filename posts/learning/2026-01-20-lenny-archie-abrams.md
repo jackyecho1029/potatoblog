@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：archie-abrams 深度访谈"
-original_title: "How to speak more confidently and persuasively | Matt Abrahams (professor, speaker, author)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Shopify"]
+title: Lenny's Podcast 笔记：archie-abrams 深度访谈
+original_title: >-
+  How to speak more confidently and persuasively | Matt Abrahams (professor,
+  speaker, author)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Shopify
+source_url: 'https://www.youtube.com/watch?v=LpbBzmXrzEY'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：oji-udezue 深度访谈"
-original_title: "Lenny's Podcast with oji-udezue"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "PLG"]
+title: Lenny's Podcast 笔记：oji-udezue 深度访谈
+original_title: Lenny's Podcast with oji-udezue
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - PLG
+source_url: 'https://www.youtube.com/watch?v=T8TQGbJhv6Q'
 ---
 
 # 🎯 核心结论

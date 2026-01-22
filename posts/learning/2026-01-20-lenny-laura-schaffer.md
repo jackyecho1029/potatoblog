@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：laura-schaffer 深度访谈"
-original_title: "Lenny's Podcast with laura-schaffer"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长实验"]
+title: Lenny's Podcast 笔记：laura-schaffer 深度访谈
+original_title: Lenny's Podcast with laura-schaffer
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长实验
+source_url: 'https://www.youtube.com/watch?v=UMAmj1bciww'
 ---
 
 # 🎯 核心结论

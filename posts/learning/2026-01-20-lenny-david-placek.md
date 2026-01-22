@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：david-placek 深度访谈"
-original_title: "Lenny's Podcast with david-placek"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "品牌命名"]
+title: Lenny's Podcast 笔记：david-placek 深度访谈
+original_title: Lenny's Podcast with david-placek
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 品牌命名
+source_url: 'https://www.youtube.com/watch?v=F0_IKKY3HCk'
 ---
 
 # 🎯 核心结论

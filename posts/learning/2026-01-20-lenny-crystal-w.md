@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：crystal-w 深度访谈"
-original_title: "How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek and Kumu"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长驱动"]
+title: Lenny's Podcast 笔记：crystal-w 深度访谈
+original_title: >-
+  How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek
+  and Kumu
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长驱动
+source_url: 'https://www.youtube.com/watch?v=lYaiyi2ZX6Q'
 ---
 
 # 🎯 核心结论

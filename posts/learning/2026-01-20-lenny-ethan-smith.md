@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：ethan-smith 深度访谈 —— 破解 AEO 与 AI 时代的搜索逻辑"
-original_title: "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)"
-author: "Lenny's Podcast"
-category: "产品与增长"
-tags: ["AEO", "SEO", "AI营销"]
+title: Lenny's Podcast 笔记：ethan-smith 深度访谈 —— 破解 AEO 与 AI 时代的搜索逻辑
+original_title: >-
+  The ultimate guide to AEO: How to get ChatGPT to recommend your product |
+  Ethan Smith (Graphite)
+author: Lenny's Podcast
+category: 产品与增长
+tags:
+  - AEO
+  - SEO
+  - AI营销
+source_url: 'https://www.youtube.com/watch?v=iT7kq-R3Gjc'
 ---
 
 # 🎯 核心结论

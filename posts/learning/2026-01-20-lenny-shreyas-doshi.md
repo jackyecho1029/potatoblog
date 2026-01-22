@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：shreyas-doshi 深度访谈"
-original_title: "The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品管理"]
+title: Lenny's Podcast 笔记：shreyas-doshi 深度访谈
+original_title: 'The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品管理
+source_url: 'https://www.youtube.com/watch?v=YP_QghPLG-8'
 ---
 
 # 🎯 核心结论

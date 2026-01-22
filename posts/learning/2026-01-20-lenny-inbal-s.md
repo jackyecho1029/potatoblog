@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：inbal-s 深度访谈 —— AI 时代的软件进化论"
-original_title: "The future of AI in software development | Inbal Shani (CPO of GitHub)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "GitHub"]
+title: Lenny's Podcast 笔记：inbal-s 深度访谈 —— AI 时代的软件进化论
+original_title: The future of AI in software development | Inbal Shani (CPO of GitHub)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - GitHub
+source_url: 'https://www.youtube.com/watch?v=f10s3rxKaJw'
 ---
 
 # 🎯 核心结论

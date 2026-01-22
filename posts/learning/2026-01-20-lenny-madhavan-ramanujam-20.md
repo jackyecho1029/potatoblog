@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Madhavan Ramanujam 深度访谈"
-original_title: "The art and science of pricing | Madhavan Ramanujam (Monetizing Innovation, Simon-Kucher)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["定价策略", "生活与效率", "AI变现"]
+title: Lenny's Podcast 笔记：Madhavan Ramanujam 深度访谈
+original_title: >-
+  The art and science of pricing | Madhavan Ramanujam (Monetizing Innovation,
+  Simon-Kucher)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 定价策略
+  - 生活与效率
+  - AI变现
+source_url: 'https://www.youtube.com/watch?v=A6veeCbKIzw'
 ---
 
 # 🎯 核心结论

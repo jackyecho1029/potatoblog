@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ethan-evans-20 深度访谈"
-original_title: "Lenny's Podcast with ethan-evans-20"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "职业掌控力"]
+title: Lenny's Podcast 笔记：ethan-evans-20 深度访谈
+original_title: Lenny's Podcast with ethan-evans-20
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 职业掌控力
+source_url: 'https://www.youtube.com/watch?v=GB0P0_nFPTA'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：ian-mcallister 深度访谈"
-original_title: "Lenny's Podcast with ian-mcallister"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：ian-mcallister 深度访谈
+original_title: Lenny's Podcast with ian-mcallister
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=7gaPPrAd7nc'
 ---
 
 # 🎯 核心结论

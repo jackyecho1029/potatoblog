@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Jeffrey Pfeffer 深度访谈"
-original_title: "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "权力七律"]
+title: Lenny's Podcast 笔记：Jeffrey Pfeffer 深度访谈
+original_title: >-
+  The paths to power: How to grow your influence and advance your career |
+  Jeffrey Pfeffer
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 权力七律
+source_url: 'https://www.youtube.com/watch?v=etVCBDRXUH8'
 ---
 
 # 🎯 核心结论

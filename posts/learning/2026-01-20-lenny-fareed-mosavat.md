@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：fareed-mosavat 深度访谈"
-original_title: "How to build trust and grow as a product leader | Fareed Mosavat"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品经理"]
+title: Lenny's Podcast 笔记：fareed-mosavat 深度访谈
+original_title: How to build trust and grow as a product leader | Fareed Mosavat
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品经理
+source_url: 'https://www.youtube.com/watch?v=oo0jSep7pzc'
 ---
 
 # 🎯 核心结论

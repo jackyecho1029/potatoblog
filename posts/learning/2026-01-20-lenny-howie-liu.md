@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：howie-liu 深度访谈"
-original_title: "How we restructured Airtable's entire org for AI | Howie Liu (co-founder and CEO)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "一人公司"]
+title: Lenny's Podcast 笔记：howie-liu 深度访谈
+original_title: >-
+  How we restructured Airtable's entire org for AI | Howie Liu (co-founder and
+  CEO)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 一人公司
+source_url: 'https://www.youtube.com/watch?v=GT0jtVjRy2E'
 ---
 
 # 🎯 核心结论

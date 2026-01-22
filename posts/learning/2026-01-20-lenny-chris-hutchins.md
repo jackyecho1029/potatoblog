@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：chris-hutchins 深度访谈"
-original_title: "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "个人IP"]
+title: Lenny's Podcast 笔记：chris-hutchins 深度访谈
+original_title: >-
+  Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront,
+  Google)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 个人IP
+source_url: 'https://www.youtube.com/watch?v=kc1XhB4k0Eg'
 ---
 
 # 🎯 核心结论

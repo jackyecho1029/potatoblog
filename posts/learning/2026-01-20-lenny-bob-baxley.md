@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Bob Baxley 深度访谈"
-original_title: "35 years of product design wisdom from Apple, Disney, Pinterest and beyond | Bob Baxley"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "BobBaxley"]
+title: Lenny's Podcast 笔记：Bob Baxley 深度访谈
+original_title: >-
+  35 years of product design wisdom from Apple, Disney, Pinterest and beyond |
+  Bob Baxley
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - BobBaxley
+source_url: 'https://www.youtube.com/watch?v=X-83gvgVaWc'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：jason-m-lemkin 深度访谈"
-original_title: "We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "SaaS"]
+title: Lenny's Podcast 笔记：jason-m-lemkin 深度访谈
+original_title: >-
+  We replaced our sales team with 20 AI agents—here’s what happened next | Jason
+  Lemkin
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - SaaS
+source_url: 'https://www.youtube.com/watch?v=I-R1bc1rlFs'
 ---
 
 # 🎯 核心结论

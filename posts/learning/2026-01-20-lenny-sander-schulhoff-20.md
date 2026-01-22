@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Sander Schulhoff 深度访谈 —— AI 安全的幻象与真相"
-original_title: "Why securing AI is harder than anyone expected and guardrails are failing | HackAPrompt CEO"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI安全", "生活与效率", "提示词注入"]
+title: Lenny's Podcast 笔记：Sander Schulhoff 深度访谈 —— AI 安全的幻象与真相
+original_title: >-
+  Why securing AI is harder than anyone expected and guardrails are failing |
+  HackAPrompt CEO
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI安全
+  - 生活与效率
+  - 提示词注入
+source_url: 'https://www.youtube.com/watch?v=J9982NLmTXg'
 ---
 
 # 🎯 核心结论

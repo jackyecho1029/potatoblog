@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Stewart Butterfield 深度访谈"
-original_title: "Mental models for building products people love ft. Stewart Butterfield"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Stewart-Butterfield"]
+title: Lenny's Podcast 笔记：Stewart Butterfield 深度访谈
+original_title: Mental models for building products people love ft. Stewart Butterfield
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Stewart-Butterfield
+source_url: 'https://www.youtube.com/watch?v=kLe-zy5r0Mk'
 ---
 
 # 🎯 核心结论

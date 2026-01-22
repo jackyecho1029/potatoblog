@@ -1,11 +1,13 @@
 ---
-
-title: "Lenny's Podcast 笔记：ethan-evans 深度访谈"
-original_title: "Lenny's Podcast with ethan-evans: Taking control of your career"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "职业所有权"]
-
+title: Lenny's Podcast 笔记：ethan-evans 深度访谈
+original_title: 'Lenny''s Podcast with ethan-evans: Taking control of your career'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 职业所有权
+source_url: 'https://www.youtube.com/watch?v=GB0P0_nFPTA'
 ---
 
 # 🎯 核心结论

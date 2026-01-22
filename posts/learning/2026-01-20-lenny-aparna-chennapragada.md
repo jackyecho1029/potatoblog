@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：aparna-chennapragada 深度访谈"
-original_title: "Lenny's Podcast with aparna-chennapragada"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：aparna-chennapragada 深度访谈
+original_title: Lenny's Podcast with aparna-chennapragada
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=HbbfXAWcuUo'
 ---
 
 # 🎯 核心结论

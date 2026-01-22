@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：sachin-monga 深度访谈"
-original_title: "Building Substack | Sachin Monga (Substack, Facebook)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创作者经济"]
+title: Lenny's Podcast 笔记：sachin-monga 深度访谈
+original_title: 'Building Substack | Sachin Monga (Substack, Facebook)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创作者经济
+source_url: 'https://www.youtube.com/watch?v=zKP2HrMc23s'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jackie-bavaro 深度访谈"
-original_title: "Lenny's Podcast with jackie-bavaro"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品战略"]
+title: Lenny's Podcast 笔记：jackie-bavaro 深度访谈
+original_title: Lenny's Podcast with jackie-bavaro
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品战略
+source_url: 'https://www.youtube.com/watch?v=aXGo1o_baBo'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：yuhki-yamashata 深度访谈"
-original_title: "Lenny's Podcast with yuhki-yamashata"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Figma"]
+title: Lenny's Podcast 笔记：yuhki-yamashata 深度访谈
+original_title: Lenny's Podcast with yuhki-yamashata
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Figma
+source_url: 'https://www.youtube.com/watch?v=NepFo4zXyK4'
 ---
 
 # 🎯 核心结论

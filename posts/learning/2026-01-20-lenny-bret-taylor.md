@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Bret Taylor 深度访谈"
-original_title: "Lenny's Podcast with Bret Taylor"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Bret-Taylor"]
+title: Lenny's Podcast 笔记：Bret Taylor 深度访谈
+original_title: Lenny's Podcast with Bret Taylor
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Bret-Taylor
+source_url: 'https://www.youtube.com/watch?v=qImgGtnNbx0'
 ---
 
 # 🎯 核心结论

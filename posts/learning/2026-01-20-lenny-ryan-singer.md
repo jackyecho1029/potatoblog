@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ryan-singer 深度访谈"
-original_title: "Lenny's Podcast with ryan-singer"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "ShapeUp"]
+title: Lenny's Podcast 笔记：ryan-singer 深度访谈
+original_title: Lenny's Podcast with ryan-singer
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - ShapeUp
+source_url: 'https://www.youtube.com/watch?v=GF-yUANql0c'
 ---
 
 # 🎯 核心结论

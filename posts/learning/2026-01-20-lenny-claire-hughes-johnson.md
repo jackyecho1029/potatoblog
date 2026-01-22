@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：claire-hughes-johnson 深度访谈"
-original_title: "Lenny's Podcast with claire-hughes-johnson"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Stripe"]
+title: Lenny's Podcast 笔记：claire-hughes-johnson 深度访谈
+original_title: Lenny's Podcast with claire-hughes-johnson
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Stripe
+source_url: 'https://www.youtube.com/watch?v=Mv0o9o4MRh0'
 ---
 
 # 🎯 核心结论

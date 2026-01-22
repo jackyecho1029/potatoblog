@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：geoffrey-moore 深度访谈"
-original_title: "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "市场战略"]
+title: Lenny's Podcast 笔记：geoffrey-moore 深度访谈
+original_title: >-
+  Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a
+  market
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 市场战略
+source_url: 'https://www.youtube.com/watch?v=RBbINB5HSHk'
 ---
 
 # 🎯 核心结论

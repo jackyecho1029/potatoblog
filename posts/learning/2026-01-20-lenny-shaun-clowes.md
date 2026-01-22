@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：shaun-clowes 深度访谈"
-original_title: "Why great AI products are all about the data | Shaun Clowes (CPO at Confluent)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品经理"]
+title: Lenny's Podcast 笔记：shaun-clowes 深度访谈
+original_title: Why great AI products are all about the data | Shaun Clowes (CPO at Confluent)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品经理
+source_url: 'https://www.youtube.com/watch?v=yVS1gTAQYSU'
 ---
 
 # 🎯 核心结论

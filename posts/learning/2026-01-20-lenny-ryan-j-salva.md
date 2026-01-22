@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ryan-j-salva 深度访谈"
-original_title: "The role of AI in new product development | Ryan J. Salva"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "GitHub-Copilot"]
+title: Lenny's Podcast 笔记：ryan-j-salva 深度访谈
+original_title: The role of AI in new product development | Ryan J. Salva
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - GitHub-Copilot
+source_url: 'https://www.youtube.com/watch?v=awcd3P1DnX4'
 ---
 
 # 🎯 核心结论

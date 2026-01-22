@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jason-shah 深度访谈"
-original_title: "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "逆向工作法"]
+title: Lenny's Podcast 笔记：jason-shah 深度访谈
+original_title: 'Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 逆向工作法
+source_url: 'https://www.youtube.com/watch?v=nMsA5VeLoOM'
 ---
 
 # 🎯 核心结论

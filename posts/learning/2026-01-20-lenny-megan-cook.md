@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：megan-cook 深度访谈"
-original_title: "Lessons from Atlassian | Megan Cook (Head of Product, Jira)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "远程协作"]
+title: Lenny's Podcast 笔记：megan-cook 深度访谈
+original_title: 'Lessons from Atlassian | Megan Cook (Head of Product, Jira)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 远程协作
+source_url: 'https://www.youtube.com/watch?v=MQQ1wohqArk'
 ---
 
 # 🎯 核心结论

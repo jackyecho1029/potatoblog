@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：jason-feifer 深度访谈"
-original_title: "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "媒体公关"]
+title: Lenny's Podcast 笔记：jason-feifer 深度访谈
+original_title: >-
+  How to get press for your product | Jason Feifer (editor in chief of
+  Entrepreneur magazine)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 媒体公关
+source_url: 'https://www.youtube.com/watch?v=LZLdoAq3R7Y'
 ---
 
 # 🎯 核心结论

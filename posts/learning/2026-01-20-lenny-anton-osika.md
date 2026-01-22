@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：anton-osika 深度访谈"
-original_title: "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "软件工程"]
+title: Lenny's Podcast 笔记：anton-osika 深度访谈
+original_title: 'Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 软件工程
+source_url: 'https://www.youtube.com/watch?v=DZtGxNs9AVg'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Benjamin Lauzier 深度访谈 —— 破解平台流动性的增长算法"
-original_title: "How marketplaces win: Liquidity, growth levers, quality, more | Benjamin Lauzier (Lyft, Thumbtack)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "平台经济"]
+title: Lenny's Podcast 笔记：Benjamin Lauzier 深度访谈 —— 破解平台流动性的增长算法
+original_title: >-
+  How marketplaces win: Liquidity, growth levers, quality, more | Benjamin
+  Lauzier (Lyft, Thumbtack)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 平台经济
+source_url: 'https://www.youtube.com/watch?v=CYwgStMln6U'
 ---
 
 # 🎯 核心结论

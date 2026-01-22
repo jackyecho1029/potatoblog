@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：hamelshreya 深度访谈 —— AI 时代的‘品味工程化’"
-original_title: "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "Eval", "生活与效率"]
+title: Lenny's Podcast 笔记：hamelshreya 深度访谈 —— AI 时代的‘品味工程化’
+original_title: >-
+  Why AI evals are the hottest new skill for product builders | Hamel Husain &
+  Shreya Shankar
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - Eval
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=BsWxPI9UM4c'
 ---
 
 # 🎯 核心结论

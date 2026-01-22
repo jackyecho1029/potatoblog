@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Naomi Gleit 深度访谈"
-original_title: "Lenny's Podcast with Naomi Gleit"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "NaomiGleit"]
+title: Lenny's Podcast 笔记：Naomi Gleit 深度访谈
+original_title: Lenny's Podcast with Naomi Gleit
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - NaomiGleit
+source_url: 'https://www.youtube.com/watch?v=sTYuKgzZoL8'
 ---
 
 # 🎯 核心结论

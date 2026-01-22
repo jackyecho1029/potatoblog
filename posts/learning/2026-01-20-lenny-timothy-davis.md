@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Timothy Davis 深度访谈"
-original_title: "The ultimate guide to paid growth | Timothy Davis (Shopify)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "效果营销"]
+title: Lenny's Podcast 笔记：Timothy Davis 深度访谈
+original_title: The ultimate guide to paid growth | Timothy Davis (Shopify)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 效果营销
+source_url: 'https://www.youtube.com/watch?v=zNJyb3R_Pnc'
 ---
 
 # 🎯 核心结论

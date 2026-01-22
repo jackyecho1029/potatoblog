@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Shweta Shrivastava 深度访谈"
-original_title: "Product lessons from Waymo | Shweta Shrivastava (Waymo, Amazon, Cisco)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Waymo"]
+title: Lenny's Podcast 笔记：Shweta Shrivastava 深度访谈
+original_title: 'Product lessons from Waymo | Shweta Shrivastava (Waymo, Amazon, Cisco)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Waymo
+source_url: 'https://www.youtube.com/watch?v=VtNmAjNF3Tc'
 ---
 
 # 🎯 核心结论

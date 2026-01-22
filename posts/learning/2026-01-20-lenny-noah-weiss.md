@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：noah-weiss 深度访谈"
-original_title: "The 10 traits of great PMs, AI, and Slack’s approach to product | Noah Weiss"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品经理"]
+title: Lenny's Podcast 笔记：noah-weiss 深度访谈
+original_title: 'The 10 traits of great PMs, AI, and Slack’s approach to product | Noah Weiss'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品经理
+source_url: 'https://www.youtube.com/watch?v=XrRlVOWe5GE'
 ---
 
 # 🎯 核心结论

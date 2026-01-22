@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：yuriy-timen 深度访谈 —— 订阅制商业的增长算术与逻辑格栅"
-original_title: "Lenny's Podcast with yuriy-timen"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创业与变现"]
+title: Lenny's Podcast 笔记：yuriy-timen 深度访谈 —— 订阅制商业的增长算术与逻辑格栅
+original_title: Lenny's Podcast with yuriy-timen
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创业与变现
+source_url: 'https://www.youtube.com/watch?v=8-iN7sweFBM'
 ---
 
 # 🎯 核心结论

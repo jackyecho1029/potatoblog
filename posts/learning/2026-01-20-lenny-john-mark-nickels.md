@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：john-mark-nickels 深度访谈"
-original_title: "Lenny's Podcast with john-mark-nickels"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：john-mark-nickels 深度访谈
+original_title: Lenny's Podcast with john-mark-nickels
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 领导力
+source_url: 'https://www.youtube.com/watch?v=W7o40qcYHlM'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jake-knapp-john-zeratsky 深度访谈"
-original_title: "Lenny's Podcast with jake-knapp-john-zeratsky"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "MakeTime"]
+title: Lenny's Podcast 笔记：jake-knapp-john-zeratsky 深度访谈
+original_title: Lenny's Podcast with jake-knapp-john-zeratsky
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - MakeTime
+source_url: 'https://www.youtube.com/watch?v=cuce7zvOFHY'
 ---
 
 # 🎯 核心结论

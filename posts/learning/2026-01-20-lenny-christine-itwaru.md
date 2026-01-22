@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：christine-itwaru 深度访谈"
-original_title: "Lenny's Podcast with christine-itwaru"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "ProductOps"]
+title: Lenny's Podcast 笔记：christine-itwaru 深度访谈
+original_title: Lenny's Podcast with christine-itwaru
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - ProductOps
+source_url: 'https://www.youtube.com/watch?v=tGS-NhxrN_Q'
 ---
 
 # 🎯 核心结论

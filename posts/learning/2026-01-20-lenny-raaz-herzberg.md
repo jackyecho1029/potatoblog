@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：raaz-herzberg 深度访谈"
-original_title: "Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and VP Product Strategy)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Wiz"]
+title: Lenny's Podcast 笔记：raaz-herzberg 深度访谈
+original_title: >-
+  Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and
+  VP Product Strategy)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Wiz
+source_url: 'https://www.youtube.com/watch?v=vnW3zIkrOvY'
 ---
 
 # 🎯 核心结论

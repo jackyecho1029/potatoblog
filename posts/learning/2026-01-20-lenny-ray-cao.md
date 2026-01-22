@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：ray-cao 深度访谈"
-original_title: "Lenny's Podcast with ray-cao"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "TikTok"]
+title: Lenny's Podcast 笔记：ray-cao 深度访谈
+original_title: Lenny's Podcast with ray-cao
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - TikTok
+source_url: 'https://www.youtube.com/watch?v=9N4ZgNaWvI0'
 ---
 
 # 🎯 核心结论

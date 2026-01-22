@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Benjamin Mann 深度访谈"
-original_title: "Lenny's Podcast with Benjamin Mann"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "BenjaminMann"]
+title: Lenny's Podcast 笔记：Benjamin Mann 深度访谈
+original_title: Lenny's Podcast with Benjamin Mann
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - BenjaminMann
+source_url: 'https://www.youtube.com/watch?v=CYwgStMln6U'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：camille-ricketts 深度访谈"
-original_title: "How Notion leveraged community to build a $10B business | Camille Ricketts"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Notion"]
+title: Lenny's Podcast 笔记：camille-ricketts 深度访谈
+original_title: How Notion leveraged community to build a $10B business | Camille Ricketts
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Notion
+source_url: 'https://www.youtube.com/watch?v=bY5KC9Gguz8'
 ---
 
 # 🎯 核心结论

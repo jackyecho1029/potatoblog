@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Gaurav Misra 深度访谈"
-original_title: "Mastering onboarding | Gaurav Misra (CEO of Captions)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品速度"]
+title: Lenny's Podcast 笔记：Gaurav Misra 深度访谈
+original_title: Mastering onboarding | Gaurav Misra (CEO of Captions)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品速度
+source_url: 'https://www.youtube.com/watch?v=dLku0AiGPVA'
 ---
 
 # 🎯 核心结论

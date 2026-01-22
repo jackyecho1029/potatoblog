@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Sahil Mansuri 深度访谈 —— 经济衰退期的销售生存与重构"
-original_title: "How to hit revenue targets in a recession | Sahil Mansuri (Bravado)"
-author: "Lenny's Podcast"
-category: "产品与增长"
-tags: ["AI赋能", "销售激励", "查理·芒格"]
+title: Lenny's Podcast 笔记：Sahil Mansuri 深度访谈 —— 经济衰退期的销售生存与重构
+original_title: How to hit revenue targets in a recession | Sahil Mansuri (Bravado)
+author: Lenny's Podcast
+category: 产品与增长
+tags:
+  - AI赋能
+  - 销售激励
+  - 查理·芒格
+source_url: 'https://www.youtube.com/watch?v=pYZ0S7a72po'
 ---
 
 # 🎯 核心结论

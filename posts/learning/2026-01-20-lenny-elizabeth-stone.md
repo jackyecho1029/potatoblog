@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：elizabeth-stone 深度访谈"
-original_title: "How Netflix builds a culture of excellence | Elizabeth Stone (CTO)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "人才密度"]
+title: Lenny's Podcast 笔记：elizabeth-stone 深度访谈
+original_title: How Netflix builds a culture of excellence | Elizabeth Stone (CTO)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 人才密度
+source_url: 'https://www.youtube.com/watch?v=2XgU6T4DalY'
 ---
 
 # 🎯 核心结论

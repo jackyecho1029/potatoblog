@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：kevin-aluwi 深度访谈"
-original_title: "Lenny's Podcast with kevin-aluwi"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "SuperApp"]
+title: Lenny's Podcast 笔记：kevin-aluwi 深度访谈
+original_title: Lenny's Podcast with kevin-aluwi
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - SuperApp
+source_url: 'https://www.youtube.com/watch?v=HVB-dqjUJks'
 ---
 
 # 🎯 核心结论

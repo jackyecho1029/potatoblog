@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：dan-hockenmaier 深度访谈"
-original_title: "Developing a growth model + marketplace growth strategy | Dan Hockenmaier"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长模型"]
+title: Lenny's Podcast 笔记：dan-hockenmaier 深度访谈
+original_title: Developing a growth model + marketplace growth strategy | Dan Hockenmaier
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长模型
+source_url: 'https://www.youtube.com/watch?v=AlTQ6O2qooI'
 ---
 
 # 🎯 核心结论

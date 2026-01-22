@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Alex Hardiman 深度访谈 —— 传统巨头的数字化主权夺回战"
-original_title: "An inside look at how the New York Times builds product | Alex Hardiman"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["产品战略", "订阅经济", "组织架构"]
+title: Lenny's Podcast 笔记：Alex Hardiman 深度访谈 —— 传统巨头的数字化主权夺回战
+original_title: An inside look at how the New York Times builds product | Alex Hardiman
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 产品战略
+  - 订阅经济
+  - 组织架构
+source_url: 'https://www.youtube.com/watch?v=y3-cwoHMwQs'
 ---
 
 # 🎯 核心结论

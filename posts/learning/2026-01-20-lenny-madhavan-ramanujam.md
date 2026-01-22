@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：madhavan-ramanujam 深度访谈"
-original_title: "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "定价策略", "货币化"]
+title: Lenny's Podcast 笔记：madhavan-ramanujam 深度访谈
+original_title: >-
+  Pricing your AI product: Lessons from 400+ companies and 50 unicorns |
+  Madhavan Ramanujam
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 定价策略
+  - 货币化
+source_url: 'https://www.youtube.com/watch?v=NR85H55eYkM'
 ---
 
 # 🎯 核心结论

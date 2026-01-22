@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：marty-cagan 深度访谈"
-original_title: "Lenny's Podcast with marty-cagan"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：marty-cagan 深度访谈
+original_title: Lenny's Podcast with marty-cagan
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=9N4ZgNaWvI0'
 ---
 
 # 🎯 核心结论

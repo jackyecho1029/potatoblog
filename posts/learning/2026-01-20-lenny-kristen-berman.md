@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：kristen-berman 深度访谈"
-original_title: "Lenny's Podcast with kristen-berman"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "行为经济学"]
+title: Lenny's Podcast 笔记：kristen-berman 深度访谈
+original_title: Lenny's Podcast with kristen-berman
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 行为经济学
+source_url: 'https://www.youtube.com/watch?v=u53fplD_C30'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：Krithika Shankarraman 深度访谈"
-original_title: "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "创业与变现", "生活与效率"]
+title: Lenny's Podcast 笔记：Krithika Shankarraman 深度访谈
+original_title: Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 创业与变现
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=QaDsk4iH1aw'
 ---
 
 # 🎯 核心结论

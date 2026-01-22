@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：nilan-peiris 深度访谈"
-original_title: "How to drive word of mouth | Nilan Peiris (CPO of Wise)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "口碑增长"]
+title: Lenny's Podcast 笔记：nilan-peiris 深度访谈
+original_title: How to drive word of mouth | Nilan Peiris (CPO of Wise)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 口碑增长
+source_url: 'https://www.youtube.com/watch?v=xZifSLGOrrw'
 ---
 
 # 🎯 核心结论

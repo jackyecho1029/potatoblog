@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：merci-grace 深度访谈"
-original_title: "Lenny's Podcast with merci-grace"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "PLG"]
+title: Lenny's Podcast 笔记：merci-grace 深度访谈
+original_title: Lenny's Podcast with merci-grace
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - PLG
+source_url: 'https://www.youtube.com/watch?v=bCel0X2Ta7U'
 ---
 
 # 🎯 核心结论

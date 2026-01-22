@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：andy-johns 深度访谈"
-original_title: "Lenny's Podcast with andy-johns"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：andy-johns 深度访谈
+original_title: Lenny's Podcast with andy-johns
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=_93m4PriHyc'
 ---
 
 # 🎯 核心结论

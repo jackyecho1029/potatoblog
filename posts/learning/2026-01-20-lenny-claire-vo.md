@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：claire-vo 深度访谈"
-original_title: "Lenny's Podcast with claire-vo"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：claire-vo 深度访谈
+original_title: Lenny's Podcast with claire-vo
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=aXGo1o_baBo'
 ---
 
 # 🎯 核心结论

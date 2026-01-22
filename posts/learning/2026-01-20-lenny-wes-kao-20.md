@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：wes-kao-20 深度访谈"
-original_title: "Lenny's Podcast with wes-kao-20"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "沟通力"]
+title: Lenny's Podcast 笔记：wes-kao-20 深度访谈
+original_title: Lenny's Podcast with wes-kao-20
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 沟通力
+source_url: 'https://www.youtube.com/watch?v=4jtGsyz4jLs'
 ---
 
 # 🎯 核心结论

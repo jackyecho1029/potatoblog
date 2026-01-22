@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：dmitry-zlokazov 深度访谈"
-original_title: "Lenny's Podcast with dmitry-zlokazov: How Revolut trains world-class PMs"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "局部CEO"]
+title: Lenny's Podcast 笔记：dmitry-zlokazov 深度访谈
+original_title: 'Lenny''s Podcast with dmitry-zlokazov: How Revolut trains world-class PMs'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 局部CEO
+source_url: 'https://www.youtube.com/watch?v=-kPpd21bFrE'
 ---
 
 # 🎯 核心结论

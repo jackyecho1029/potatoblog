@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：scott-wu 深度访谈"
-original_title: "Inside Devin: The AI engineer that's set to write 50% of its company’s code this year | Scott Wu"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Devin"]
+title: Lenny's Podcast 笔记：scott-wu 深度访谈
+original_title: >-
+  Inside Devin: The AI engineer that's set to write 50% of its company’s code
+  this year | Scott Wu
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Devin
+source_url: 'https://www.youtube.com/watch?v=gI0ZNhA0rvE'
 ---
 
 # 🎯 核心结论

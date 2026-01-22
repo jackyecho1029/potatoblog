@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：sri-batchu 深度访谈"
-original_title: "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "增长战略"]
+title: Lenny's Podcast 笔记：sri-batchu 深度访谈
+original_title: 'Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 增长战略
+source_url: 'https://www.youtube.com/watch?v=RcYCU5UAZOk'
 ---
 
 # 🎯 核心结论

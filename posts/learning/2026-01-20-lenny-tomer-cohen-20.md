@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Tomer Cohen 深度访谈 —— AI 时代的“全栈构建者”革命"
-original_title: "Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn CPO)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "全栈构建者"]
+title: Lenny's Podcast 笔记：Tomer Cohen 深度访谈 —— AI 时代的“全栈构建者”革命
+original_title: >-
+  Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn
+  CPO)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 全栈构建者
+source_url: 'https://www.youtube.com/watch?v=R-zCfLQD_84'
 ---
 
 # 🎯 核心结论

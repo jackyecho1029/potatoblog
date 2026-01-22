@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jen-abel-20 深度访谈"
-original_title: "Lenny's Podcast with jen-abel-20"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "企业级销售"]
+title: Lenny's Podcast 笔记：jen-abel-20 深度访谈
+original_title: Lenny's Podcast with jen-abel-20
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 企业级销售
+source_url: 'https://www.youtube.com/watch?v=37fKFWdrMyA'
 ---
 
 # 🎯 核心结论

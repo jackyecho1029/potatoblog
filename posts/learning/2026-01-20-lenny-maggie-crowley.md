@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：maggie-crowley 深度访谈"
-original_title: "Lenny's Podcast with maggie-crowley"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品管理"]
+title: Lenny's Podcast 笔记：maggie-crowley 深度访谈
+original_title: Lenny's Podcast with maggie-crowley
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品管理
+source_url: 'https://www.youtube.com/watch?v=4LjddcccYIo'
 ---
 
 # 🎯 核心结论

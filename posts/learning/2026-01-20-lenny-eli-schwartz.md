@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：eli-schwartz 深度访谈"
-original_title: "Rethinking SEO in the age of AI | Eli Schwartz"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "SEO"]
+title: Lenny's Podcast 笔记：eli-schwartz 深度访谈
+original_title: Rethinking SEO in the age of AI | Eli Schwartz
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - SEO
+source_url: 'https://www.youtube.com/watch?v=Z71yGshPTwk'
 ---
 
 # 🎯 核心结论

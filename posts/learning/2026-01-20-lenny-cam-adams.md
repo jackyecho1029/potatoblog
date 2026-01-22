@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：cam-adams 深度访谈"
-original_title: "Lenny's Podcast with cam-adams"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Canva"]
+title: Lenny's Podcast 笔记：cam-adams 深度访谈
+original_title: Lenny's Podcast with cam-adams
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Canva
+source_url: 'https://www.youtube.com/watch?v=wgrJNHlYUA8'
 ---
 
 # 🎯 核心结论

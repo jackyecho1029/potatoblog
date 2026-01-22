@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：christopher-lochhead 深度访谈"
-original_title: "Lenny's Podcast with christopher-lochhead"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "品类设计"]
+title: Lenny's Podcast 笔记：christopher-lochhead 深度访谈
+original_title: Lenny's Podcast with christopher-lochhead
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 品类设计
+source_url: 'https://www.youtube.com/watch?v=mS4B541m9xg'
 ---
 
 # 🎯 核心结论

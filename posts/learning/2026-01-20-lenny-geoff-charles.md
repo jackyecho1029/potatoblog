@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：geoff-charles 深度访谈"
-original_title: "Velocity over everything: How Ramp became the fastest-growing SaaS startup ever | Geoff Charles"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Ramp"]
+title: Lenny's Podcast 笔记：geoff-charles 深度访谈
+original_title: >-
+  Velocity over everything: How Ramp became the fastest-growing SaaS startup
+  ever | Geoff Charles
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Ramp
+source_url: 'https://www.youtube.com/watch?v=aNJDZ_RzTVk'
 ---
 
 # 🎯 核心结论

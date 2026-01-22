@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：tom-conrad 深度访谈"
-original_title: "Lenny's Podcast with tom-conrad"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：tom-conrad 深度访谈
+original_title: Lenny's Podcast with tom-conrad
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=maK0XD9ARoI'
 ---
 
 # 🎯 核心结论

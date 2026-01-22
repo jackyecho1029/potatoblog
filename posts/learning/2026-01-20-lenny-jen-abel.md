@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：jen-abel 深度访谈"
-original_title: "The ultimate guide to founder-led sales | Jen Abel"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["创始人销售", "生活与效率", "0到1增长"]
+title: Lenny's Podcast 笔记：jen-abel 深度访谈
+original_title: The ultimate guide to founder-led sales | Jen Abel
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - 创始人销售
+  - 生活与效率
+  - 0到1增长
+source_url: 'https://www.youtube.com/watch?v=969dwgu98qc'
 ---
 
 # 🎯 核心结论

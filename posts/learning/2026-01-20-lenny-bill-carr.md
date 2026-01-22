@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：bill-carr 深度访谈"
-original_title: "Lenny's Podcast with bill-carr"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "亚马逊机制"]
+title: Lenny's Podcast 笔记：bill-carr 深度访谈
+original_title: Lenny's Podcast with bill-carr
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 亚马逊机制
+source_url: 'https://www.youtube.com/watch?v=S9WHQa_AJQo'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：itamar-gilad 深度访谈"
-original_title: "Lenny's Podcast with itamar-gilad"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品管理"]
+title: Lenny's Podcast 笔记：itamar-gilad 深度访谈
+original_title: Lenny's Podcast with itamar-gilad
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品管理
+source_url: 'https://www.youtube.com/watch?v=aJWSn-tz3jQ'
 ---
 
 # 🎯 核心结论

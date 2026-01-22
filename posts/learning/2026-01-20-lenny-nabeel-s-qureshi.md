@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：nabeel-s-qureshi 深度访谈"
-original_title: "Lenny's Podcast with nabeel-s-qureshi"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "Palantir"]
+title: Lenny's Podcast 笔记：nabeel-s-qureshi 深度访谈
+original_title: Lenny's Podcast with nabeel-s-qureshi
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - Palantir
+source_url: 'https://www.youtube.com/watch?v=xQkSenlJvwA'
 ---
 
 # 🎯 核心结论

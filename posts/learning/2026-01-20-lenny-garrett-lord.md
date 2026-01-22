@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：garrett-lord 深度访谈"
-original_title: "Lenny's Podcast with garrett-lord"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "商业转型"]
+title: Lenny's Podcast 笔记：garrett-lord 深度访谈
+original_title: Lenny's Podcast with garrett-lord
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 商业转型
+source_url: 'https://www.youtube.com/watch?v=0qdR-XwHJ9o'
 ---
 
 # 🎯 核心结论

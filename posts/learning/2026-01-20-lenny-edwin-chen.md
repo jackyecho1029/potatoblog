@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：edwin-chen 深度访谈"
-original_title: "The $1B AI company training ChatGPT, Claude & Gemini | Edwin Chen"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "一人公司", "生活与效率"]
+title: Lenny's Podcast 笔记：edwin-chen 深度访谈
+original_title: 'The $1B AI company training ChatGPT, Claude & Gemini | Edwin Chen'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 一人公司
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=dduQeaqmpnI'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：eoy-review 深度访谈"
-original_title: "Lenny's Podcast with eoy-review"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品战略"]
+title: Lenny's Podcast 笔记：eoy-review 深度访谈
+original_title: Lenny's Podcast with eoy-review
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品战略
+source_url: 'https://www.youtube.com/watch?v=f4cskASqAsg'
 ---
 
 # 🎯 核心结论

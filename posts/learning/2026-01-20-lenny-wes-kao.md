@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：wes-kao 深度访谈"
-original_title: "Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "向上管理"]
+title: Lenny's Podcast 笔记：wes-kao 深度访谈
+original_title: 'Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 向上管理
+source_url: 'https://www.youtube.com/watch?v=4jtGsyz4jLs'
 ---
 
 # 🎯 核心结论

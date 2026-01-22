@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：graham-weaver 深度访谈"
-original_title: "Lenny's Podcast with graham-weaver"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：graham-weaver 深度访谈
+original_title: Lenny's Podcast with graham-weaver
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=UpGR9P0Ufts'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：heidi-helfand 深度访谈"
-original_title: "Lenny's Podcast with heidi-helfand"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "组织架构"]
+title: Lenny's Podcast 笔记：heidi-helfand 深度访谈
+original_title: Lenny's Podcast with heidi-helfand
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 组织架构
+source_url: 'https://www.youtube.com/watch?v=0wN5wSImUdY'
 ---
 
 # 🎯 核心结论

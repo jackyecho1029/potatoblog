@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：mayur-kamat 深度访谈"
-original_title: "Lenny's Podcast with mayur-kamat"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品经理"]
+title: Lenny's Podcast 笔记：mayur-kamat 深度访谈
+original_title: Lenny's Podcast with mayur-kamat
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品经理
+source_url: 'https://www.youtube.com/watch?v=UVyfuSBwbNA'
 ---
 
 # 🎯 核心结论

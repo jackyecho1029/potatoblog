@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Hamel Husain & Shreya Shankar 深度访谈 —— AI 评估（Evals）的实战哲学"
-original_title: "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "评估系统", "生活与效率"]
+title: Lenny's Podcast 笔记：Hamel Husain & Shreya Shankar 深度访谈 —— AI 评估（Evals）的实战哲学
+original_title: >-
+  Why AI evals are the hottest new skill for product builders | Hamel Husain &
+  Shreya Shankar
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 评估系统
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=BsWxPI9UM4c'
 ---
 
 # 🎯 核心结论

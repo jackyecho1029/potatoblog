@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：anuj-rathi 深度访谈"
-original_title: "Lenny's Podcast with anuj-rathi: The Full-Stack PM"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "印度电商"]
+title: Lenny's Podcast 笔记：anuj-rathi 深度访谈
+original_title: 'Lenny''s Podcast with anuj-rathi: The Full-Stack PM'
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 印度电商
+source_url: 'https://www.youtube.com/watch?v=1sClhfuCxP0'
 ---
 
 # 🎯 核心结论

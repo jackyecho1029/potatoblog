@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：elena-verna 深度访谈"
-original_title: "Lenny's Podcast with elena-verna"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：elena-verna 深度访谈
+original_title: Lenny's Podcast with elena-verna
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=IHwS2By9UKM'
 ---
 
 # 🎯 核心结论

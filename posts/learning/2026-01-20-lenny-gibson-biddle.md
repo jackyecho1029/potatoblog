@@ -1,9 +1,12 @@
 ---
-title: "Lenny's Podcast 笔记：gibson-biddle 深度访谈"
-original_title: "Lenny's Podcast with gibson-biddle"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率"]
+title: Lenny's Podcast 笔记：gibson-biddle 深度访谈
+original_title: Lenny's Podcast with gibson-biddle
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: 'https://www.youtube.com/watch?v=X-83gvgVaWc'
 ---
 
 # 🎯 核心结论

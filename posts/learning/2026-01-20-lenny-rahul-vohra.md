@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：rahul-vohra 深度访谈"
-original_title: "Lenny's Podcast with rahul-vohra"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品市场匹配"]
+title: Lenny's Podcast 笔记：rahul-vohra 深度访谈
+original_title: Lenny's Podcast with rahul-vohra
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品市场匹配
+source_url: 'https://www.youtube.com/watch?v=0igjSRZyX-w'
 ---
 
 # 🎯 核心结论

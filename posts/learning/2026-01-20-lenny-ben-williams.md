@@ -1,9 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：ben-williams 深度访谈"
-original_title: "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["PLG", "增长环", "Snyk"]
+title: Lenny's Podcast 笔记：ben-williams 深度访谈
+original_title: >-
+  How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product
+  at Snyk)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - PLG
+  - 增长环
+  - Snyk
+source_url: 'https://www.youtube.com/watch?v=21sFTZzIfUk'
 ---
 
 # 🎯 核心结论
