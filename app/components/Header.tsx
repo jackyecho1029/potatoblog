@@ -11,12 +11,14 @@ export default function Header() {
             </Link>
             <nav className="flex gap-6 text-sm font-medium text-zinc-500">
                 <Link href="/" className="hover:text-amber-600 transition">博客</Link>
+                <Link href="/lenny" className="hover:text-green-600 transition">🎙️ Lenny</Link>
                 <Link href="/xhs-viral" className="hover:text-red-500 transition">🔥 小红书</Link>
                 <Link href="/writing-analysis" className="hover:text-purple-600 transition">✍️ 写作</Link>
                 <Link href="/x-signals" className="hover:text-amber-600 transition">X 信号</Link>
                 <Link href="/learning" className="hover:text-amber-600 transition">学习</Link>
                 <Link href="/about" className="hover:text-amber-600 transition">关于</Link>
             </nav>
+
         </header>
     );
 }
