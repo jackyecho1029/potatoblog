@@ -183,6 +183,84 @@ ${transcriptText.substring(0, 25000)}
     }
 }
 
+async function summarizeLennyVideo(guestName: string, transcriptText: string): Promise<string | null> {
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+
+    const prompt = `
+你是一位顶级商业分析师和"一人公司"实战专家，深度推崇查理·芒格的多元思维模型和金字塔原理。
+请深度剖析 Lenny's Podcast 的访谈文稿（受访者：${guestName}）。
+
+### 要求：
+1. **语言**：必须使用**简体中文**。
+2. **核心原则**：
+   - **金字塔原理**：结论先行，逻辑推进，案例支撑。
+   - **查理·芒格思维**：挖掘其背后的思维模型（如反向思维、格栅效应、激励机制等）。
+   - **AI/提效赋能**：聚焦 AI 前沿科技如何赋能生活、个人效率或**电商业务**。
+   - **认知重构**：重点对比"旧时代观念" vs "AI 时代新现实"。
+
+### 输出格式：
+
+# 🎯 核心结论
+
+[用一段话总结该嘉宾最核心、最具颠覆性的观点]
+
+---
+
+# 🏛️ 核心分析（金字塔原理）
+
+## 1. [核心逻辑 A]
+- **深度剖析**：[背后的因果关系或逻辑支撑]
+- **实战案例**：[文稿中提及的具体案例细节]
+
+## 2. [核心逻辑 B]
+- **深度剖析**：[背后的因果关系或逻辑支撑]
+- **实战案例**：[文稿中提及的具体案例细节]
+
+## 3. [核心逻辑 C]
+- **深度剖析**：[背后的因果关系或逻辑支撑]
+- **实战案例**：[文稿中提及的具体案例细节]
+
+---
+
+# 🧠 芒格格栅：思维模型拆解
+
+- **[模型 1]**：[描述受访者如何应用该思维模型，以及它如何提升了认知水平]
+- **[模型 2]**：[描述受访者如何应用该思维模型，以及它如何提升了认知水平]
+
+---
+
+# ⚡ AI 时代的赋能与重塑
+
+- **前沿应用**：[文稿中提到的具体 AI 技术或趋势]
+- **商务/电商实战建议**：[如何直接应用到电商运营或个人提效中]
+- **观念打破 (Old vs New)**：
+    *   **旧观念**：[描述具体的旧观点]
+    *   **新现实**：[描述 AI 时代带来的重塑性变化]
+
+---
+
+# 💡 行动建议 (Steve Jobs 风格)
+
+1. **[行动1]**：[简洁有力的建议]
+2. **[行动2]**：[简洁有力的建议]
+3. **[行动3]**：[简洁有力的建议]
+
+---
+转录文稿内容：
+${transcriptText.substring(0, 30000)}
+    `;
+
+    try {
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        return response.text();
+    } catch (error) {
+        console.error("Gemini Error for Lenny:", error);
+        return null;
+    }
+}
+
+
 async function fetchVideoByUrl(videoUrl: string) {
     if (!YOUTUBE_API_KEY || !GEMINI_API_KEY) {
         console.error('API Keys are missing');
@@ -425,11 +503,57 @@ async function fetchLatestVideos() {
                 const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
                 const transcriptText = transcriptItems.map(item => item.text).join(' ');
 
-                console.log("   Summarizing with Gemini...");
-                const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
-
                 // Use the official channel title instead of the handle for display
                 const authorName = video.snippet?.channelTitle || handle.replace('@', '');
+
+                // Check if this is a Lenny's Podcast video
+                const isLennyPodcast = authorName.toLowerCase().includes("lenny") &&
+                    (authorName.toLowerCase().includes("podcast") || authorName.toLowerCase().includes("rachitsky"));
+
+                if (isLennyPodcast) {
+                    console.log(`🎙️ Detected Lenny's Podcast: ${title}`);
+
+                    // Extract guest name from title
+                    // Common formats: "Guest Name | Topic" or "Topic with Guest Name"
+                    let guestName = 'unknown-guest';
+                    const pipeMatch = title.match(/^([^|]+)/);
+                    if (pipeMatch) {
+                        guestName = pipeMatch[1].trim();
+                    }
+
+                    console.log(`   Generating Lenny-style deep analysis...`);
+                    const summaryText = await summarizeLennyVideo(guestName, transcriptText);
+
+                    if (summaryText) {
+                        const lennyFilename = `${date}-lenny-${guestName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50)}.md`;
+                        const lennyFilePath = path.join(postsDir, lennyFilename);
+
+                        const lennyFileContent = `---
+title: Lenny's Podcast 笔记：${guestName} 深度访谈
+original_title: "${title.replace(/"/g, '\\"')}"
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+source_url: "https://www.youtube.com/watch?v=${videoId}"
+---
+
+${summaryText}
+`;
+
+                        fs.writeFileSync(lennyFilePath, lennyFileContent);
+                        console.log(`✅ Saved Lenny episode: ${lennyFilename}`);
+                        existingIds.add(videoId);
+                        continue; // Skip normal Learning processing
+                    } else {
+                        console.log(`   ⚠️  Lenny analysis failed, falling back to normal processing`);
+                    }
+                }
+
+                // Normal Learning video processing
+                console.log("   Summarizing with Gemini...");
+                const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
 
                 const fileContent = `---
 title: "${hookTitle.replace(/"/g, '\\"')}"
