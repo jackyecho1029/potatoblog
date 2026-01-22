@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：matthew-dicks 深度访谈"
 original_title: "Lenny's Podcast with matthew-dicks"
-author: "matthew-dicks"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "故事力", "影响力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "故事力"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jessica-hische 深度访谈"
 original_title: "How to see like a designer: The hidden power of typography and logos | Jessica Hische"
-author: "jessica-hische"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "设计思维", "品牌策略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "设计思维"]
 ---
 
 # 🎯 核心结论

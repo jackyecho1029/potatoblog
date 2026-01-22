@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：nikita-miller 深度访谈"
 original_title: "Lenny's Podcast with nikita-miller"
-author: "nikita-miller"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "nikita-miller", "团队对齐"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "团队对齐"]
 ---
 
 # 🎯 核心结论

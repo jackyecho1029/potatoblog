@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：dalton-caldwell 深度访谈"
 original_title: "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (YC)"
-author: "dalton-caldwell"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "dalton-caldwell", "YC"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "YC"]
 ---
 
 # 🎯 核心结论

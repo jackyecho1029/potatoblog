@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Jeanne Grosser 深度访谈"
 original_title: "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)"
-author: "Jeanne Grosser"
-category: "思维成长 / 商业策略"
-tags: ["LennyPodcast", "AI", "GTM", "销售工程", "Vercel", "Stripe"]
+author: "Lenny's Podcast"
+category: "产品与增长"
+tags: ["AI 与技术", "GTM", "销售工程"]
 ---
 
 # 🎯 核心结论

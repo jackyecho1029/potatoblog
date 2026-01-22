@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：chip-huyen 深度访谈"
 original_title: "Lenny's Podcast with chip-huyen"
-author: "chip-huyen"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "chip-huyen"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

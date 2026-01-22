@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：dhanji-r-prasanna 深度访谈"
 original_title: "How Block is becoming the most AI-native enterprise in the world"
-author: "dhanji-r-prasanna"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "dhanji-r-prasanna", "Block"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Block"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：tobi-lutke 深度访谈 —— 破解第一性原理与人类潜能的算法"
 original_title: "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential"
-author: "tobi-lutke"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "第一性原理", "Shopify", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "第一性原理", "Shopify"]
 ---
 
 # 🎯 核心结论

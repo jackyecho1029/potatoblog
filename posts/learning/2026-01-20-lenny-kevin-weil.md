@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：kevin-weil 深度访谈"
 original_title: "OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil"
-author: "Kevin Weil"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "OpenAI", "产品经"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "OpenAI"]
 ---
 
 # 🎯 核心结论

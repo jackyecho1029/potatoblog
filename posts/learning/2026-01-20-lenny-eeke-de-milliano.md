@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：eeke-de-milliano 深度访谈"
 original_title: "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)"
-author: "eeke-de-milliano"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Stripe", "Retool"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Stripe"]
 ---
 
 # 🎯 核心结论

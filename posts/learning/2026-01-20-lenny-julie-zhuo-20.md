@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：julie-zhuo-20 深度访谈"
 original_title: "How To Win Friends & Influence Decisions (Julie Zhuo)"
-author: "Julie Zhuo"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "领导力", "JulieZhuo"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

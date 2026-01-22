@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jen-abel-20 深度访谈"
 original_title: "Lenny's Podcast with jen-abel-20"
-author: "jen-abel-20"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "企业级销售", "大客户战略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "企业级销售"]
 ---
 
 # 🎯 核心结论

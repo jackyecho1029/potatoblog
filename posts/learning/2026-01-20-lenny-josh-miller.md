@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：josh-miller 深度访谈"
 original_title: "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)"
-author: "josh-miller"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "josh-miller", "Arc浏览器", "产品哲学"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Arc浏览器"]
 ---
 
 # 🎯 核心结论

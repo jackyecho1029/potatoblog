@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：dylan-field-20 深度访谈"
 original_title: "Lenny's Podcast with dylan-field-20"
-author: "dylan-field-20"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "dylan-field-20", "产品设计"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品设计"]
 ---
 
 # 🎯 核心结论

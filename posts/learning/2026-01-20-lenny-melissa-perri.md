@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Melissa Perri 深度访谈"
 original_title: "Everything you’ve ever wanted to know about SAFe and the product owner role"
-author: "Melissa Perri"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Melissa Perri", "产品管理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品管理"]
 ---
 
 # 🎯 核心结论

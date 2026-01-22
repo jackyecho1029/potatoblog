@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Aishwarya & Kiriti 深度访谈 —— 为什么大多数 AI 产品会失败"
 original_title: "Lenny's Podcast with Aishwarya Naresh Reganti & Kiriti Badam"
-author: "Aishwarya Naresh Reganti & Kiriti Badam"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "产品策略", "智能体"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品策略"]
 ---
 
 # 🎯 核心结论

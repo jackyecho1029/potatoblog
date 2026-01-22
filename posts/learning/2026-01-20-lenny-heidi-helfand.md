@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：heidi-helfand 深度访谈"
 original_title: "Lenny's Podcast with heidi-helfand"
-author: "heidi-helfand"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "heidi-helfand", "组织架构"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "组织架构"]
 ---
 
 # 🎯 核心结论

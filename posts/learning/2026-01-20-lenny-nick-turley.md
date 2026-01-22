@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Nick Turley 深度访谈 —— 揭秘 ChatGPT 的极速进化史"
 original_title: "Inside ChatGPT: The fastest growing product in history | Nick Turley (OpenAI)"
-author: "Nick Turley"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "OpenAI", "产品增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "OpenAI"]
 ---
 
 # 🎯 核心结论

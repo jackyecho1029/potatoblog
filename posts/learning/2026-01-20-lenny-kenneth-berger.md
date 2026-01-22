@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：kenneth-berger 深度访谈"
 original_title: "Why not asking for what you want is holding you back | Kenneth Berger"
-author: "Kenneth Berger"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "领导力", "沟通效能"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

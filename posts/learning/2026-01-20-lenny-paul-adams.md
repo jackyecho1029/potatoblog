@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Paul Adams 深度访谈"
 original_title: "What AI means for your product strategy | Paul Adams (CPO of Intercom)"
-author: "Paul Adams"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Paul Adams", "产品战略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品战略"]
 ---
 
 # 🎯 核心结论

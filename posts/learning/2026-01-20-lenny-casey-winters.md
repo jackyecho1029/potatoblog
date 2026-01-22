@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：casey-winters 深度访谈"
 original_title: "Why most product managers are unprepared for the demands of a real startup"
-author: "casey-winters"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "casey-winters", "增长策略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "创业与变现"]
 ---
 
 # 🎯 核心结论

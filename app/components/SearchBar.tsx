@@ -27,18 +27,24 @@ export default function SearchBar<T extends SearchableItem>({
     const [selectedTag, setSelectedTag] = useState<string | null>(null);
     const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
-    // Get all unique tags (excluding authors)
+    // Get all unique tags (excluding authors), sorted by count and limited to top 6
     const allTags = useMemo(() => {
-        const tags = new Set<string>();
+        const tagCounts = new Map<string, number>();
         items.forEach(item => {
             item.tags?.forEach(tag => {
-                if (tag !== item.author) tags.add(tag);
+                if (tag !== item.author) {
+                    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+                }
             });
         });
-        return Array.from(tags);
+        // Sort by count descending and limit to top 6
+        return Array.from(tagCounts.keys())
+            .sort((a, b) => (tagCounts.get(b) || 0) - (tagCounts.get(a) || 0))
+            .slice(0, 6);
     }, [items]);
 
-    // Get all unique authors with counts
+
+    // Get all unique authors with counts, sorted by count descending
     const { allAuthors, authorCounts } = useMemo(() => {
         const counts = new Map<string, number>();
         items.forEach(item => {
@@ -46,8 +52,13 @@ export default function SearchBar<T extends SearchableItem>({
                 counts.set(item.author, (counts.get(item.author) || 0) + 1);
             }
         });
-        return { allAuthors: Array.from(counts.keys()), authorCounts: counts };
+        // Sort by count descending and limit to top 8
+        const sortedAuthors = Array.from(counts.keys())
+            .sort((a, b) => (counts.get(b) || 0) - (counts.get(a) || 0))
+            .slice(0, 8);
+        return { allAuthors: sortedAuthors, authorCounts: counts };
     }, [items]);
+
 
     // Get tag counts
     const tagCounts = useMemo(() => {

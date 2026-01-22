@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：christopher-lochhead 深度访谈"
 original_title: "Lenny's Podcast with christopher-lochhead"
-author: "christopher-lochhead"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "品类设计", "ChristopherLochhead"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "品类设计"]
 ---
 
 # 🎯 核心结论

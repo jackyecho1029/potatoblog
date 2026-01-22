@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：camille-fournier 深度访谈"
 original_title: "Lenny's Podcast with camille-fournier"
-author: "camille-fournier"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "camille-fournier", "技术管理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "技术管理"]
 ---
 
 # 🎯 核心结论

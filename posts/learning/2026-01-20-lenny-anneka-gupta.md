@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：anneka-gupta 深度访谈"
 original_title: "Becoming more strategic, navigating difficult colleagues, founder mode, more | Anneka Gupta"
-author: "Anneka Gupta"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "战略思维", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "战略思维"]
 ---
 
 # 🎯 核心结论

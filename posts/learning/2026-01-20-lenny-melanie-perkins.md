@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Melanie Perkins 深度访谈"
 original_title: "She turned 100+ rejections into a $42B company | Melanie Perkins"
-author: "Melanie Perkins"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Melanie Perkins", "B栏思维"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "B栏思维"]
 ---
 
 # 🎯 核心结论

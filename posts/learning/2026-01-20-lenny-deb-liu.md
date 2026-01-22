@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：deb-liu 深度访谈"
 original_title: "Succeeding as an introvert, building zero-to-one, and PM’ing your career like a product | Deb Liu"
-author: "Deb Liu"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "职业规划", "内向领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "职业规划"]
 ---
 
 # 🎯 核心结论

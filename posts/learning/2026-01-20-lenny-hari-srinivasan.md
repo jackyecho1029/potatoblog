@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：hari-srinivasan 深度访谈"
 original_title: "LinkedIn’s product evolution and the art of building complex systems | Hari Srinivasan (LinkedIn)"
-author: "hari-srinivasan"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "hari-srinivasan", "技能导向", "复杂系统"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "技能导向"]
 ---
 
 # 🎯 核心结论

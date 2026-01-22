@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：andrew-wilkinson 深度访谈"
 original_title: "Lenny's Podcast with andrew-wilkinson"
-author: "andrew-wilkinson"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "andrew-wilkinson", "一人公司"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "一人公司"]
 ---
 
 # 🎯 核心结论

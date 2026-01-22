@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：cam-adams 深度访谈"
 original_title: "Lenny's Podcast with cam-adams"
-author: "cam-adams"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "cam-adams", "Canva"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Canva"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：maya-prohovnik 深度访谈"
 original_title: "Building Anchor, selling to Spotify, and lessons learned | Maya Prohovnik"
-author: "maya-prohovnik"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "maya-prohovnik", "产品增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品增长"]
 ---
 
 # 🎯 核心结论

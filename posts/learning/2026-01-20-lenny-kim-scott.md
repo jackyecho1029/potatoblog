@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Kim Scott 深度访谈 —— AI 时代的人文护城河"
 original_title: "Lenny's Podcast with Kim Scott"
-author: "Kim Scott"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "领导力", "反馈机制"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

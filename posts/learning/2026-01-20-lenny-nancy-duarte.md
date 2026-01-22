@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Nancy Duarte 深度访谈 —— 顶级叙事的力量"
 original_title: "Storytelling with Nancy Duarte: How to craft compelling presentations"
-author: "Nancy Duarte"
-category: "思维成长"
-tags: ["LennyPodcast", "叙事力", "演示设计", "NancyDuarte", "沟通逻辑"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["叙事力", "演示设计", "NancyDuarte"]
 ---
 
 # 🎯 核心结论

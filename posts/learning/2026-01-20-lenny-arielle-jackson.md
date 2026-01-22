@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Arielle Jackson 深度访谈 —— 顶级品牌的炼金术"
 original_title: "The art of building legendary brands | Arielle Jackson (Google, Square, First Round Capital)"
-author: "Arielle Jackson"
-category: "思维成长"
-tags: ["LennyPodcast", "品牌营销", "思维模型", "定位理论", "ArielleJackson"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["品牌营销", "生活与效率", "定位理论"]
 ---
 
 # 🎯 核心结论

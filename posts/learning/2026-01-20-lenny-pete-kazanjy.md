@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：pete-kazanjy 深度访谈"
 original_title: "Founder-led sales | Pete Kazanjy (Founding Sales, Atrium)"
-author: "pete-kazanjy"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "pete-kazanjy", "销售科学"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "销售科学"]
 ---
 
 # 🎯 核心结论

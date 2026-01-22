@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：judd-antin 深度访谈"
 original_title: "The UX Research reckoning is here | Judd Antin (Airbnb, Meta)"
-author: "judd-antin"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "UX研究", "商业决策"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "UX研究"]
 ---
 
 # 🎯 核心结论

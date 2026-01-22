@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：graham-weaver 深度访谈"
 original_title: "Lenny's Podcast with graham-weaver"
-author: "graham-weaver"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "graham-weaver"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

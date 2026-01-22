@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Ryan Hoover 深度访谈"
 original_title: "Lenny's Podcast with Ryan Hoover"
-author: "Ryan Hoover"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Ryan Hoover", "实验心态"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "实验心态"]
 ---
 
 # 🎯 核心结论

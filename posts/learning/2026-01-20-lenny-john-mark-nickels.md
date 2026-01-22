@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：john-mark-nickels 深度访谈"
 original_title: "Lenny's Podcast with john-mark-nickels"
-author: "john-mark-nickels"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "john-mark-nickels", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

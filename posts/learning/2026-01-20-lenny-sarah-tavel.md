@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Sarah Tavel 深度访谈"
 original_title: "The Hierarchy of Engagement | Sarah Tavel (Benchmark, Pinterest)"
-author: "Sarah Tavel"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "参与度层级", "产品战略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "参与度层级"]
 ---
 
 # 🎯 核心结论

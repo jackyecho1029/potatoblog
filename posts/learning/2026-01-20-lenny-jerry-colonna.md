@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jerry-colonna 深度访谈"
 original_title: "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna"
-author: "jerry-colonna"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "jerry-colonna", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

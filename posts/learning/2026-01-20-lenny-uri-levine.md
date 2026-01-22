@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：uri-levine 深度访谈"
 original_title: "Lenny's Podcast with uri-levine"
-author: "uri-levine"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "uri-levine", "创业实战"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "创业实战"]
 ---
 
 # 🎯 核心结论

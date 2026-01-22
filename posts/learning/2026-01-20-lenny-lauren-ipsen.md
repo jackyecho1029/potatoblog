@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：lauren-ipsen 深度访谈"
 original_title: "Lenny's Podcast with lauren-ipsen"
-author: "lauren-ipsen"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "lauren-ipsen", "人才战略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "人才战略"]
 ---
 
 # 🎯 核心结论

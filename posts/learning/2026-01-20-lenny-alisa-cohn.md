@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Alisa Cohn 深度访谈"
 original_title: "Scripts for navigating difficult conversations | Alisa Cohn (executive coach)"
-author: "Alisa Cohn"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "领导力", "沟通脚本"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

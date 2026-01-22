@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：adriel-frederick 深度访谈"
 original_title: "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)"
-author: "adriel-frederick"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "adriel-frederick", "增长增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "增长增长"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Daniel Lereya 深度访谈"
 original_title: "Lenny's Podcast with Daniel Lereya"
-author: "Daniel Lereya"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Daniel-Lereya", "Monday.com"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Daniel-Lereya"]
 ---
 
 # 🎯 核心结论

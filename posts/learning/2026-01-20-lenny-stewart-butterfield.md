@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Stewart Butterfield 深度访谈"
 original_title: "Mental models for building products people love ft. Stewart Butterfield"
-author: "Stewart Butterfield"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Stewart-Butterfield", "产品驱动增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Stewart-Butterfield"]
 ---
 
 # 🎯 核心结论

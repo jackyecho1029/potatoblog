@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：naomi-ionita 深度访谈"
 original_title: "How to price your product | Naomi Ionita (Menlo Ventures)"
-author: "naomi-ionita"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "定价策略", "商业化"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "定价策略"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jason-m-lemkin 深度访谈"
 original_title: "We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin"
-author: "jason-m-lemkin"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "jason-m-lemkin", "SaaS"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "SaaS"]
 ---
 
 # 🎯 核心结论

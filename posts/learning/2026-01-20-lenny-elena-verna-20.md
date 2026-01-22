@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Elena Verna 2.0 深度访谈"
 original_title: "The ultimate guide to product-led sales | Elena Verna"
-author: "Elena Verna"
-category: "思维成长"
-tags: ["LennyPodcast", "增长策略", "PLS", "思维模型", "B2B"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["创业与变现", "PLS", "生活与效率"]
 ---
 
 # 🎯 核心结论

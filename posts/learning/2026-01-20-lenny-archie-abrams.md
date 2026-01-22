@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：archie-abrams 深度访谈"
 original_title: "How to speak more confidently and persuasively | Matt Abrahams (professor, speaker, author)"
-author: "archie-abrams"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "archie-abrams", "Shopify", "增长策略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Shopify"]
 ---
 
 # 🎯 核心结论

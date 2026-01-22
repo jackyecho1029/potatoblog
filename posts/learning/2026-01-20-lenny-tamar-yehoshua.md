@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：tamar-yehoshua 深度访谈"
 original_title: "Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack | Tamar Yehoshua"
-author: "tamar-yehoshua"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "tamar-yehoshua", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

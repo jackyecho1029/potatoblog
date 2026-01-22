@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jeremy-henrickson 深度访谈"
 original_title: "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)"
-author: "Jeremy Henrickson"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "复合型创业", "Rippling"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "复合型创业"]
 ---
 
 # 🎯 核心结论

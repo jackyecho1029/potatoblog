@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：karina-nguyen 深度访谈"
 original_title: "Lenny's Podcast with karina-nguyen: Why soft skills are the future of work"
-author: "karina-nguyen"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "karina-nguyen", "产品经理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品经理"]
 ---
 
 # 🎯 核心结论

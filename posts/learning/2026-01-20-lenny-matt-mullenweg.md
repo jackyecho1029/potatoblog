@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Matt Mullenweg 深度访谈"
 original_title: "Lenny's Podcast with Matt Mullenweg: The one question that saves product careers"
-author: "Matt Mullenweg"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "开源精神", "MattMullenweg", "商业模型"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "开源精神", "MattMullenweg"]
 ---
 
 # 🎯 核心结论

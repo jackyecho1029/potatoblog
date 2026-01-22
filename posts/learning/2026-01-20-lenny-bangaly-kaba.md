@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：bangaly-kaba 深度访谈"
 original_title: "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba"
-author: "bangaly-kaba"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "bangaly-kaba", "增长框架"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "增长框架"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：failure 深度访谈"
 original_title: "Lenny's Podcast with failure"
-author: "Katie Dill, Paul Adams, Tom Conrad"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "failure"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "failure"]
 ---
 
 # 🎯 核心结论

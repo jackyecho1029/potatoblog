@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jen-abel 深度访谈"
 original_title: "The ultimate guide to founder-led sales | Jen Abel"
-author: "jen-abel"
-category: "思维成长"
-tags: ["LennyPodcast", "创始人销售", "思维模型", "0到1增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["创始人销售", "生活与效率", "0到1增长"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Noam Lovinsky 深度访谈 —— 从 -1 到 100 的产品进化论"
 original_title: "The happiness and pain of product management | Noam Lovinsky (Grammarly, FB, Thumbtack, YT)"
-author: "Noam Lovinsky"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Noam Lovinsky", "产品管理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品管理"]
 ---
 
 # 🎯 核心结论

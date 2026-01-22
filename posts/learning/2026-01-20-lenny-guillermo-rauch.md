@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：guillermo-rauch 深度访谈"
 original_title: "Everyone’s an engineer now: Inside v0’s mission to create 100 million builders"
-author: "guillermo-rauch"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "guillermo-rauch", "Vercel"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Vercel"]
 ---
 
 # 🎯 核心结论

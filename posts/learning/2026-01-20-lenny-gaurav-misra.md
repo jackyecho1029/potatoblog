@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Gaurav Misra 深度访谈"
 original_title: "Mastering onboarding | Gaurav Misra (CEO of Captions)"
-author: "Gaurav Misra"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "产品速度", "技术债"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品速度"]
 ---
 
 # 🎯 核心结论

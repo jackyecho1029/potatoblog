@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Roger Martin 深度访谈"
 original_title: "5 essential questions to craft a winning strategy | Roger Martin"
-author: "Roger Martin"
-category: "思维成长"
-tags: ["LennyPodcast", "战略", "思维模型", "RogerMartin", "AI赋能"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["战略", "生活与效率", "RogerMartin"]
 ---
 
 # 🎯 核心结论

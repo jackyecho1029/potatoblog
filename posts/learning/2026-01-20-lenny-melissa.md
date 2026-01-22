@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Melissa Perri 深度访谈"
 original_title: "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)"
-author: "Melissa Perri"
-category: "思维成长"
-tags: ["LennyPodcast", "产品战略", "思维模型", "MelissaPerri", "团队管理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["产品战略", "生活与效率", "MelissaPerri"]
 ---
 
 # 🎯 核心结论

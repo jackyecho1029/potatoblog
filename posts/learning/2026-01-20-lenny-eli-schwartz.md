@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：eli-schwartz 深度访谈"
 original_title: "Rethinking SEO in the age of AI | Eli Schwartz"
-author: "eli-schwartz"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "eli-schwartz", "SEO"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "SEO"]
 ---
 
 # 🎯 核心结论

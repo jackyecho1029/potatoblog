@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：phyl-terry 深度访谈"
 original_title: "Land your dream job in today’s market: negotiation tactics, job search councils, more | Phyl Terry"
-author: "phyl-terry"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "phyl-terry", "求职策略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "求职策略"]
 ---
 
 # 🎯 核心结论

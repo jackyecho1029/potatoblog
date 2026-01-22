@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jake-knapp-john-zeratsky 深度访谈"
 original_title: "Lenny's Podcast with jake-knapp-john-zeratsky"
-author: "jake-knapp-john-zeratsky"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "MakeTime", "注意力经济"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "MakeTime"]
 ---
 
 # 🎯 核心结论

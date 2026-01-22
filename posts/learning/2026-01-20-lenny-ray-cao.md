@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ray-cao 深度访谈"
 original_title: "Lenny's Podcast with ray-cao"
-author: "ray-cao"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "ray-cao", "TikTok"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "TikTok"]
 ---
 
 # 🎯 核心结论

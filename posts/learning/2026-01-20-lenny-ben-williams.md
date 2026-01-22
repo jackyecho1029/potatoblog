@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ben-williams 深度访谈"
 original_title: "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)"
-author: "ben-williams"
-category: "思维成长"
-tags: ["LennyPodcast", "PLG", "增长环", "Snyk", "开发者工具"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["PLG", "增长环", "Snyk"]
 ---
 
 # 🎯 核心结论

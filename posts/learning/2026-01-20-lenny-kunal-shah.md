@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：kunal-shah 深度访谈"
 original_title: "Lenny's Podcast with kunal-shah"
-author: "kunal-shah"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "kunal-shah", "Delta4"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Delta4"]
 ---
 
 # 🎯 核心结论

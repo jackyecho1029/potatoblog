@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：april-dunford 深度访谈"
 original_title: "Lenny's Podcast with april-dunford"
-author: "april-dunford"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "april-dunford"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

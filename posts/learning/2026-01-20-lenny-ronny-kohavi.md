@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ronny-kohavi 深度访谈"
 original_title: "Lenny's Podcast with ronny-kohavi"
-author: "ronny-kohavi"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "ronny-kohavi", "AB测试"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "AB测试"]
 ---
 
 # 🎯 核心结论

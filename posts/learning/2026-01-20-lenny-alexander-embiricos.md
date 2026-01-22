@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：alexander-embiricos 深度访谈"
 original_title: "Lenny's Podcast with Alexander Embiricos (Product Lead for Codex at OpenAI)"
-author: "Alexander Embiricos"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "Codex", "思维模型", "OpenAI"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "Codex", "生活与效率"]
 ---
 
 # 🎯 核心结论

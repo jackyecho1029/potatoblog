@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：barbra-gago 深度访谈"
 original_title: "Lenny's Podcast with barbra-gago"
-author: "barbra-gago"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "barbra-gago"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

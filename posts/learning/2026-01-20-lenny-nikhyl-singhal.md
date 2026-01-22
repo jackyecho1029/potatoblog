@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：nikhyl-singhal 深度访谈"
 original_title: "Building a long and meaningful career | Nikhyl Singhal (Meta, Google)"
-author: "nikhyl-singhal"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "职业战略", "一人公司"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "职业战略"]
 ---
 
 # 🎯 核心结论

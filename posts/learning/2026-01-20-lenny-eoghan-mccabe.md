@@ -2,9 +2,9 @@
 
 title: "Lenny's Podcast 笔记：eoghan-mccabe 深度访谈"
 original_title: "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe"
-author: "eoghan-mccabe"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "eoghan-mccabe", "创始人模式"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "创始人模式"]
 
 ---
 

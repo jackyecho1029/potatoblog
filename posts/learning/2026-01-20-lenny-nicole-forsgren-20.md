@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：nicole-forsgren-20 深度访谈"
 original_title: "How to measure AI developer productivity in 2025 | Nicole Forsgren"
-author: "Nicole Forsgren"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "开发者效能", "DORA"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "开发者效能"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ivan-zhao 深度访谈"
 original_title: "Lenny's Podcast with ivan-zhao"
-author: "ivan-zhao"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "ivan-zhao", "Notion"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Notion"]
 ---
 
 # 🎯 核心结论

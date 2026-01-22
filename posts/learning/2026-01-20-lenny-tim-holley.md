@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：tim-holley 深度访谈"
 original_title: "Inside Etsy’s product, growth, and marketplace evolution | Tim Holley (VP of Product)"
-author: "tim-holley"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "tim-holley", "电商增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "电商增长"]
 ---
 
 # 🎯 核心结论

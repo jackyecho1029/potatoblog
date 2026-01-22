@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Bob Baxley 深度访谈"
 original_title: "35 years of product design wisdom from Apple, Disney, Pinterest and beyond | Bob Baxley"
-author: "Bob Baxley"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "BobBaxley", "产品设计"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "BobBaxley"]
 ---
 
 # 🎯 核心结论

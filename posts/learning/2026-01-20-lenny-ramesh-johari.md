@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ramesh-johari 深度访谈"
 original_title: "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari"
-author: "ramesh-johari"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "市场设计", "数据科学"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "市场设计"]
 ---
 
 # 🎯 核心结论

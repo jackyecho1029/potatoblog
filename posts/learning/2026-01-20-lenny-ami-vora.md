@@ -2,9 +2,9 @@
 
 title: "Lenny's Podcast 笔记：ami-vora 深度访谈"
 original_title: "Lenny's Podcast with ami-vora"
-author: "ami-vora"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "ami-vora"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 
 ---
 

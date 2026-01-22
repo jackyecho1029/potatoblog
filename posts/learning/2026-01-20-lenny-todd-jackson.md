@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Todd Jackson 深度访谈 —— 破解 PMF 的科学密码"
 original_title: "Lenny's Podcast with Todd Jackson: A framework for finding product-market fit"
-author: "Todd Jackson"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "PMF", "产品战略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "PMF"]
 ---
 
 # 🎯 核心结论

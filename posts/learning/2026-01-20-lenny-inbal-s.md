@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：inbal-s 深度访谈 —— AI 时代的软件进化论"
 original_title: "The future of AI in software development | Inbal Shani (CPO of GitHub)"
-author: "inbal-s"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "GitHub", "Copilot"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "GitHub"]
 ---
 
 # 🎯 核心结论

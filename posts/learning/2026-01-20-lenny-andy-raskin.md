@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：andy-raskin 深度访谈"
 original_title: "The power of strategic narrative | Andy Raskin"
-author: "andy-raskin"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "andy-raskin", "战略叙事"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "战略叙事"]
 ---
 
 # 🎯 核心结论

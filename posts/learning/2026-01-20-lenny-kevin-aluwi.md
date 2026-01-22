@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：kevin-aluwi 深度访谈"
 original_title: "Lenny's Podcast with kevin-aluwi"
-author: "kevin-aluwi"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "kevin-aluwi", "SuperApp"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "SuperApp"]
 ---
 
 # 🎯 核心结论

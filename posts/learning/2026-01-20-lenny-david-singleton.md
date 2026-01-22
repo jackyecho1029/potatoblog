@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：David Singleton 深度访谈"
 original_title: "Building a culture of excellence | David Singleton (CTO of Stripe)"
-author: "David Singleton"
-category: "思维成长"
-tags: ["LennyPodcast", "Stripe", "工程文化", "产品逻辑", "思维模型"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["Stripe", "工程文化", "产品逻辑"]
 ---
 
 # 🎯 核心结论

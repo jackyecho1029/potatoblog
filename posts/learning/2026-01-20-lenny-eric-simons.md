@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：eric-simons 深度访谈"
 original_title: "Inside Bolt: From near-death to one of the fastest-growing products in history | Eric Simons"
-author: "eric-simons"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "eric-simons", "Bolt", "StackBlitz"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Bolt"]
 ---
 
 # 🎯 核心结论

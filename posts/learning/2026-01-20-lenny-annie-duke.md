@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：annie-duke 深度访谈"
 original_title: "Lenny's Podcast with annie-duke"
-author: "annie-duke"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "annie-duke", "决策科学"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "决策科学"]
 ---
 
 # 🎯 核心结论

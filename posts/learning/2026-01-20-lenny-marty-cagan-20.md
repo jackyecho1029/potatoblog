@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Marty Cagan 深度访谈 —— 流程人的终结与 PM 范式转移"
 original_title: "The disease of process people | Marty Cagan"
-author: "Marty Cagan"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "产品管理", "MartyCagan"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品管理"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Farhan Thawar 深度访谈"
 original_title: "How Shopify builds a high-intensity culture | Farhan Thawar (VP and Head of Eng)"
-author: "Farhan Thawar"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Shopify", "高强度文化"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Shopify"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jason-feifer 深度访谈"
 original_title: "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)"
-author: "jason-feifer"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "jason-feifer", "媒体公关"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "媒体公关"]
 ---
 
 # 🎯 核心结论

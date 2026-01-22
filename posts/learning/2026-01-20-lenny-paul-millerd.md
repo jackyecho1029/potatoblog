@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：paul-millerd 深度访谈"
 original_title: "Lenny's Podcast with paul-millerd"
-author: "paul-millerd"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "paul-millerd", "一人公司"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "一人公司"]
 ---
 
 # 🎯 核心结论

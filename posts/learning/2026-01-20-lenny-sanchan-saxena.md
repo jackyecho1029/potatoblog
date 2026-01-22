@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：sanchan-saxena 深度访谈 —— 危机中的领导力与产品的艺术"
 original_title: "Why Uber’s CPO delivers food on weekends | Sachin Kansal (Note: Transcript provided is Sanchan Saxena)"
-author: "sanchan-saxena"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "产品战略", "危机管理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品战略"]
 ---
 
 # 🎯 核心结论

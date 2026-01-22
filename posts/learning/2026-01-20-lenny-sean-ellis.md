@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Sean Ellis 深度访谈 —— 破译 PMF 与增长的底层逻辑"
 original_title: "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)"
-author: "Sean Ellis"
-category: "思维成长"
-tags: ["LennyPodcast", "增长黑客", "PMF", "思维模型", "Sean-Ellis"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["增长黑客", "PMF", "生活与效率"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：tristan-de-montebello 深度访谈"
 original_title: "Lenny's Podcast with tristan-de-montebello"
-author: "tristan-de-montebello"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "tristan-de-montebello", "公共表达"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "公共表达"]
 ---
 
 # 🎯 核心结论

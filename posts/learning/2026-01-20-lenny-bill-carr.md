@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：bill-carr 深度访谈"
 original_title: "Lenny's Podcast with bill-carr"
-author: "bill-carr"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "bill-carr", "亚马逊机制"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "亚马逊机制"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：bob-moesta 深度访谈 —— 重构需求的因果逻辑"
 original_title: "How to find work you love | Bob Moesta (Jobs-to-be-Done co-creator, author of 'Job Moves')"
-author: "Bob Moesta"
-category: "思维成长 / 产品战略"
-tags: ["LennyPodcast", "JTBD", "思维模型", "需求分析", "创新"]
+author: "Lenny's Podcast"
+category: "产品与增长"
+tags: ["JTBD", "生活与效率", "需求分析"]
 ---
 
 # 🎯 核心结论

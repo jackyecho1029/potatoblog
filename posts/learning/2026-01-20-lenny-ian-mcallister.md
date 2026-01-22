@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ian-mcallister 深度访谈"
 original_title: "Lenny's Podcast with ian-mcallister"
-author: "ian-mcallister"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "ian-mcallister"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

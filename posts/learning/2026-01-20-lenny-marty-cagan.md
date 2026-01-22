@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：marty-cagan 深度访谈"
 original_title: "Lenny's Podcast with marty-cagan"
-author: "marty-cagan"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "marty-cagan"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

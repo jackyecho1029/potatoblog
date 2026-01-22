@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jason-shah 深度访谈"
 original_title: "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)"
-author: "jason-shah"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "逆向工作法", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "逆向工作法"]
 ---
 
 # 🎯 核心结论

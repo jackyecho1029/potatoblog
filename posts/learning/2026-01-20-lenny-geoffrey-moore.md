@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：geoffrey-moore 深度访谈"
 original_title: "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market"
-author: "geoffrey-moore"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "geoffrey-moore", "市场战略"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "市场战略"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jonathan-lowenhar 深度访谈"
 original_title: "How a great founder becomes a great CEO | Jonathan Lowenhar"
-author: "jonathan-lowenhar"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "CEO手艺", "MagicBox"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "CEO手艺"]
 ---
 
 # 🎯 核心结论

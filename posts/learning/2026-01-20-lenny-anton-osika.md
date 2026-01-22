@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：anton-osika 深度访谈"
 original_title: "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika"
-author: "Anton Osika"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "软件工程", "创业"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "软件工程"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：will-larson 深度访谈 —— 从“保姆式管理”到“系统性增长”"
 original_title: "The engineering mindset | Will Larson (Carta, Stripe, Uber, Calm, Digg)"
-author: "Will Larson"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "系统思考", "will-larson"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "系统思考"]
 ---
 
 # 🎯 核心结论

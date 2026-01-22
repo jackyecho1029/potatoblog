@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：gina-gotthilf 深度访谈"
 original_title: "Lenny's Podcast with gina-gotthilf"
-author: "gina-gotthilf"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "gina-gotthilf", "增长黑客"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "增长黑客"]
 ---
 
 # 🎯 核心结论

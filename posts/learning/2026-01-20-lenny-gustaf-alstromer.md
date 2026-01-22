@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：gustaf-alstromer 深度访谈"
 original_title: "Lessons from working with 600+ YC startups | Gustaf Alströmer (Y Combinator, Airbnb)"
-author: "Gustaf Alstromer"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "初创公司", "增长思维", "YC"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "初创公司", "增长思维"]
 ---
 
 # 🎯 核心结论

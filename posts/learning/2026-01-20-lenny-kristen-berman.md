@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：kristen-berman 深度访谈"
 original_title: "Lenny's Podcast with kristen-berman"
-author: "kristen-berman"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "kristen-berman", "行为经济学"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "行为经济学"]
 ---
 
 # 🎯 核心结论

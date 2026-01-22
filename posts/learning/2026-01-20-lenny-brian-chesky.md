@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Brian Chesky 深度访谈——拒绝平庸的“CEO 新剧本”"
 original_title: "Lenny's Podcast with Brian Chesky"
-author: "Brian Chesky"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Brian Chesky", "Airbnb"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Airbnb"]
 ---
 
 # 🎯 核心结论

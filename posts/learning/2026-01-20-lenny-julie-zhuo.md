@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：julie-zhuo 深度访谈"
 original_title: "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo"
-author: "julie-zhuo"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "julie-zhuo", "领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

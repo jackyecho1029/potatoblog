@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Sander Schulhoff 深度访谈 —— AI 安全的幻象与真相"
 original_title: "Why securing AI is harder than anyone expected and guardrails are failing | HackAPrompt CEO"
-author: "Sander Schulhoff"
-category: "思维成长"
-tags: ["LennyPodcast", "AI安全", "思维模型", "提示词注入", "红队测试"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI安全", "生活与效率", "提示词注入"]
 ---
 
 # 🎯 核心结论

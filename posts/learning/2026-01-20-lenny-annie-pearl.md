@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Annie Pearl 深度访谈"
 original_title: "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)"
-author: "Annie Pearl"
-category: "思维成长"
-tags: ["LennyPodcast", "PLG", "思维模型", "产品战略", "AnniePearl"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["PLG", "生活与效率", "产品战略"]
 ---
 
 # 🎯 核心结论

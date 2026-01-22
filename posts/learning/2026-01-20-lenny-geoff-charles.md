@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：geoff-charles 深度访谈"
 original_title: "Velocity over everything: How Ramp became the fastest-growing SaaS startup ever | Geoff Charles"
-author: "geoff-charles"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "geoff-charles", "Ramp"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Ramp"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ethan-evans-20 深度访谈"
 original_title: "Lenny's Podcast with ethan-evans-20"
-author: "ethan-evans-20"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "职业掌控力", "亚马逊经验"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "职业掌控力"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：nilan-peiris 深度访谈"
 original_title: "How to drive word of mouth | Nilan Peiris (CPO of Wise)"
-author: "nilan-peiris"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "口碑增长", "Wise"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "口碑增长"]
 ---
 
 # 🎯 核心结论

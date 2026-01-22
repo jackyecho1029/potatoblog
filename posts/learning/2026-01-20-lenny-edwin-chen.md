@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：edwin-chen 深度访谈"
 original_title: "The $1B AI company training ChatGPT, Claude & Gemini | Edwin Chen"
-author: "Edwin Chen"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "一人公司", "思维模型", "SurgeAI"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "一人公司", "生活与效率"]
 ---
 
 # 🎯 核心结论

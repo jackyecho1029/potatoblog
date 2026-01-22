@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：nickey-skarstad 深度访谈"
 original_title: "Lenny's Podcast with nickey-skarstad"
-author: "nickey-skarstad"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "nickey-skarstad", "产品质量", "电商实战"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品质量"]
 ---
 
 # 🎯 核心结论

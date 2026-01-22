@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：jiaona-zhang 深度访谈"
 original_title: "Lenny's Podcast with jiaona-zhang"
-author: "jiaona-zhang"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "jiaona-zhang"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率"]
 ---
 
 # 🎯 核心结论

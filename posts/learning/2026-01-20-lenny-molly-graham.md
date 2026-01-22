@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：molly-graham 深度访谈 —— 极速扩张时代的成长手册"
 original_title: "“I like being scared”: Molly Graham’s frameworks for rapid career growth"
-author: "molly-graham"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "领导力", "职业增长"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：mihika-kapoor 深度访谈"
 original_title: "Lenny's Podcast with mihika-kapoor"
-author: "mihika-kapoor"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "mihika-kapoor", "Figma"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Figma"]
 ---
 
 # 🎯 核心结论

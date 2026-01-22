@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：ryan-singer 深度访谈"
 original_title: "Lenny's Podcast with ryan-singer"
-author: "ryan-singer"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "ryan-singer", "ShapeUp"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "ShapeUp"]
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Varun Parmar 深度访谈"
 original_title: "An inside look at how Miro builds product | Varun Parmar (CPO of Miro)"
-author: "Varun Parmar"
-category: "思维成长"
-tags: ["LennyPodcast", "Miro", "产品战略", "组织设计", "竞争模型"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["Miro", "产品战略", "组织设计"]
 ---
 
 # 🎯 核心结论

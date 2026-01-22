@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：claire-hughes-johnson 深度访谈"
 original_title: "Lenny's Podcast with claire-hughes-johnson"
-author: "claire-hughes-johnson"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "claire-hughes-johnson", "Stripe", "运营"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Stripe"]
 ---
 
 # 🎯 核心结论

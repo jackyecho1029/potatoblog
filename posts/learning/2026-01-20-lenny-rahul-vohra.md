@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：rahul-vohra 深度访谈"
 original_title: "Lenny's Podcast with rahul-vohra"
-author: "rahul-vohra"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "rahul-vohra", "产品市场匹配"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "产品市场匹配"]
 ---
 
 # 🎯 核心结论

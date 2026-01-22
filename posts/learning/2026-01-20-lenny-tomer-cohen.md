@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：Tomer Cohen 深度访谈 —— AI 时代的清晰度、重构与实战"
 original_title: "Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn CPO)"
-author: "Tomer Cohen"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "Tomer-Cohen", "产品管理"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Tomer-Cohen"]
 ---
 
 # 🎯 核心结论

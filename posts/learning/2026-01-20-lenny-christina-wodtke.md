@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：christina-wodtke 深度访谈"
 original_title: "The ultimate guide to OKRs | Christina Wodtke (Stanford)"
-author: "christina-wodtke"
-category: "思维成长"
-tags: ["LennyPodcast", "OKR", "思维模型", "领导力", "执行力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["OKR", "生活与效率", "领导力"]
 ---
 
 # 🎯 核心结论

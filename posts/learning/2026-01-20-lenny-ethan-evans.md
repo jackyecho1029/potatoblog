@@ -2,9 +2,9 @@
 
 title: "Lenny's Podcast 笔记：ethan-evans 深度访谈"
 original_title: "Lenny's Podcast with ethan-evans: Taking control of your career"
-author: "ethan-evans"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "职业所有权", "亚马逊领导力"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "职业所有权"]
 
 ---
 

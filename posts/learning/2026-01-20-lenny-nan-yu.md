@@ -1,9 +1,9 @@
 ---
 title: "Lenny's Podcast 笔记：nan-yu 深度访谈"
 original_title: "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)"
-author: "nan-yu"
-category: "思维成长"
-tags: ["LennyPodcast", "AI", "思维模型", "nan-yu", "Linear"]
+author: "Lenny's Podcast"
+category: "生活与效率"
+tags: ["AI 与技术", "生活与效率", "Linear"]
 ---
 
 # 🎯 核心结论
