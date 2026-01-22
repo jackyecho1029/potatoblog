@@ -35,7 +35,6 @@ export default function XSignalsClient({ posts }: XSignalsClientProps) {
                     onFilteredItems={handleFilteredItems}
                     placeholder="搜索情报..."
                     showAuthorFilter={true}
-                    showCategoryFilter={true}
                 />
 
                 {/* X Signals Table View */}
