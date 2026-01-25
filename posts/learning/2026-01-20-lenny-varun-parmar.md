@@ -8,6 +8,7 @@ tags:
   - 产品战略
   - 组织设计
 source_url: 'https://www.youtube.com/watch?v=furNg4njlsg'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

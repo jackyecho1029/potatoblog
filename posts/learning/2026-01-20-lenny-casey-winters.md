@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：casey-winters 深度访谈"
-original_title: "Why most product managers are unprepared for the demands of a real startup"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "创业与变现"]
+title: Lenny's Podcast 笔记：casey-winters 深度访谈
+original_title: Why most product managers are unprepared for the demands of a real startup
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 创业与变现
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

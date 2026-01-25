@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 平台经济
 source_url: 'https://www.youtube.com/watch?v=CYwgStMln6U'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

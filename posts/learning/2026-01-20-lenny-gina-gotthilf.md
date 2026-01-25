@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 增长黑客
 source_url: 'https://www.youtube.com/watch?v=sWClFYdbkRA'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 实验心态
 source_url: 'https://www.youtube.com/watch?v=GF-yUANql0c'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

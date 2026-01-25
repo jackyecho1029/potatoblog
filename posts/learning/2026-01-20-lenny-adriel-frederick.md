@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 增长增长
 source_url: 'https://www.youtube.com/watch?v=uMhBej6-Ey4'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

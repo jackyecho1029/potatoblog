@@ -10,6 +10,7 @@ tags:
   - 园艺师思维
   - 复杂系统
 source_url: 'https://www.youtube.com/watch?v=PoWRYBWSqpU'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

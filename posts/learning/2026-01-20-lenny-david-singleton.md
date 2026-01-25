@@ -8,6 +8,7 @@ tags:
   - 工程文化
   - 产品逻辑
 source_url: 'https://www.youtube.com/watch?v=F0_IKKY3HCk'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

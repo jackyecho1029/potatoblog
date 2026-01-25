@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - Bolt
 source_url: 'https://www.youtube.com/watch?v=L22DtAHLmzs'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

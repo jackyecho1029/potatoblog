@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 参与度层级
 source_url: 'https://www.youtube.com/watch?v=H9g4pzcz6Tk'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

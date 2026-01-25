@@ -1,13 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Revolut 深度访谈"
-original_title: "How Revolut trains world-class PMs: The “Local CEO” model, raw intellect &amp; building wow products"
-author: "Lenny's Podcast"
-category: "生活与效率"
-date: "2025-05-15"
+title: Lenny's Podcast 笔记：Dmitry Zlokazov 深度访谈
+original_title: >-
+  How Revolut trains world-class PMs: The “Local CEO” model, raw intellect &amp;
+  building wow products
+author: Lenny's Podcast
+category: 生活与效率
+date: '2025-05-15'
 tags:
   - AI 与技术
   - 生活与效率
-source_url: "https://www.youtube.com/watch?v=-kPpd21bFrE"
+source_url: 'https://www.youtube.com/watch?v=-kPpd21bFrE'
 ---
 
 你好。我是你的商业分析师。针对 Revolut（全球金融科技巨头）在 Lenny's Podcast 中分享的关于“Local CEO”模型、原始智力（Raw Intellect）以及打造极致产品的深度对谈，我结合**金字塔原理**与**查理·芒格的多元思维模型**，为你完成如下深度解构。

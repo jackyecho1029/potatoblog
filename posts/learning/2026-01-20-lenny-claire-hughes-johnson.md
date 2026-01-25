@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - Stripe
 source_url: 'https://www.youtube.com/watch?v=Mv0o9o4MRh0'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 个人IP
 source_url: 'https://www.youtube.com/watch?v=kc1XhB4k0Eg'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

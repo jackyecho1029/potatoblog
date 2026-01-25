@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：nickey-skarstad 深度访谈"
-original_title: "Lenny's Podcast with nickey-skarstad"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "产品质量"]
+title: Lenny's Podcast 笔记：nickey-skarstad 深度访谈
+original_title: Lenny's Podcast with nickey-skarstad
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 产品质量
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

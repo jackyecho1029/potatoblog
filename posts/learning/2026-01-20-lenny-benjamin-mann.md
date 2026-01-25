@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - BenjaminMann
 source_url: 'https://www.youtube.com/watch?v=CYwgStMln6U'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

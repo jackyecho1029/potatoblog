@@ -10,6 +10,7 @@ tags:
   - 初创公司
   - 增长思维
 source_url: 'https://www.youtube.com/watch?v=ZoKLofsp8u0'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

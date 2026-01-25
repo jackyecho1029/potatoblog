@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 职业规划
 source_url: 'https://www.youtube.com/watch?v=MajB5CQUKDA'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

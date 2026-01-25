@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 精益创业
 source_url: 'https://www.youtube.com/watch?v=xzebbzIntFc'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

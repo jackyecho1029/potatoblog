@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 提示词注入
 source_url: 'https://www.youtube.com/watch?v=J9982NLmTXg'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 战略思维
 source_url: 'https://www.youtube.com/watch?v=E3dUveqt9Bw'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

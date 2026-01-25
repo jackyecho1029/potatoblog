@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：lulu-cheng-meservey 深度访谈"
-original_title: "Lenny's Podcast with lulu-cheng-meservey"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "传播策略"]
+title: Lenny's Podcast 笔记：lulu-cheng-meservey 深度访谈
+original_title: Lenny's Podcast with lulu-cheng-meservey
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 传播策略
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

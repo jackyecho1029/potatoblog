@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 效果营销
 source_url: 'https://www.youtube.com/watch?v=zNJyb3R_Pnc'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

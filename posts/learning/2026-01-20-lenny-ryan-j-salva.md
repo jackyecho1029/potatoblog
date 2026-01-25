@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - GitHub-Copilot
 source_url: 'https://www.youtube.com/watch?v=awcd3P1DnX4'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

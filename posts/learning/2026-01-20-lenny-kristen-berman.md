@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 行为经济学
 source_url: 'https://www.youtube.com/watch?v=u53fplD_C30'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

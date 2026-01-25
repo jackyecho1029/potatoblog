@@ -8,6 +8,7 @@ tags:
   - Codex
   - 生活与效率
 source_url: 'https://www.youtube.com/watch?v=xZifSLGOrrw'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

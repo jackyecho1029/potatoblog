@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 搜索革命
 source_url: 'https://www.youtube.com/watch?v=kOnsqqVbIeY'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

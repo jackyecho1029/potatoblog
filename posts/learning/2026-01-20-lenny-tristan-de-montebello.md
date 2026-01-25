@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 公共表达
 source_url: 'https://www.youtube.com/watch?v=BQM3Yq93nVc'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

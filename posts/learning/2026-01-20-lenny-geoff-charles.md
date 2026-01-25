@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - Ramp
 source_url: 'https://www.youtube.com/watch?v=aNJDZ_RzTVk'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：julie-zhuo-20 深度访谈"
-original_title: "How To Win Friends & Influence Decisions (Julie Zhuo)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：julie-zhuo-20 深度访谈
+original_title: How To Win Friends & Influence Decisions (Julie Zhuo)
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 领导力
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

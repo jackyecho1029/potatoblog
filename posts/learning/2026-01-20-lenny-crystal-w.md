@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 增长驱动
 source_url: 'https://www.youtube.com/watch?v=lYaiyi2ZX6Q'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

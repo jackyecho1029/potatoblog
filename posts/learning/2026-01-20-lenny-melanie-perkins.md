@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - B栏思维
 source_url: 'https://www.youtube.com/watch?v=-LywX3T5Scc'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

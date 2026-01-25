@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - 个人品牌
 source_url: 'https://www.youtube.com/watch?v=HsD5ycT_umw'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

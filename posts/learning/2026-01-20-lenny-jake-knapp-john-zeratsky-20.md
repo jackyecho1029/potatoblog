@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 产品战略
 source_url: 'https://www.youtube.com/watch?v=cuce7zvOFHY'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

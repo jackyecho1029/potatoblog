@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 权力七律
 source_url: 'https://www.youtube.com/watch?v=etVCBDRXUH8'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

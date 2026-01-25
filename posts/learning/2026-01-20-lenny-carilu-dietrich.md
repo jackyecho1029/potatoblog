@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - 超高速增长
 source_url: 'https://www.youtube.com/watch?v=Pm7QSWDIEUc'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

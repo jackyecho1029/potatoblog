@@ -1,9 +1,13 @@
 ---
-title: "Lenny's Podcast 笔记：matt-mochary 深度访谈"
-original_title: "Are your fears giving you terrible advice? | Matt Mochary"
-author: "Lenny's Podcast"
-category: "生活与效率"
-tags: ["AI 与技术", "生活与效率", "领导力"]
+title: Lenny's Podcast 笔记：matt-mochary 深度访谈
+original_title: Are your fears giving you terrible advice? | Matt Mochary
+author: Lenny's Podcast
+category: 生活与效率
+tags:
+  - AI 与技术
+  - 生活与效率
+  - 领导力
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

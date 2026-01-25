@@ -8,6 +8,7 @@ tags:
   - 生活与效率
   - CEO手艺
 source_url: 'https://www.youtube.com/watch?v=s0jn7eE33nk'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论

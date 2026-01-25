@@ -10,6 +10,7 @@ tags:
   - 生活与效率
   - ZIRP_PM
 source_url: 'https://www.youtube.com/watch?v=6XMUDEYf2OE'
+date: '2026-01-20'
 ---
 
 # 🎯 核心结论
