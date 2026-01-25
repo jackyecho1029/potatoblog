@@ -72,8 +72,8 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                     <button
                         onClick={() => setSelectedCategory(null)}
                         className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedCategory === null
-                                ? "bg-amber-600 text-white"
-                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                            ? "bg-amber-600 text-white"
+                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                             }`}
                     >
                         全部 ({posts.length})
@@ -83,8 +83,8 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                             key={cat}
                             onClick={() => setSelectedCategory(selectedCategory === cat ? null : cat)}
                             className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedCategory === cat
-                                    ? "bg-amber-600 text-white"
-                                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                ? "bg-amber-600 text-white"
+                                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                                 }`}
                         >
                             {cat} ({categoryCounts[cat] || 0})
@@ -98,6 +98,7 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                         <thead className="bg-gray-50 border-b border-gray-100">
                             <tr className="text-xs text-gray-500 uppercase tracking-wider">
                                 <th className="px-4 py-3 w-24">类别</th>
+                                <th className="px-4 py-3 w-28">日期</th>
                                 <th className="px-4 py-3 w-40">嘉宾</th>
                                 <th className="px-4 py-3">简介</th>
                                 <th className="px-4 py-3 hidden md:table-cell">金句</th>
@@ -110,6 +111,11 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                                     <td className="px-4 py-3">
                                         <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full whitespace-nowrap">
                                             {post.category}
+                                        </span>
+                                    </td>
+                                    <td className="px-4 py-3">
+                                        <span className="text-xs text-gray-500 tabular-nums">
+                                            {post.date}
                                         </span>
                                     </td>
                                     <td className="px-4 py-3">

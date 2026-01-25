@@ -9,6 +9,7 @@ export interface LennyPost {
     summary: string;
     quote: string;
     link: string;
+    date: string;
 }
 
 const LEARNING_DIR = path.join(process.cwd(), 'posts', 'learning');
@@ -171,6 +172,7 @@ export function getAllLennyPosts(): LennyPost[] {
             const category = inferCategory(content, tags, data.title || '');
             const summary = extractSummary(content);
             const quote = extractQuote(content);
+            const date = data.date || '';
 
             posts.push({
                 id,
@@ -178,6 +180,7 @@ export function getAllLennyPosts(): LennyPost[] {
                 category,
                 summary,
                 quote,
+                date,
                 link: `/learning/${id}`
             });
         } catch (err) {
@@ -185,10 +188,10 @@ export function getAllLennyPosts(): LennyPost[] {
         }
     }
 
-    // Sort by category, then by guest name
+    // Sort by date (latest first), then by guest name
     return posts.sort((a, b) => {
-        if (a.category !== b.category) {
-            return a.category.localeCompare(b.category);
+        if (a.date !== b.date) {
+            return b.date.localeCompare(a.date);
         }
         return a.guest.localeCompare(b.guest);
     });

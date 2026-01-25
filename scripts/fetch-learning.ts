@@ -514,11 +514,14 @@ async function fetchLatestVideos() {
                     console.log(`🎙️ Detected Lenny's Podcast: ${title}`);
 
                     // Extract guest name from title
-                    // Common formats: "Guest Name | Topic" or "Topic with Guest Name"
+                    // Common formats: "Topic | Guest Name" or "Guest Name | Topic"
                     let guestName = 'unknown-guest';
-                    const pipeMatch = title.match(/^([^|]+)/);
-                    if (pipeMatch) {
-                        guestName = pipeMatch[1].trim();
+                    if (title.includes('|')) {
+                        const parts = title.split('|').map(p => p.trim());
+                        // Heuristic: The guest name is usually the shorter part
+                        guestName = parts.sort((a, b) => a.length - b.length)[0];
+                        // Strip decorations like "(2x unicorn founder)"
+                        guestName = guestName.replace(/\s*\(.*?\)\s*/g, '').trim();
                     }
 
                     console.log(`   Generating Lenny-style deep analysis...`);
@@ -529,10 +532,11 @@ async function fetchLatestVideos() {
                         const lennyFilePath = path.join(postsDir, lennyFilename);
 
                         const lennyFileContent = `---
-title: Lenny's Podcast 笔记：${guestName} 深度访谈
+title: "Lenny's Podcast 笔记：${guestName} 深度访谈"
 original_title: "${title.replace(/"/g, '\\"')}"
-author: Lenny's Podcast
-category: 生活与效率
+author: "Lenny's Podcast"
+category: "生活与效率"
+date: "${date}"
 tags:
   - AI 与技术
   - 生活与效率
