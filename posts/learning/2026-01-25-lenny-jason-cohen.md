@@ -5,7 +5,7 @@ original_title: >-
   founder)
 author: Lenny's Podcast
 category: 生活与效率
-date: '2025-01-15'
+date: '2026-01-25'
 tags:
   - AI 与技术
   - 生活与效率
