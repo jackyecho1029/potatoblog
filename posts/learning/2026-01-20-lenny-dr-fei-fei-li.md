@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 空间智能
 source_url: 'https://www.youtube.com/watch?v=Ctjiatnd6Xk'
-date: '2026-01-20'
+date: 2025-11-16T00:00:00.000Z
 ---
 
 # 🎯 核心结论

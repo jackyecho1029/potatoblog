@@ -10,7 +10,7 @@ tags:
   - 开源精神
   - MattMullenweg
 source_url: 'https://www.youtube.com/watch?v=ts9ZvlkeWGs'
-date: '2026-01-20'
+date: 2025-08-14T00:00:00.000Z
 ---
 
 # 🎯 核心结论

@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 增长框架
 source_url: 'https://www.youtube.com/watch?v=Ub9UkWByFIQ'
-date: '2026-01-20'
+date: 2024-05-26T00:00:00.000Z
 ---
 
 # 🎯 核心结论

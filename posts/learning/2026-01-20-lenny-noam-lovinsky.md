@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 产品管理
 source_url: 'https://www.youtube.com/watch?v=a_W5Rn0bJWE'
-date: '2026-01-20'
+date: 2024-03-17T00:00:00.000Z
 ---
 
 # 🎯 核心结论

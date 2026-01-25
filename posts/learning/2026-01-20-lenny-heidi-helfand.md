@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 组织架构
 source_url: 'https://www.youtube.com/watch?v=0wN5wSImUdY'
-date: '2026-01-20'
+date: 2024-01-18T00:00:00.000Z
 ---
 
 # 🎯 核心结论

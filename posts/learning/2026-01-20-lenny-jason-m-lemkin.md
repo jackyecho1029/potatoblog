@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - SaaS
 source_url: 'https://www.youtube.com/watch?v=I-R1bc1rlFs'
-date: '2026-01-20'
+date: 2026-01-01T00:00:00.000Z
 ---
 
 # 🎯 核心结论

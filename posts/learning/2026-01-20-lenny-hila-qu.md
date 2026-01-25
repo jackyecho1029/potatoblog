@@ -8,7 +8,7 @@ tags:
   - 增长模型
   - 数据驱动
 source_url: 'https://www.youtube.com/watch?v=7l1fIxk7SnA'
-date: '2026-01-20'
+date: 2023-04-02T00:00:00.000Z
 ---
 
 # 🎯 核心结论

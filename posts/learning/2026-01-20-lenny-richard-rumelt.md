@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 战略
 source_url: 'https://www.youtube.com/watch?v=4uWKEG0s9Kc'
-date: '2026-01-20'
+date: 2024-01-21T00:00:00.000Z
 ---
 
 # 🎯 核心结论

@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 企业级销售
 source_url: 'https://www.youtube.com/watch?v=37fKFWdrMyA'
-date: '2026-01-20'
+date: 2025-11-09T00:00:00.000Z
 ---
 
 # 🎯 核心结论

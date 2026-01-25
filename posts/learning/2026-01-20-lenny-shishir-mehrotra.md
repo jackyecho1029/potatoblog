@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Coda
 source_url: 'https://www.youtube.com/watch?v=7uSuMIJhONA'
-date: '2026-01-20'
+date: 2022-08-14T00:00:00.000Z
 ---
 
 # 🎯 核心结论

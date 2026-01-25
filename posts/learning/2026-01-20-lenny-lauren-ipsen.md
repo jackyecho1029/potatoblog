@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 人才战略
 source_url: 'https://www.youtube.com/watch?v=v3pofqabzhs'
-date: '2026-01-20'
+date: 2022-11-03T00:00:00.000Z
 ---
 
 # 🎯 核心结论

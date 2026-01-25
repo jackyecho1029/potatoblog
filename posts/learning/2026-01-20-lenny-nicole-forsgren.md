@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 研发效能
 source_url: 'https://www.youtube.com/watch?v=SWcDfPVTizQ'
-date: '2026-01-20'
+date: 2025-10-19T00:00:00.000Z
 ---
 
 # 🎯 核心结论

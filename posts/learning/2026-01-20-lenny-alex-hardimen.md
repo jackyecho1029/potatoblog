@@ -8,7 +8,7 @@ tags:
   - 订阅经济
   - 组织架构
 source_url: 'https://www.youtube.com/watch?v=y3-cwoHMwQs'
-date: '2026-01-20'
+date: 2022-11-13T00:00:00.000Z
 ---
 
 # 🎯 核心结论

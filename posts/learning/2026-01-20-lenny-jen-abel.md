@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 0到1增长
 source_url: 'https://www.youtube.com/watch?v=969dwgu98qc'
-date: '2026-01-20'
+date: 2024-11-24T00:00:00.000Z
 ---
 
 # 🎯 核心结论

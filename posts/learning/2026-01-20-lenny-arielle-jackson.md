@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 定位理论
 source_url: 'https://www.youtube.com/watch?v=mJEWns2hyDs'
-date: '2026-01-20'
+date: 2022-08-18T00:00:00.000Z
 ---
 
 # 🎯 核心结论

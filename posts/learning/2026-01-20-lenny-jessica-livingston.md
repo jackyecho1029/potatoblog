@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 创业心理学
 source_url: 'https://www.youtube.com/watch?v=h9MUuhsDJOM'
-date: '2026-01-20'
+date: 2024-06-27T00:00:00.000Z
 ---
 
 # 🎯 核心结论

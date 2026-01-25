@@ -7,7 +7,7 @@ tags:
   - AI 与技术
   - 生活与效率
 source_url: 'https://www.youtube.com/watch?v=UpGR9P0Ufts'
-date: '2026-01-20'
+date: 2025-01-16T00:00:00.000Z
 ---
 
 # 🎯 核心结论

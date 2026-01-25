@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Bret-Taylor
 source_url: 'https://www.youtube.com/watch?v=qImgGtnNbx0'
-date: '2026-01-20'
+date: 2025-07-31T00:00:00.000Z
 ---
 
 # 🎯 核心结论

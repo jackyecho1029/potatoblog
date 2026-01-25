@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - Shopify
 source_url: 'https://www.youtube.com/watch?v=C_lhMOjG7PE'
-date: '2026-01-20'
+date: 2024-12-19T00:00:00.000Z
 ---
 
 # 🎯 核心结论

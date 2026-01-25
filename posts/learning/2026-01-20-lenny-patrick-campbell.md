@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - PatrickCampbell
 source_url: 'https://www.youtube.com/watch?v=FjLSCrSg5QY'
-date: '2026-01-20'
+date: 2023-02-19T00:00:00.000Z
 ---
 
 # 🎯 核心结论

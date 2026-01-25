@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 品类设计
 source_url: 'https://www.youtube.com/watch?v=mS4B541m9xg'
-date: '2026-01-20'
+date: 2023-09-17T00:00:00.000Z
 ---
 
 # 🎯 核心结论
