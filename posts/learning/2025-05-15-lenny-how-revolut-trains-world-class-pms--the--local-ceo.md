@@ -1,8 +1,9 @@
 ---
-title: Lenny's Podcast 笔记：How Revolut trains world-class PMs: The “Local CEO” model, raw intellect &amp; building wow products 深度访谈
+title: "Lenny's Podcast 笔记：Revolut 深度访谈"
 original_title: "How Revolut trains world-class PMs: The “Local CEO” model, raw intellect &amp; building wow products"
-author: Lenny's Podcast
-category: 生活与效率
+author: "Lenny's Podcast"
+category: "生活与效率"
+date: "2025-05-15"
 tags:
   - AI 与技术
   - 生活与效率

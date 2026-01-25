@@ -1,8 +1,9 @@
 ---
-title: Lenny's Podcast 笔记：5 questions to ask when your product stops growing 深度访谈
+title: "Lenny's Podcast 笔记：Jason Cohen 深度访谈"
 original_title: "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)"
-author: Lenny's Podcast
-category: 生活与效率
+author: "Lenny's Podcast"
+category: "生活与效率"
+date: "2026-01-25"
 tags:
   - AI 与技术
   - 生活与效率
