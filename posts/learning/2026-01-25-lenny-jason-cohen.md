@@ -1,13 +1,15 @@
 ---
-title: "Lenny's Podcast 笔记：Jason Cohen 深度访谈"
-original_title: "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)"
-author: "Lenny's Podcast"
-category: "生活与效率"
-date: "2026-01-25"
+title: Lenny's Podcast 笔记：Jason Cohen 深度访谈
+original_title: >-
+  5 questions to ask when your product stops growing | Jason Cohen (2x unicorn
+  founder)
+author: Lenny's Podcast
+category: 生活与效率
+date: '2025-01-15'
 tags:
   - AI 与技术
   - 生活与效率
-source_url: "https://www.youtube.com/watch?v=8xLquwfx6p0"
+source_url: 'https://www.youtube.com/watch?v=8xLquwfx6p0'
 ---
 
 你好。我是你的商业顾问。针对 Lenny's Podcast 关于“产品停止增长时的 5 个核心追问”的深度复盘，我结合了**查理·芒格的多元思维模型**与**金字塔原理**，为你构建了一份从底层逻辑到 AI 时代实战的深度分析报告。
