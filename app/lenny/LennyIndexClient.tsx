@@ -101,7 +101,6 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                                 <th className="px-4 py-3 w-28">日期</th>
                                 <th className="px-4 py-3 w-40">嘉宾</th>
                                 <th className="px-4 py-3">简介</th>
-                                <th className="px-4 py-3 hidden md:table-cell">金句</th>
                                 <th className="px-4 py-3 w-20 text-center">链接</th>
                             </tr>
                         </thead>
@@ -123,9 +122,6 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                                     </td>
                                     <td className="px-4 py-3 text-sm text-gray-600">
                                         {post.summary}
-                                    </td>
-                                    <td className="px-4 py-3 text-sm text-gray-500 italic hidden md:table-cell max-w-xs truncate">
-                                        "{post.quote}"
                                     </td>
                                     <td className="px-4 py-3 text-center">
                                         <Link
