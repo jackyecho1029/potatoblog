@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Stewart-Butterfield
 source_url: 'https://www.youtube.com/watch?v=kLe-zy5r0Mk'
-date: 2025-11-20T00:00:00.000Z
+date: '2025-11-20'
 ---
 
 # 🎯 核心结论

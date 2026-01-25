@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - PMF
 source_url: 'https://www.youtube.com/watch?v=yc1Uwhfxacs'
-date: 2024-04-11T00:00:00.000Z
+date: '2024-04-11'
 ---
 
 # 🎯 核心结论

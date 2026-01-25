@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 设计策略
 source_url: 'https://www.youtube.com/watch?v=gfEEcssu304'
-date: 2023-10-15T00:00:00.000Z
+date: '2023-10-15'
 ---
 
 # 🎯 核心结论

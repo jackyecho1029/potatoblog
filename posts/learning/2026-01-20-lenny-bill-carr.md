@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 亚马逊机制
 source_url: 'https://www.youtube.com/watch?v=S9WHQa_AJQo'
-date: 2023-11-02T00:00:00.000Z
+date: '2023-11-02'
 ---
 
 # 🎯 核心结论

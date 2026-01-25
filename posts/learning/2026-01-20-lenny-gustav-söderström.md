@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Gustav-Söderström
 source_url: 'https://www.youtube.com/watch?v=QtJoYFyrdPI'
-date: 2023-05-21T00:00:00.000Z
+date: '2023-05-21'
 ---
 
 # 🎯 核心结论

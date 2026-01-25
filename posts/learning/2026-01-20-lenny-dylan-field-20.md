@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品设计
 source_url: 'https://www.youtube.com/watch?v=yJQYBjto41s'
-date: 2024-06-30T00:00:00.000Z
+date: '2024-06-30'
 ---
 
 # 🎯 核心结论

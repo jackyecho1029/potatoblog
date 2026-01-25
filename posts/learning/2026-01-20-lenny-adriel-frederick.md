@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 增长增长
 source_url: 'https://www.youtube.com/watch?v=uMhBej6-Ey4'
-date: 2022-10-20T00:00:00.000Z
+date: '2022-10-20'
 ---
 
 # 🎯 核心结论

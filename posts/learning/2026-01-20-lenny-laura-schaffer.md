@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 增长实验
 source_url: 'https://www.youtube.com/watch?v=UMAmj1bciww'
-date: 2023-03-09T00:00:00.000Z
+date: '2023-03-09'
 ---
 
 # 🎯 核心结论

@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 增长战略
 source_url: 'https://www.youtube.com/watch?v=cX4cL6B-_aU'
-date: 2025-08-17T00:00:00.000Z
+date: '2025-08-17'
 ---
 
 # 🎯 核心结论

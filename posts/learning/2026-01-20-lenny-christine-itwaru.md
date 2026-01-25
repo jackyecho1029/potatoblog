@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - ProductOps
 source_url: 'https://www.youtube.com/watch?v=tGS-NhxrN_Q'
-date: 2023-02-16T00:00:00.000Z
+date: '2023-02-16'
 ---
 
 # 🎯 核心结论

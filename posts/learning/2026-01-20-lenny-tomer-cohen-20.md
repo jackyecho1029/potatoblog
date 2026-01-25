@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 全栈构建者
 source_url: 'https://www.youtube.com/watch?v=R-zCfLQD_84'
-date: 2025-12-04T00:00:00.000Z
+date: '2025-12-04'
 ---
 
 # 🎯 核心结论

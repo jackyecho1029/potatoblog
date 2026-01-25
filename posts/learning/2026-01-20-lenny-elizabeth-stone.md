@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 人才密度
 source_url: 'https://www.youtube.com/watch?v=2XgU6T4DalY'
-date: 2024-02-22T00:00:00.000Z
+date: '2024-02-22'
 ---
 
 # 🎯 核心结论

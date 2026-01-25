@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 用户留存
 source_url: 'https://www.youtube.com/watch?v=_CCwoQZH5hI'
-date: 2024-12-15T00:00:00.000Z
+date: '2024-12-15'
 ---
 
 # 🎯 核心结论

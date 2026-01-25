@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - YC
 source_url: 'https://www.youtube.com/watch?v=m7LvNTbaqSI'
-date: 2024-04-18T00:00:00.000Z
+date: '2024-04-18'
 ---
 
 # 🎯 核心结论

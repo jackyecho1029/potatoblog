@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品策略
 source_url: 'https://www.youtube.com/watch?v=z7T1pCxgvlA'
-date: 2026-01-11T00:00:00.000Z
+date: '2026-01-11'
 ---
 
 # 🎯 核心结论

@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 需求分析
 source_url: 'https://www.youtube.com/watch?v=2wypVv9wZtI'
-date: 2025-02-23T00:00:00.000Z
+date: '2025-02-23'
 ---
 
 # 🎯 核心结论

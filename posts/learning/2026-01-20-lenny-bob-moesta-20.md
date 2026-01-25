@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 职业发展
 source_url: 'https://www.youtube.com/watch?v=xQV7HVyAJjc'
-date: 2023-08-24T00:00:00.000Z
+date: '2023-08-24'
 ---
 
 # 🎯 核心结论

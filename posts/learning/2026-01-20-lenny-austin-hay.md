@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Martech
 source_url: 'https://www.youtube.com/watch?v=B79p85DHLkU'
-date: 2023-08-13T00:00:00.000Z
+date: '2023-08-13'
 ---
 
 # 🎯 核心结论

@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Vercel
 source_url: 'https://www.youtube.com/watch?v=-QsTmu2CqhA'
-date: 2025-04-13T00:00:00.000Z
+date: '2025-04-13'
 ---
 
 # 🎯 核心结论

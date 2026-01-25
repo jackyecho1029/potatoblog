@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 增长模型
 source_url: 'https://www.youtube.com/watch?v=AlTQ6O2qooI'
-date: 2022-10-09T00:00:00.000Z
+date: '2022-10-09'
 ---
 
 # 🎯 核心结论

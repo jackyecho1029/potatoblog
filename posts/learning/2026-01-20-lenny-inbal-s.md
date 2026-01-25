@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - GitHub
 source_url: 'https://www.youtube.com/watch?v=f10s3rxKaJw'
-date: 2023-12-01T00:00:00.000Z
+date: '2023-12-01'
 ---
 
 # 🎯 核心结论

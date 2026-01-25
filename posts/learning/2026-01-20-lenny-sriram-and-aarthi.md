@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 个人品牌
 source_url: 'https://www.youtube.com/watch?v=HsD5ycT_umw'
-date: 2023-03-12T00:00:00.000Z
+date: '2023-03-12'
 ---
 
 # 🎯 核心结论

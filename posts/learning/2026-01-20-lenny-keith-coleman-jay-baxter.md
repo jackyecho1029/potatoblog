@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - CommunityNotes
 source_url: 'https://www.youtube.com/watch?v=8dgyqYHLcCI'
-date: 2025-02-27T00:00:00.000Z
+date: '2025-02-27'
 ---
 
 # 🎯 核心结论

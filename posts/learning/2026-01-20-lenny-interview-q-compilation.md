@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 领导力
 source_url: 'https://www.youtube.com/watch?v=VxAwUb86MUE'
-date: 2025-07-03T00:00:00.000Z
+date: '2025-07-03'
 ---
 
 # 🎯 核心结论

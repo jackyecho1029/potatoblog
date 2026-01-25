@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Notion
 source_url: 'https://www.youtube.com/watch?v=IIPKMixTMfE'
-date: 2025-03-06T00:00:00.000Z
+date: '2025-03-06'
 ---
 
 # 🎯 核心结论

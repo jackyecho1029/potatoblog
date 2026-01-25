@@ -172,7 +172,12 @@ export function getAllLennyPosts(): LennyPost[] {
             const category = inferCategory(content, tags, data.title || '');
             const summary = extractSummary(content);
             const quote = extractQuote(content);
-            const date = data.date || '';
+            let date = data.date || '';
+            if (date instanceof Date) {
+                date = date.toISOString().split('T')[0];
+            } else if (typeof date === 'string') {
+                date = date.split('T')[0];
+            }
 
             posts.push({
                 id,

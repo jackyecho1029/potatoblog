@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 商业转型
 source_url: 'https://www.youtube.com/watch?v=0qdR-XwHJ9o'
-date: 2025-08-24T00:00:00.000Z
+date: '2025-08-24'
 ---
 
 # 🎯 核心结论

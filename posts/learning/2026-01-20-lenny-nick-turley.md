@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - OpenAI
 source_url: 'https://www.youtube.com/watch?v=ixY2PvQJ0To'
-date: 2025-08-09T00:00:00.000Z
+date: '2025-08-09'
 ---
 
 # 🎯 核心结论

@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 设计思维
 source_url: 'https://www.youtube.com/watch?v=tLLqE6Ia8-U'
-date: 2024-10-20T00:00:00.000Z
+date: '2024-10-20'
 ---
 
 # 🎯 核心结论

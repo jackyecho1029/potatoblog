@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - SEO
 source_url: 'https://www.youtube.com/watch?v=Z71yGshPTwk'
-date: 2024-09-19T00:00:00.000Z
+date: '2024-09-19'
 ---
 
 # 🎯 核心结论

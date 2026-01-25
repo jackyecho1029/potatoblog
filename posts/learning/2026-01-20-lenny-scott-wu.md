@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - Devin
 source_url: 'https://www.youtube.com/watch?v=gI0ZNhA0rvE'
-date: 2025-05-04T00:00:00.000Z
+date: '2025-05-04'
 ---
 
 # 🎯 核心结论

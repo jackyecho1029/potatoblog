@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品管理
 source_url: 'https://www.youtube.com/watch?v=aJWSn-tz3jQ'
-date: 2023-09-21T00:00:00.000Z
+date: '2023-09-21'
 ---
 
 # 🎯 核心结论

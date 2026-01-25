@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Waymo
 source_url: 'https://www.youtube.com/watch?v=VtNmAjNF3Tc'
-date: 2023-04-09T00:00:00.000Z
+date: '2023-04-09'
 ---
 
 # 🎯 核心结论

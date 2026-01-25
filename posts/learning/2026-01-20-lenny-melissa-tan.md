@@ -8,7 +8,7 @@ tags:
   - 第一性原理
   - 人才管理
 source_url: 'https://www.youtube.com/watch?v=DoEfXj1b_ko'
-date: 2023-06-18T00:00:00.000Z
+date: '2023-06-18'
 ---
 
 # 🎯 核心结论

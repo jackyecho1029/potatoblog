@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - BobBaxley
 source_url: 'https://www.youtube.com/watch?v=X-83gvgVaWc'
-date: 2025-06-12T00:00:00.000Z
+date: '2025-06-12'
 ---
 
 # 🎯 核心结论

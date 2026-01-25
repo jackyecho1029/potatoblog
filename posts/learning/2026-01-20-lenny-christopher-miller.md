@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - PLG
 source_url: 'https://www.youtube.com/watch?v=SzKKJwuRFZI'
-date: 2023-08-10T00:00:00.000Z
+date: '2023-08-10'
 ---
 
 # 🎯 核心结论

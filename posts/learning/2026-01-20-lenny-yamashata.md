@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Figma
 source_url: 'https://www.youtube.com/watch?v=NepFo4zXyK4'
-date: 2023-01-08T00:00:00.000Z
+date: '2023-01-08'
 ---
 
 # 🎯 核心结论

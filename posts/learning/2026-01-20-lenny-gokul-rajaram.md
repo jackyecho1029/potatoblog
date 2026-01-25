@@ -7,7 +7,7 @@ tags:
   - AI 与技术
   - 生活与效率
 source_url: 'https://www.youtube.com/watch?v=gokul-rajaram'
-date: 2022-01-01T00:00:00.000Z
+date: '2022-01-01'
 ---
 
 # 🎯 核心结论

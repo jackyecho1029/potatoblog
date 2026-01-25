@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 神经系统
 source_url: 'https://www.youtube.com/watch?v=-kN8Agqee4w'
-date: 2024-01-28T00:00:00.000Z
+date: '2024-01-28'
 ---
 
 # 🎯 核心结论

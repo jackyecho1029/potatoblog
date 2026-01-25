@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Block
 source_url: 'https://www.youtube.com/watch?v=JMeXWVw0r3E'
-date: 2025-10-26T00:00:00.000Z
+date: '2025-10-26'
 ---
 
 # 🎯 核心结论

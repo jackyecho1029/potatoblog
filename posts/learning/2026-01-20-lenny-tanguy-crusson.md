@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品发现
 source_url: 'https://www.youtube.com/watch?v=cZqpqb5qR5A'
-date: 2024-06-16T00:00:00.000Z
+date: '2024-06-16'
 ---
 
 # 🎯 核心结论

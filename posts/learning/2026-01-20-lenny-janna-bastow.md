@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 路线图
 source_url: 'https://www.youtube.com/watch?v=W3cvqPCGcck'
-date: 2022-10-16T00:00:00.000Z
+date: '2022-10-16'
 ---
 
 # 🎯 核心结论

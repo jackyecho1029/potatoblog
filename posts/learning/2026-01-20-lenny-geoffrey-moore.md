@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 市场战略
 source_url: 'https://www.youtube.com/watch?v=RBbINB5HSHk'
-date: 2024-01-25T00:00:00.000Z
+date: '2024-01-25'
 ---
 
 # 🎯 核心结论

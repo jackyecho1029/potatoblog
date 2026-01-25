@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 职业战略
 source_url: 'https://www.youtube.com/watch?v=U_WQuUIYnJg'
-date: 2023-06-11T00:00:00.000Z
+date: '2023-06-11'
 ---
 
 # 🎯 核心结论

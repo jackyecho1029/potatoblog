@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Canva
 source_url: 'https://www.youtube.com/watch?v=wgrJNHlYUA8'
-date: 2024-06-02T00:00:00.000Z
+date: '2024-06-02'
 ---
 
 # 🎯 核心结论

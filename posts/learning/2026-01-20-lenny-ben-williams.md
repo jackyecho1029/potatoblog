@@ -10,7 +10,7 @@ tags:
   - 增长环
   - Snyk
 source_url: 'https://www.youtube.com/watch?v=21sFTZzIfUk'
-date: 2022-11-06T00:00:00.000Z
+date: '2022-11-06'
 ---
 
 # 🎯 核心结论

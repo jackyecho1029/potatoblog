@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 创业战略
 source_url: 'https://www.youtube.com/watch?v=h9o6gPQA6LA'
-date: 2024-07-07T00:00:00.000Z
+date: '2024-07-07'
 ---
 
 # 🎯 核心结论

@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 定价策略
 source_url: 'https://www.youtube.com/watch?v=xvQadImf568'
-date: 2023-01-12T00:00:00.000Z
+date: '2023-01-12'
 ---
 
 # 🎯 核心结论

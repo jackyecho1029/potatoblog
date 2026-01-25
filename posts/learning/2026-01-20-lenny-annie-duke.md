@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 决策科学
 source_url: 'https://www.youtube.com/watch?v=svQMODvIGAE'
-date: 2024-05-02T00:00:00.000Z
+date: '2024-05-02'
 ---
 
 # 🎯 核心结论

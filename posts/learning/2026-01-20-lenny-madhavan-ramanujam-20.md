@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - AI变现
 source_url: 'https://www.youtube.com/watch?v=A6veeCbKIzw'
-date: 2022-12-08T00:00:00.000Z
+date: '2022-12-08'
 ---
 
 # 🎯 核心结论

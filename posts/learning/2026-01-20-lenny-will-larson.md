@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 系统思考
 source_url: 'https://www.youtube.com/watch?v=Z9ftpRhRiJE'
-date: 2024-01-07T00:00:00.000Z
+date: '2024-01-07'
 ---
 
 # 🎯 核心结论

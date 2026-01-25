@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - MakeTime
 source_url: 'https://www.youtube.com/watch?v=cuce7zvOFHY'
-date: 2024-02-11T00:00:00.000Z
+date: '2024-02-11'
 ---
 
 # 🎯 核心结论

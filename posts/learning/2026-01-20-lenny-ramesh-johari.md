@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 市场设计
 source_url: 'https://www.youtube.com/watch?v=BVzTfsUMaK8'
-date: 2023-11-09T00:00:00.000Z
+date: '2023-11-09'
 ---
 
 # 🎯 核心结论

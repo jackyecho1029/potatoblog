@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 逆向工作法
 source_url: 'https://www.youtube.com/watch?v=nMsA5VeLoOM'
-date: 2022-09-18T00:00:00.000Z
+date: '2022-09-18'
 ---
 
 # 🎯 核心结论

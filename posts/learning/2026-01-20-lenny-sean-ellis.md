@@ -10,7 +10,7 @@ tags:
   - PMF
   - 生活与效率
 source_url: 'https://www.youtube.com/watch?v=VjJ6xcv7e8s'
-date: 2024-09-05T00:00:00.000Z
+date: '2024-09-05'
 ---
 
 # 🎯 核心结论

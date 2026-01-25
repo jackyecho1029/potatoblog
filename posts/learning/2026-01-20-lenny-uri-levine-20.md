@@ -8,7 +8,7 @@ tags:
   - 危机管理
   - 创业逻辑
 source_url: 'https://www.youtube.com/watch?v=lQdogVBHMdA'
-date: 2025-02-16T00:00:00.000Z
+date: '2025-02-16'
 ---
 
 # 🎯 核心结论

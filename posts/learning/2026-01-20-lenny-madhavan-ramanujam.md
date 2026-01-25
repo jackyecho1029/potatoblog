@@ -10,7 +10,7 @@ tags:
   - 定价策略
   - 货币化
 source_url: 'https://www.youtube.com/watch?v=NR85H55eYkM'
-date: 2025-07-27T00:00:00.000Z
+date: '2025-07-27'
 ---
 
 # 🎯 核心结论

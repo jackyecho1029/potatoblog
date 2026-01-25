@@ -8,7 +8,7 @@ tags:
   - 销售激励
   - 查理·芒格
 source_url: 'https://www.youtube.com/watch?v=pYZ0S7a72po'
-date: 2022-12-04T00:00:00.000Z
+date: '2022-12-04'
 ---
 
 # 🎯 核心结论

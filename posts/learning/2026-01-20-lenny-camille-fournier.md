@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 技术管理
 source_url: 'https://www.youtube.com/watch?v=hZSh0rs20uI'
-date: 2024-09-15T00:00:00.000Z
+date: '2024-09-15'
 ---
 
 # 🎯 核心结论

@@ -8,7 +8,7 @@ tags:
   - PLS
   - 生活与效率
 source_url: 'https://www.youtube.com/watch?v=bxghtN-OlJQ'
-date: 2023-04-23T00:00:00.000Z
+date: '2023-04-23'
 ---
 
 # 🎯 核心结论

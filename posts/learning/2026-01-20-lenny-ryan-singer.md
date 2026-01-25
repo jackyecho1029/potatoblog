@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - ShapeUp
 source_url: 'https://www.youtube.com/watch?v=GF-yUANql0c'
-date: 2025-03-30T00:00:00.000Z
+date: '2025-03-30'
 ---
 
 # 🎯 核心结论

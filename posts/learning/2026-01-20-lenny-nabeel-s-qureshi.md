@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Palantir
 source_url: 'https://www.youtube.com/watch?v=xQkSenlJvwA'
-date: 2025-05-11T00:00:00.000Z
+date: '2025-05-11'
 ---
 
 # 🎯 核心结论

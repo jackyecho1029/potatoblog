@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Linear
 source_url: 'https://www.youtube.com/watch?v=nTr21kgCFF4'
-date: 2025-01-30T00:00:00.000Z
+date: '2025-01-30'
 ---
 
 # 🎯 核心结论

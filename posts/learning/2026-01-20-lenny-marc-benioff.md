@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - Marc-Benioff
 source_url: 'https://www.youtube.com/watch?v=tOGK1nlHdFo'
-date: 2024-12-22T00:00:00.000Z
+date: '2024-12-22'
 ---
 
 # 🎯 核心结论

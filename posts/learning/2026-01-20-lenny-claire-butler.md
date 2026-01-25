@@ -8,7 +8,7 @@ tags:
   - Figma
   - 社区驱动增长
 source_url: 'https://www.youtube.com/watch?v=UmirRfy-gzA'
-date: 2023-09-07T00:00:00.000Z
+date: '2023-09-07'
 ---
 
 # 🎯 核心结论

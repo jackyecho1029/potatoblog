@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 创业与变现
 source_url: 'https://www.youtube.com/watch?v=Xf_ZXIGCQb0'
-date: 2023-06-15T00:00:00.000Z
+date: '2023-06-15'
 ---
 
 # 🎯 核心结论

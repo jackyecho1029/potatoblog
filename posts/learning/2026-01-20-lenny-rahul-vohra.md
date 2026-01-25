@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品市场匹配
 source_url: 'https://www.youtube.com/watch?v=0igjSRZyX-w'
-date: 2025-03-23T00:00:00.000Z
+date: '2025-03-23'
 ---
 
 # 🎯 核心结论

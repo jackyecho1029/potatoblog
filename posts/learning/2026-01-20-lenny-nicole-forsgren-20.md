@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 开发者效能
 source_url: 'https://www.youtube.com/watch?v=SWcDfPVTizQ'
-date: 2025-10-19T00:00:00.000Z
+date: '2025-10-19'
 ---
 
 # 🎯 核心结论

@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - AB测试
 source_url: 'https://www.youtube.com/watch?v=hEzpiDuYFoE'
-date: 2023-07-27T00:00:00.000Z
+date: '2023-07-27'
 ---
 
 # 🎯 核心结论

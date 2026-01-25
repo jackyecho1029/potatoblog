@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品经理
 source_url: 'https://www.youtube.com/watch?v=XrRlVOWe5GE'
-date: 2023-07-23T00:00:00.000Z
+date: '2023-07-23'
 ---
 
 # 🎯 核心结论

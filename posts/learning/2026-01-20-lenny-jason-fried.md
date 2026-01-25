@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 一人公司
 source_url: 'https://www.youtube.com/watch?v=LZLdoAq3R7Y'
-date: 2023-12-17T00:00:00.000Z
+date: '2023-12-17'
 ---
 
 # 🎯 核心结论

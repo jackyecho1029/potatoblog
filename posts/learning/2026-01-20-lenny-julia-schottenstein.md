@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 并购策略
 source_url: 'https://www.youtube.com/watch?v=y9hmrMBRPDI'
-date: 2023-07-13T00:00:00.000Z
+date: '2023-07-13'
 ---
 
 # 🎯 核心结论

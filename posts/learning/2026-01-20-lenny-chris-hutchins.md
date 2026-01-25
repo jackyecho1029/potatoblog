@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 个人IP
 source_url: 'https://www.youtube.com/watch?v=kc1XhB4k0Eg'
-date: 2022-12-18T00:00:00.000Z
+date: '2022-12-18'
 ---
 
 # 🎯 核心结论

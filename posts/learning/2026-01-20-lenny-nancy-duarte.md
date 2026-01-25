@@ -8,7 +8,7 @@ tags:
   - 演示设计
   - NancyDuarte
 source_url: 'https://www.youtube.com/watch?v=-kHkWgjGD7U'
-date: 2023-06-01T00:00:00.000Z
+date: '2023-06-01'
 ---
 
 # 🎯 核心结论

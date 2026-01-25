@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - 媒体公关
 source_url: 'https://www.youtube.com/watch?v=LZLdoAq3R7Y'
-date: 2023-10-12T00:00:00.000Z
+date: '2023-10-12'
 ---
 
 # 🎯 核心结论

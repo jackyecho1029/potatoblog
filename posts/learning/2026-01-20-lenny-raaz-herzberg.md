@@ -10,7 +10,7 @@ tags:
   - 生活与效率
   - Wiz
 source_url: 'https://www.youtube.com/watch?v=vnW3zIkrOvY'
-date: 2024-11-17T00:00:00.000Z
+date: '2024-11-17'
 ---
 
 # 🎯 核心结论

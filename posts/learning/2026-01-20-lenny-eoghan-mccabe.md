@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 创始人模式
 source_url: 'https://www.youtube.com/watch?v=0_opWSfmN8M'
-date: 2025-08-21T00:00:00.000Z
+date: '2025-08-21'
 ---
 
 # 🎯 核心结论

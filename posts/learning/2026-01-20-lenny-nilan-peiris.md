@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 口碑增长
 source_url: 'https://www.youtube.com/watch?v=xZifSLGOrrw'
-date: 2023-09-24T00:00:00.000Z
+date: '2023-09-24'
 ---
 
 # 🎯 核心结论

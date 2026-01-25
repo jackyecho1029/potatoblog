@@ -114,7 +114,7 @@ export default function LennyIndexClient({ posts, categories }: LennyIndexClient
                                     </td>
                                     <td className="px-4 py-3">
                                         <span className="text-xs text-gray-500 tabular-nums">
-                                            {new Date(post.date).toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '-')}
+                                            {post.date}
                                         </span>
                                     </td>
                                     <td className="px-4 py-3">

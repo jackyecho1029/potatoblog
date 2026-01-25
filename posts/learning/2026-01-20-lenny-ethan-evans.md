@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 职业所有权
 source_url: 'https://www.youtube.com/watch?v=GB0P0_nFPTA'
-date: 2024-01-14T00:00:00.000Z
+date: '2024-01-14'
 ---
 
 # 🎯 核心结论

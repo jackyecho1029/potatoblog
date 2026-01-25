@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 产品速度
 source_url: 'https://www.youtube.com/watch?v=dLku0AiGPVA'
-date: 2023-02-12T00:00:00.000Z
+date: '2023-02-12'
 ---
 
 # 🎯 核心结论

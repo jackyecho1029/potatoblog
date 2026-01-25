@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 故事力
 source_url: 'https://www.youtube.com/watch?v=J4wguyJZI6A'
-date: 2023-12-15T00:00:00.000Z
+date: '2023-12-15'
 ---
 
 # 🎯 核心结论

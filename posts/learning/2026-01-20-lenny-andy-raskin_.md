@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 战略叙事
 source_url: 'https://www.youtube.com/watch?v=dkVJnaxDlXE'
-date: 2023-05-28T00:00:00.000Z
+date: '2023-05-28'
 ---
 
 # 🎯 核心结论

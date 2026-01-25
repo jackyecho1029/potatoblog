@@ -8,7 +8,7 @@ tags:
   - 生活与效率
   - 销售科学
 source_url: 'https://www.youtube.com/watch?v=cZd5234Eem0'
-date: 2022-12-15T00:00:00.000Z
+date: '2022-12-15'
 ---
 
 # 🎯 核心结论

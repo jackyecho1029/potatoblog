@@ -10,7 +10,7 @@ tags:
   - GTM
   - 销售工程
 source_url: 'https://www.youtube.com/watch?v=RmnWHz8HD74'
-date: 2025-11-30T00:00:00.000Z
+date: '2025-11-30'
 ---
 
 # 🎯 核心结论
