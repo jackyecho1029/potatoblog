@@ -11,7 +11,7 @@ const IMAGE_MODEL_ID = 'gemini-3-pro-image-preview'; // Nano Banana Pro
 
 // Initialize Gemini for text (Prompt Engineering)
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
-const textModel = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+const textModel = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
 const POSTS_DIR = path.join(process.cwd(), 'posts/x-signals');
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
