@@ -513,16 +513,46 @@ async function fetchLatestVideos() {
                 if (isLennyPodcast) {
                     console.log(`🎙️ Detected Lenny's Podcast: ${title}`);
 
-                    // Extract guest name from title
-                    // Common formats: "Topic | Guest Name" or "Guest Name | Topic"
+                    // Extract guest name from title with improved heuristics
+                    // Common formats: 
+                    // - "Guest Name: Topic" (most common)
+                    // - "Topic | Guest Name"
+                    // - "Guest Name | Topic"
                     let guestName = 'unknown-guest';
-                    if (title.includes('|')) {
-                        const parts = title.split('|').map(p => p.trim());
-                        // Heuristic: The guest name is usually the shorter part
-                        guestName = parts.sort((a, b) => a.length - b.length)[0];
-                        // Strip decorations like "(2x unicorn founder)"
-                        guestName = guestName.replace(/\s*\(.*?\)\s*/g, '').trim();
+
+                    // First try colon separator (most reliable for Lenny's format)
+                    if (title.includes(':')) {
+                        const colonParts = title.split(':').map(p => p.trim());
+                        const firstPart = colonParts[0];
+
+                        // Check if first part looks like a name (contains capital letters, short, no common topic words)
+                        const topicKeywords = ['how', 'why', 'what', 'the', 'this', 'best', 'secrets', 'guide', 'tips'];
+                        const hasTopicKeyword = topicKeywords.some(kw => firstPart.toLowerCase().includes(kw));
+
+                        if (!hasTopicKeyword && firstPart.length < 50 && firstPart.split(' ').length <= 5) {
+                            guestName = firstPart;
+                        }
                     }
+
+                    // Fallback to pipe separator
+                    if (guestName === 'unknown-guest' && title.includes('|')) {
+                        const parts = title.split('|').map(p => p.trim());
+                        // Heuristic: The guest name is usually the shorter part and doesn't contain question words
+                        const sortedParts = parts.sort((a, b) => a.length - b.length);
+                        for (const part of sortedParts) {
+                            if (!part.toLowerCase().match(/\b(how|why|what|when|where)\b/) && part.length < 50) {
+                                guestName = part;
+                                break;
+                            }
+                        }
+                    }
+
+                    // Clean up the guest name
+                    guestName = guestName
+                        .replace(/\s*\(.*?\)\s*/g, '') // Remove parentheses content like "(2x unicorn founder)"
+                        .replace(/\s*\[.*?\]\s*/g, '') // Remove brackets
+                        .replace(/[""]/g, '') // Remove quotes
+                        .trim();
 
                     console.log(`   Generating Lenny-style deep analysis...`);
                     const summaryText = await summarizeLennyVideo(guestName, transcriptText);
