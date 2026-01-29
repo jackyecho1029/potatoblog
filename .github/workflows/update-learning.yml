@@ -1,0 +1,42 @@
+name: Update Learning Content
+
+on:
+  schedule:
+    # 每天北京时间 9:00 运行（UTC 1:00）
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update-learning:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Fetch new learning content
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_CHANNELS: ${{ secrets.YOUTUBE_CHANNELS }}
+        run: npx tsx scripts/fetch-learning.ts
+        
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'Potato Learning Bot'
+          git config --global user.email 'bot@potatoecho.com'
+          git add posts/learning/*.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: auto-update learning content [skip ci]"
+            git push
+          fi
