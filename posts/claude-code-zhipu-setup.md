@@ -1,7 +1,7 @@
 ---
 title: "我用 Claude Code 半天爬了 160 条 Reddit 数据"
-date: 2026-02-03
-description: "不写一行代码，让 AI 帮你搭建完整的数据采集系统。从零到爬取 Twitter/Reddit，4 小时实战记录。"
+date: "2026-02-03"
+description: "不写一行代码,让 AI 帮你搭建完整的数据采集系统。从零到爬取 Twitter/Reddit,4 小时实战记录。"
 tags: ["Claude Code", "数据爬取", "AI 编程", "实战案例"]
 ---
 
