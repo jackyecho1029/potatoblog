@@ -1,3 +1,12 @@
+---
+title: "技术指南：如何配置你的 Claude Code ‘单人团队’ 架构"
+date: "2026-02-06"
+category: "实战教程"
+author: "Jacky"
+tags: ["Claude Code", "Git Worktree", "MCP", "生产力"]
+thumbnail: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+---
+
 # 技术指南：如何配置你的 Claude Code “单人团队” 架构
 
 要实现 Allie Miller 提到的“并行、嵌套、叠加”的工作流，核心在于打破“一个窗口一个 AI”的思维。我们将通过 **Git Worktrees** 和 **CLAUDE.md** 构建一个多实体的协作环境。
