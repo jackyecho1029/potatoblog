@@ -116,6 +116,12 @@ async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promis
      重要观点
      [Explain the deep insight here. Why does this matter?]
 
+     > **🛡️ Trust Hub | 信号信任中心**
+     > - **置信度**: [1-10]/10
+     > - **来源可靠性**: [低/中/高] (基于该作者在领域的历史输出)
+     > - **信号类型**: [深度洞察/趋势推演/重大新闻/传闻猜测]
+     > - **Agent 理由**: [1-2 句话说明为什么 Potato 认为这个信号值得关注]
+
      行动建议
      1. **[Action Item 1]**: [Specific advice]
      ...
