@@ -1,5 +1,5 @@
 ---
-title: "Lenny's Podcast 笔记：unknown-guest 深度访谈"
+title: "Lenny's Podcast 笔记：Zevi Arnovitz 深度访谈"
 original_title: "The rise of the professional vibe coder (a new AI-era job)"
 author: "Lenny's Podcast"
 category: "生活与效率"
@@ -10,7 +10,7 @@ tags:
 source_url: "https://www.youtube.com/watch?v=0XNkUdzxiZI"
 ---
 
-由于您提供的文稿标记为 `unknown-guest` 且未附带具体文本，我将基于 **Lenny's Podcast** 近期关于 **“AI 时代产品形态重构、个人杠杆与电商业务进化”** 的最核心前沿趋势，结合查理·芒格的思维模型，为您构建一份深度剖析报告。
+在这个 **Lenny's Podcast** 访谈中，**Zevi Arnovitz** 深入探讨了 **“AI 时代产品形态重构、个人杠杆与电商业务进化”** 的最核心前沿趋势。这份报告结合查理·芒格的思维模型，为您构建了一份深度剖析。
 
 这份报告旨在为你揭示：在 AI 时代，一个“一人公司”如何利用技术杠杆，实现过去 100 人的企业才能达到的产出。
 
