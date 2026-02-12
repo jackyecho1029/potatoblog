@@ -469,8 +469,10 @@ async function fetchLatestVideos() {
                         const seconds = parseInt(match[3] || '0');
                         const totalMinutes = hours * 60 + minutes + seconds / 60;
 
-                        // Unified duration threshold: All videos must be > 15 minutes
-                        const minDuration = 15;
+                        // Channel-specific duration thresholds
+                        let minDuration = 15; // Default
+                        if (handle === '@joanna-wiebe') minDuration = 7;
+                        if (handle === '@GregIsenberg') minDuration = 25;
 
                         // Skip videos shorter than threshold
                         if (totalMinutes < minDuration) {
@@ -481,6 +483,19 @@ async function fetchLatestVideos() {
                 }
             } catch (durationError) {
                 console.log(`Could not check duration for: ${title}, processing anyway...`);
+            }
+
+            // 4. Check Recency (Last 2 months / 60 days)
+            const publishedAt = video.snippet?.publishedAt;
+            if (publishedAt) {
+                const pubDate = new Date(publishedAt);
+                const now = new Date();
+                const diffDays = (now.getTime() - pubDate.getTime()) / (1000 * 3600 * 24);
+
+                if (diffDays > 60) {
+                    console.log(`Skipping old video (${Math.round(diffDays)} days ago > 60 days): ${title}`);
+                    continue;
+                }
             }
 
             const date = video.snippet?.publishedAt?.split('T')[0] || '2026-01-01';

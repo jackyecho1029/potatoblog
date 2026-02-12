@@ -5,10 +5,10 @@ import PasswordProtection from "../../components/PasswordProtection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-// Generate static paths for all learning posts
+// Generate static paths for the 100 most recent learning posts to optimize build performace
 export async function generateStaticParams() {
     const posts = getSortedLearningPostsData();
-    return posts.map((post) => ({
+    return posts.slice(0, 100).map((post) => ({
         id: post.id,
     }));
 }
