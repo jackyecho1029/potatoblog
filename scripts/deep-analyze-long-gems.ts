@@ -11,7 +11,7 @@ dotenv.config({ path: '.env.local' });
 
 const youtube = google.youtube('v3');
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
-const GEMINI_API_KEY = process.env.gemini_api_key;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
@@ -68,8 +68,8 @@ async function analyzeLongVideo(videoId: string) {
         const result = await model.generateContent(prompt);
         return result.response.text();
 
-    } catch (error) {
-        console.error(`Error analyzing ${videoId}:`, error);
+    } catch (error: any) {
+        console.error(`Error analyzing ${videoId}:`, error?.response?.data || error.message || error);
         return null;
     }
 }

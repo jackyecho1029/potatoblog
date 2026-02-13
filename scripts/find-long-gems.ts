@@ -126,8 +126,8 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
                 process.stdout.write('⭐');
             }
         }
-    } catch (error) {
-        console.error("Search failed:", error);
+    } catch (error: any) {
+        console.error("Search failed:", JSON.stringify(error?.response?.data || error.message || error, null, 2));
     }
     return gems;
 }
