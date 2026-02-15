@@ -2,7 +2,6 @@ import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
 import Parser from 'rss-parser';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Load environment variables
 dotenv.config({ path: path.join(process.cwd(), '.env.local') });
@@ -11,9 +10,8 @@ const RSSHUB_BASE_URL = 'http://localhost:1200';
 const SOURCES_CONFIG_PATH = path.join(process.cwd(), 'config/x-sources.json');
 const POSTS_DIR = path.join(process.cwd(), 'posts/x-signals');
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
-const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+const GLM_API_KEY = process.env.GLM_API_KEY;
+const GLM_API_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
 
 const parser = new Parser();
 
@@ -129,15 +127,36 @@ async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promis
      ---
 
    OUTPUT FORMAT:
-   
+
    TITLE_BEST: [A single, punchy headline summarizing the most important trend today. Chinese.]
    ANCHOR_THOUGHT: [A 1-2 sentence overview of the whole daily signal. What's the vibe? Chinese.]
    CONTENT_START
    (The content sections in Markdown...)
    `;
 
-    const result = await model.generateContent(prompt);
-    return result.response.text();
+    const response = await fetch(GLM_API_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${GLM_API_KEY}`
+        },
+        body: JSON.stringify({
+            model: 'glm-4-plus',
+            messages: [
+                { role: 'user', content: prompt }
+            ],
+            temperature: 0.7,
+            max_tokens: 4096
+        })
+    });
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`GLM API error: ${response.status} - ${errorText}`);
+    }
+
+    const data = await response.json() as { choices: { message: { content: string } }[] };
+    return data.choices[0].message.content;
 }
 
 interface ParsedContent {
