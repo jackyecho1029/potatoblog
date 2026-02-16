@@ -107,11 +107,11 @@ async function simplifyContent(originalText: string): Promise<string> {
 }
 
 async function generateImage(prompt: string, outputPath: string) {
-    if (!GEMINI_API_KEY) return;
+    if (!GLM_API_KEY) return;
 
     console.log(`   Generating Image... Prompt: ${prompt.substring(0, 50)}...`);
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGE_MODEL_ID}:generateContent?key=${GEMINI_API_KEY}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGE_MODEL_ID}:generateContent?key=${process.env.GEMINI_API_KEY || ''}`;
 
     const requestBody = {
         contents: [{ parts: [{ text: prompt }] }]
