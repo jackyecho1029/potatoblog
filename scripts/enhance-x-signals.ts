@@ -1,17 +1,19 @@
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import OpenAI from 'openai';
 
 // Load environment variables
 dotenv.config({ path: path.join(process.cwd(), '.env.local') });
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const IMAGE_MODEL_ID = 'gemini-3-pro-image-preview'; // Nano Banana Pro
+const GLM_API_KEY = process.env.GLM_API_KEY;
+const IMAGE_MODEL_ID = 'gemini-3-pro-image-preview'; // Nano Banana Pro (保留图片生成用)
 
-// Initialize Gemini for text (Prompt Engineering)
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
-const textModel = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+// Initialize GLM (智谱 AI) - 兼容 OpenAI 格式
+const client = new OpenAI({
+    apiKey: GLM_API_KEY,
+    baseURL: 'https://open.bigmodel.cn/api/paas/v4/',
+});
 
 const POSTS_DIR = path.join(process.cwd(), 'posts/x-signals');
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
@@ -34,17 +36,19 @@ async function generatePromptsForViewpoints(viewpoints: string[]): Promise<strin
         Style Requirement: "Doraemon manga style" (Classic anime style, vibrant blue/white, thick outlines).
         Character: Doraemon (cute blue robot cat) interacting with futuristic or abstract concepts.
         Text Requirement: Include a short Chinese label in the image illustrating the key concept (max 4 chars).
-        
+
         Input Text: "${viewpoint}"
-        
+
         Output Format: Just the prompt string, nothing else.
         Example Output: A manga illustration in Doraemon style. Doraemon is holding a giant magnet labeled '吸引力' attracting coins. Background is a simple city.
         `;
 
         try {
-            const result = await textModel.generateContent(systemInstruction);
-            const response = await result.response;
-            prompts.push(response.text().trim());
+            const response = await client.chat.completions.create({
+                model: 'glm-4-flash',
+                messages: [{ role: 'user', content: systemInstruction }],
+            });
+            prompts.push(response.choices[0]?.message?.content?.trim() || '');
         } catch (e) {
             console.error("Error generating prompt:", e);
             prompts.push(""); // Fallback or skip
@@ -91,9 +95,11 @@ async function simplifyContent(originalText: string): Promise<string> {
     `;
 
     try {
-        const result = await textModel.generateContent(styleGuide);
-        const response = await result.response;
-        return response.text().trim();
+        const response = await client.chat.completions.create({
+            model: 'glm-4-flash',
+            messages: [{ role: 'user', content: styleGuide }],
+        });
+        return response.choices[0]?.message?.content?.trim() || originalText;
     } catch (e) {
         console.error("Error simplifying content:", e);
         return originalText; // Fallback to original
