@@ -268,10 +268,9 @@ async function fetchVideoByUrl(videoUrl: string) {
     }
 
     try {
-        const urlObj = new URL(videoUrl);
-        const videoId = urlObj.searchParams.get("v");
+        const videoId = extractVideoId(videoUrl);
         if (!videoId) {
-            console.error("Invalid YouTube URL");
+            console.error("Invalid YouTube URL: Could not extract video ID");
             return;
         }
 
@@ -364,7 +363,12 @@ const BLOCKED_IDS = new Set([
 
 // Helper to extract video ID from YouTube URL
 function extractVideoId(url: string): string | null {
-    const match = url.match(/[?&]v=([^&]+)/);
+    // Matches:
+    // https://www.youtube.com/watch?v=VIDEO_ID
+    // https://youtu.be/VIDEO_ID
+    // https://www.youtube.com/embed/VIDEO_ID
+    const regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i;
+    const match = url.match(regex);
     return match ? match[1] : null;
 }
 
@@ -387,7 +391,7 @@ function getExistingVideoIds(postsDir: string): Set<string> {
 async function fetchLatestVideos() {
     // Check if a specific URL is provided as argument
     const specificUrl = process.argv[2];
-    if (specificUrl && specificUrl.includes('youtube.com')) {
+    if (specificUrl && (specificUrl.includes('youtube.com') || specificUrl.includes('youtu.be'))) {
         await fetchVideoByUrl(specificUrl);
         return;
     }
