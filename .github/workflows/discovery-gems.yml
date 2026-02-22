@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Friday: Short-Form Gems
+      - name: "Friday: Short-Form Gems"
         if: github.event.schedule == '0 1 * * 5'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -32,7 +32,7 @@ jobs:
           npm run find-gems
           npm run analyze-gems
           
-      - name: Saturday: Long-Form Gems
+      - name: "Saturday: Long-Form Gems"
         if: github.event.schedule == '0 1 * * 6'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
