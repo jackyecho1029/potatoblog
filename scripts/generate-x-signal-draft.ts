@@ -10,9 +10,11 @@ const RSSHUB_BASE_URL = 'http://localhost:1200';
 const SOURCES_CONFIG_PATH = path.join(process.cwd(), 'config/x-sources.json');
 const POSTS_DIR = path.join(process.cwd(), 'posts/x-signals');
 
+// API Configuration
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GLM_API_KEY = process.env.GLM_API_KEY;
 
+const GLM_API_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
 const parser = new Parser();
 
 interface TweetItem {
@@ -71,10 +73,60 @@ async function fetchTweetsFromSource(username: string): Promise<TweetItem[]> {
             pubDate: item.pubDate || ''
         }));
     } catch (error) {
-        // console.error(`Error fetching ${username}:`, error);
         console.log(`Error fetching ${username}: Link unavailable (503/404)`);
         return [];
     }
+}
+
+/**
+ * Strategy: Generate using Gemini API
+ */
+async function generateWithGemini(prompt: string): Promise<string> {
+    console.log("🚀 Using Gemini API for generation...");
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }]
+        })
+    });
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`Gemini API error: ${response.status} - ${errorText}`);
+    }
+
+    const data = await response.json() as any;
+    return data.candidates[0].content.parts[0].text;
+}
+
+/**
+ * Strategy: Generate using GLM-4 API
+ */
+async function generateWithGLM(prompt: string): Promise<string> {
+    console.log("🤖 Using GLM-4 API for generation...");
+    const response = await fetch(GLM_API_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${GLM_API_KEY}`
+        },
+        body: JSON.stringify({
+            model: 'glm-4-plus',
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.7,
+            max_tokens: 4096
+        })
+    });
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`GLM API error: ${response.status} - ${errorText}`);
+    }
+
+    const data = await response.json() as { choices: { message: { content: string } }[] };
+    return data.choices[0].message.content;
 }
 
 async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promise<string> {
@@ -91,7 +143,7 @@ async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promis
 
    TASK:
    1. Analyze the tweets and identify the top 3-5 most valuable, insightful, or trend-setting topics. Ignore noise, shitposting, or generic news.
-   2. Categorize them into one of these standard sections (use only valid sections):
+   2. Categorize them into one of these standard sections:
       - 🤖 AI & Future Tech
       - 💰 Wealth & Solo-preneurship
       - 📢 Marketing & Branding
@@ -99,60 +151,25 @@ async function generateDailySignal(tweets: TweetItem[], dateStr: string): Promis
    3. Draft the newsletter in valid Markdown.
 
    STYLE GUIDE:
-   - **Important Viewpoint (重要观点)**: Extract the core insight. Be specific.
-   - **Potato's Take**: Write a personal, conversational, yet professional reflection. Use "I" (as Potato).
-   - **Language**: Chinese (Simplified).
-   - **Structure**:
-     For each section:
-     ### [Section Icon] [Section Name]
-     * [Emoji] **[Headline]**: [Author Name]([Source Link]) [Summary of the tweet/topic].
-     * ...
-     (Make sure to hyperlink the Author Name with the provided Link)
-
-     **Potato's Take**
-
-     重要观点
-     [Explain the deep insight here. Why does this matter?]
-
-     > **🛡️ Trust Hub | 信号信任中心**
-     > - **置信度**: [1-10]/10
-     > - **来源可靠性**: [低/中/高] (基于该作者在领域的历史输出)
-     > - **信号类型**: [深度洞察/趋势推演/重大新闻/传闻猜测]
-     > - **Agent 理由**: [1-2 句话说明为什么 Potato 认为这个信号值得关注]
-
-     行动建议
-     1. **[Action Item 1]**: [Specific advice]
-     ...
-
-     ---
+   - **Important Viewpoint (重要观点)**: Chinese (Simplified).
+   - **Potato's Take**: Conversational, yet professional. Use "I".
+   - **Hyperlink the Author Name with the provided Link**.
 
    OUTPUT FORMAT:
-
-   TITLE_BEST: [A single, punchy headline summarizing the most important trend today. Chinese.]
-   ANCHOR_THOUGHT: [A 1-2 sentence overview of the whole daily signal. What's the vibe? Chinese.]
+   TITLE_BEST: [Headline]
+   ANCHOR_THOUGHT: [Summary]
    CONTENT_START
-   (The content sections in Markdown...)
+   [Markdown Content...]
    `;
 
-    const response = await fetch(GEMINI_API_URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            contents: [{
-                parts: [{ text: prompt }]
-            }]
-        })
-    });
-
-    if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(`Gemini API error: ${response.status} - ${errorText}`);
+    // Priority: Explicit MOCK check is handled in main, but here we pick the AI service
+    if (GEMINI_API_KEY) {
+        return generateWithGemini(prompt);
+    } else if (GLM_API_KEY) {
+        return generateWithGLM(prompt);
+    } else {
+        throw new Error("No available API Keys found (GEMINI_API_KEY or GLM_API_KEY). Please check your .env.local file.");
     }
-
-    const data = await response.json() as any;
-    return data.candidates[0].content.parts[0].text;
 }
 
 interface ParsedContent {
@@ -198,33 +215,21 @@ async function main() {
         allTweets = allTweets.concat(tweets);
     }
 
-    // 2. Mock Data Fallback - Using real search insights for Feb 21-22 catchup
+    // 2. Mock Data Fallback
     if (process.env.MOCK_MODE === 'true' || allTweets.length === 0) {
         console.log("⚠️ No live tweets found. Using HIGH-SIGNAL MOCK DATA (Feb 21-22 Catchup)...");
         allTweets = [
             {
                 author: "naval",
-                content: "AI Is Not the Threat. Complacency Is. The barrier to entry for building with AI has never been lower. Those who fail to try AI risk falling behind. Leveraged Intelligence + Human Creativity is the new economy.",
+                content: "AI Is Not the Threat. Complacency Is.",
                 link: "https://x.com/naval/status/2026022201",
                 pubDate: new Date("2026-02-22").toISOString()
             },
             {
                 author: "levelsio",
-                content: "I can now chat directly with my sites to build any feature or fix any bug just via Telegram using OpenClaw and Claude Code. The one-person dev team is now a scaled reality.",
+                content: "The one-person dev team is now a scaled reality.",
                 link: "https://x.com/levelsio/status/2026021701",
                 pubDate: new Date("2026-02-17").toISOString()
-            },
-            {
-                author: "karpathy",
-                content: "Building a GPT model with just 243 lines of code. Shifting perception from mystery to practical engineering. If you love building, this is the most exciting time ever.",
-                link: "https://x.com/karpathy/status/2026021301",
-                pubDate: new Date("2026-02-13").toISOString()
-            },
-            {
-                author: "gregisenberg",
-                content: "AI is enabling millions who wouldn't otherwise be entrepreneurs to enter the field. Identifying high-potential opportunities and validating ideas is the new $1M startup skill.",
-                link: "https://x.com/gregisenberg/status/2026011401",
-                pubDate: new Date("2026-01-14").toISOString()
             }
         ];
     }
@@ -233,7 +238,7 @@ async function main() {
     const existingLinks = getExistingLinks();
     const uniqueTweets = allTweets.filter(t => !existingLinks.has(t.link));
 
-    console.log(`Fetched: ${allTweets.length}, Existing Links: ${existingLinks.size}, Unique: ${uniqueTweets.length}`);
+    console.log(`Fetched: ${allTweets.length}, Existing: ${existingLinks.size}, Unique: ${uniqueTweets.length}`);
 
     if (uniqueTweets.length === 0) {
         console.log("✅ No new unique tweets found today. Exiting.");
@@ -248,13 +253,11 @@ async function main() {
     const filename = `${dateStr}-daily-signals.md`;
     const filepath = path.join(POSTS_DIR, filename);
 
-    // Initial File Template
-    let fullContent = "";
-    let isNewFile = false;
-
-    // Generate Content & Metadata
     const rawContent = await generateDailySignal(uniqueTweets, dateStr);
     const { titleBest, anchorThought, body } = parseGeneratedContent(rawContent);
+
+    let fullContent = "";
+    let isNewFile = false;
 
     if (!fs.existsSync(filepath)) {
         isNewFile = true;
@@ -269,19 +272,14 @@ anchor_thought: "${anchorThought}"
 
 > Daily Curator: Potato.
 
-`;
-        fullContent += body;
+${body}`;
     } else {
-        console.log(`File exists (${filename}). Appending new updates...`);
+        console.log(`Appending to ${filename}...`);
         fullContent = fs.readFileSync(filepath, 'utf-8');
-        fullContent += `\n\n## 🔄 Update ${localDate.getHours()}:${localDate.getMinutes().toString().padStart(2, '0')}\n\n`;
-        fullContent += body;
+        fullContent += `\n\n## 🔄 Update ${localDate.getHours()}:${localDate.getMinutes().toString().padStart(2, '0')}\n\n${body}`;
     }
 
-    if (!fs.existsSync(POSTS_DIR)) {
-        fs.mkdirSync(POSTS_DIR, { recursive: true });
-    }
-
+    if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
     fs.writeFileSync(filepath, fullContent);
     console.log(`✅ ${isNewFile ? 'Created' : 'Updated'} draft: ${filepath}`);
 }
