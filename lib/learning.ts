@@ -105,7 +105,11 @@ export function getSortedLearningPostsData(): LearningPostData[] {
         return [];
     }
 
-    const fileNames = fs.readdirSync(postsDirectory);
+    const fileNames = fs.readdirSync(postsDirectory)
+        .filter(fileName => {
+            const fullPath = path.join(postsDirectory, fileName);
+            return fs.statSync(fullPath).isFile() && fileName.endsWith('.md');
+        });
     const allPostsData = fileNames.map((fileName) => {
         // Remove ".md" from file name to get id
         const id = fileName.replace(/\.md$/, '');
