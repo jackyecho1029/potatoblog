@@ -12,7 +12,7 @@
     "analyze-gems": "npx tsx scripts/deep-analyze-gems.ts",
     "find-long-gems": "npx tsx scripts/find-long-gems.ts",
     "analyze-long-gems": "npx tsx scripts/deep-analyze-long-gems.ts",
-    "generate-x-signal": "npx tsx scripts/generate-x-signal-draft.ts",
+    "generate-x-signal": "py scripts/fetch-x-signals.py",
     "sync-library": "npx tsx scripts/sync-content-library.ts"
   },
   "dependencies": {

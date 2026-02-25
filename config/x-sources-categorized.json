@@ -1,0 +1,79 @@
+{
+    "categories": {
+        "🤖 AI科技": {
+            "description": "AI前沿研究、工程实践、大模型动态、开源项目",
+            "accounts": [
+                "karpathy",
+                "geoffreyhinton",
+                "MatthewBerman",
+                "googleaidevs",
+                "OpenAIDevs",
+                "aiedge_",
+                "openclaw",
+                "steipete",
+                "bcherny",
+                "tom_doerr",
+                "GithubProjects",
+                "levie",
+                "PromptLLM",
+                "godofprompt",
+                "alex_prompter",
+                "promptcowboy",
+                "Prompt_Perfect"
+            ]
+        },
+        "💰 财富商业": {
+            "description": "创业、财务自由、商业模式、投资、企业运营",
+            "accounts": [
+                "Codie_Sanchez",
+                "gregisenberg",
+                "frankdegods",
+                "startupideaspod",
+                "minchoi",
+                "omooretweets",
+                "Lukealexxander",
+                "alliekmiller",
+                "MoonDevOnYT",
+                "EXM7777",
+                "kloss_xyz"
+            ]
+        },
+        "📣 增长营销": {
+            "description": "内容创作、社媒增长、品牌建设、用户获取",
+            "accounts": [
+                "rubenhassid",
+                "boringmarketer",
+                "VibeMarketer_",
+                "petergyang",
+                "heyshrutimishra",
+                "Salmaaboukarr",
+                "ideabrowser",
+                "AndrewBolis",
+                "milesdeutscher"
+            ]
+        },
+        "🧠 智慧人生": {
+            "description": "人生哲学、心理成长、效率系统、生活方式",
+            "accounts": [
+                "eptwts",
+                "vasuman",
+                "DeRonin_",
+                "damianplayer",
+                "viktoroddy",
+                "dani_avila7",
+                "eyad_khrais",
+                "mreflow",
+                "carlvellotti",
+                "slow_developer"
+            ]
+        },
+        "⚡ 构建者工具": {
+            "description": "Prompt工程、AI工作流、独立开发者技巧、生产力工具",
+            "accounts": [
+                "Hesamation",
+                "johann_sath",
+                "levie"
+            ]
+        }
+    }
+}
