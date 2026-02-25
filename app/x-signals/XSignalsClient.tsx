@@ -19,67 +19,84 @@ export default function XSignalsClient({ posts }: XSignalsClientProps) {
     }, []);
 
     return (
-        <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
-            <main className="max-w-5xl mx-auto px-6 py-20">
+        <div className="min-h-screen bg-[#FDFBF7] text-zinc-900 font-sans selection:bg-amber-100 border-t-8 border-amber-600">
+            <main className="max-w-4xl mx-auto px-8 py-24 fade-in">
                 <Header />
 
-                <header className="mb-12">
-                    <h1 className="text-3xl font-bold mb-4 tracking-tight">X Signals (每日情报)</h1>
-                    <p className="text-gray-600 max-w-2xl">
-                        AI 驱动的全球科技与商业情报日报。借他山之石，琢个人之玉。
+                <header className="mb-24">
+                    <h1 className="text-5xl font-serif mb-6 tracking-tight">X Signals 精选日报</h1>
+                    <p className="text-xl text-zinc-500 max-w-2xl font-light leading-relaxed">
+                        AI 驱动的全球信息蒸馏。我们深入 X 平台的高信噪比讨论，为你提炼出最值得关注的科技、财富与认知信号。
                     </p>
                 </header>
 
-                <SearchBar
-                    items={posts}
-                    onFilteredItems={handleFilteredItems}
-                    placeholder="搜索情报..."
-                    showAuthorFilter={true}
-                />
+                <div className="mb-20">
+                    <SearchBar
+                        items={posts}
+                        onFilteredItems={handleFilteredItems}
+                        placeholder="在信号海洋中搜索关键词..."
+                        showAuthorFilter={true}
+                    />
+                </div>
 
-                {/* X Signals Table View */}
-                <div className="mt-8">
-                    <table className="w-full text-left border-collapse table-fixed">
-                        <thead>
-                            <tr className="text-xs text-gray-400 border-b border-gray-200 font-medium tracking-wider uppercase">
-                                <th className="py-4 w-32 font-normal">Date</th>
-                                <th className="py-4 font-normal">Topic & Host's Thought</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-gray-100">
-                            {filteredPosts.map((post) => (
-                                <tr key={post.id} className="group hover:bg-white transition-colors duration-200">
-                                    <td className="py-6 pr-6 align-top text-sm text-gray-400 font-mono">
-                                        {post.date}
-                                    </td>
-                                    <td className="py-6 align-top">
-                                        <Link href={`/x-signals/${post.id}`} className="block group-hover:translate-x-1 transition-transform duration-200">
-                                            <div className="flex items-center gap-2 mb-3">
-                                                <span className="text-xl font-bold text-zinc-900 group-hover:text-amber-600">
-                                                    {post.title_best || post.title}
-                                                </span>
-                                                <span className="opacity-0 group-hover:opacity-100 transition-opacity text-amber-600 text-sm font-medium">
-                                                    Read →
-                                                </span>
-                                            </div>
-                                            {post.anchor_thought && (
-                                                <div className="text-gray-600 font-serif italic text-base leading-relaxed pl-4 border-l-2 border-amber-300">
-                                                    "{post.anchor_thought}"
-                                                </div>
-                                            )}
-                                        </Link>
-                                    </td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
+                {/* X Signals Feed View */}
+                <div className="space-y-32">
+                    {filteredPosts.map((post) => (
+                        <article key={post.id} className="group relative">
+                            {/* Timeline Date Marker */}
+                            <div className="absolute -left-24 top-0 hidden xl:block">
+                                <div className="text-xs font-mono text-zinc-200 uppercase tracking-widest rotate-90 origin-left mt-8">
+                                    {post.date}
+                                </div>
+                            </div>
+
+                            <Link href={`/x-signals/${post.id}`} className="block">
+                                <div className="flex flex-col gap-8">
+                                    <div className="flex items-baseline justify-between gap-4">
+                                        <h2 className="text-4xl font-serif font-medium leading-tight group-hover:text-amber-600 transition-colors duration-300">
+                                            {post.title_best || post.title}
+                                        </h2>
+                                        <span className="text-xs font-mono text-zinc-300 md:hidden">{post.date}</span>
+                                    </div>
+
+                                    {post.anchor_thought && (
+                                        <div className="relative pl-12 py-4">
+                                            <span className="absolute left-0 top-0 text-6xl font-serif text-amber-100">“</span>
+                                            <p className="text-2xl font-serif italic text-zinc-600 leading-relaxed relative z-10">
+                                                {post.anchor_thought}
+                                            </p>
+                                        </div>
+                                    )}
+
+                                    <div className="flex items-center gap-4 text-sm font-medium">
+                                        <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">DAILY ANALYTICS</span>
+                                        <span className="text-zinc-300">——</span>
+                                        <span className="group-hover:translate-x-2 transition-transform duration-300 text-zinc-400 group-hover:text-amber-600">
+                                            阅读深度解读副本 <span className="ml-1">→</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </Link>
+
+                            {/* Separator */}
+                            <div className="mt-32 w-20 h-px bg-zinc-100 group-last:hidden"></div>
+                        </article>
+                    ))}
                 </div>
 
                 {filteredPosts.length === 0 && (
-                    <div className="p-12 text-center text-gray-500 bg-gray-50 rounded-lg mt-8">
-                        未找到相关情报 🔍
+                    <div className="py-40 text-center">
+                        <div className="text-6xl mb-8">🔭</div>
+                        <p className="text-zinc-300 text-xl font-light italic">
+                            这个频率的信号消失了... 试试搜索其他关键词。
+                        </p>
                     </div>
                 )}
+
+                <footer className="mt-64 pt-12 border-t border-zinc-100 flex flex-col md:flex-row justify-between items-center gap-6 text-[12px] uppercase tracking-widest text-zinc-300 font-medium">
+                    <span>Potato Echo Knowledge Hub &copy; 2026</span>
+                    <Link href="/x-signals" className="text-amber-600 font-bold hover:underline">Subscribe to Signals</Link>
+                </footer>
             </main>
         </div>
     );
