@@ -99,7 +99,7 @@ async function run() {
     const date = new Date().toISOString().split('T')[0];
 
     // Save as Blog Post (Saturday Edition)
-    const blogPostPath = path.join(process.cwd(), `posts/gems/${date}-long-form-gems-deep-dive.md`);
+    const blogPostPath = path.join(process.cwd(), `posts/${date}-long-form-gems-deep-dive.md`);
     const blogContent = `---
 title: "🎥 周六深研：低粉长视频如何建立深度影响力 (${date})"
 author: "Antigravity Depth Analyst"
