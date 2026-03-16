@@ -54,7 +54,7 @@ jobs:
         run: |
           git config --global user.name 'Potato Gem Bot'
           git config --global user.email 'bot@potatoecho.com'
-          git add posts/*.md reports/gems/*.md
+          git add posts/*.md posts/gems/*.md reports/gems/*.md
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

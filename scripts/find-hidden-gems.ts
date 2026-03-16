@@ -59,7 +59,7 @@ async function searchHiddenGems(keyword: string): Promise<HiddenGem[]> {
             type: ['video'],
             maxResults: 50, // Fetch enough to filter
             order: 'viewCount',
-            publishedAfter: '2025-01-01T00:00:00Z' // Limit to recent videos (last year/month?) - adjusting to recent relative to 2026
+            publishedAfter: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString() // Last 30 days
         });
 
         const videos = searchResponse.data.items || [];

@@ -11,7 +11,7 @@ dotenv.config({ path: '.env.local' });
 
 const youtube = google.youtube('v3');
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
-const GEMINI_API_KEY = process.env.gemini_api_key;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
@@ -42,7 +42,7 @@ async function analyzeVideo(videoId: string) {
             transcript = description;
         }
 
-        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
         const prompt = `
 你是一位顶级的 YouTube 爆款内容拆解专家和营销策略师。
@@ -98,7 +98,7 @@ async function run() {
     fs.writeFileSync(reportPath, `# 🧬 YouTube 低粉爆款深度拆解报告 (${date})\n\n` + results.join('\n\n---\n\n'));
 
     // 2. Save as Blog Post
-    const blogPostPath = path.join(process.cwd(), `posts/${date}-youtube-hidden-gems-analysis.md`);
+    const blogPostPath = path.join(process.cwd(), `posts/gems/${date}-youtube-hidden-gems-analysis.md`);
     const blogContent = `---
 title: "🧬 YouTube 低粉爆款深度拆解 (${date})"
 author: "Antigravity Analysis Bot"

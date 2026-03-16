@@ -67,7 +67,7 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
             maxResults: 50,
             order: 'viewCount',
             videoDuration: 'medium', // 4-20 mins
-            publishedAfter: '2023-01-01T00:00:00Z' // More history
+            publishedAfter: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString() // Last 30 days
         });
 
         const searchResponseLong = await youtube.search.list({
@@ -78,7 +78,7 @@ async function searchLongGems(keyword: string): Promise<HiddenGem[]> {
             maxResults: 20,
             order: 'viewCount',
             videoDuration: 'long',
-            publishedAfter: '2023-01-01T00:00:00Z'
+            publishedAfter: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString()
         });
 
         const videos = [...(searchResponse.data.items || []), ...(searchResponseLong.data.items || [])];
