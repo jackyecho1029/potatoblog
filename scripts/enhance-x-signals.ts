@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
-import OpenAI from 'openai';
+import { OpenAI } from 'openai';
 
 // Load environment variables
 dotenv.config({ path: path.join(process.cwd(), '.env.local') });
