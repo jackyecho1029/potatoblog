@@ -34,7 +34,7 @@ async function getChannelId(handle: string) {
 }
 
 async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, category: string, summary: string }> {
-    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = `
 你是一位资深的知识策展人和学习顾问。请用"金字塔原理"深度解析这个视频内容。
@@ -184,7 +184,7 @@ ${transcriptText.substring(0, 25000)}
 }
 
 async function summarizeLennyVideo(guestName: string, transcriptText: string): Promise<string | null> {
-    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = `
 你是一位顶级商业分析师和"一人公司"实战专家，深度推崇查理·芒格的多元思维模型和金字塔原理。
