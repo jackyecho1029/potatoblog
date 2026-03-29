@@ -43,7 +43,7 @@ async function getChannelSubscribers(channelId: string): Promise<number | null> 
     }
 }
 
-async function searchHiddenGems(keyword: string): Promise<HiddenGem[]> {
+export async function searchHiddenGems(keyword: string, maxSubs = MAX_SUBSCRIBERS, minViews = MIN_VIEWS): Promise<HiddenGem[]> {
     console.log(`\n🔍 Searching for hidden gems in "${keyword}"...`);
     const gems: HiddenGem[] = [];
 
@@ -112,7 +112,7 @@ async function searchHiddenGems(keyword: string): Promise<HiddenGem[]> {
     return gems.sort((a, b) => b.gemScore - a.gemScore); // Best gems first
 }
 
-async function run() {
+export async function run(targetCategories = CATEGORIES) {
     console.log("💎 Starting Hidden Gem Hunt...");
     console.log(`Target: < ${MAX_SUBSCRIBERS} subs, High Views`);
 
@@ -171,4 +171,6 @@ async function run() {
     console.log(`✅ Top IDs exported to: ${topIdsFile}`);
 }
 
-run();
+if (require.main === module) {
+    run();
+}

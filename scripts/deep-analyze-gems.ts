@@ -15,7 +15,7 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
-async function analyzeVideo(videoId: string) {
+export async function analyzeVideo(videoId: string, targetPlatform = 'Short Video/Red/X') {
     console.log(`\n🔍 Analyzing video ID: ${videoId}...`);
 
     try {
@@ -61,6 +61,18 @@ async function analyzeVideo(videoId: string) {
 5. **核心观点 (Core Insights):** 视频传递的最核心观点是什么？
 6. **借镜与参考 (Benchmarks):** 我们可以学习的3个具体战术？
 
+---
+
+### 🚀 创作实验：爆款脚本改写 (Viral Script Draft)
+
+基于以上分析，请为我（作为这台电脑的主人）创作一个适用于 **${targetPlatform}** 的爆款脚本。
+- **目标：** 极高完成率和点赞率。
+- **结构：** 
+    - **钩子 (Hook)**：前3秒，瞬间抓住注意力。
+    - **留存内容**：层层递进，解决一个具体痛苦或提供一个意想不到的惊喜。
+    - **行动号召 (CTA)**：引导评论和关注。
+- **风格：** 简洁、有力、充满激情，去掉废话。如果有复杂的术语，请使用 **Feynman 学习法** 的思路将其简化。
+
 请用中文回答，排版清晰美观。在回答的开头，请包含原视频链接：${url}
 `;
 
@@ -73,7 +85,7 @@ async function analyzeVideo(videoId: string) {
     }
 }
 
-async function run() {
+export async function run() {
     const topIdsFile = path.join(process.cwd(), 'reports/gems/top-ids.json');
     let videoIds = [];
 
@@ -121,4 +133,6 @@ tags: ["YouTube", "爆款拆解", "流量增长", "自动挖掘"]
     console.log(`\n✅ Blog post generated: ${blogPostPath}`);
 }
 
-run();
+if (require.main === module) {
+    run();
+}
