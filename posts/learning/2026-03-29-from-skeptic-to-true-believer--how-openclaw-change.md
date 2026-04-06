@@ -10,6 +10,3 @@ thumbnail: "https://img.youtube.com/vi/DIa0MYJzM5I/maxresdefault.jpg"
 ---
 
 AI Summarization Failed.
-
----
-*由 PotatoLearning Hub 自动生成*

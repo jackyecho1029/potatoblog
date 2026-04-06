@@ -326,13 +326,48 @@ async function fetchVideoByUrl(videoUrl: string) {
         }).join(' ');
 
         console.log("   Summarizing with Gemini...");
-        const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
-
-        const linkedSummary = linkTimestamp(summary, videoId);
-
-        // Handle might not be available directly from video detail in same format as CHANNELS list
-        // We use channelTitle which is "Tim Ferriss" etc.
+        
+        // Use the official channel title instead of the handle for display
         const authorName = channelTitle;
+        const isLennyPodcast = authorName.toLowerCase().includes("lenny") &&
+            (authorName.toLowerCase().includes("podcast") || authorName.toLowerCase().includes("rachitsky"));
+
+        if (isLennyPodcast) {
+            console.log(`🎙️ Detected Lenny's Podcast: ${title}`);
+            // Extract guest name from title
+            let guestName = 'unknown-guest';
+            if (title.includes(':')) {
+                guestName = title.split(':')[0].trim();
+            } else if (title.includes('|')) {
+                const parts = title.split('|').map(p => p.trim());
+                guestName = parts.sort((a, b) => a.length - b.length)[0];
+            }
+            
+            guestName = guestName.replace(/\s*\(.*?\)\s*/g, '').replace(/\s*\[.*?\]\s*/g, '').trim();
+            
+            const summaryText = await summarizeLennyVideo(guestName, transcriptText);
+            if (summaryText) {
+                const lennyFilename = `${dateString}-lenny-${guestName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50)}.md`;
+                const lennyFilePath = path.join(postsDir, lennyFilename);
+                const lennyFileContent = `---
+title: "Lenny's Podcast 笔记：${guestName} 深度访谈"
+original_title: "${title.replace(/"/g, '\\"')}"
+author: "Lenny's Podcast"
+category: "生活与效率"
+date: "${dateString}"
+tags: ["AI 与技术", "生活与效率"]
+source_url: "https://www.youtube.com/watch?v=${videoId}"
+---
+
+${summaryText}`;
+                fs.writeFileSync(lennyFilePath, lennyFileContent);
+                console.log(`✅ Saved Lenny episode: ${lennyFilename}`);
+                return;
+            }
+        }
+
+        const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
+        const linkedSummary = linkTimestamp(summary, videoId);
 
         const fileContent = `---
 title: "${hookTitle.replace(/"/g, '\\"')}"
