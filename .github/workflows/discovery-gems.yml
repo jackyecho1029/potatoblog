@@ -38,7 +38,7 @@ jobs:
       - name: "Short-Form Gems"
         if: github.event.schedule == '0 1 * * 5' || github.event.inputs.pipeline == 'short' || github.event.inputs.pipeline == 'both'
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY_GEMS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           npm run find-gems
@@ -47,7 +47,7 @@ jobs:
       - name: "Long-Form Gems"
         if: github.event.schedule == '0 1 * * 6' || github.event.inputs.pipeline == 'long' || github.event.inputs.pipeline == 'both'
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY_GEMS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           npm run find-long-gems
