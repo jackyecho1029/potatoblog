@@ -57,11 +57,13 @@ jobs:
         run: |
           git config --global user.name 'Potato Gem Bot'
           git config --global user.email 'bot@potatoecho.com'
-          git add posts/*.md reports/gems/*.md
+          git add posts/*.md reports/gems/*.md reports/gems/*.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "feat: auto-update viral gems [skip ci]"
+            git stash --include-untracked --keep-index
             git pull --rebase origin main
+            git stash pop || true
+            git commit -m "feat: auto-update viral gems [skip ci]"
             git push
           fi
