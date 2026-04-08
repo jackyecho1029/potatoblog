@@ -6,6 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
+| 🔥 2660.95x | 167,640 | 63 | [#darkacademia #reader #philosophy #darkhistory #quotes #booktok #poetry #reels #motivation](https://www.youtube.com/watch?v=KtBu_xO2Iic) by **Neha Satyarthi** |
+| 🔥 991.91x | 2,787,270 | 2,810 | [#ytshorts #cartoon #cartoon #animatry #animation #cartoon #ai #funny #viralvideo](https://www.youtube.com/watch?v=jxbEYh8t5Os) by **Sultan Clip 2.0** |
+| 🔥 651.38x | 670,917 | 1,030 | [冬に使える英語を1分で学ぼう！　#言語　#学習](https://www.youtube.com/watch?v=nMT2j2QAAi8) by **1分英語塾** |
+| 🔥 578.19x | 3,336,152 | 5,770 | [Rip Gas cylinder 😭#ai #aistory #aivideo #short #emotional](https://www.youtube.com/watch?v=gpbKezRg8cU) by **ai creator ** |
+| 🔥 518.86x | 451,930 | 871 | [Utilizas esta estrategia de marketing digital para conseguir más vistas con tus ganchos🔥 #marketing](https://www.youtube.com/watch?v=Ipx5dXd8gM0) by **BigShortMedia** |
+| 🔥 470.05x | 18,802 | 40 | [约会结束这样子做直接拿下 #恋愛 #文案 #大熱門 #男生必看 #感情 #情感 #一见钟情](https://www.youtube.com/watch?v=nJOJR9C4-L0) by **宸宸情感** |
+| 🔥 443.7x | 152,632 | 344 | [「年を取るほど見苦しくなる人の3つの行動」老後の品格を決める習慣とは - アリストテレスが語る老後の本当の品格](https://www.youtube.com/watch?v=6P5ZKvWvZLM) by **哲学的観点** |
+| 🔥 424.06x | 289,209 | 682 | [爱我中华#国庆 #国庆节 #每天学习一点点 #知识分享 #创作者扶持计划](https://www.youtube.com/watch?v=NOj7kW7B90E) by **小爽在河南** |
+| 🔥 416.66x | 60,416 | 145 | [Aldi Taher Marketing Burger Kocak: Auto Reply Semua Netizen!](https://www.youtube.com/watch?v=xf4j3fZ4jjM) by **mazlab** |
+| 🔥 405.63x | 551,656 | 1,360 | [90后小伙子，坚守本分，成就事业。把时间花在品质上，把真心放在产品里。最朴素的坚持，反而成就了最扎实的成功。#记录真实生活 #90后 #人物故事 #致富经 #创业](https://www.youtube.com/watch?v=-aZo90urSgA) by **彭sr在户外 ** |
+| 🔥 360.46x | 2,995,447 | 8,310 | [日本髪に取り憑かれた女 #kimono #着物 #心の哲学](https://www.youtube.com/watch?v=nA7IwCwg8sE) by **和装和ごころ研究所　　　秋田桃子** |
+| 🔥 289.11x | 10,986 | 38 | [#清明节 #农村风景 #乡村守护人 #清明节文案 随拍 生活记录 日常vlog](https://www.youtube.com/watch?v=kdMKdbitXzI) by **Makinson Stansfield** |
+| 🔥 263.38x | 214,128 | 813 | [这样的顾客怎么治？#摆摊日记 #地摊创业 #内容过于真实 #康记烤苕皮豆干 #我的摆摊日记 #vlog日常 #美食](https://www.youtube.com/watch?v=XDRDmO4HldE) by **餐饮人** |
+| 🔥 262.73x | 725,140 | 2,760 | [😈ただの問題児じゃない実は人生を語る哲学者・しんちゃん](https://www.youtube.com/watch?v=W_JAu3phjgI) by **D.pmovies6w1** |
+| 🔥 213.6x | 133,073 | 623 | [ആ 2 Minute Trick — Maggi-യുടെ 40 വർഷത്തെ Marketing Secret 🍜 - ഒരു Business Case Study](https://www.youtube.com/watch?v=oE1dYHhYE84) by **സംരംഭം Decoded** |
+| 🔥 191.53x | 1,668,186 | 8,710 | [Cute AI Food Babies Eating Cambodian Dishes 🍜🇰🇭 - Oddly Satisfying ASMR](https://www.youtube.com/watch?v=3dQwB4JKjpk) by **Belly Asmr** |
+| 🔥 183.79x | 209,516 | 1,140 | [Mentor-guided, hand-in-hand, heart-to-heart learning at vagdevi E/M school](https://www.youtube.com/watch?v=AUpSNjXZoDo) by **Vagdevi E/M school jogapur** |
+| 🔥 171.06x | 824,492 | 4,820 | [Non è rivoluzione, è marketing](https://www.youtube.com/watch?v=AQCiFVIK7xc) by **Homo Sapiens** |
+| 🔥 168.57x | 355,678 | 2,110 | [The Psychology Behind Dogs That Sniff Your Intimate Area (What It Really Means)](https://www.youtube.com/watch?v=5YbH7EL1M08) by **Speak, Dog!** |
+| 🔥 162.63x | 665,157 | 4,090 | [How Nilon's Crack Indian Market #shorts](https://www.youtube.com/watch?v=02LmiXpfOoU) by **Sanghavi's Blueprint** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
