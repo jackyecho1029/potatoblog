@@ -3,7 +3,7 @@ import { google } from 'googleapis';
 import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
-import { YoutubeTranscript } from 'youtube-transcript';
+import { fetchTranscriptText } from './lib/transcript';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Load environment variables
@@ -35,14 +35,13 @@ export async function analyzeVideo(videoId: string, targetPlatform = 'Short Vide
 
         let transcript = '';
         try {
-            const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
-            transcript = transcriptItems.map(item => item.text).join(' ').substring(0, 10000);
+            transcript = await fetchTranscriptText(videoId, 'en', 10000);
         } catch (e) {
             console.log(`   (No transcript available for ${videoId}, using description)`);
             transcript = description;
         }
 
-        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
         const prompt = `
 你是一位顶级的 YouTube 爆款内容拆解专家和营销策略师。

@@ -3,7 +3,7 @@ import { google } from 'googleapis';
 import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
-import { YoutubeTranscript } from 'youtube-transcript';
+import { fetchTranscriptText } from './lib/transcript';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Load environment variables
@@ -36,14 +36,13 @@ async function analyzeLongVideo(videoId: string) {
         // Increase transcript limit for long videos
         let transcript = '';
         try {
-            const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
-            transcript = transcriptItems.map(item => item.text).join(' ').substring(0, 15000);
+            transcript = await fetchTranscriptText(videoId, 'en', 15000);
         } catch (e) {
             console.log(`   (No transcript available, using description)`);
             transcript = description;
         }
 
-        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
         const prompt = `
 你是一位资深的内容商业分析师和深度学习专家。
