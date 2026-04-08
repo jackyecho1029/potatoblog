@@ -1,0 +1,41 @@
+name: X Signal Daily Update
+
+on:
+  schedule:
+    # Beijing time 0:05 -> UTC 16:05
+    - cron: '5 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  x-signal:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install feedparser requests
+
+      - name: Generate X Signal
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/fetch-x-signals.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.name 'Potato Signal Bot'
+          git config --global user.email 'bot@potatoecho.com'
+          git add posts/x-signals/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: daily x signal update [skip ci]"
+            git push
+          fi
