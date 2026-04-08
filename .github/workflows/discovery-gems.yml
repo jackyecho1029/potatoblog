@@ -7,6 +7,16 @@ on:
     # Saturday morning (BJT 9:00) -> UTC Sat 1:00 (Long-form)
     - cron: '0 1 * * 6'
   workflow_dispatch:
+    inputs:
+      pipeline:
+        description: 'Which pipeline to run'
+        required: true
+        default: 'long'
+        type: choice
+        options:
+          - 'short'
+          - 'long'
+          - 'both'
 
 jobs:
   discover-gems:
@@ -16,26 +26,26 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          
+
       - name: Install dependencies
         run: npm ci
-        
-      - name: "Friday: Short-Form Gems"
-        if: github.event.schedule == '0 1 * * 5'
+
+      - name: "Short-Form Gems"
+        if: github.event.schedule == '0 1 * * 5' || github.event.inputs.pipeline == 'short' || github.event.inputs.pipeline == 'both'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           npm run find-gems
           npm run analyze-gems
-          
-      - name: "Saturday: Long-Form Gems"
-        if: github.event.schedule == '0 1 * * 6'
+
+      - name: "Long-Form Gems"
+        if: github.event.schedule == '0 1 * * 6' || github.event.inputs.pipeline == 'long' || github.event.inputs.pipeline == 'both'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -43,15 +53,6 @@ jobs:
           npm run find-long-gems
           npm run analyze-long-gems
 
-      - name: Manual Run (Both)
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          npm run find-long-gems
-          npm run analyze-long-gems
-          
       - name: Commit and push changes
         run: |
           git config --global user.name 'Potato Gem Bot'
