@@ -2,8 +2,60 @@ import { google } from 'googleapis';
 import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
-import { YoutubeTranscript } from 'youtube-transcript';
 import { GoogleGenerativeAI } from '@google/generative-ai';
+
+// Fetch transcript via YouTube Innertube API (more reliable than youtube-transcript)
+async function fetchTranscript(videoId: string, lang = 'en'): Promise<Array<{ text: string; duration: number; offset: number }>> {
+    const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+
+    // Step 1: Get INNERTUBE_API_KEY from video page
+    const htmlRes = await fetch(videoUrl);
+    const html = await htmlRes.text();
+    const apiKeyMatch = html.match(/"INNERTUBE_API_KEY":"([^"]+)"/);
+    if (!apiKeyMatch) throw new Error('INNERTUBE_API_KEY not found');
+
+    // Step 2: Call player API as Android client
+    const playerRes = await fetch(`https://www.youtube.com/youtubei/v1/player?key=${apiKeyMatch[1]}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            context: {
+                client: { clientName: 'ANDROID', clientVersion: '20.10.38' }
+            },
+            videoId
+        })
+    });
+    const playerData = await playerRes.json();
+
+    // Step 3: Find caption track for the requested language
+    const tracks = playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+    if (!tracks || tracks.length === 0) throw new Error('No captions found');
+
+    // Try requested language, fall back to first available track
+    let track = tracks.find((t: any) => t.languageCode === lang);
+    if (!track) track = tracks.find((t: any) => t.languageCode === 'en');
+    if (!track) track = tracks[0];
+
+    const baseUrl = track.baseUrl.replace(/&fmt=\w+$/, '');
+
+    // Step 4: Fetch and parse caption XML
+    const xmlRes = await fetch(baseUrl);
+    const xml = await xmlRes.text();
+
+    // Parse simple XML: <text start="0.366" dur="2.067">content</text>
+    const entries: Array<{ text: string; duration: number; offset: number }> = [];
+    const regex = /<text[^>]*\bstart="([^"]*)"[^>]*\bdur="([^"]*)"[^>]*>([\s\S]*?)<\/text>/g;
+    let match;
+    while ((match = regex.exec(xml)) !== null) {
+        const offset = Math.round(parseFloat(match[1]) * 1000); // convert to ms
+        const duration = Math.round(parseFloat(match[2]) * 1000);
+        const text = match[3].replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/\n/g, ' ').trim();
+        if (text) entries.push({ text, duration, offset });
+    }
+
+    if (entries.length === 0) throw new Error('Transcript XML parsing returned empty');
+    return entries;
+}
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });
@@ -314,9 +366,9 @@ async function fetchVideoByUrl(videoUrl: string) {
         const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 
         console.log("   Fetching transcript...");
-        const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
+        const transcriptItems = await fetchTranscript(videoId);
         const transcriptText = transcriptItems.map(item => {
-            // Basic attempt to keep timestamp if library provides it, but youtube-transcript returns text and offset
+            // Add timestamps to transcript for Gemini context
             // We need to inject timestamps into the text for Gemini if we want it to use them.
             // The library returns {text: string, duration: number, offset: number}
             const minutes = Math.floor(item.offset / 60000);
@@ -554,7 +606,7 @@ async function fetchLatestVideos() {
 
             try {
                 console.log("   Fetching transcript...");
-                const transcriptItems = await YoutubeTranscript.fetchTranscript(videoId);
+                const transcriptItems = await fetchTranscript(videoId);
                 const transcriptText = transcriptItems.map(item => item.text).join(' ');
 
                 // Use the official channel title instead of the handle for display
