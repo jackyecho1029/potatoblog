@@ -9,7 +9,26 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 dotenv.config({ path: '.env.local' });
 
 const youtube = google.youtube('v3');
-const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
+const YOUTUBE_API_KEYS = [
+    process.env.YOUTUBE_API_KEY,
+    process.env.YOUTUBE_API_KEY_2,
+].filter(Boolean) as string[];
+let currentKeyIndex = 0;
+function getApiKey(): string {
+    return YOUTUBE_API_KEYS[currentKeyIndex];
+}
+function switchToNextKey(): boolean {
+    if (currentKeyIndex + 1 < YOUTUBE_API_KEYS.length) {
+        currentKeyIndex++;
+        console.log(`🔄 Switched to YouTube API Key #${currentKeyIndex + 1}`);
+        return true;
+    }
+    return false;
+}
+function isQuotaError(err: any): boolean {
+    return err?.response?.status === 403 ||
+        err?.errors?.some((e: any) => e.reason === 'quotaExceeded');
+}
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // Initialize Gemini
@@ -20,7 +39,7 @@ const CHANNELS = process.env.YOUTUBE_CHANNELS?.split(',') || [];
 async function getChannelId(handle: string) {
     try {
         const response = await youtube.search.list({
-            key: YOUTUBE_API_KEY,
+            key: getApiKey(),
             part: ['snippet'],
             q: handle,
             type: ['channel'],
@@ -262,7 +281,7 @@ ${transcriptText.substring(0, 30000)}
 
 
 async function fetchVideoByUrl(videoUrl: string) {
-    if (!YOUTUBE_API_KEY || !GEMINI_API_KEY) {
+    if (!YOUTUBE_API_KEYS.length || !GEMINI_API_KEY) {
         console.error('API Keys are missing');
         return;
     }
@@ -278,7 +297,7 @@ async function fetchVideoByUrl(videoUrl: string) {
 
         // Fetch video details to get title and channel
         const response = await youtube.videos.list({
-            key: YOUTUBE_API_KEY,
+            key: getApiKey(),
             part: ['snippet'],
             id: [videoId]
         });
@@ -431,7 +450,7 @@ async function fetchLatestVideos() {
         return;
     }
 
-    if (!YOUTUBE_API_KEY || !GEMINI_API_KEY) {
+    if (!YOUTUBE_API_KEYS.length || !GEMINI_API_KEY) {
         console.error('API Keys are missing');
         return;
     }
@@ -449,14 +468,16 @@ async function fetchLatestVideos() {
     const existingIds = getExistingVideoIds(postsDir);
     console.log(`📚 Found ${existingIds.size} existing videos in library.`);
 
-    for (const handle of CHANNELS) {
+    for (let i = 0; i < CHANNELS.length; i++) {
+      const handle = CHANNELS[i];
+      try {
         const channelId = await getChannelId(handle);
         if (!channelId) continue;
 
         console.log(`Processing ${handle}...`);
 
         const response = await youtube.search.list({
-            key: YOUTUBE_API_KEY,
+            key: getApiKey(),
             channelId: channelId,
             part: ['snippet'],
             order: 'date',
@@ -493,7 +514,7 @@ async function fetchLatestVideos() {
             // Get video duration to filter out short clips (<15 min)
             try {
                 const videoDetails = await youtube.videos.list({
-                    key: YOUTUBE_API_KEY,
+                    key: getApiKey(),
                     id: [videoId],
                     part: ['contentDetails']
                 });
@@ -668,6 +689,18 @@ ${summary}
                 console.error(`   Failed to process ${title}: No transcript or error.`);
             }
         }
+      } catch (err: any) {
+        if (isQuotaError(err)) {
+          if (switchToNextKey()) {
+            console.log(`⚠️ Quota exceeded on ${handle}, retrying with next key...`);
+            i--; // retry same channel with new key
+            continue;
+          }
+          console.error(`⚠️ All YouTube API keys exceeded quota. Stopping.`);
+          break;
+        }
+        console.error(`Error processing channel ${handle}: ${err?.message || err}`);
+      }
     }
 }
 
