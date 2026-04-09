@@ -29,14 +29,19 @@ ENV_FILE = BLOG_ROOT / ".env.local"
 # ─── 读取环境变量 ──────────────────────────────────────────────────────────────
 
 def load_env() -> Dict[str, str]:
-    """读取 .env.local 文件"""
+    """读取 .env.local 文件，并 fallback 到系统环境变量"""
     env = {}
+    # .env.local 文件优先
     if ENV_FILE.exists():
         for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
             line = line.strip()
             if "=" in line and not line.startswith("#"):
                 k, v = line.split("=", 1)
                 env[k.strip()] = v.strip()
+    # 系统环境变量作为 fallback（GitHub Actions 通过此方式注入 secrets）
+    for k, v in os.environ.items():
+        if k not in env:
+            env[k] = v
     return env
 
 ENV = load_env()
