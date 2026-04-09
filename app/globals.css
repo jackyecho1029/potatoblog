@@ -139,3 +139,138 @@ article img+em,
 .stagger-5 {
   animation-delay: 0.5s;
 }
+
+/* ========================================
+   Learning Post — New Content Structure
+   ======================================== */
+
+/* Section: 核心觀點 — viewpoint cards */
+.learning-content h2 {
+  font-size: 1.35rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #F59E0B;
+  letter-spacing: 0.01em;
+}
+
+.learning-content h3 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #92400E;
+  font-weight: 600;
+}
+
+/* Quote block: 原話精華 */
+.learning-content blockquote {
+  border-left: 3px solid #F59E0B;
+  background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+  border-radius: 0 12px 12px 0;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem 0;
+  font-style: normal;
+}
+
+.learning-content blockquote p {
+  margin: 0.25rem 0;
+  line-height: 1.8;
+}
+
+/* English original in parentheses — subtler */
+.learning-content blockquote p:last-child {
+  color: #78716C;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #D6D3D1;
+}
+
+/* Section: 閱讀感受與延伸思考 */
+.learning-section-reflection {
+  background: #FDFBF7;
+  border: 1px solid #E7E5E4;
+  border-radius: 16px;
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+}
+
+.learning-section-reflection strong {
+  color: #92400E;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.learning-section-reflection p {
+  margin: 0.5rem 0;
+  line-height: 1.85;
+}
+
+/* Section: 內容分段導航 table */
+.learning-content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #E7E5E4;
+}
+
+.learning-content thead th {
+  background: #F59E0B;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+}
+
+.learning-content tbody tr {
+  transition: background 150ms ease;
+}
+
+.learning-content tbody tr:hover {
+  background: #FFFBEB;
+}
+
+.learning-content tbody td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid #F5F5F4;
+  line-height: 1.6;
+}
+
+.learning-content tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* First column (timestamp) — monospace + amber */
+.learning-content tbody td:first-child {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.82rem;
+  color: #B45309;
+  white-space: nowrap;
+  width: 140px;
+}
+
+/* Horizontal rule between viewpoints */
+.learning-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #D6D3D1, transparent);
+  margin: 2rem 0;
+}
+
+/* Bold labels inline */
+.learning-content strong {
+  color: #1C1917;
+}
+
+/* Smooth anchor scroll */
+.learning-content [id] {
+  scroll-margin-top: 2rem;
+}

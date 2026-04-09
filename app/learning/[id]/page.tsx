@@ -69,7 +69,7 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
 
                         {/* Content */}
                         <div
-                            className="prose prose-zinc max-w-none prose-headings:font-bold prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-lg prose-blockquote:border-l-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-zinc-700 prose-li:my-1"
+                            className="prose prose-zinc max-w-none learning-content prose-headings:font-bold prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-lg prose-blockquote:border-l-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-zinc-700 prose-li:my-1"
                             dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
                         />
                     </article>
