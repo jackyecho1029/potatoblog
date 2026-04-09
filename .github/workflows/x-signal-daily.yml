@@ -39,6 +39,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "feat: daily x signal update [skip ci]"
+            git commit -m "feat: daily x signal update"
             git push
           fi
