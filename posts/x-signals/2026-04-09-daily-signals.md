@@ -124,3 +124,121 @@ tags: ["X", "AI", "财富", "营销", "智慧", "日报"]
 ---
 
 *Curated by Potato · Powered by Python + Nitter · 01:46*
+
+
+## 🔄 更新 16:53
+
+## 🤖 AI科技
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @godofprompt | Claude Mythos并非简单的“有意识”或“烤面包机”，其价值在于两者之间200页的细节解读。 <!--fp:b64417f54f73fd01a29ad7ce6ee06333--> | [→ 原文](https://x.com/godofprompt/status/2042018444124811456#m) |
+| 2 | @levie | Box + Claude Managed Agents 赋能知识工作，实现内容工作流自动化，大幅提升效率。 <!--fp:dd4ef7dad0f2d337456c9ce8fa9368a7--> | [→ 原文](https://x.com/levie/status/2041975669928702370#m) |
+| 3 | @MatthewBerman | AlexFinn发布个人知识库工具，利用LLM维护，类似Karpathy的LLM Wiki设想。 <!--fp:2e1d98c7f3861904a892bc1f75fc5419--> | [→ 原文](https://www.journeykits.ai/browse/kits/henryfinn/personal-knowledge-wiki) |
+| 4 | @godofprompt | 利用Claude提示词，可替代加密货币顾问，实现比特币投资组合管理、安全咨询等服务。 <!--fp:b64417f54f73fd01a29ad7ce6ee06333--> | [→ 原文](https://x.com/godofprompt/status/2041929780657058147#m) |
+| 5 | @godofprompt | Seedance 2.0将完整制作工作室装入口袋，未来产出质量取决于指导水平。 <!--fp:b64417f54f73fd01a29ad7ce6ee06333--> | [→ 原文](https://x.com/godofprompt/status/2041896177151434960#m) |
+| 6 | @levie | Anthropic的Mythos再次证明模型能力快速提升，编码和工具使用能力持续增强。 <!--fp:dd4ef7dad0f2d337456c9ce8fa9368a7--> | [→ 原文](https://x.com/levie/status/2041732610179703100#m) |
+| 7 | @MatthewBerman | Mythos助力Claude Code团队快速交付，或使Python环境管理变得更容易。 <!--fp:2e1d98c7f3861904a892bc1f75fc5419--> | [→ 原文](https://x.com/MatthewBerman/status/2041658486279565644#m) |
+
+> **板块总结** | [板块总结]
+本期「🤖 AI科技」板块聚焦于Anthropic最新模型Mythos、AI Agent在各领域的应用以及开源项目进展。Mythos模型的强大能力引发广泛关注，预示着AI在编码、知识管理等方面的巨大潜力。AI Agent正渗透到知识工作流、客户服务、投资管理等多个领域，加速自动化进程。开源项目持续涌现，为开发者提供更多工具和资源。总体趋势是AI能力边界不断拓展，应用场景日益丰富，开源生态蓬勃发展。
+
+**⚡ 行动建议**
+- 💡 深入研究Claude Mythos的技术细节和应用潜力，探索其在特定领域的应用场景。
+- 💡 关注AI Agent相关开源项目，尝试将其集成到现有工作流程中，提高效率。
+- 💡 积极参与AI社区讨论，分享经验，共同推动AI技术发展。
+
+---
+
+## 💰 财富商业
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @alliekmiller | Disarray AI 在 Kaggle 竞赛中表现卓越，超越人类团队，展现 AI 潜力。 <!--fp:147868f9ab086ecd333ac0167a928873--> | [→ 原文](https://x.com/alliekmiller/status/2042011210418184246#m) |
+| 2 | @gregisenberg | 理解 Claude skills + AI agent 的关键在于优化上下文窗口，提升 Agent 表现。 <!--fp:e26096483762a5000c1b32e06a9f6d73--> | [→ 原文](https://x.com/gregisenberg/status/2042010418454184325#m) |
+| 3 | @startupideaspod | 用 Skills 代替 agent.md 文件能大幅节省 token，降低 AI 代理成本。 <!--fp:1ae704ac8fd78962eb30eb306fb21027--> | [→ 原文](https://x.com/startupideaspod/status/2041993793763966988#m) |
+| 4 | @gregisenberg | Anthropic 暂缓发布 Claude Mythos 因其强大的黑客能力，仅限特定合作伙伴使用。 <!--fp:e26096483762a5000c1b32e06a9f6d73--> | [→ 原文](https://x.com/gregisenberg/status/2041673990775726438#m) |
+| 5 | @startupideaspod | Mythos 在 SWE-bench 测试中表现远超 Opus 4.6，预示未来 AI 编程能力的巨大飞跃。 <!--fp:1ae704ac8fd78962eb30eb306fb21027--> | [→ 原文](https://x.com/startupideaspod/status/2041606980826231159#m) |
+| 6 | @startupideaspod | 围绕强大 AI 模型构建有效的 Workflow 比盲目堆砌技术更重要，关注真正生产力。 <!--fp:1ae704ac8fd78962eb30eb306fb21027--> | [→ 原文](https://x.com/startupideaspod/status/2042280490657612203#m) |
+| 7 | @alliekmiller | 为 Claude Code 添加截图技能能显著提升使用体验，解决其自身功能不足。 <!--fp:147868f9ab086ecd333ac0167a928873--> | [→ 原文](https://x.com/alliekmiller/status/2042279712991355105#m) |
+| 8 | @gregisenberg | 未来工程师/程序员最重要的技能将是营销，而非单纯的技术能力。 <!--fp:e26096483762a5000c1b32e06a9f6d73--> | [→ 原文](https://x.com/gregisenberg/status/2042267314494595542#m) |
+| 9 | @startupideaspod | Lindy 简化了 AI 助理的使用，通过手机号和 Google 账户即可快速配置。 <!--fp:1ae704ac8fd78962eb30eb306fb21027--> | [→ 原文](https://x.com/startupideaspod/status/2041234103668990190#m) |
+
+> **板块总结** | [板块总结]
+本周“财富商业”板块聚焦AI代理和效率工具的最新进展。Claude Mythos 强大的AI能力，以及Disarray在Kaggle竞赛中的卓越表现，都预示着AI在各领域的巨大潜力。同时，围绕AI模型的Workflow搭建和Skills的使用，成为提升生产力的关键。Lindy等AI助理的出现，则大大降低了AI的使用门槛，使得每个人都能轻松享受AI带来的便利。未来，具备营销思维的技术人才将更具价值。
+
+**⚡ 行动建议**
+- 💡 深入研究 Claude Mythos 和 Disarray 等先进 AI 模型的应用场景，思考如何将其融入现有业务。
+- 💡 优化你的 AI agent Workflow，从解决实际业务问题出发，避免盲目堆砌技术，提升生产力。
+- 💡 尝试使用 Lindy 等 AI 助理，体验 AI 带来的效率提升，并思考如何将其应用于个人或团队的工作流程中。
+
+---
+
+## 📣 增长营销
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @petergyang | AI订阅模式或将迎来分级，高端模型或采用计量付费。 <!--fp:ce180f8777fe1ffa7765530f26eda028--> | [→ 原文](https://x.com/garrytan/status/2042020823771517022#m) |
+| 2 | @boringmarketer | 追求刺激的亏损胜过枯燥的盈利。 <!--fp:8613e9939109bf978a42ace622721cbf--> | [→ 原文](https://x.com/boringmarketer/status/2041941660439892428#m) |
+| 3 | @AndrewBolis | 利用AI赚钱，快速上手指南免费领。 <!--fp:ad814b8989460a42011ddc2db0e9c60e--> | [→ 原文](https://x.com/AndrewBolis/status/2041882534221619681#m) |
+| 4 | @AndrewBolis | 选择合适的AI工具，提升效率。 <!--fp:ad814b8989460a42011ddc2db0e9c60e--> | [→ 原文](https://x.com/AndrewBolis/status/2041837242239610927#m) |
+| 5 | @ideabrowser | 将语音转录为文本，构建个人知识库，与AI高效互动。 <!--fp:0937cb7274363ef36ba7c6964e413aa9--> | [→ 原文](https://x.com/ideabrowser/status/2041549118271549713#m) |
+| 6 | @petergyang | AI Agent重塑工作模式，代码将驱动知识工作。 <!--fp:ce180f8777fe1ffa7765530f26eda028--> | [→ 原文](https://x.com/petergyang/status/2041331383344443795#m) |
+| 7 | @boringmarketer | 营销正快速工程化，具备AI工程思维的营销者优势巨大。 <!--fp:8613e9939109bf978a42ace622721cbf--> | [→ 原文](https://x.com/boringmarketer/status/2042269094796222863#m) |
+| 8 | @ideabrowser | 寻找高潜力创业点子：从爆款现象中挖掘新行业机会。 <!--fp:0937cb7274363ef36ba7c6964e413aa9--> | [→ 原文](https://x.com/ideabrowser/status/2042253249361703036#m) |
+| 9 | @petergyang | 中国开源AI模型正驱动硅谷创新，降低成本。 <!--fp:ce180f8777fe1ffa7765530f26eda028--> | [→ 原文](https://x.com/petergyang/status/2042248752157839793#m) |
+| 10 | @AndrewBolis | Perplexity不只是搜索，更是深度研究的强大引擎。 <!--fp:ad814b8989460a42011ddc2db0e9c60e--> | [→ 原文](https://x.com/AndrewBolis/status/2042199612128456716#m) |
+
+> **板块总结** | [板块总结]
+本周「增长营销」板块聚焦AI在效率提升和商业模式创新上的应用。AI工具的选择、使用和优化成为关注焦点，涵盖知识管理、内容创作、营销策略等方面。开源AI模型降低了技术门槛，推动创新。AI驱动的“副业”和创业机会涌现，但需警惕过度营销。未来的营销人员需要具备工程思维，才能在AI时代脱颖而出。订阅模式可能分级，中国开源AI崛起，Perplexity这类工具需要深挖研究功能。
+
+**⚡ 行动建议**
+- 💡 [行动1] 深入研究中国开源AI模型，评估其在自身业务中的应用潜力，降低成本并提升效率。
+- 💡 [行动2] 探索Perplexity等AI工具的深度研究功能，而非仅仅将其作为搜索引擎使用，提升信息获取和分析能力。
+- 💡 [行动3] 培养“AI工程思维”，学习如何将AI工具融入营销流程，提升工作效率和创新能力，例如 Prompt 编写能力。
+
+---
+
+## 🧠 智慧人生
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @dani_avila7 | Claude Managed Agents支持内置和自定义Skills，为技能提供了运行场所。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2041947384239026434#m) |
+| 2 | @dani_avila7 | 善用通用特性而非平行特性，避免开发团队被Claude过多功能淹没。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2041716550613295609#m) |
+| 3 | @dani_avila7 | Instagram内容策略转变带来百万浏览量，社交平台运营值得深思。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2041677644106744004#m) |
+| 4 | @dani_avila7 | Claude Code团队的“What We Shipped”网络研讨会值得回顾，了解最新进展。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2041608977637634106#m) |
+| 5 | @dani_avila7 | Anthropic发布Claude Mythos Preview，一款专门发现软件漏洞的前沿模型。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2041582824562581514#m) |
+| 6 | @dani_avila7 | 定义角色用subagent with skills，执行任务用skill with context: fork，组合使用更有效。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2041334719481004341#m) |
+| 7 | @dani_avila7 | 构建Claude Code中的技能时，务必掌握这些常用的frontmatter参数。 <!--fp:3d6e3dde2cbfe925f90435726be60c44--> | [→ 原文](https://x.com/dani_avila7/status/2042072100685394429#m) |
+
+> **板块总结** | [板块总结]
+本期「🧠 智慧人生」聚焦AI Agent与Claude平台的技术进展，以及社交媒体运营策略。关键趋势包括AI Agent的技能扩展与应用、软件漏洞的自动化检测、以及社交平台内容策略的重要性。此外，也关注到AI技术早期发布风险控制的讨论和AI专家Ray Kurzweil的活动参与度问题。整体反映了AI技术快速发展及其在安全、效率和社会影响等方面的多重挑战与机遇。
+
+**⚡ 行动建议**
+- 💡 [建议1] 深入研究Claude Managed Agents及相关Skills，探索其在个人效率和工作流程自动化中的应用。
+- 💡 [建议2] 关注Anthropic的最新发布及网络研讨会，紧跟AI技术前沿，提升自身在AI领域的认知和应用能力。
+- 💡 [建议3] 分析@dani_avila7的Instagram案例，思考如何在社交媒体上进行有效的内容创作和传播，提升个人影响力。
+
+---
+
+## ⚡ 构建者工具
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @Hesamation | AI Agent发展迅速，让人感觉像操控多个手臂的机甲，潜力巨大。 <!--fp:238aa771b7e0963e33fb1f2ae4619737--> | [→ 原文](https://x.com/Hesamation/status/2042014427839418431#m) |
+| 2 | @levie | 知识工作迎来后台Agent时代，Box API+Claude Agent可自动化内容工作流。 <!--fp:dd4ef7dad0f2d337456c9ce8fa9368a7--> | [→ 原文](https://x.com/levie/status/2041975669928702370#m) |
+| 3 | @Hesamation | Anthropic的Managed Agents或将颠覆大量Agent初创公司。 <!--fp:238aa771b7e0963e33fb1f2ae4619737--> | [→ 原文](https://x.com/Hesamation/status/2041937789571285372#m) |
+| 4 | @levie | Anthropic Mythos再次证明模型能力持续突破，Agent发展前景广阔。 <!--fp:dd4ef7dad0f2d337456c9ce8fa9368a7--> | [→ 原文](https://x.com/levie/status/2041732610179703100#m) |
+| 5 | @Hesamation | 自建GPU运行本地AI模型成本分析：3块RTX 3090可运行Qwen或Gemma等模型。 <!--fp:238aa771b7e0963e33fb1f2ae4619737--> | [→ 原文](https://x.com/Hesamation/status/2041607037704949780#m) |
+| 6 | @levie | AI Agent正将编程领域的生产力提升带到更广泛的知识工作中。 <!--fp:dd4ef7dad0f2d337456c9ce8fa9368a7--> | [→ 原文](https://x.com/levie/status/2041512156693201176#m) |
+| 7 | @levie | Agent时代，工作重心转移到指令设计、情境提供和干预审核上。 <!--fp:dd4ef7dad0f2d337456c9ce8fa9368a7--> | [→ 原文](https://x.com/levie/status/2041347596342460439#m) |
+| 8 | @Hesamation | 盲目努力是陷阱，找准方向、调整策略才能事半功倍。 <!--fp:238aa771b7e0963e33fb1f2ae4619737--> | [→ 原文](https://x.com/Hesamation/status/2042179240209023018#m) |
+
+> **板块总结** | [板块总结]
+本周“构建者工具”板块聚焦AI Agent的快速发展及其对知识工作的影响。Anthropic的Mythos和Managed Agents引发广泛关注，预示着自动化工作流和生产力提升的新时代。Agent技术在编码和更广泛的知识领域带来显著收益，但同时也对安全性和伦理提出了新的挑战。个人构建者需要关注模型能力提升，掌握Agent指令设计与审核技能，同时警惕安全风险。选择合适的硬件设备，可以在本地运行AI模型，享受技术红利。
+
+**⚡ 行动建议**
+- 💡 深入研究Anthropic的Mythos和Managed Agents，探索其在具体工作流程中的应用潜力，关注其开源进展。
+- 💡 提升Prompt工程技能，掌握Agent指令设计和情境提供，提高Agent工作效率和产出质量。
+- 💡 评估自建GPU运行本地AI模型的方案，根据自身需求选择合适的硬件配置，降低AI应用成本，同时关注安全风险。
+
