@@ -317,8 +317,9 @@ def main():
     print("  🛰  X Signal Categorized Briefing (Python)")
     print("═" * 50)
     
-    # 日期设置
-    now = datetime.now()
+    # 日期设置（使用北京时间 UTC+8，确保 GitHub Actions 上日期正确）
+    tz_bj = timezone(timedelta(hours=8))
+    now = datetime.now(tz_bj)
     date_str = now.strftime("%Y-%m-%d")
     filename = f"{date_str}-daily-signals.md"
     filepath = POSTS_DIR / filename
