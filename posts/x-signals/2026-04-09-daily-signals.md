@@ -242,3 +242,120 @@ tags: ["X", "AI", "财富", "营销", "智慧", "日报"]
 - 💡 提升Prompt工程技能，掌握Agent指令设计和情境提供，提高Agent工作效率和产出质量。
 - 💡 评估自建GPU运行本地AI模型的方案，根据自身需求选择合适的硬件配置，降低AI应用成本，同时关注安全风险。
 
+
+
+## 🔄 更新 17:12
+
+## 🤖 AI科技
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @GithubProjects | 使用零依赖从终端运行苹果智能。 <!--fp:8c47040f0a64467aefe978426719e283--> | [→ 原文](https://x.com/GithubProjects/status/2042007100671586325#m) |
+| 2 | @godofprompt | 12个ChatGPT提示语，通过共情、高效解决问题，提升客户满意度并降低成本。 <!--fp:14426c0a094229c0c8da7fe86cbe4d05--> | [→ 原文](https://www.godofprompt.ai/blog/12-chatgpt-prompts-that-handle-customer-c) |
+| 3 | @godofprompt | 使用Claude提示词，像Jack Dorsey的团队一样分析和增长比特币投资组合。 <!--fp:14426c0a094229c0c8da7fe86cbe4d05--> | [→ 原文](https://x.com/godofprompt/status/2041929780657058147#m) |
+| 4 | @PromptLLM | 使用Claude生成双耳节拍，辅助集中注意力。 <!--fp:f8329cb06f8d86eaa2ff6ac863651bef--> | [→ 原文](https://x.com/PromptLLM/status/2041918108193943692#m) |
+| 5 | @godofprompt | Seedance 2.0将完整制作工作室放入每个人的口袋，关键在于如何指导它。 <!--fp:14426c0a094229c0c8da7fe86cbe4d05--> | [→ 原文](https://x.com/godofprompt/status/2041896177151434960#m) |
+| 6 | @godofprompt | 将Claude变成任何你想要的比尔盖茨教练，并将其思维应用于你的情况。 <!--fp:14426c0a094229c0c8da7fe86cbe4d05--> | [→ 原文](https://x.com/godofprompt/status/2041853939302461554#m) |
+| 7 | @openclaw | OpenClaw更新至2026.4.7，增强推理能力，支持音乐/视频编辑，引入记忆维基，并提供webhook驱动的任务流。 <!--fp:4eb13ed9ce12c1668378db4baeb02846--> | [→ 原文](https://github.com/openclaw/openclaw/releases/tag/v) |
+| 8 | @openclaw | memory-wiki将OpenClaw内存转化为知识层，支持结构化声明、证据、矛盾跟踪等。 <!--fp:4eb13ed9ce12c1668378db4baeb02846--> | [→ 原文](https://docs.openclaw.ai/plugins/) |
+
+> **板块总结** | [板块总结]
+本周「🤖 AI科技」板块聚焦于大模型在多个领域的应用，如客户服务、投资组合管理、专注力提升、内容创作，以及OpenClaw等开源AI工具的创新功能。Prompt Engineering 的重要性再次凸显，通过精心设计的Prompt能更高效地利用AI能力，解决实际问题。同时，OpenClaw的更新强调了知识系统的重要性，从“信任我”走向基于证据和结构的知识管理。整体趋势表明，AI正朝着更易用、更专业、更知识驱动的方向发展。
+
+**⚡ 行动建议**
+- 💡 [建议1] 深入研究OpenClaw，探索其在构建知识图谱和自动化工作流方面的潜力，并考虑将其应用于个人或团队的项目中。
+- 💡 [建议2] 尝试Godofprompt分享的Claude提示词，利用其在投资和创业方面的能力，为自身提供指导或灵感。
+- 💡 [建议3] 关注PromptLLM提供的Prompt工程学习资源，掌握Prompt设计技巧，提升与大模型的交互效率和效果。
+
+---
+
+## 💰 财富商业
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @omooretweets | Google将NotebookLM功能整合到Gemini，是其迄今最佳的消费者AI产品发布。 <!--fp:736bb5f298290d462af540a50d481b79--> | [→ 原文](https://x.com/omooretweets/status/2041984001959924154#m) |
+| 2 | @EXM7777 | 中国实验室每周发布新的前沿模型，但缺乏利用这些算力的有效方法。 <!--fp:08753382d9baff7fb8128439f39c22ed--> | [→ 原文](https://x.com/EXM7777/status/2041983933332779348#m) |
+| 3 | @kloss_xyz | 使用AI代理进行深度研究，发现《纽约时报》谎话连篇。 <!--fp:95763bddb9ae1e6a307677789e2bea4d--> | [→ 原文](https://x.com/kloss_xyz/status/2041846319816569134#m) |
+| 4 | @kloss_xyz | 通过精妙的Prompt，可将代码代理转化为持续工作且不会破坏代码库的强大机器。 <!--fp:95763bddb9ae1e6a307677789e2bea4d--> | [→ 原文](https://x.com/kloss_xyz/status/2041822830187442421#m) |
+| 5 | @kloss_xyz | 新版本工具可一键运行各种AI任务，音乐和视频生成更智能，自动切换失败的Provider。 <!--fp:95763bddb9ae1e6a307677789e2bea4d--> | [→ 原文](https://x.com/kloss_xyz/status/2041745647959994728#m) |
+| 6 | @omooretweets | Google率先修复了iPhone上的语音听写功能，推出了AI Edge Eloquent应用。 <!--fp:736bb5f298290d462af540a50d481b79--> | [→ 原文](https://x.com/omooretweets/status/2041717258884719076#m) |
+| 7 | @kloss_xyz | Anthropic构建的Claude Mythos模型过于擅长发现安全漏洞，因此拒绝向公众发布。 <!--fp:95763bddb9ae1e6a307677789e2bea4d--> | [→ 原文](https://x.com/kloss_xyz/status/2041594359540490384#m) |
+| 8 | @kloss_xyz | Anthropic与Google和Broadcom签订协议，从2027年起获得3.5吉瓦的TPU容量。 <!--fp:95763bddb9ae1e6a307677789e2bea4d--> | [→ 原文](https://x.com/kloss_xyz/status/2041343976041762870#m) |
+| 9 | @kloss_xyz | 在AI领域，你需要挖掘模型中隐藏的工作流程和技能，并将自己产品化。 <!--fp:95763bddb9ae1e6a307677789e2bea4d--> | [→ 原文](https://x.com/kloss_xyz/status/2041318549231403297#m) |
+| 10 | @EXM7777 | Stripe通过让用户无需接触信用卡号来赢得支付市场，Composio正在AI代理领域采取类似策略。 <!--fp:08753382d9baff7fb8128439f39c22ed--> | [→ 原文](https://x.com/VibeMarketer_/status/2041520506038354120#m) |
+
+> **板块总结** | [板块总结]
+本周“💰财富商业”板块聚焦AI领域的新进展与商业应用。中国AI模型快速迭代，但应用能力仍待提升。Anthropic在AI安全领域展现领先地位，其Claude Mythos因安全考量未公开。同时，AI算力需求激增，Anthropic与Google和Broadcom签订巨额算力协议。Google在AI应用方面有所突破，率先修复iPhone语音听写功能。此外，个人开发者需重视AI模型中的隐藏技能，并将自身产品化，才能在AI浪潮中占据优势。Stripe模式在AI代理领域的应用也值得关注。
+
+**⚡ 行动建议**
+- 💡 [建议1] 深入研究Anthropic的安全AI模型思路，将安全作为AI产品设计的核心要素。
+- 💡 [建议2] 学习Composio，探索AI代理领域的数据安全解决方案，构建更安全的AI应用生态。
+- 💡 [建议3] 挖掘现有AI模型中的独特工作流，将这些技能与个人能力结合，打造差异化产品并实现个人品牌化。
+
+---
+
+## 📣 增长营销
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @milesdeutscher | Obsidian+Claude Code打造AI第二大脑，构建个人知识库，提升效率。 <!--fp:faef178388d58689bdd179cd8a007960--> | [→ 原文](https://x.com/milesdeutscher/status/2041972675418189933#m) |
+| 2 | @heyshrutimishra | Anthropic推出Claude Managed Agents，大幅简化Agent项目基础设施搭建。 <!--fp:f8a96ea7bbddb7d825dd63f5278d5b30--> | [→ 原文](https://x.com/heyshrutimishra/status/2041941843487711504#m) |
+| 3 | @milesdeutscher | Claude Mythos模型过于强大，未公开，引发AI安全及监管思考。 <!--fp:faef178388d58689bdd179cd8a007960--> | [→ 原文](https://x.com/milesdeutscher/status/2041921787072823343#m) |
+| 4 | @rubenhassid | 深度解析Claude功能：从基础聊天到自主运行的AI团队搭建指南。 <!--fp:edb987e30efc7efd00cb28d2d53c2d5f--> | [→ 原文](https://x.com/rubenhassid/status/2041848533129806089#m) |
+| 5 | @rubenhassid | 告别昂贵AI课程，Ruben提供免费Claude 101系列教程，直击重点。 <!--fp:edb987e30efc7efd00cb28d2d53c2d5f--> | [→ 原文](https://x.com/rubenhassid/status/2041757940785263101#m) |
+| 6 | @heyshrutimishra | Kilo提供OpenClaw托管服务，降低AI Agent部署门槛，解决安全问题。 <!--fp:f8a96ea7bbddb7d825dd63f5278d5b30--> | [→ 原文](https://x.com/heyshrutimishra/status/2041739122734461009#m) |
+| 7 | @heyshrutimishra | Kilo提供灵活模型选择，优化成本，Opus擅长复杂推理，其他模型处理简单任务。 <!--fp:f8a96ea7bbddb7d825dd63f5278d5b30--> | [→ 原文](https://x.com/heyshrutimishra/status/2041739097774158170#m) |
+| 8 | @heyshrutimishra | Google AI驱动购物体验升级，对话式交互成为新UX基准。 <!--fp:f8a96ea7bbddb7d825dd63f5278d5b30--> | [→ 原文](https://x.com/heyshrutimishra/status/2041589998701703288#m) |
+| 9 | @heyshrutimishra | Google Circle to Search升级，实现多物体视觉搜索，提升购物效率。 <!--fp:f8a96ea7bbddb7d825dd63f5278d5b30--> | [→ 原文](https://x.com/heyshrutimishra/status/2041589993450434908#m) |
+
+> **板块总结** | [板块总结]本周增长营销领域聚焦AI驱动的效率提升与用户体验革新。Claude生态持续扩展，从Agent简化部署到知识库构建，为开发者提供更强大工具。同时，AI安全问题日益凸显，引发对模型风险的关注。Google在AI购物领域的创新，预示着对话式交互将成为新标准，并重视新兴市场。总体趋势是AI能力持续增强，应用场景不断拓展，对开发者和营销者提出了更高要求，需要关注安全、伦理和用户体验。
+
+**⚡ 行动建议**
+- 💡 [建议1] 深入研究Claude生态，探索其在内容创作、客户服务等领域的应用潜力，并关注安全风险。
+- 💡 [建议2] 关注Google AI购物案例，思考如何利用AI驱动对话式交互，提升用户体验和转化率。
+- 💡 [建议3] 尝试Kilo等平台提供的OpenClaw托管服务，降低AI Agent部署成本，加速项目落地。
+
+---
+
+## 🧠 智慧人生
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @eptwts | 创始人应鼓励团队产出内容，建立与用户的真实连接，而非依赖品牌宣传。 <!--fp:f4abff4c34e54ac9019af026983a382a--> | [→ 原文](https://x.com/eptwts/status/2041960193613799785#m) |
+| 2 | @eptwts | 与其花巨资请网红推广，不如将资源投入于团队成员，打造自有影响力。 <!--fp:f4abff4c34e54ac9019af026983a382a--> | [→ 原文](https://x.com/eptwts/status/2041956103915704625#m) |
+| 3 | @mreflow | AI发展并非新鲜事，2019年OpenAI已因GPT-2的潜在风险而未公开全部算法。 <!--fp:639f4a9cf2e990ff704feab0608eb8e9--> | [→ 原文](https://x.com/mreflow/status/2041952504485966169#m) |
+| 4 | @eptwts | 掌握营销和流量基本功至关重要，AI只是加速工具，加速成功或失败。 <!--fp:f4abff4c34e54ac9019af026983a382a--> | [→ 原文](https://x.com/WiFiMoneyGuy/status/2041910665745453161#m) |
+| 5 | @eptwts | 2026年的SaaS是利基市场知识与LLM API的结合，专注胜过通用。 <!--fp:f4abff4c34e54ac9019af026983a382a--> | [→ 原文](https://x.com/eptwts/status/2041524052364329313#m) |
+| 6 | @viktoroddy | 利用Claude和Nano Banana，人人都能轻松创作高端社交媒体设计。 <!--fp:5aa45da50ceacaf900a7d470667045c6--> | [→ 原文](https://x.com/viktoroddy/status/2041517191615709279#m) |
+| 7 | @viktoroddy | 通过motionsites.ai，一键获取精美动画网站所需的所有提示词。 <!--fp:5aa45da50ceacaf900a7d470667045c6--> | [→ 原文](https://x.com/viktoroddy/status/2042281223934906697#m) |
+
+> **板块总结** | [板块总结]
+本期推文集中关注AI在内容创作、营销和SaaS领域的应用。核心趋势是：AI已成为一种强大的加速工具，但其效果取决于使用者对基本功的掌握程度。与其盲目追逐AI，不如将资源投入于提升团队自身的影响力，并专注于利基市场，将专业知识与AI能力相结合，才能在2026年的竞争中脱颖而出。同时，AI安全问题再次被提及，引发对技术发展伦理的反思。掌握prompt技巧，人人都可以利用AI创造优秀作品。
+
+**⚡ 行动建议**
+- 💡 [建议1] 优先提升自身及团队的内容创作和营销能力，再利用AI放大效果。
+- 💡 [建议2] 探索利基市场，将自身专业知识与AI工具相结合，打造差异化SaaS产品或服务。
+- 💡 [建议3] 积极学习和掌握Prompt Engineering技能，解锁AI在各领域的无限潜力。
+
+---
+
+## ⚡ 构建者工具
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @Hesamation | AI投资潮下，企业裁员引发对技术发展与就业的深刻反思。 <!--fp:6334df543c28234d9d360bbbd3f09197--> | [→ 原文](https://x.com/Hesamation/status/2041999589855621310#m) |
+| 2 | @Hesamation | 深度访谈揭示AI编码的现实，提醒开发者保持清醒认知。 <!--fp:6334df543c28234d9d360bbbd3f09197--> | [→ 原文](https://x.com/Hesamation/status/2041967337134239966#m) |
+| 3 | @Hesamation | Anthropic的Managed Agents可能颠覆agent创业生态，或加速行业洗牌。 <!--fp:6334df543c28234d9d360bbbd3f09197--> | [→ 原文](https://x.com/Hesamation/status/2041937789571285372#m) |
+| 4 | @johann_sath | Nanoclaw迁移方案，低成本运行Opus 4.6，Agent自主迁移展现强大能力。 <!--fp:f4c237b884dad2040327a16a0a7d74ae--> | [→ 原文](https://x.com/johann_sath/status/2041934004463476851#m) |
+| 5 | @johann_sath | Claude Mythos强大但受限，引发对AI能力与责任的伦理思考。 <!--fp:f4c237b884dad2040327a16a0a7d74ae--> | [→ 原文](https://x.com/johann_sath/status/2041852128021630981#m) |
+| 6 | @Hesamation | 自建GPU运行本地AI模型成为可能，3090s可运行Qwen/Gemma。 <!--fp:6334df543c28234d9d360bbbd3f09197--> | [→ 原文](https://x.com/Hesamation/status/2041607037704949780#m) |
+| 7 | @johann_sath | 拥抱失败，持续构建，量变带来质变，提升成功概率。 <!--fp:f4c237b884dad2040327a16a0a7d74ae--> | [→ 原文](https://x.com/johann_sath/status/2041604484779143175#m) |
+| 8 | @Hesamation | 努力并非万能，调整策略，转变方向，事半功倍才是关键。 <!--fp:6334df543c28234d9d360bbbd3f09197--> | [→ 原文](https://x.com/Hesamation/status/2042179240209023018#m) |
+
+> **板块总结** | [板块总结]本周“构建者工具”聚焦AI模型发展、伦理挑战、及个体开发者应对策略。Claude Mythos的强大能力和潜在风险引发广泛关注，同时也涌现出如Nanoclaw这样的替代方案，为开发者提供更多选择。企业裁员与AI投资并存，引发对技术发展与就业的思考。自建GPU降低AI模型运行成本，鼓励开发者探索本地部署。个体开发者应拥抱失败，持续迭代，并注重策略调整，提升效率。
+
+**⚡ 行动建议**
+- 💡 深入研究Nanoclaw等开源替代方案，降低AI应用成本，掌握自主权。
+- 💡 关注AI伦理与安全，积极参与相关讨论，为负责任的AI发展贡献力量。
+- 💡 将AI技术融入个人项目，持续实践，积累经验，在浪潮中站稳脚跟。
+
