@@ -95,7 +95,7 @@ async function run() {
         if (analysis) results.push(analysis);
     }
 
-    const date = new Date().toISOString().split('T')[0];
+    const date = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().split('T')[0];
 
     // Save as Blog Post (Saturday Edition)
     const blogPostPath = path.join(process.cwd(), `posts/${date}-long-form-gems-deep-dive.md`);

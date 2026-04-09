@@ -150,7 +150,7 @@ async function run() {
     const outputDir = path.join(process.cwd(), 'reports/gems');
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-    const date = new Date().toISOString().split('T')[0];
+    const date = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().split('T')[0];
     const outputFile = path.join(outputDir, `${date}-long-gems.md`);
 
     let content = `# 🎥 YouTube Long-form Hidden Gems (${date})\n\n`;

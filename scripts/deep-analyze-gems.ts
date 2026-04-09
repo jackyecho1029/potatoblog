@@ -102,7 +102,7 @@ export async function run() {
         if (analysis) results.push(analysis);
     }
 
-    const date = new Date().toISOString().split('T')[0];
+    const date = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().split('T')[0];
 
     // 1. Save as internal report
     const reportPath = path.join(process.cwd(), 'reports/gems/deep-analysis.md');
