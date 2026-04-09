@@ -142,9 +142,10 @@ article img+em,
 
 /* ========================================
    Learning Post — New Content Structure
+   Structure: Brief → Navigation → Detailed Content → Essence
    ======================================== */
 
-/* Section: 核心觀點 — viewpoint cards */
+/* Section headers (📋 Brief / ⏱️ Navigation / 📖 Details / 💎 Essence) */
 .learning-content h2 {
   font-size: 1.35rem;
   margin-top: 3rem;
@@ -154,15 +155,23 @@ article img+em,
   letter-spacing: 0.01em;
 }
 
+/* Sub-section headers (01｜ 02｜ etc.) */
 .learning-content h3 {
   font-size: 1.15rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   margin-bottom: 0.75rem;
   color: #92400E;
   font-weight: 600;
 }
 
-/* Quote block: 原話精華 */
+/* Brief section — subtle background */
+.learning-content > p:first-of-type {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #44403C;
+}
+
+/* Quote block: 重要原話 */
 .learning-content blockquote {
   border-left: 3px solid #F59E0B;
   background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
@@ -186,29 +195,7 @@ article img+em,
   border-top: 1px dashed #D6D3D1;
 }
 
-/* Section: 閱讀感受與延伸思考 */
-.learning-section-reflection {
-  background: #FDFBF7;
-  border: 1px solid #E7E5E4;
-  border-radius: 16px;
-  padding: 1.5rem 1.75rem;
-  margin: 2rem 0;
-}
-
-.learning-section-reflection strong {
-  color: #92400E;
-  display: block;
-  margin-bottom: 0.25rem;
-  font-size: 0.95rem;
-  letter-spacing: 0.02em;
-}
-
-.learning-section-reflection p {
-  margin: 0.5rem 0;
-  line-height: 1.85;
-}
-
-/* Section: 內容分段導航 table */
+/* Timestamp navigation table */
 .learning-content table {
   width: 100%;
   border-collapse: separate;
@@ -257,7 +244,7 @@ article img+em,
   width: 140px;
 }
 
-/* Horizontal rule between viewpoints */
+/* Horizontal rule — graceful separator */
 .learning-content hr {
   border: none;
   height: 1px;
@@ -265,9 +252,14 @@ article img+em,
   margin: 2rem 0;
 }
 
-/* Bold labels inline */
+/* Bold labels (核心觀點 / 個人感受 / 延伸思考 / 可參考的行動) */
 .learning-content strong {
   color: #1C1917;
+}
+
+/* Action items — slight emphasis */
+.learning-content p > strong:first-child {
+  color: #92400E;
 }
 
 /* Smooth anchor scroll */
