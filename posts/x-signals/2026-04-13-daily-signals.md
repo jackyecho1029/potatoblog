@@ -123,3 +123,112 @@ tags: ["X", "AI", "财富", "营销", "智慧", "日报"]
 ---
 
 *Curated by Potato · Powered by Python + Nitter · 00:55*
+
+
+## 🔄 更新 03:15
+
+## 🤖 AI科技
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @OpenAIDevs | Codex插件助力开发者构建macOS应用。 <!--fp:d532dcfeea2689aa63eb9b1c531217dd--> | [→ 原文](https://x.com/OpenAIDevs/status/2042369696608239848) |
+| 2 | @bcherny | Claude Cowork正式发布，协同效率提升。 <!--fp:3d38db6998a9c56a3bc96cb55589fe2e--> | [→ 原文](https://x.com/bcherny/status/2042344772153848043) |
+| 3 | @aiedge_ | Claude Skills助你10倍提升日常效率，策略值得借鉴。 <!--fp:97df44d8372abeaa883d1e19b4ab5dde--> | [→ 原文](https://x.com/aiedge_/status/2043404287410311544) |
+| 4 | @tom_doerr | 用于编辑器和AI智能体间通信的标准协议：agent-client-protocol。 <!--fp:f30587da3700490516d9399fe835eb15--> | [→ 原文](https://x.com/tom_doerr/status/2043377086589514137) |
+| 5 | @tom_doerr | 双AI Agent交叉检查代码，提升代码质量。 <!--fp:f30587da3700490516d9399fe835eb15--> | [→ 原文](https://x.com/tom_doerr/status/2043361521908998149) |
+| 6 | @tom_doerr | 统一的AI Agent技能CLI工具：asm。 <!--fp:f30587da3700490516d9399fe835eb15--> | [→ 原文](https://x.com/tom_doerr/status/2043357849309356321) |
+
+> **板块总结** | [板块总结]
+本周AI科技板块聚焦于 Claude 相关工具与应用、AI Agent 的能力提升、以及开发者效率工具的涌现。Claude 的生态系统正在快速发展，涌现出诸如协同工具、效率提升技巧等。同时，AI Agent 的标准化通信协议和代码交叉检查工具，预示着AI在软件开发流程中将扮演更重要的角色。此外，多个开源项目展示了AI技术在不同领域的应用潜力。这表明AI正逐步深入到各个行业，并持续赋能开发者与研究者。
+
+**⚡ 行动建议**
+- 💡 [建议1] 深入研究 Claude 生态工具，将其融入到工作流程中，提升个人和团队效率。
+- 💡 [建议2] 关注 AI Agent 的标准化协议，为未来的 AI 应用开发做好技术储备。
+- 💡 [建议3] 积极探索开源项目，尝试将 AI 技术应用于实际业务场景，发现新的增长点。
+
+---
+
+## 💰 财富商业
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @Codie_Sanchez | 别指望你的专业能决定你的职业生涯，大胆跨界吧。 <!--fp:2308366bb7800d36107b47e62caeaa2e--> | [→ 原文](https://x.com/Codie_Sanchez/status/2043395529481113785) |
+| 2 | @kloss_xyz | 掌握X平台增长秘诀，避免致命错误，构建你的影响力。 <!--fp:4cd4646bf4bd7437f506c46cd6e1235c--> | [→ 原文](https://x.com/kloss_xyz/status/2043392748536152316) |
+| 3 | @EXM7777 | Prompt工程已死，是因为我们过度依赖AI，丧失了独立思考能力。 <!--fp:bb4826f56fc8efe591c94384c2bd2c43--> | [→ 原文](https://x.com/EXM7777/status/2043387933420581329) |
+| 4 | @alliekmiller | 现在是2026，你需要掌握AI Agent，免费观看我的AI Agent教学。 <!--fp:0eb987c8163041e24aaeade757aea234--> | [→ 原文](https://x.com/alliekmiller/status/2043339026728460384) |
+| 5 | @minchoi | Claude Code新增TurboTax连接器，简化税务流程，提升效率。 <!--fp:dfb12a83982052abf80a43265bf57c9a--> | [→ 原文](https://x.com/minchoi/status/2043168448268652682) |
+| 6 | @gregisenberg | AI Agent或将破坏互联网，如同过去的营销一样。 <!--fp:cbfb1f059b71dd2792385eb79aa6a150--> | [→ 原文](https://x.com/gregisenberg/status/2043400791760007465) |
+
+> **板块总结** | [板块总结]本周“财富商业”板块聚焦AI Agent应用、Prompt工程反思、平台增长策略、职业生涯规划以及税务流程优化。AI Agent正渗透到各行各业，机遇与挑战并存，独立思考能力至关重要，不能过度依赖AI工具。平台增长需要掌握核心规则，职业生涯发展不应受限于专业。简化流程，提升效率始终是商业追求的目标。
+
+**⚡ 行动建议**
+- 💡 [建议1] 积极拥抱AI Agent，将其应用于商业模式创新和效率提升，但警惕过度依赖，保持独立思考能力。
+- 💡 [建议2] 持续学习和实践X平台增长策略，建立个人品牌和影响力，拓展商业机会。
+- 💡 [建议3] 关注AI在税务、金融等领域的应用，提升专业技能，把握行业变革的先机。
+
+---
+
+## 📣 增长营销
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @ideabrowser | 面向婴儿潮一代开发应用，抓住他们巨大的财富和购买力。 <!--fp:f90919cf8f56204036746e370a00e349--> | [→ 原文](https://x.com/ideabrowser/status/2042954227329216913) |
+| 2 | @milesdeutscher | AI是力量倍增器，能放大优秀交易员的能力，而非使人直接致富。 <!--fp:0b2511ba31d29cbea217b3c884cf0914--> | [→ 原文](https://x.com/milesdeutscher/status/2042988538057081063) |
+| 3 | @milesdeutscher | 2026年及以后，软技能比硬技能更有价值，拥抱情商、沟通等能力。 <!--fp:0b2511ba31d29cbea217b3c884cf0914--> | [→ 原文](https://x.com/milesdeutscher/status/2042807377263788532) |
+| 4 | @milesdeutscher | 利用Claude Skills自动化日常工作流程，快速提升效率，否则将被超越。 <!--fp:0b2511ba31d29cbea217b3c884cf0914--> | [→ 原文](https://x.com/milesdeutscher/status/2042762071121760668) |
+| 5 | @milesdeutscher | 在AI时代，掌握适应性、创造力等7项技能，让你在自动化浪潮中脱颖而出。 <!--fp:0b2511ba31d29cbea217b3c884cf0914--> | [→ 原文](https://x.com/milesdeutscher/status/2042689332222529828) |
+| 6 | @milesdeutscher | AI赋能下，整个互联网都蕴藏商机，快速行动者方能抓住SaaS、内容等机会。 <!--fp:0b2511ba31d29cbea217b3c884cf0914--> | [→ 原文](https://x.com/milesdeutscher/status/2043116932799553749) |
+| 7 | @milesdeutscher | 用3个文件永久解决Claude的记忆问题，让它记住你的偏好和写作风格。 <!--fp:0b2511ba31d29cbea217b3c884cf0914--> | [→ 原文](https://x.com/milesdeutscher/status/2043079162299371645) |
+| 8 | @heyshrutimishra | Claude今年新增120+功能，自制一份备忘单，高效使用AI工具。 <!--fp:48de5aac2fa200bc7970dbe75c5e8fa6--> | [→ 原文](https://x.com/heyshrutimishra/status/2043114754643022247) |
+
+> **板块总结** | [板块总结]
+本周「增长营销」聚焦AI在营销和效率提升上的应用。核心趋势是AI不再是独立的致富工具，而是能力放大器，需要与软技能结合。Claude作为重要的效率工具被多次提及，包括技能学习、记忆增强、流程自动化等方面。此外，面向特定人群（如婴儿潮一代）的垂直领域机会也值得关注。成功关键在于快速行动、持续学习AI新功能、并结合自身优势，才能在AI浪潮中占据领先地位。
+
+**⚡ 行动建议**
+- 💡 立即行动，选择一个AI工具（如Claude）并深入学习，制定明确的应用场景和目标。
+- 💡 提升自身软技能，尤其是沟通、创造力等，并思考如何将其与AI工具结合，创造差异化优势。
+- 💡 识别并分析特定人群（如老年群体）的需求，利用AI开发创新产品和服务，抢占市场先机。
+
+---
+
+## 🧠 智慧人生
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @DeRonin_ | 订阅打折季，Higgs + Seedance 2.0黄金时代来临。 <!--fp:861bc64f270ecc7e13dcddc50e6b099f--> | [→ 原文](https://x.com/DeRonin_/status/2042376587165782343) |
+| 2 | @viktoroddy | 手把手教你用Google AI Studio搭建高端滚动叙事网站。 <!--fp:e5e51ab1af96ff720c43e747251021bd--> | [→ 原文](https://x.com/viktoroddy/status/2043399287300858336) |
+| 3 | @eptwts | Obsidian知识库是最高效的项目、知识、内容管理工具。 <!--fp:dd23389f6760d8a16a372e2b12e595cc--> | [→ 原文](https://x.com/eptwts/status/2043347089438986609) |
+| 4 | @DeRonin_ | 用Claude写GTA 6的RP故事，成为首个UGC百万富翁。 <!--fp:861bc64f270ecc7e13dcddc50e6b099f--> | [→ 原文](https://x.com/DeRonin_/status/2043340775505756231) |
+| 5 | @DeRonin_ | GTA 6生态系统蓝图：抢先布局，掘金未来。 <!--fp:861bc64f270ecc7e13dcddc50e6b099f--> | [→ 原文](https://x.com/DeRonin_/status/2043288938845028548) |
+| 6 | @DeRonin_ | 掌握Seedance 2.0低成本使用技巧，效率翻倍。 <!--fp:861bc64f270ecc7e13dcddc50e6b099f--> | [→ 原文](https://x.com/DeRonin_/status/2043156122282955155) |
+| 7 | @DeRonin_ | Karpathy发布大脑克隆蓝图，加速个人智能体时代到来。 <!--fp:861bc64f270ecc7e13dcddc50e6b099f--> | [→ 原文](https://x.com/DeRonin_/status/2042908558606348788) |
+| 8 | @DeRonin_ | Anthropic CEO预测软件工程师将在12个月内完全自动化。 <!--fp:861bc64f270ecc7e13dcddc50e6b099f--> | [→ 原文](https://x.com/DeRonin_/status/2042875513492947286) |
+| 9 | @mreflow | Sam Altman发布博客，分享对AI发展的思考。 <!--fp:adce14f0090d3848531a26fd4cd1e740--> | [→ 原文](https://blog.samaltman.com/2279512) |
+
+> **板块总结** | [板块总结]本周“智慧人生”聚焦AI驱动的效率提升与未来趋势。从个人知识管理工具Obsidian的应用，到利用Claude生成UGC内容、甚至克隆大脑的可能性，再到软件工程师可能面临的自动化挑战，都指向AI正在重塑工作和生活。Sam Altman的博客则引发了对AI伦理与发展方向的进一步思考。拥抱AI，积极探索，才能在未来社会立于不败之地。
+
+**⚡ 行动建议**
+- 💡 立即开始探索并应用AI工具，如Seedance 2.0、Claude，提升效率和创造力。
+- 💡 深度学习Karpathy的大脑克隆蓝图，关注个人智能体技术发展，为未来做好准备。
+- 💡 持续关注AI伦理和社会影响，思考如何应对自动化带来的挑战，并积极参与讨论。
+
+---
+
+## ⚡ 构建者工具
+
+| # | 来源 | 今日信号 | 链接 |
+|---|------|---------|------|
+| 1 | @johann_sath | Cyndra_ai 招募有实际AI Agent生产经验的工程师，非教程经验者优先。 <!--fp:40320135f52f3e30b7f53b87d9d79592--> | [→ 原文](https://x.com/johann_sath/status/2042344017002897705) |
+| 2 | @Hesamation | AI领域大佬云集，但总有人觉得AI没什么了不起。 <!--fp:97d432b9f6b1625e9d506f90eb395953--> | [→ 原文](https://x.com/Hesamation/status/2043390787866530007) |
+| 3 | @Hesamation | 有人怀疑Claude的代码系统prompt最近的改动导致了性能下降。 <!--fp:97d432b9f6b1625e9d506f90eb395953--> | [→ 原文](https://x.com/Hesamation/status/2043360686491705851) |
+| 4 | @Hesamation | 别笑！NASA能精确预测着陆时间，而开发者却无法按时交付dashboard。 <!--fp:97d432b9f6b1625e9d506f90eb395953--> | [→ 原文](https://x.com/Hesamation/status/2043130095313842265) |
+| 5 | @Hesamation | AMD Senior AI Director 确认 Claude 性能被削弱，思考字符数大幅下降。 <!--fp:97d432b9f6b1625e9d506f90eb395953--> | [→ 原文](https://x.com/Hesamation/status/2042979931504701805) |
+| 6 | @Hesamation | 招聘AI工程师时，请先了解各工具的实际发布时间，避免闹笑话。 <!--fp:97d432b9f6b1625e9d506f90eb395953--> | [→ 原文](https://x.com/Hesamation/status/2043139762215661644) |
+
+> **板块总结** | [板块总结]本周「⚡ 构建者工具」聚焦AI模型性能变化、行业人才需求以及工具使用规范。Claude的性能下降引发关注，招聘AI工程师需关注工具的实际发布时间。Cyndra_ai正在招募有实际生产经验的AI Agent构建者。这些信号反映了AI领域对实际应用能力的需求日益增长，以及模型迭代带来的挑战。构建者需要持续关注模型的变化，并提升实际应用能力，才能在激烈的竞争中脱颖而出。
+
+**⚡ 行动建议**
+- 💡 [建议1] 关注开源社区对 Claude 性能变化及 prompt 优化的讨论，及时调整prompt工程策略。
+- 💡 [建议2] 尝试构建端到端的 AI Agent 应用，积累实际生产经验，提升自身在 AI 构建领域的竞争力。
+- 💡 [建议3] 深入研究新兴 AI 工具的底层逻辑和应用场景，避免盲目跟风，选择真正适合自己的工具。
+
