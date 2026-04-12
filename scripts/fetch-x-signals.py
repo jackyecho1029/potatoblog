@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 X Signal Daily Briefing - Python Version
-使用 Nitter 公开 RSS 镜像抓取 X (Twitter) 内容，无需 API Key
+使用自部署 RSSHub 抓取 X (Twitter) 内容
 按板块分类，每板块筛选 5-10 条高价值内容，生成中文摘要和行动建议
 """
 
@@ -48,18 +48,9 @@ ENV = load_env()
 GEMINI_API_KEY = ENV.get("GEMINI_API_KEY", "")
 GLM_API_KEY = ENV.get("GLM_API_KEY", "")
 
-# ─── Nitter 公开实例列表（自动轮换） ─────────────────────────────────────────
+# ─── RSSHub 配置（自部署） ────────────────────────────────────────────────────
 
-NITTER_INSTANCES = [
-    "https://nitter.net",
-    "https://nitter.privacydev.net",
-    "https://nitter.poast.org",
-    "https://nitter.1d4.us",
-    "https://nitter.kavin.rocks",
-    "https://nitter.unixfox.eu",
-    "https://nitter.catsarch.com",
-    "https://nitter.moomoo.me",
-]
+RSSHUB_BASE = os.environ.get("RSSHUB_URL", "https://rsshub-production-3f0d.up.railway.app")
 
 # ─── 去重工具 ─────────────────────────────────────────────────────────────────
 
@@ -84,25 +75,27 @@ def load_existing_dedupe_set() -> set:
     print(f"📚 去重库加载完成，共 {len(seen)} 条历史记录")
     return seen
 
-# ─── Nitter RSS 抓取 ──────────────────────────────────────────────────────────
+# ─── RSSHub Twitter 抓取 ─────────────────────────────────────────────────────
 
 def fetch_user_tweets(username: str, dedupe: set, max_retries: int = 3) -> List[Dict]:
     """
-    通过 Nitter 公开 RSS 抓取用户最新推文。
-    自动轮换实例，失败时重试。
+    通过自部署 RSSHub 抓取用户最新推文。
+    RSSHub 使用 Twitter auth_token 认证，稳定可靠。
     """
-    instances = NITTER_INSTANCES.copy()
-    random.shuffle(instances)  # 随机化，分散负载
-    
     cutoff = datetime.now(timezone.utc) - timedelta(days=3)
-    
-    for instance in instances[:max_retries]:
-        url = f"{instance}/{username}/rss"
+
+    url = f"{RSSHUB_BASE}/twitter/user/{username}"
+
+    for attempt in range(max_retries):
         try:
-            feed = feedparser.parse(url, agent="Mozilla/5.0 (compatible; RSS reader)")
+            resp = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0 (compatible; RSS reader)"})
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.text)
+
             if not feed.entries:
-                continue
-            
+                print(f"    ⚠ @{username} RSS 返回空")
+                return []
+
             tweets = []
             for entry in feed.entries:
                 # 解析发布时间
@@ -111,25 +104,25 @@ def fetch_user_tweets(username: str, dedupe: set, max_retries: int = 3) -> List[
                     pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
                     if pub_dt < cutoff:
                         continue
-                
+
                 content = entry.get("title") or entry.get("summary") or ""
-                # 清理 Nitter 内容 (去掉 RT、@reply 等)
+                # 清理 HTML 标签
                 content = re.sub(r'^RT @\w+:', '', content).strip()
                 content = re.sub(r'<[^>]+>', '', content).strip()
-                
+
                 if len(content) < 20:  # 跳过太短的内容
                     continue
-                
+
                 link = entry.get("link", "")
                 # 标准化链接为 x.com 格式
                 link = re.sub(r'https?://[^/]+/', 'https://x.com/', link)
-                
+
                 fp = get_fingerprint(content)
-                
+
                 # 去重检查
                 if link in dedupe or fp in dedupe:
                     continue
-                
+
                 tweets.append({
                     "author": f"@{username}",
                     "content": content,
@@ -137,15 +130,15 @@ def fetch_user_tweets(username: str, dedupe: set, max_retries: int = 3) -> List[
                     "pubDate": entry.get("published", ""),
                     "fingerprint": fp,
                 })
-            
-            if tweets:  # 成功获取，直接返回
-                return tweets
-                
+
+            return tweets
+
         except Exception as e:
-            print(f"    ⚠ {instance} 失败: {e}")
-            time.sleep(0.5)
+            print(f"    ⚠ RSSHub 抓取 @{username} 失败 (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2)
             continue
-    
+
     return []
 
 # ─── 分类配置加载 ─────────────────────────────────────────────────────────────
