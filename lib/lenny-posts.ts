@@ -123,7 +123,7 @@ function extractGuestName(filename: string, title: string): string {
 function extractSummary(content: string): string {
     // Find the first meaningful paragraph after # 🎯 核心结论
     // Use [\s\S] instead of . with s flag for compatibility
-    const conclusionMatch = content.match(/# 🎯 核心结论[\s\S]*?\n\n(.+?)(?:\n\n|---)/);
+    const conclusionMatch = content.match(/# 🎯 核心(?:结论|观点)[\s\S]*?\n\n(.+?)(?:\n\n|---)/);
     if (conclusionMatch) {
         const summary = conclusionMatch[1].trim();
         // Limit to ~50 chars
@@ -150,7 +150,7 @@ function extractQuote(content: string): string {
     }
 
     // Fallback: first sentence of summary
-    const summaryMatch = content.match(/# 🎯 核心结论\s*\n\n([^。！？]+[。！？])/);
+    const summaryMatch = content.match(/# 🎯 核心(?:结论|观点)\s*\n\n([^。！？]+[。！？])/);
     return summaryMatch ? summaryMatch[1].slice(0, 50) : '';
 }
 
