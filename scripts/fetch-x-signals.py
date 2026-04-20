@@ -154,7 +154,7 @@ def load_categories() -> Dict[str, Any]:
 
 def call_gemini(prompt: str) -> str:
     """调用 Gemini API"""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     resp = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=60)
     resp.raise_for_status()
     return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
