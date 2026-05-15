@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 190070.2x | 12,164,493 | 64 | [1355281 BJ REELIFE 加ICON 免费图标 免费长文案 离别万里遥无期（印尼语） 二创 注解 260326 WYN BJL+1](https://www.youtube.com/watch?v=MES2kEVm89E) by **Reelife_ShortDrama Original** |
-| 🔥 10099.13x | 2,928,748 | 290 | [1367885 BJ REELIFE 加ICON 免费图标 免费长文案 全城警报（印尼语配音版）（印尼语） 剧情 原片 260409 WBY BJL+1](https://www.youtube.com/watch?v=onkudXQCLik) by **Reelife_ShortDrama Picks** |
-| 🔥 9074.98x | 2,631,745 | 290 | [1358062 BJ REELIFE 加ICON 免费图标 免费长文案 후아유그녀는+누구인가千金你是谁（印尼语） 二创 广播剧 260330 WYN BJL](https://www.youtube.com/watch?v=lls4K3v9SMI) by **Reelife_ShortDrama Picks** |
-| 🔥 3013.93x | 874,040 | 290 | [1357285 BJ REELIFE 加ICON 免费图标 免费长文案 雯月（印尼语配音版）（印尼语） 原片 260330 WBY BJL+1](https://www.youtube.com/watch?v=fZd9L0dKoWw) by **Reelife_ShortDrama Picks** |
-| 🔥 1690.75x | 3,736,560 | 2,210 | [Puppy Made A Wooden Big Toy #shortvideo #ai #shortvideo #shortsviral #trendingshorts](https://www.youtube.com/watch?v=c3fthfIuMQA) by **Brajnandan Rana Ai** |
+| 🔥 188398.74x | 12,245,918 | 65 | [1355281 BJ REELIFE 加ICON 免费图标 免费长文案 离别万里遥无期（印尼语） 二创 注解 260326 WYN BJL+1](https://www.youtube.com/watch?v=MES2kEVm89E) by **Reelife_ShortDrama Original** |
+| 🔥 10054.94x | 2,936,042 | 292 | [1367885 BJ REELIFE 加ICON 免费图标 免费长文案 全城警报（印尼语配音版）（印尼语） 剧情 原片 260409 WBY BJL+1](https://www.youtube.com/watch?v=onkudXQCLik) by **Reelife_ShortDrama Picks** |
+| 🔥 9017.29x | 2,633,049 | 292 | [1358062 BJ REELIFE 加ICON 免费图标 免费长文案 후아유그녀는+누구인가千金你是谁（印尼语） 二创 广播剧 260330 WYN BJL](https://www.youtube.com/watch?v=lls4K3v9SMI) by **Reelife_ShortDrama Picks** |
+| 🔥 3002.91x | 876,850 | 292 | [1357285 BJ REELIFE 加ICON 免费图标 免费长文案 雯月（印尼语配音版）（印尼语） 原片 260330 WBY BJL+1](https://www.youtube.com/watch?v=fZd9L0dKoWw) by **Reelife_ShortDrama Picks** |
+| 🔥 1690.75x | 3,736,566 | 2,210 | [Puppy Made A Wooden Big Toy #shortvideo #ai #shortvideo #shortsviral #trendingshorts](https://www.youtube.com/watch?v=c3fthfIuMQA) by **Brajnandan Rana Ai** |
 | 🔥 1435.67x | 4,307 | 3 | [换圈子等于换人生。#个人成长 #人间温暖 #励志 #思维提升 #圈子 @帧心动画](https://www.youtube.com/watch?v=U8jfWn5urSc) by **沐宸智慧生活** |
 | 🔥 1246.36x | 191,939 | 154 | [How the marketing team comes into the office after seeing The Devil Wears Prada 2](https://www.youtube.com/watch?v=85B4RWGcnuE) by **AmourLinen** |
-| 🔥 983.28x | 6,086,476 | 6,190 | [Fatty woman became rich after selling Dimond pigs #shorts #ai](https://www.youtube.com/watch?v=2CwDS6k778c) by **Ai Little Beast ** |
-| 🔥 923.38x | 5,715,742 | 6,190 | [greedy farmer and golden hen beautiful story part 2 #ai #shorts #farmer](https://www.youtube.com/watch?v=vocyeXQGyFg) by **Ai Little Beast ** |
-| 🔥 635.3x | 331,626 | 522 | [数学老师的隐藏实力，原来我的老师藏着全能Buff！ #家长课堂  #学科挑战 #学习 #学霸秘籍 #老师日常 @抖音小助手](https://www.youtube.com/watch?v=EyMXIJsXcPg) by **一鸣讲数学** |
-| 🔥 398.16x | 418,066 | 1,050 | [教師は逆心理学を用いて、生徒たちにその問題に再び向き合わせようとした。](https://www.youtube.com/watch?v=AvQ9GDgCVUE) by **ノーススノー** |
-| 🔥 354.45x | 552,946 | 1,560 | [Toy Story 5 Marketing Makes No Sense](https://www.youtube.com/watch?v=cB1TRgoB02c) by **Jakey Story** |
-| 🔥 306.57x | 913,585 | 2,980 | [马斯克你太不懂营销了](https://www.youtube.com/watch?v=8LCzTcqZxXI) by **X电波** |
-| 🔥 250.12x | 1,848,392 | 7,390 | [Genios 🤯😮‍💨 #cars #marketing](https://www.youtube.com/watch?v=4R0PBJxToNo) by **Juani Piedrasanta** |
-| 🔥 210.17x | 112,861 | 537 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
-| 🔥 209.79x | 81,610 | 389 | [【哲学】深すぎる、、、　#shorts](https://www.youtube.com/watch?v=jqlQ6Pw-rw4) by **還元くん** |
+| 🔥 983.28x | 6,086,483 | 6,190 | [Fatty woman became rich after selling Dimond pigs #shorts #ai](https://www.youtube.com/watch?v=2CwDS6k778c) by **Ai Little Beast ** |
+| 🔥 923.39x | 5,715,782 | 6,190 | [greedy farmer and golden hen beautiful story part 2 #ai #shorts #farmer](https://www.youtube.com/watch?v=vocyeXQGyFg) by **Ai Little Beast ** |
+| 🔥 634.98x | 332,730 | 524 | [数学老师的隐藏实力，原来我的老师藏着全能Buff！ #家长课堂  #学科挑战 #学习 #学霸秘籍 #老师日常 @抖音小助手](https://www.youtube.com/watch?v=EyMXIJsXcPg) by **一鸣讲数学** |
+| 🔥 398.66x | 418,593 | 1,050 | [教師は逆心理学を用いて、生徒たちにその問題に再び向き合わせようとした。](https://www.youtube.com/watch?v=AvQ9GDgCVUE) by **ノーススノー** |
+| 🔥 378.17x | 2,269 | 6 | [沒有文案](https://www.youtube.com/watch?v=RZg7NJbf2Bw) by **goutouyuchi jinyu** |
+| 🔥 357.3x | 557,390 | 1,560 | [Toy Story 5 Marketing Makes No Sense](https://www.youtube.com/watch?v=cB1TRgoB02c) by **Jakey Story** |
+| 🔥 306.84x | 914,377 | 2,980 | [马斯克你太不懂营销了](https://www.youtube.com/watch?v=8LCzTcqZxXI) by **X电波** |
+| 🔥 250.96x | 1,857,094 | 7,400 | [Genios 🤯😮‍💨 #cars #marketing](https://www.youtube.com/watch?v=4R0PBJxToNo) by **Juani Piedrasanta** |
+| 🔥 210.33x | 112,947 | 537 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
+| 🔥 209.8x | 81,611 | 389 | [【哲学】深すぎる、、、　#shorts](https://www.youtube.com/watch?v=jqlQ6Pw-rw4) by **還元くん** |
 | 🔥 179.71x | 27,676 | 154 | [#餐车 #餐车厂家 #创业 @快手创作者中心 @快手热点#foodblogger#foodchallenge #short#trendingshorts](https://www.youtube.com/watch?v=gd00sO9Kkdo) by **Picnic Girl 796** |
 | 🔥 161.34x | 70,829 | 439 | [Marketing tips to school and college in Hindi - Admission tips to schools and colleges at Rs 91](https://www.youtube.com/watch?v=_gV3juHsldM) by **Advanced AI-Powered School Management Software** |
 | 🔥 115.42x | 1,385 | 12 | [想了半天權威文案，發現視頻最權威 成都 #男士眉 #野生眉 #眉形設計](https://www.youtube.com/watch?v=oxiH7Qp0lPQ) by **Janusz Slesinska** |
-| 🔥 115.07x | 5,063 | 44 | [看什么文案，看我 ！！#舞蹈 #广场舞 #慢动作 #清纯甜美 #小姐姐 @DOU+上热门 @抖音小助手](https://www.youtube.com/watch?v=R8Z-sim3e8E) by **小辣椒梦想** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
