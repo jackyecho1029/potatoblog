@@ -50,7 +50,8 @@ GLM_API_KEY = ENV.get("GLM_API_KEY", "")
 
 # ─── RSSHub 配置（自部署） ────────────────────────────────────────────────────
 
-RSSHUB_BASE = os.environ.get("RSSHUB_URL", "https://rsshub-production-3f0d.up.railway.app")
+RSSHUB_BASE = os.environ.get("RSSHUB_URL", "https://ingenious-respect-production-5f07.up.railway.app")
+FETCH_FAILURES = 0
 
 # ─── 去重工具 ─────────────────────────────────────────────────────────────────
 
@@ -139,6 +140,8 @@ def fetch_user_tweets(username: str, dedupe: set, max_retries: int = 3) -> List[
                 time.sleep(2)
             continue
 
+    global FETCH_FAILURES
+    FETCH_FAILURES += 1
     return []
 
 # ─── 分类配置加载 ─────────────────────────────────────────────────────────────
@@ -309,6 +312,7 @@ def main():
     print("═" * 50)
     print("  🛰  X Signal Categorized Briefing (Python)")
     print("═" * 50)
+    print(f"RSSHub: {RSSHUB_BASE}")
     
     # 日期设置（使用北京时间 UTC+8，确保 GitHub Actions 上日期正确）
     tz_bj = timezone(timedelta(hours=8))
@@ -346,11 +350,13 @@ def main():
     print(f"\n📊 总计抓取: {total_fetched} 条新推文")
     
     if total_fetched == 0:
-        print("\n⚠️  所有 Nitter 实例均无法访问或无新内容。")
+        print("\n❌ RSSHub 未抓到任何 X 内容。")
         print("💡 可能原因：")
-        print("   1. Nitter 实例被限流，请稍后重试")
-        print("   2. 订阅账号近3天无新推文")
-        return
+        print("   1. RSSHub Twitter 路由认证失败或被 X 限流")
+        print("   2. Railway 出口 IP 被 X 拦截")
+        print("   3. RSSHub URL 配置不正确")
+        print(f"   失败账号数: {FETCH_FAILURES}")
+        sys.exit(2)
     
     # 生成板块信号
     print("\n🤖 开始生成 AI 分析...\n")
@@ -392,7 +398,7 @@ tags: ["X", "AI", "财富", "营销", "智慧", "日报"]
 
 {category_sections}---
 
-*Curated by Potato · Powered by Python + Nitter · {now.strftime("%H:%M")}*
+*Curated by Potato · Powered by Python + RSSHub · {now.strftime("%H:%M")}*
 """
     
     # 写入文件

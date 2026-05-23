@@ -29,7 +29,7 @@ jobs:
       - name: Generate X Signal
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          RSSHUB_URL: https://rsshub-production-3f0d.up.railway.app
+          RSSHUB_URL: https://ingenious-respect-production-5f07.up.railway.app
         run: python3 scripts/fetch-x-signals.py
 
       - name: Commit and push
