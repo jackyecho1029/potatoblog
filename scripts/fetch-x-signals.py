@@ -153,6 +153,43 @@ def load_categories() -> Dict[str, Any]:
         sys.exit(1)
     return json.loads(SOURCES_CONFIG.read_text(encoding="utf-8"))
 
+def validate_rsshub_twitter_route(config: Dict[str, Any]) -> None:
+    """快速检查 RSSHub Twitter 路由，避免认证故障时跑完整账号列表。"""
+    probe_accounts = [
+        cat_config["accounts"][0]
+        for cat_config in config["categories"].values()
+        if cat_config.get("accounts")
+    ][:5]
+    freshness_cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    probe_errors = []
+
+    for probe_account in probe_accounts:
+        probe_url = f"{RSSHUB_BASE}/twitter/user/{probe_account}"
+
+        try:
+            resp = requests.get(probe_url, timeout=15, headers={"User-Agent": "Mozilla/5.0 (compatible; RSS reader)"})
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.text)
+            dates = [
+                datetime(*entry["published_parsed"][:6], tzinfo=timezone.utc)
+                for entry in feed.entries
+                if entry.get("published_parsed")
+            ]
+
+            if dates and max(dates) >= freshness_cutoff:
+                return
+
+            latest = max(dates).strftime("%Y-%m-%d") if dates else "无条目"
+            probe_errors.append(f"@{probe_account}: feed stale ({latest})")
+        except Exception as e:
+            probe_errors.append(f"@{probe_account}: {e}")
+
+    print("❌ RSSHub Twitter 路由预检失败：没有探测到最近 7 天的新 X 内容。")
+    for error in probe_errors:
+        print(f"   - {error}")
+    print("💡 请优先检查 Railway 的 TWITTER_AUTH_TOKEN / PROXY_URI / 出口 IP。")
+    sys.exit(2)
+
 # ─── AI 生成 ──────────────────────────────────────────────────────────────────
 
 def call_gemini(prompt: str) -> str:
@@ -324,6 +361,7 @@ def main():
     
     # 加载配置和去重
     config = load_categories()
+    validate_rsshub_twitter_route(config)
     dedupe = load_existing_dedupe_set()
     
     # 按板块抓取推文
