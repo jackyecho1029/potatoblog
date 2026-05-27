@@ -2,8 +2,8 @@
 """Batch re-summarize failed learning posts."""
 import json, sys, os, re, subprocess
 
-GEMINI_KEY = "AIzaSyDgEAWdw3lMjz8ejK_oD4TojUYLO8tOgFw"
-HTTPS_PROXY = "http://127.0.0.1:7897"
+GEMINI_KEY = "AIzaSyCPLrs-xsXCqG-OP6yOjfrShIlX2SZerGI"
+HTTPS_PROXY = "http://127.0.0.1:1082"
 POSTS_DIR = "/Users/jackypotato/potatoblog/posts/learning"
 
 SUMMARY_PROMPT = """你是一位资深的商业分析和内容提炼专家。请为以下 YouTube 视频的转录文稿生成一份高质量的中文摘要。
@@ -115,15 +115,27 @@ LENNY_PROMPT = """你是一位顶级商业分析师和"一人公司"实战专家
 转录文稿内容：
 {transcript}"""
 
-# Video list: (video_id, author)
-VIDEOS = [
-    ("gaKQa9TuSmQ", "Mel Robbins"),
-    ("pHxhceutGZg", "Mel Robbins"),
-    ("OV5eK91YY68", "Greg Isenberg"),
-    ("DIa0MYJzM5I", "Lenny's Podcast"),
-    ("wc8FBhQtdsA", "Lenny's Podcast"),
-    ("k-H4nsOTuxU", "Lenny's Podcast"),
-]
+def find_failed_posts():
+    """Scan posts/learning/ for articles with 'AI Summarization Failed' and extract video IDs."""
+    videos = []
+    for f in sorted(os.listdir(POSTS_DIR)):
+        if not f.endswith('.md'):
+            continue
+        filepath = os.path.join(POSTS_DIR, f)
+        with open(filepath) as fh:
+            content = fh.read()
+        if 'AI Summarization Failed' not in content:
+            continue
+        # Extract video ID from source_url
+        match = re.search(r'source_url:\s*"https?://(?:www\.)?youtube\.com/watch\?v=([^"]+)"', content)
+        if not match:
+            continue
+        video_id = match.group(1)
+        # Extract author
+        author_match = re.search(r'author:\s*"([^"]+)"', content)
+        author = author_match.group(1) if author_match else "Unknown"
+        videos.append((video_id, author, f))
+    return videos
 
 def fetch_transcript(video_id):
     """Fetch transcript via Innertube API using curl."""
@@ -240,18 +252,15 @@ def main():
     success = 0
     failed = 0
 
-    for i, (video_id, author) in enumerate(VIDEOS):
+    VIDEOS = find_failed_posts()
+    print(f"Found {len(VIDEOS)} articles with 'AI Summarization Failed'")
+
+    for i, (video_id, author, filename) in enumerate(VIDEOS):
         print(f"\n{'='*60}")
         print(f"[{i+1}/{len(VIDEOS)}] Processing {video_id} ({author})")
 
-        # Find existing post
-        filepath = find_post_file(video_id)
-        if not filepath:
-            print(f"  SKIP: no post file found")
-            failed += 1
-            continue
-
-        print(f"  File: {os.path.basename(filepath)}")
+        filepath = os.path.join(POSTS_DIR, filename)
+        print(f"  File: {filename}")
 
         # Fetch transcript
         print(f"  Fetching transcript...")
