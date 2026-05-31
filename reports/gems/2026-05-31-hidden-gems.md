@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 128173x | 128,173 | 0 | [Harvard Course: Disruptive Marketing: Innovation, Technology & Globalization](https://www.youtube.com/watch?v=JepNekczhfw) by **Phoenix Membership Series** |
-| 🔥 12174.32x | 9,702,931 | 797 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
-| 🔥 5173.56x | 817,422 | 158 | [1357286-BJ-REELIFE-加ICON-免费图标-免费长文案-雯月（印尼语配音版）（印尼语）-二创-广播剧-260330-WBY-BJL (1)](https://www.youtube.com/watch?v=tozfV-qdDBw) by **Reelife_ShortDrama Studio** |
 | 🔥 3133.64x | 34,470 | 11 | [做直播不要有流量焦虑 #主播培训唐sir #主播培训 #流量方舟 #直播带货 #创业](https://www.youtube.com/watch?v=OoqWAA19krw) by **唐Sir主播培** |
-| 🔥 2036.36x | 5,396,358 | 2,650 | [खाटू श्याम कि गरिमा ❤️‍🩹-|the power of khatu shyam ||🙏#KHATUSHYAM #SHORTSFEED #ytshorts #viral #ai](https://www.youtube.com/watch?v=w5qyhjTuZJ0) by **SHYAM with AK** |
-| 🔥 1327.71x | 1,059,516 | 798 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
-| 🔥 1067.41x | 431,234 | 404 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
-| 🔥 767x | 12,272 | 16 | [用宏觀稀釋痛苦，用微小感知幸福#幸福 #生活 #視角 #文案 #人生](https://www.youtube.com/watch?v=73lUUydI1N8) by **熱愛科技與生活** |
-| 🔥 735.99x | 1,192,309 | 1,620 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
-| 🔥 651.78x | 4,001,950 | 6,140 | [- Fixed Lord of the Rings ⚔️](https://www.youtube.com/watch?v=9pORDZMKFaA) by **Yapayzekaserisi** |
-| 🔥 650.44x | 83,907 | 129 | [Marketing, Communication, Événementiel, Gestion de projet, RH, compta,… Le BUT magique !](https://www.youtube.com/watch?v=MuxaHNRy8cw) by **GACO Rambouillet** |
-| 🔥 464.39x | 370,586 | 798 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
-| 🔥 441.45x | 407,459 | 923 | [Se volvieron virales por responderles a sus haters 😂 #marketing #emprendimiento #haters](https://www.youtube.com/watch?v=Oh2gUU_1gzw) by **Mauricio Cáceres ** |
+| 🔥 1068.04x | 431,487 | 404 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
+| 🔥 876.62x | 5,075,608 | 5,790 | [Alakh Niranjan - The Eternal Sound of the Formless Divine | #viralvideo #ai #shorts || Govind YT](https://www.youtube.com/watch?v=hG6qkMe6CjQ) by **Govind YT** |
+| 🔥 736.04x | 1,192,388 | 1,620 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
+| 🔥 652.25x | 4,004,821 | 6,140 | [- Fixed Lord of the Rings ⚔️](https://www.youtube.com/watch?v=9pORDZMKFaA) by **Yapayzekaserisi** |
 | 🔥 311.97x | 530,349 | 1,700 | [教師は逆心理学を用いて、生徒たちにその問題に再び向き合わせようとした。](https://www.youtube.com/watch?v=AvQ9GDgCVUE) by **ノーススノー** |
-| 🔥 302.03x | 286,327 | 948 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
-| 🔥 273.94x | 356,122 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
-| 🔥 264.23x | 343,502 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=_7i9UCwoDsc) by **Hybridge Education** |
-| 🔥 229.21x | 145,780 | 636 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
-| 🔥 169.82x | 82,195 | 484 | [Il faut qu’on parle du marketing de Kiprun](https://www.youtube.com/watch?v=ERFUqBE-O0Y) by **Théo Parisi** |
-| 🔥 153.34x | 484,558 | 3,160 | [好きなのに終わる恋の真実 #shorts #哲学 #思考 #名言 #心に響く言葉 #思考法 #潜在意識  #心理学 #人間関係 #自己肯定感 #いい言葉 #人生 #恋愛 #人間心理 #恋愛心理学](https://www.youtube.com/watch?v=uu5kD62Ao94) by **zen / 30秒で、心を調律する** |
+| 🔥 302.08x | 286,370 | 948 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
+| 🔥 228.85x | 145,780 | 637 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
+| 🔥 153.34x | 484,562 | 3,160 | [好きなのに終わる恋の真実 #shorts #哲学 #思考 #名言 #心に響く言葉 #思考法 #潜在意識  #心理学 #人間関係 #自己肯定感 #いい言葉 #人生 #恋愛 #人間心理 #恋愛心理学](https://www.youtube.com/watch?v=uu5kD62Ao94) by **zen / 30秒で、心を調律する** |
+| 🔥 148.13x | 91,990 | 621 | [【雑学】心理学で判明！大人になっても勉強する人の特徴5選](https://www.youtube.com/watch?v=60qbK1pwuZs) by **ゆる雑学** |
+| 🔥 144.29x | 761,854 | 5,280 | [Cocomelon Learning Shape Sorter Xylophone](https://www.youtube.com/watch?v=owOqbdbjDkw) by **MX toys** |
+| 🔥 91.85x | 1,194 | 13 | [为什么你越努力讨好，对方越不珍惜 #个人成长](https://www.youtube.com/watch?v=Hd4cxYGVk_Y) by **阿喵 Day Day Up** |
+| 🔥 75.33x | 480,597 | 6,380 | [Between 10 people ... #quotes #tricks #psychology #selfimprovement #motivation #lifelesson #shorts](https://www.youtube.com/watch?v=iOucLhKkieA) by **NexoraUpX** |
+| 🔥 70.46x | 410,780 | 5,830 | [#shorts #viral #trending #psychology #facts #factsinhindi #sycology #viralfact #astrology #knowledge](https://www.youtube.com/watch?v=WRrMWu35ZE0) by **Viral_Facts** |
+| 🔥 67.75x | 27,439 | 405 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=x4cvrIcrye0) by **Shuntai Outomobail 796** |
+| 🔥 61.6x | 24,946 | 405 | [#售货车 #餐车 #地摊车摆摊创业 #江铃柴油](https://www.youtube.com/watch?v=93h9aAb1K4s) by **Shuntai Outomobail 796** |
+| 🔥 58.34x | 58,925 | 1,010 | [猴子TOTO在浴室里发现巨大的彩虹冰棒，并学习如厕训练 🌈🍭- ToTo 台灣](https://www.youtube.com/watch?v=c8gxr6e1qf0) by **ToTo 台灣** |
+| 🔥 53.28x | 310,622 | 5,830 | [#shorts #viral #trending #psychology #facts #factsinhindi #sycology #viralfact #astrology #knowledge](https://www.youtube.com/watch?v=DjyFWENImVE) by **Viral_Facts** |
+| 🔥 47.11x | 1,790 | 38 | [#吃苦不会成长 #吃亏 #有心机 #吃饭 #个人成长 #想不开](https://www.youtube.com/watch?v=OO9WZU1Ba5I) by **爱新觉罗闿然** |
+| 🔥 44.61x | 123,565 | 2,770 | [learning from mistakes changes everything 💀 #mistakes #learning #mindset #discipline #shorts](https://www.youtube.com/watch?v=WSNSPUwSklE) by **Confidence With Action ** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
