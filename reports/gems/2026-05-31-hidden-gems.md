@@ -7,25 +7,25 @@
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
 | 🔥 128173x | 128,173 | 0 | [Harvard Course: Disruptive Marketing: Innovation, Technology & Globalization](https://www.youtube.com/watch?v=JepNekczhfw) by **Phoenix Membership Series** |
-| 🔥 12088.71x | 9,634,705 | 797 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
-| 🔥 5105.89x | 806,730 | 158 | [1357286-BJ-REELIFE-加ICON-免费图标-免费长文案-雯月（印尼语配音版）（印尼语）-二创-广播剧-260330-WBY-BJL (1)](https://www.youtube.com/watch?v=tozfV-qdDBw) by **Reelife_ShortDrama Studio** |
-| 🔥 3133.82x | 34,472 | 11 | [做直播不要有流量焦虑 #主播培训唐sir #主播培训 #流量方舟 #直播带货 #创业](https://www.youtube.com/watch?v=OoqWAA19krw) by **唐Sir主播培** |
-| 🔥 2036.1x | 5,395,660 | 2,650 | [खाटू श्याम कि गरिमा ❤️‍🩹-|the power of khatu shyam ||🙏#KHATUSHYAM #SHORTSFEED #ytshorts #viral #ai](https://www.youtube.com/watch?v=w5qyhjTuZJ0) by **SHYAM with AK** |
-| 🔥 1316.58x | 1,049,316 | 797 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
-| 🔥 1071.41x | 427,493 | 399 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
-| 🔥 818.13x | 12,272 | 15 | [用宏觀稀釋痛苦，用微小感知幸福#幸福 #生活 #視角 #文案 #人生](https://www.youtube.com/watch?v=73lUUydI1N8) by **熱愛科技與生活** |
-| 🔥 735.65x | 1,191,760 | 1,620 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
-| 🔥 650.88x | 3,983,414 | 6,120 | [- Fixed Lord of the Rings ⚔️](https://www.youtube.com/watch?v=9pORDZMKFaA) by **Yapayzekaserisi** |
-| 🔥 464.98x | 370,586 | 797 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
+| 🔥 12174.32x | 9,702,931 | 797 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
+| 🔥 5173.56x | 817,422 | 158 | [1357286-BJ-REELIFE-加ICON-免费图标-免费长文案-雯月（印尼语配音版）（印尼语）-二创-广播剧-260330-WBY-BJL (1)](https://www.youtube.com/watch?v=tozfV-qdDBw) by **Reelife_ShortDrama Studio** |
+| 🔥 3133.64x | 34,470 | 11 | [做直播不要有流量焦虑 #主播培训唐sir #主播培训 #流量方舟 #直播带货 #创业](https://www.youtube.com/watch?v=OoqWAA19krw) by **唐Sir主播培** |
+| 🔥 2036.36x | 5,396,358 | 2,650 | [खाटू श्याम कि गरिमा ❤️‍🩹-|the power of khatu shyam ||🙏#KHATUSHYAM #SHORTSFEED #ytshorts #viral #ai](https://www.youtube.com/watch?v=w5qyhjTuZJ0) by **SHYAM with AK** |
+| 🔥 1327.71x | 1,059,516 | 798 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
+| 🔥 1067.41x | 431,234 | 404 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
+| 🔥 767x | 12,272 | 16 | [用宏觀稀釋痛苦，用微小感知幸福#幸福 #生活 #視角 #文案 #人生](https://www.youtube.com/watch?v=73lUUydI1N8) by **熱愛科技與生活** |
+| 🔥 735.99x | 1,192,309 | 1,620 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
+| 🔥 651.78x | 4,001,950 | 6,140 | [- Fixed Lord of the Rings ⚔️](https://www.youtube.com/watch?v=9pORDZMKFaA) by **Yapayzekaserisi** |
+| 🔥 650.44x | 83,907 | 129 | [Marketing, Communication, Événementiel, Gestion de projet, RH, compta,… Le BUT magique !](https://www.youtube.com/watch?v=MuxaHNRy8cw) by **GACO Rambouillet** |
+| 🔥 464.39x | 370,586 | 798 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
+| 🔥 441.45x | 407,459 | 923 | [Se volvieron virales por responderles a sus haters 😂 #marketing #emprendimiento #haters](https://www.youtube.com/watch?v=Oh2gUU_1gzw) by **Mauricio Cáceres ** |
 | 🔥 311.97x | 530,349 | 1,700 | [教師は逆心理学を用いて、生徒たちにその問題に再び向き合わせようとした。](https://www.youtube.com/watch?v=AvQ9GDgCVUE) by **ノーススノー** |
-| 🔥 302.61x | 285,969 | 945 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
-| 🔥 273.33x | 355,331 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
-| 🔥 263.6x | 342,684 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=_7i9UCwoDsc) by **Hybridge Education** |
+| 🔥 302.03x | 286,327 | 948 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
+| 🔥 273.94x | 356,122 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
+| 🔥 264.23x | 343,502 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=_7i9UCwoDsc) by **Hybridge Education** |
 | 🔥 229.21x | 145,780 | 636 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
-| 🔥 210.99x | 81,655 | 387 | [【哲学】深すぎる、、、　#shorts](https://www.youtube.com/watch?v=jqlQ6Pw-rw4) by **還元くん** |
-| 🔥 153.29x | 484,410 | 3,160 | [好きなのに終わる恋の真実 #shorts #哲学 #思考 #名言 #心に響く言葉 #思考法 #潜在意識  #心理学 #人間関係 #自己肯定感 #いい言葉 #人生 #恋愛 #人間心理 #恋愛心理学](https://www.youtube.com/watch?v=uu5kD62Ao94) by **zen / 30秒で、心を調律する** |
-| 🔥 148.3x | 91,946 | 620 | [【雑学】心理学で判明！大人になっても勉強する人の特徴5選](https://www.youtube.com/watch?v=60qbK1pwuZs) by **ゆる雑学** |
-| 🔥 144.11x | 760,904 | 5,280 | [Cocomelon Learning Shape Sorter Xylophone](https://www.youtube.com/watch?v=owOqbdbjDkw) by **MX toys** |
+| 🔥 169.82x | 82,195 | 484 | [Il faut qu’on parle du marketing de Kiprun](https://www.youtube.com/watch?v=ERFUqBE-O0Y) by **Théo Parisi** |
+| 🔥 153.34x | 484,558 | 3,160 | [好きなのに終わる恋の真実 #shorts #哲学 #思考 #名言 #心に響く言葉 #思考法 #潜在意識  #心理学 #人間関係 #自己肯定感 #いい言葉 #人生 #恋愛 #人間心理 #恋愛心理学](https://www.youtube.com/watch?v=uu5kD62Ao94) by **zen / 30秒で、心を調律する** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
