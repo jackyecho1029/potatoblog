@@ -7,25 +7,25 @@
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
 | 🔥 128173x | 128,173 | 0 | [Harvard Course: Disruptive Marketing: Innovation, Technology & Globalization](https://www.youtube.com/watch?v=JepNekczhfw) by **Phoenix Membership Series** |
-| 🔥 12082.56x | 9,629,803 | 797 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
+| 🔥 12088.71x | 9,634,705 | 797 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
+| 🔥 5105.89x | 806,730 | 158 | [1357286-BJ-REELIFE-加ICON-免费图标-免费长文案-雯月（印尼语配音版）（印尼语）-二创-广播剧-260330-WBY-BJL (1)](https://www.youtube.com/watch?v=tozfV-qdDBw) by **Reelife_ShortDrama Studio** |
 | 🔥 3133.82x | 34,472 | 11 | [做直播不要有流量焦虑 #主播培训唐sir #主播培训 #流量方舟 #直播带货 #创业](https://www.youtube.com/watch?v=OoqWAA19krw) by **唐Sir主播培** |
-| 🔥 2451x | 2,451 | 1 | [#熱門 #媽媽 #分享 #搞笑 #文案 當你有一個愛挖鼻屎又戀愛腦的媽咪 😍](https://www.youtube.com/watch?v=syQ6ola7Dz8) by **我是一個怪咖** |
-| 🔥 1314.92x | 1,047,989 | 797 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
-| 🔥 1070.58x | 427,160 | 399 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
-| 🔥 876.62x | 5,075,608 | 5,790 | [Alakh Niranjan - The Eternal Sound of the Formless Divine | #viralvideo #ai #shorts || Govind YT](https://www.youtube.com/watch?v=hG6qkMe6CjQ) by **Govind YT** |
+| 🔥 2036.1x | 5,395,660 | 2,650 | [खाटू श्याम कि गरिमा ❤️‍🩹-|the power of khatu shyam ||🙏#KHATUSHYAM #SHORTSFEED #ytshorts #viral #ai](https://www.youtube.com/watch?v=w5qyhjTuZJ0) by **SHYAM with AK** |
+| 🔥 1316.58x | 1,049,316 | 797 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
+| 🔥 1071.41x | 427,493 | 399 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
 | 🔥 818.13x | 12,272 | 15 | [用宏觀稀釋痛苦，用微小感知幸福#幸福 #生活 #視角 #文案 #人生](https://www.youtube.com/watch?v=73lUUydI1N8) by **熱愛科技與生活** |
-| 🔥 735.63x | 1,191,721 | 1,620 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
-| 🔥 650.57x | 3,981,469 | 6,120 | [- Fixed Lord of the Rings ⚔️](https://www.youtube.com/watch?v=9pORDZMKFaA) by **Yapayzekaserisi** |
-| 🔥 649.5x | 83,786 | 129 | [Marketing, Communication, Événementiel, Gestion de projet, RH, compta,… Le BUT magique !](https://www.youtube.com/watch?v=MuxaHNRy8cw) by **GACO Rambouillet** |
-| 🔥 575.86x | 458,963 | 797 | [1377733 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 原片 260417 WYN BJL+1](https://www.youtube.com/watch?v=QtNXJu5i538) by **Reelife_ShortDrama Picks** |
-| 🔥 465.39x | 370,915 | 797 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
-| 🔥 441.66x | 352,002 | 797 | [1367885 BJ REELIFE 加ICON 免费图标 免费长文案 全城警报（印尼语配音版）（印尼语） 剧情 原片 260409 WBY BJL+1](https://www.youtube.com/watch?v=B1eOaHOD4XQ) by **Reelife_ShortDrama Picks** |
-| 🔥 441.3x | 406,875 | 922 | [Se volvieron virales por responderles a sus haters 😂 #marketing #emprendimiento #haters](https://www.youtube.com/watch?v=Oh2gUU_1gzw) by **Mauricio Cáceres ** |
-| 🔥 374.2x | 1,871 | 5 | [《越界》 #文案#段子#搞笑](https://www.youtube.com/watch?v=WN6TWkR4Mcc) by **Ailshire Liest** |
-| 🔥 312.13x | 530,616 | 1,700 | [教師は逆心理学を用いて、生徒たちにその問題に再び向き合わせようとした。](https://www.youtube.com/watch?v=AvQ9GDgCVUE) by **ノーススノー** |
-| 🔥 302.75x | 286,102 | 945 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
-| 🔥 285.4x | 1,427 | 5 | [《和你一样快》 #段子#搞笑#文案](https://www.youtube.com/watch?v=PTB-U061hsg) by **Ailshire Liest** |
-| 🔥 273.3x | 355,292 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
+| 🔥 735.65x | 1,191,760 | 1,620 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
+| 🔥 650.88x | 3,983,414 | 6,120 | [- Fixed Lord of the Rings ⚔️](https://www.youtube.com/watch?v=9pORDZMKFaA) by **Yapayzekaserisi** |
+| 🔥 464.98x | 370,586 | 797 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
+| 🔥 311.97x | 530,349 | 1,700 | [教師は逆心理学を用いて、生徒たちにその問題に再び向き合わせようとした。](https://www.youtube.com/watch?v=AvQ9GDgCVUE) by **ノーススノー** |
+| 🔥 302.61x | 285,969 | 945 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
+| 🔥 273.33x | 355,331 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
+| 🔥 263.6x | 342,684 | 1,300 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=_7i9UCwoDsc) by **Hybridge Education** |
+| 🔥 229.21x | 145,780 | 636 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
+| 🔥 210.99x | 81,655 | 387 | [【哲学】深すぎる、、、　#shorts](https://www.youtube.com/watch?v=jqlQ6Pw-rw4) by **還元くん** |
+| 🔥 153.29x | 484,410 | 3,160 | [好きなのに終わる恋の真実 #shorts #哲学 #思考 #名言 #心に響く言葉 #思考法 #潜在意識  #心理学 #人間関係 #自己肯定感 #いい言葉 #人生 #恋愛 #人間心理 #恋愛心理学](https://www.youtube.com/watch?v=uu5kD62Ao94) by **zen / 30秒で、心を調律する** |
+| 🔥 148.3x | 91,946 | 620 | [【雑学】心理学で判明！大人になっても勉強する人の特徴5選](https://www.youtube.com/watch?v=60qbK1pwuZs) by **ゆる雑学** |
+| 🔥 144.11x | 760,904 | 5,280 | [Cocomelon Learning Shape Sorter Xylophone](https://www.youtube.com/watch?v=owOqbdbjDkw) by **MX toys** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
