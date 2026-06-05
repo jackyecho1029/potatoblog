@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 14068.13x | 13,871,175 | 986 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
+| 🔥 14073.19x | 13,904,309 | 988 | [1373715 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+2](https://www.youtube.com/watch?v=p9NZFqBjuZo) by **Reelife_ShortDrama Picks** |
 | 🔥 2451x | 2,451 | 1 | [#熱門 #媽媽 #分享 #搞笑 #文案 當你有一個愛挖鼻屎又戀愛腦的媽咪 😍](https://www.youtube.com/watch?v=syQ6ola7Dz8) by **我是一個怪咖** |
-| 🔥 2362.74x | 2,329,664 | 986 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
-| 🔥 1532.87x | 910,526 | 594 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
+| 🔥 2365.33x | 2,336,943 | 988 | [1373718 BJ REELIFE 加ICON 免费图标 免费长文案 满级保镖，一拳破局（印尼语配音版）（印尼语） 剧情 原片 260414 WYN BJL+1](https://www.youtube.com/watch?v=FKLr1U55oUQ) by **Reelife_ShortDrama Picks** |
+| 🔥 2315.6x | 3,403,926 | 1,470 | [​The Most Beautiful Video On The Internet Today! ❤️#ai #shorts](https://www.youtube.com/watch?v=qkQeuYP_zv0) by **Humanity X 2.0** |
 | 🔥 752.93x | 107,669 | 143 | [Marketing, Communication, Événementiel, Gestion de projet, RH, compta,… Le BUT magique !](https://www.youtube.com/watch?v=MuxaHNRy8cw) by **GACO Rambouillet** |
-| 🔥 728.86x | 1,231,780 | 1,690 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
-| 🔥 464.73x | 497,256 | 1,070 | [Se volvieron virales por responderles a sus haters 😂 #marketing #emprendimiento #haters](https://www.youtube.com/watch?v=Oh2gUU_1gzw) by **Mauricio Cáceres ** |
-| 🔥 441.64x | 435,453 | 986 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
+| 🔥 729.14x | 1,232,244 | 1,690 | [【心理】赤ちゃんにやたら見つめられる人](https://www.youtube.com/watch?v=Ey2746fotEA) by **大人の心理観察** |
+| 🔥 465.14x | 497,696 | 1,070 | [Se volvieron virales por responderles a sus haters 😂 #marketing #emprendimiento #haters](https://www.youtube.com/watch?v=Oh2gUU_1gzw) by **Mauricio Cáceres ** |
+| 🔥 441.39x | 436,096 | 988 | [1377736 BJ REELIFE 加ICON 免费图标 免费长文案 警报！叶楚出狱（葡语配音版）葡语） 剧情 二创 解说 260417 WYN BJL](https://www.youtube.com/watch?v=bWnwBzkr248) by **Reelife_ShortDrama Picks** |
 | 🔥 439.01x | 91,753 | 209 | [1364990-BJ-REELIFE-加ICON-免费长文案-万里江山入我怀第二季（泰语配音版）(泰语）-品牌-260407-WYN-BJL (1)](https://www.youtube.com/watch?v=ltiiL_omMXo) by **Reelife_ShortDrama Studio** |
 | 🔥 423.93x | 12,294 | 29 | [用宏觀稀釋痛苦，用微小感知幸福#幸福 #生活 #視角 #文案 #人生](https://www.youtube.com/watch?v=73lUUydI1N8) by **熱愛科技與生活** |
-| 🔥 418.58x | 87,484 | 209 | [1313201-BJ-REELIFE-加ICON-免费图标-免费长文案-离别万里遥无期（印尼语）-原片-260205-WYN-BJL](https://www.youtube.com/watch?v=mIziBDLwAuY) by **Reelife_ShortDrama Studio** |
-| 🔥 368x | 489,438 | 1,330 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
-| 🔥 354.36x | 471,296 | 1,330 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=_7i9UCwoDsc) by **Hybridge Education** |
-| 🔥 329.04x | 572,522 | 1,740 | [😍Unlock the Power of Smart Learning with Advanced Gadgets!R10 ✨🤌#flagshipphone #shorts #samsung](https://www.youtube.com/watch?v=_GPvv5-CNvU) by **Rk FACTS 96** |
+| 🔥 422.45x | 88,293 | 209 | [1313201-BJ-REELIFE-加ICON-免费图标-免费长文案-离别万里遥无期（印尼语）-原片-260205-WYN-BJL](https://www.youtube.com/watch?v=mIziBDLwAuY) by **Reelife_ShortDrama Studio** |
+| 🔥 371.96x | 494,711 | 1,330 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=kk5oJwYEcaw) by **Hybridge Education** |
+| 🔥 355.63x | 472,984 | 1,330 | [¿Te interesa el marketing, las redes sociales y el mundo digital? 📱✨](https://www.youtube.com/watch?v=_7i9UCwoDsc) by **Hybridge Education** |
+| 🔥 338.32x | 598,824 | 1,770 | [😍Unlock the Power of Smart Learning with Advanced Gadgets!R10 ✨🤌#flagshipphone #shorts #samsung](https://www.youtube.com/watch?v=_GPvv5-CNvU) by **Rk FACTS 96** |
 | 🔥 328.7x | 68,698 | 209 | [1364989-BJ-REELIFE-加ICON-免费长文案-His Love Was A Lie（泰语配音）(泰语）-品牌-260407-WYN-BJL (1)](https://www.youtube.com/watch?v=6RMaMKgz7aA) by **Reelife_ShortDrama Studio** |
-| 🔥 317.96x | 3,065,167 | 9,640 | [AI도 운이 안 따를때 필요한 '이것' ㄷㄷ](https://www.youtube.com/watch?v=kUSTekJXamU) by **아아메타임** |
-| 🔥 308.67x | 354,971 | 1,150 | [This Is The Way We Wash Our Face -| Easy Learning Rhymes For Kids #babysongs #nurseryrhymes #shorts](https://www.youtube.com/watch?v=-aJPhPP6hYo) by **Ringa Roses Kids TV** |
-| 🔥 300.76x | 300,764 | 1,000 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
-| 🔥 273.17x | 2,633,395 | 9,640 | [AI도 성공에 '이것'이 필요한 이유 ㄷㄷ](https://www.youtube.com/watch?v=Z5aMqwpLPaY) by **아아메타임** |
-| 🔥 224.37x | 156,836 | 699 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
+| 🔥 318.18x | 3,070,451 | 9,650 | [AI도 운이 안 따를때 필요한 '이것' ㄷㄷ](https://www.youtube.com/watch?v=kUSTekJXamU) by **아아메타임** |
+| 🔥 308.7x | 355,005 | 1,150 | [This Is The Way We Wash Our Face -| Easy Learning Rhymes For Kids #babysongs #nurseryrhymes #shorts](https://www.youtube.com/watch?v=-aJPhPP6hYo) by **Ringa Roses Kids TV** |
+| 🔥 301.01x | 301,010 | 1,000 | [※本人も気づいていない、なぜか道を聞かれる人の特徴5選【心理学・脳科学】- 話しかけやすい | 豆知識](https://www.youtube.com/watch?v=MwYTZIVOQ9M) by **中年の心解体新書** |
+| 🔥 272.92x | 2,633,672 | 9,650 | [AI도 성공에 '이것'이 필요한 이유 ㄷㄷ](https://www.youtube.com/watch?v=Z5aMqwpLPaY) by **아아메타임** |
+| 🔥 224.18x | 156,923 | 700 | [今から心理学を読んでみる #drstone #anime #tvshow #animeedit](https://www.youtube.com/watch?v=VL85WlTktOQ) by **Huff** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
