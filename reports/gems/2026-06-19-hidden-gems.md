@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 3648.55x | 4,451,226 | 1,220 | [Most thoughtful thing I’ve ever seen #relationship #datingadvice #claude #replit #ai](https://www.youtube.com/watch?v=395n6pcvbtY) by **Ally :)** |
-| 🔥 1846.13x | 1,639,361 | 888 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
-| 🔥 969.23x | 4,729,844 | 4,880 | [#shote #ai #cartoon #video](https://www.youtube.com/watch?v=vUAm-VpRJwE) by **cute_kitty_01** |
-| 🔥 708.3x | 87,829 | 124 | [Arm Wrestling Mastery  The One Arm Training Philosophy - #Devon Larratt #Joe Rogan #podcast](https://www.youtube.com/watch?v=1rpXxYvTCQE) by **Archetype Lab** |
-| 🔥 460.02x | 2,442,681 | 5,310 | [이병한 "구글 AI CEO는 노벨상, 네이버 AI 하정우는 부산 북구?" #매불쇼 #최욱 #하정우 #이병한 #ai](https://www.youtube.com/watch?v=YiBxnhZIHFc) by **시사잼얘** |
-| 🔥 386.11x | 72,203 | 187 | [Dinosaurs Puzzle Adventure 🦕🧩 Find, Create & Paint - Fun Learning Video For Kids & Toddlers](https://www.youtube.com/watch?v=Qk1xEVN4AFU) by **DiggiDoo** |
-| 🔥 307.22x | 266,360 | 867 | [头晕晕的，感觉缺乏维生素RMB #机车 #文案 #抽象藝術](https://www.youtube.com/watch?v=-P6Owx3MgA8) by **一夕海棠** |
-| 🔥 256.67x | 12,320 | 48 | [用宏觀稀釋痛苦，用微小感知幸福#幸福 #生活 #視角 #文案 #人生](https://www.youtube.com/watch?v=73lUUydI1N8) by **熱愛科技與生活** |
-| 🔥 185.96x | 738,258 | 3,970 | [【虎杖の哲学】「せめて知ってる人くらいは正しく死んでほしい」──祖父の死が生んだ、少年の覚悟 #呪術廻戦 #jujutsukaisen #虎杖悠仁 #伏黒恵](https://www.youtube.com/watch?v=5bK-A6__3so) by **特級呪霊生態記** |
-| 🔥 176.56x | 115,473 | 654 | [【心理学】スポーツ観戦に興味がない人だけが持っている特徴｜脳の配線が違う科学的理由](https://www.youtube.com/watch?v=zb2KiFeC5l4) by **心理学のおはなし** |
-| 🔥 174.86x | 138,835 | 794 | [Il faut qu’on parle du marketing de Kiprun](https://www.youtube.com/watch?v=ERFUqBE-O0Y) by **Théo Parisi** |
-| 🔥 153.97x | 303,328 | 1,970 | [人の本性が出る瞬間3選 #人間関係 #心理学 #人生の教訓 #人を見る目 #雑学 #shorts](https://www.youtube.com/watch?v=I0Pj9ZSEErU) by **人生の知恵袋** |
-| 🔥 146.97x | 235,146 | 1,600 | [【悪用厳禁】揺れるリボンの心理術 #進撃のノア #悪用厳禁 #接客の本質 #モテマインド #心理学 #ビジネス論 #いい女の条件](https://www.youtube.com/watch?v=fXX74hE4t6U) by **進撃のノアCLIPS【公式切り抜き】** |
-| 🔥 145.84x | 1,153,611 | 7,910 | [ من أين يبدأ عاشق؟Min Ayna Yabda’u ‘Āshiq?  🖤. Ai CoVER](https://www.youtube.com/watch?v=RDDgWxVIfdM) by **Desert Pulse** |
-| 🔥 129.15x | 154,974 | 1,200 | [【心理学】頭のいい人がやっている片付け習慣とは](https://www.youtube.com/watch?v=6MOp9vC1SuE) by **ちょっと元気になれる心理学** |
+| 🔥 3656.09x | 4,496,993 | 1,230 | [Most thoughtful thing I’ve ever seen #relationship #datingadvice #claude #replit #ai](https://www.youtube.com/watch?v=395n6pcvbtY) by **Ally :)** |
+| 🔥 1849.88x | 1,642,690 | 888 | [#售货车 #餐车 #摆摊创业](https://www.youtube.com/watch?v=5lb0XOPX4dw) by **Shuntai Outomobail 796** |
+| 🔥 1314.15x | 120,902 | 92 | [123+12=？该咋教？ #亲子教育  #教育  #爱学习的孩子#共鳴 #内容过于真实](https://www.youtube.com/watch?v=_uKStZ9yFaI) by **环视人间刊** |
+| 🔥 1209.63x | 85,884 | 71 | [@zeptonow whyyy ??[Zepto scam  marketing false advertising]#zepto #scam #falseadvertising](https://www.youtube.com/watch?v=k4BZ8UKph0E) by **Heet Patel** |
+| 🔥 967.96x | 4,733,303 | 4,890 | [#shote #ai #cartoon #video](https://www.youtube.com/watch?v=vUAm-VpRJwE) by **cute_kitty_01** |
+| 🔥 817.57x | 6,581,417 | 8,050 | [【NMIXXソリュン】AI「どう見ても人間じゃない！天使だ👼」](https://www.youtube.com/watch?v=sTDoThtCx9I) by **yoosomchi** |
+| 🔥 708.55x | 87,860 | 124 | [Arm Wrestling Mastery  The One Arm Training Philosophy - #Devon Larratt #Joe Rogan #podcast](https://www.youtube.com/watch?v=1rpXxYvTCQE) by **Archetype Lab** |
+| 🔥 390.38x | 72,611 | 186 | [Dinosaurs Puzzle Adventure 🦕🧩 Find, Create & Paint - Fun Learning Video For Kids & Toddlers](https://www.youtube.com/watch?v=Qk1xEVN4AFU) by **DiggiDoo** |
+| 🔥 307.78x | 266,843 | 867 | [头晕晕的，感觉缺乏维生素RMB #机车 #文案 #抽象藝術](https://www.youtube.com/watch?v=-P6Owx3MgA8) by **一夕海棠** |
+| 🔥 185.85x | 741,549 | 3,990 | [【虎杖の哲学】「せめて知ってる人くらいは正しく死んでほしい」──祖父の死が生んだ、少年の覚悟 #呪術廻戦 #jujutsukaisen #虎杖悠仁 #伏黒恵](https://www.youtube.com/watch?v=5bK-A6__3so) by **特級呪霊生態記** |
+| 🔥 175.54x | 117,611 | 670 | [【心理学】スポーツ観戦に興味がない人だけが持っている特徴｜脳の配線が違う科学的理由](https://www.youtube.com/watch?v=zb2KiFeC5l4) by **心理学のおはなし** |
+| 🔥 174.91x | 138,881 | 794 | [Il faut qu’on parle du marketing de Kiprun](https://www.youtube.com/watch?v=ERFUqBE-O0Y) by **Théo Parisi** |
+| 🔥 154.01x | 303,397 | 1,970 | [人の本性が出る瞬間3選 #人間関係 #心理学 #人生の教訓 #人を見る目 #雑学 #shorts](https://www.youtube.com/watch?v=I0Pj9ZSEErU) by **人生の知恵袋** |
+| 🔥 147.08x | 235,331 | 1,600 | [【悪用厳禁】揺れるリボンの心理術 #進撃のノア #悪用厳禁 #接客の本質 #モテマインド #心理学 #ビジネス論 #いい女の条件](https://www.youtube.com/watch?v=fXX74hE4t6U) by **進撃のノアCLIPS【公式切り抜き】** |
+| 🔥 129.57x | 155,490 | 1,200 | [【心理学】頭のいい人がやっている片付け習慣とは](https://www.youtube.com/watch?v=6MOp9vC1SuE) by **ちょっと元気になれる心理学** |
+| 🔥 99.09x | 42,211 | 426 | [Hailey Bieber is a marketing genius✨#hailey #bieber #shortsviral #rhode #celebrity #businesswoman](https://www.youtube.com/watch?v=4XQLf2smtRc) by **Dew Lush** |
 | 🔥 93.59x | 219,947 | 2,350 | [【ズレの正体】低IQの人の頭の中はこんな世界｜ヒトコワダーク心理学](https://www.youtube.com/watch?v=4oWjVbvDQsM) by **ヒトコワダーク心理学チャンネル** |
 | 🔥 91.85x | 1,194 | 13 | [为什么你越努力讨好，对方越不珍惜 #个人成长](https://www.youtube.com/watch?v=Hd4cxYGVk_Y) by **阿喵 Day Day Up** |
-| 🔥 66.54x | 445,831 | 6,700 | [Why is Aryabhatta Everywhere? Amazon Now Smart Marketing Campaign #shorts](https://www.youtube.com/watch?v=wMudL5h-Lt8) by **Sushmit Ghosh** |
-| 🔥 54.59x | 4,422 | 81 | [生而平凡，等不了来日方长；文案太短，写不尽人间欢愉……#记录校园生活](https://www.youtube.com/watch?v=Z8kIt_2Hzv8) by **鹏程校长** |
-| 🔥 45.83x | 1,329 | 29 | [“UCR 是 UC reject 吗？ #脱稿玩家 #podcast #华人播客 #个人成长 #熱門 #熱門 #认知提升 #播客 #感情 #推薦](https://www.youtube.com/watch?v=q13yX51qswA) by **脱稿玩家—off the cuff** |
+| 🔥 66.55x | 445,861 | 6,700 | [Why is Aryabhatta Everywhere? Amazon Now Smart Marketing Campaign #shorts](https://www.youtube.com/watch?v=wMudL5h-Lt8) by **Sushmit Ghosh** |
+| 🔥 53.89x | 1,024 | 19 | [“影子在公主脚下”“怀吉在徽柔心里”#文案 #清平乐 #love](https://www.youtube.com/watch?v=vEOtI73_9f4) by **思無邪** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
