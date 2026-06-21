@@ -8,6 +8,12 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 // Load environment variables
 dotenv.config({ path: '.env.local' });
 
+/** YAML-safe scalar: single-quote + double internal single quotes.
+ *  Robust against " and \ in titles/authors (the old \" escape broke on backslashes). */
+function yq(s: string): string {
+    return "'" + String(s).replace(/'/g, "''") + "'";
+}
+
 const youtube = google.youtube('v3');
 const YOUTUBE_API_KEYS = [
     process.env.YOUTUBE_API_KEY,
@@ -35,6 +41,8 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
 
 const CHANNELS = process.env.YOUTUBE_CHANNELS?.split(',') || [];
+// Max age (in days) of a video to be processed. Default 60. Override via MAX_DAYS env var.
+const MAX_DAYS = parseInt(process.env.MAX_DAYS || '60', 10);
 
 async function getChannelId(handle: string) {
     try {
@@ -50,6 +58,64 @@ async function getChannelId(handle: string) {
         console.error(`Error fetching ID for ${handle}:`, error);
         return null;
     }
+}
+
+// Fetch the uploads playlist ID for a channel (the authoritative, paginated list
+// of its videos — unlike search.list, it surfaces every upload, not just the newest 20).
+async function getUploadsPlaylist(channelId: string): Promise<string | null> {
+    try {
+        const response = await youtube.channels.list({
+            key: getApiKey(),
+            part: ['contentDetails'],
+            id: [channelId],
+        });
+        return response.data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads || null;
+    } catch (error) {
+        console.error(`Error fetching uploads playlist for ${channelId}:`, error);
+        return null;
+    }
+}
+
+// Paginate a channel's uploads playlist (newest-first), collecting videos published
+// within the last MAX_DAYS. Stops early once it crosses the age cutoff. This replaces
+// the old search.list(maxResults:20) call that silently dropped long-form videos
+// buried under a flood of Shorts.
+async function listUploadVideos(uploadsPlaylistId: string): Promise<{ videoId: string; title: string; publishedAt: string }[]> {
+    const results: { videoId: string; title: string; publishedAt: string }[] = [];
+    const cutoffMs = Date.now() - MAX_DAYS * 24 * 3600 * 1000;
+    let pageToken: string | undefined;
+    let pageCount = 0;
+    const MAX_PAGES = 10; // safety cap (10 pages × 50 = 500 videos)
+    do {
+        const response: any = await youtube.playlistItems.list({
+            key: getApiKey(),
+            part: ['snippet', 'contentDetails'],
+            playlistId: uploadsPlaylistId,
+            maxResults: 50,
+            ...(pageToken ? { pageToken } : {}),
+        });
+        const items = response.data.items || [];
+        let reachedOld = false;
+        for (const it of items) {
+            const videoId = it.contentDetails?.videoId;
+            const title = it.snippet?.title || 'Unknown Title';
+            const publishedAt = it.contentDetails?.videoPublishedAt || it.snippet?.publishedAt || '';
+            if (!videoId) continue;
+            // uploads playlist is newest-first: once we hit a video older than cutoff, stop.
+            if (publishedAt) {
+                const ts = new Date(publishedAt).getTime();
+                if (ts < cutoffMs) {
+                    reachedOld = true;
+                    break;
+                }
+            }
+            results.push({ videoId, title, publishedAt });
+        }
+        if (reachedOld) break;
+        pageToken = response.data.nextPageToken;
+        pageCount++;
+    } while (pageToken && pageCount < MAX_PAGES);
+    return results;
 }
 
 async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, category: string, summary: string }> {
@@ -378,9 +444,9 @@ async function fetchVideoByUrl(videoUrl: string) {
                 const lennyFilename = `${dateString}-lenny-${guestName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50)}.md`;
                 const lennyFilePath = path.join(postsDir, lennyFilename);
                 const lennyFileContent = `---
-title: "Lenny's Podcast 笔记：${guestName} 深度访谈"
-original_title: "${title.replace(/"/g, '\\"')}"
-author: "Lenny's Podcast"
+title: ${yq(`Lenny's Podcast 笔记：${guestName} 深度访谈`)}
+original_title: ${yq(title)}
+author: ${yq("Lenny's Podcast")}
 category: "生活与效率"
 date: "${dateString}"
 tags: ["AI 与技术", "生活与效率"]
@@ -398,12 +464,12 @@ ${summaryText}`;
         const linkedSummary = linkTimestamp(summary, videoId);
 
         const fileContent = `---
-title: "${hookTitle.replace(/"/g, '\\"')}"
-original_title: "${title.replace(/"/g, '\\"')}"
-author: "${authorName}"
-category: "${category}"
+title: ${yq(hookTitle)}
+original_title: ${yq(title)}
+author: ${yq(authorName)}
+category: ${yq(category)}
 date: "${dateString}"
-tags: ["${category}", "${authorName}"]
+tags: [${yq(category)}, ${yq(authorName)}]
 source_url: "https://www.youtube.com/watch?v=${videoId}"
 thumbnail: "${thumbnailUrl}"
 ---
@@ -485,22 +551,18 @@ async function fetchLatestVideos() {
 
         console.log(`Processing ${handle}...`);
 
-        const response = await youtube.search.list({
-            key: getApiKey(),
-            channelId: channelId,
-            part: ['snippet'],
-            order: 'date',
-            // Increase fetch limit to find long-form videos buried by Shorts
-            maxResults: 20,
-            type: ['video']
-        });
+        // Use the channel's uploads playlist with pagination (newest-first) instead of
+        // search.list(maxResults:20), which missed long-form videos buried under Shorts.
+        const uploadsId = await getUploadsPlaylist(channelId);
+        if (!uploadsId) {
+            console.log(`Could not find uploads playlist for ${handle}, skipping.`);
+            continue;
+        }
+        const videos = await listUploadVideos(uploadsId);
 
-        const videos = response.data.items || [];
         for (const video of videos) {
-            if (!video.id?.videoId) continue;
-
-            const videoId = video.id.videoId;
-            const title = video.snippet?.title || 'Unknown Title';
+            const videoId = video.videoId;
+            const title = video.title;
 
             // 1. Check strict duplicates via ID
             if (existingIds.has(videoId)) {
@@ -554,15 +616,16 @@ async function fetchLatestVideos() {
                 console.log(`Could not check duration for: ${title}, processing anyway...`);
             }
 
-            // 4. Check Recency (Last 2 months / 60 days)
-            const publishedAt = video.snippet?.publishedAt;
+            // 4. Check Recency (Last MAX_DAYS, default 60)
+            // (listUploadVideos already filters by MAX_DAYS; this is a defensive re-check.)
+            const publishedAt = video.publishedAt;
             if (publishedAt) {
                 const pubDate = new Date(publishedAt);
                 const now = new Date();
                 const diffDays = (now.getTime() - pubDate.getTime()) / (1000 * 3600 * 24);
 
-                if (diffDays > 60) {
-                    console.log(`Skipping old video (${Math.round(diffDays)} days ago > 60 days): ${title}`);
+                if (diffDays > MAX_DAYS) {
+                    console.log(`Skipping old video (${Math.round(diffDays)} days ago > ${MAX_DAYS} days): ${title}`);
                     continue;
                 }
             }
@@ -651,9 +714,9 @@ async function fetchLatestVideos() {
                         const lennyFilePath = path.join(postsDir, lennyFilename);
 
                         const lennyFileContent = `---
-title: "Lenny's Podcast 笔记：${guestName} 深度访谈"
-original_title: "${title.replace(/"/g, '\\"')}"
-author: "Lenny's Podcast"
+title: ${yq(`Lenny's Podcast 笔记：${guestName} 深度访谈`)}
+original_title: ${yq(title)}
+author: ${yq("Lenny's Podcast")}
 category: "生活与效率"
 date: "${date}"
 tags:
@@ -679,12 +742,12 @@ ${summaryText}
                 const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
 
                 const fileContent = `---
-title: "${hookTitle.replace(/"/g, '\\"')}"
-original_title: "${title.replace(/"/g, '\\"')}"
-author: "${authorName}"
-category: "${category}"
+title: ${yq(hookTitle)}
+original_title: ${yq(title)}
+author: ${yq(authorName)}
+category: ${yq(category)}
 date: "${date}"
-tags: ["${category}", "${authorName}"]
+tags: [${yq(category)}, ${yq(authorName)}]
 source_url: "https://www.youtube.com/watch?v=${videoId}"
 thumbnail: "${thumbnailUrl}"
 ---
@@ -718,4 +781,63 @@ ${summary}
     }
 }
 
-fetchLatestVideos();
+async function commitAndPushChanges() {
+    const { execSync } = await import('child_process');
+    const postsDir = path.join(process.cwd(), 'posts/learning');
+
+    try {
+        // Check if there are new learning posts to commit
+        const status = execSync('git status --short posts/learning/', { encoding: 'utf-8' });
+        if (!status.trim()) {
+            console.log('ℹ️  No new learning posts to commit.');
+            return;
+        }
+
+        console.log('\n📤 Committing and pushing new posts to blog...');
+
+        // Stage all learning posts
+        execSync('git add posts/learning/', { encoding: 'utf-8' });
+
+        // Get list of new files for commit message
+        const newFiles = status.split('\n')
+            .filter(line => line.includes('??'))
+            .map(line => line.replace('??', '').trim())
+            .map(f => path.basename(f));
+
+        const commitMsg = `feat: add ${newFiles.length} new learning video(s)
+
+${newFiles.map(f => `- ${f}`).join('\n')}
+
+[skip ci]`;
+
+        // Commit with detailed message
+        execSync(`git commit -m "${commitMsg}"`, { encoding: 'utf-8' });
+        console.log('✅ Committed new posts');
+
+        // Push to remote (handle potential conflicts)
+        try {
+            execSync('git pull --rebase', { encoding: 'utf-8' });
+            execSync('git push', { encoding: 'utf-8' });
+            console.log('✅ Pushed to blog! Vercel is deploying...');
+        } catch (pushErr) {
+            console.log('⚠️  Push failed. You may need to resolve conflicts manually.');
+            console.log('Run: git pull --rebase && git push');
+        }
+
+    } catch (error: any) {
+        // Git command failed (might be no changes or other error)
+        if (error.message?.includes('nothing to commit')) {
+            console.log('ℹ️  No new posts to commit.');
+        } else {
+            console.error('⚠️  Git operation failed:', error.message);
+        }
+    }
+}
+
+// Run fetch and then commit/push
+fetchLatestVideos().then(() => {
+    commitAndPushChanges();
+}).catch(err => {
+    console.error('Script error:', err);
+    process.exit(1);
+});

@@ -1,6 +1,6 @@
 ---
-title: "$1.3B AI CEO: "You ONLY Need 2 People and 90 Days to Build a $1M Business" | Higgsfield Founder"
-original_title: "$1.3B AI CEO: "You ONLY Need 2 People and 90 Days to Build a $1M Business" | Higgsfield Founder"
+title: '$1.3B AI CEO: "You ONLY Need 2 People and 90 Days to Build a $1M Business" | Higgsfield Founder'
+original_title: '$1.3B AI CEO: "You ONLY Need 2 People and 90 Days to Build a $1M Business" | Higgsfield Founder'
 author: "Silicon Valley Girl"
 category: "AI构建者"
 date: "2026-03-03"
