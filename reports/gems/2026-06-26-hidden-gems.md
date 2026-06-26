@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 25858x | 25,858 | 0 | [全职妈妈也能创业？AI时代给普通妈妈的新机会](https://www.youtube.com/watch?v=P3D-RMwJHLY) by **Emily Gu** |
-| 🔥 3911.87x | 4,342,179 | 1,110 | [《 X Wallet － 時間 · 金錢，一步兼得！》｜X現金A.I.貸款主題廣告｜ A.I.世代流動資金](https://www.youtube.com/watch?v=SxPqbiN3GbI) by **X Wallet** |
-| 🔥 1556.07x | 171,168 | 110 | [123+12=？该咋教？ #亲子教育  #教育  #爱学习的孩子#共鳴 #内容过于真实](https://www.youtube.com/watch?v=_uKStZ9yFaI) by **环视人间刊** |
-| 🔥 533.64x | 502,689 | 942 | [头晕晕的，感觉缺乏维生素RMB #机车 #文案 #抽象藝術](https://www.youtube.com/watch?v=-P6Owx3MgA8) by **一夕海棠** |
-| 🔥 500x | 12,000 | 24 | [创业功成荣归故里，只为向青梅竹马告白](https://www.youtube.com/watch?v=UNVNwcNgq2E) by ** 不白吃零食屋** |
-| 🔥 187.19x | 509,168 | 2,720 | [Psychology Of People Who Forget Names Easily](https://www.youtube.com/watch?v=_g9RfS3Ux5Q) by **Mindspoke** |
-| 🔥 181.34x | 915,749 | 5,050 | [【虎杖の哲学】「せめて知ってる人くらいは正しく死んでほしい」──祖父の死が生んだ、少年の覚悟 #呪術廻戦 #jujutsukaisen #虎杖悠仁 #伏黒恵](https://www.youtube.com/watch?v=5bK-A6__3so) by **特級呪霊生態記** |
-| 🔥 165.65x | 324,666 | 1,960 | [【心理学】スポーツ観戦に興味がない人だけが持っている特徴｜脳の配線が違う科学的理由](https://www.youtube.com/watch?v=zb2KiFeC5l4) by **心理学のおはなし** |
-| 🔥 164.76x | 1,472,916 | 8,940 | [Himalaya Brahmi - Supports Memory, Focus & Learning](https://www.youtube.com/watch?v=haZnFxn7ZjA) by **Himalaya Wellness** |
-| 🔥 162.98x | 268,911 | 1,650 | [𝗽𝘀𝘆𝗰𝗼𝗹𝗼𝗴𝘆 𝘀𝗮𝘆𝘀:?! ɪꜰ ʏᴏᴜ ʟᴏꜱᴇ ꜱᴏᴍᴇᴏɴᴇ?🥲🥀🫵#fypシ゚viral#blackpink#aesthetic#100k#psychology@rubyXverze](https://www.youtube.com/watch?v=S-ph2MFsZg8) by **𝗠𝗜𝗦𝗦.𝐑𝐔𝐁𝐘💋....!*^** |
+| 🔥 1556.08x | 171,169 | 110 | [123+12=？该咋教？ #亲子教育  #教育  #爱学习的孩子#共鳴 #内容过于真实](https://www.youtube.com/watch?v=_uKStZ9yFaI) by **环视人间刊** |
+| 🔥 1079.28x | 3,604,802 | 3,340 | [Why is the Girl crying? 😭 #cartoon #facts #ai #hindi #animated #catsoftiktok #crying #sadgirl](https://www.youtube.com/watch?v=RGxOtMc6iJE) by **3d division** |
+| 🔥 534.44x | 503,439 | 942 | [头晕晕的，感觉缺乏维生素RMB #机车 #文案 #抽象藝術](https://www.youtube.com/watch?v=-P6Owx3MgA8) by **一夕海棠** |
+| 🔥 188.01x | 511,383 | 2,720 | [Psychology Of People Who Forget Names Easily](https://www.youtube.com/watch?v=_g9RfS3Ux5Q) by **Mindspoke** |
+| 🔥 181.15x | 916,638 | 5,060 | [【虎杖の哲学】「せめて知ってる人くらいは正しく死んでほしい」──祖父の死が生んだ、少年の覚悟 #呪術廻戦 #jujutsukaisen #虎杖悠仁 #伏黒恵](https://www.youtube.com/watch?v=5bK-A6__3so) by **特級呪霊生態記** |
+| 🔥 166.1x | 1,484,892 | 8,940 | [Himalaya Brahmi - Supports Memory, Focus & Learning](https://www.youtube.com/watch?v=haZnFxn7ZjA) by **Himalaya Wellness** |
+| 🔥 164.86x | 324,773 | 1,970 | [【心理学】スポーツ観戦に興味がない人だけが持っている特徴｜脳の配線が違う科学的理由](https://www.youtube.com/watch?v=zb2KiFeC5l4) by **心理学のおはなし** |
 | 🔥 148.89x | 250,132 | 1,680 | [【悪用厳禁】揺れるリボンの心理術 #進撃のノア #悪用厳禁 #接客の本質 #モテマインド #心理学 #ビジネス論 #いい女の条件](https://www.youtube.com/watch?v=fXX74hE4t6U) by **進撃のノアCLIPS【公式切り抜き】** |
 | 🔥 128.19x | 170,489 | 1,330 | [👧 Learn ABCD with Fun! 🔤 - Alphabet Learning for Parents 🤱🏻#abcd #alphabet #abc](https://www.youtube.com/watch?v=b_7rgU8u7t8) by **TinyViniKids - Nursery Rhymes | Kids learning** |
-| 🔥 128.02x | 314,925 | 2,460 | [人の本性が出る瞬間3選 #人間関係 #心理学 #人生の教訓 #人を見る目 #雑学 #shorts](https://www.youtube.com/watch?v=I0Pj9ZSEErU) by **人生の知恵袋** |
-| 🔥 119.65x | 193,827 | 1,620 | [【心理学】頭のいい人がやっている片付け習慣とは](https://www.youtube.com/watch?v=6MOp9vC1SuE) by **ちょっと元気になれる心理学** |
-| 🔥 105.86x | 418,163 | 3,950 | [【心理学と脳科学】複数人だと黙る人は](https://www.youtube.com/watch?v=taenAvJzzFk) by **裏まめ学** |
-| 🔥 87.9x | 46,673 | 531 | [古い構造に込められた哲学](https://www.youtube.com/watch?v=pTlfmLV3DuY) by **World.極** |
-| 🔥 82.15x | 644,023 | 7,840 | [The Hidden Psychology of People Who Cry Easily](https://www.youtube.com/watch?v=4MLDRT3VQ4c) by **Elevate Psychology** |
-| 🔥 78.89x | 385,760 | 4,890 | [#marketing #viral #psychology #ugynokseg](https://www.youtube.com/watch?v=Ds3RojJ-2iQ) by **AnokerMediaAgency** |
-| 🔥 60.62x | 272,810 | 4,500 | [メンタルを強くしたい人へ #人生 #心理学 #自己啓発 #メンタル #マインド #格言](https://www.youtube.com/watch?v=FME-7w2_fuU) by **年収を上げる方法** |
-| 🔥 55.24x | 13,865 | 251 | [別看文案 看我 #麥可傑克遜 #thriller #蛋卷米萊狄走路 #拉丁舞 #熱門舞蹈計劃](https://www.youtube.com/watch?v=VlBjDSxn10w) by **Lisa Olson** |
+| 🔥 127.52x | 314,984 | 2,470 | [人の本性が出る瞬間3選 #人間関係 #心理学 #人生の教訓 #人を見る目 #雑学 #shorts](https://www.youtube.com/watch?v=I0Pj9ZSEErU) by **人生の知恵袋** |
+| 🔥 119.76x | 194,011 | 1,620 | [【心理学】頭のいい人がやっている片付け習慣とは](https://www.youtube.com/watch?v=6MOp9vC1SuE) by **ちょっと元気になれる心理学** |
+| 🔥 105.89x | 418,256 | 3,950 | [【心理学と脳科学】複数人だと黙る人は](https://www.youtube.com/watch?v=taenAvJzzFk) by **裏まめ学** |
+| 🔥 103.85x | 1,350 | 13 | [#nailartmachine #smartnailprinter #创业 #黑科技](https://www.youtube.com/watch?v=rO7dxtuj0mM) by **Smart Nail Printer - Manager Li** |
+| 🔥 87.36x | 46,740 | 535 | [古い構造に込められた哲学](https://www.youtube.com/watch?v=pTlfmLV3DuY) by **World.極** |
+| 🔥 82.16x | 644,107 | 7,840 | [The Hidden Psychology of People Who Cry Easily](https://www.youtube.com/watch?v=4MLDRT3VQ4c) by **Elevate Psychology** |
+| 🔥 60.74x | 273,352 | 4,500 | [メンタルを強くしたい人へ #人生 #心理学 #自己啓発 #メンタル #マインド #格言](https://www.youtube.com/watch?v=FME-7w2_fuU) by **年収を上げる方法** |
+| 🔥 55.02x | 13,864 | 252 | [別看文案 看我 #麥可傑克遜 #thriller #蛋卷米萊狄走路 #拉丁舞 #熱門舞蹈計劃](https://www.youtube.com/watch?v=VlBjDSxn10w) by **Lisa Olson** |
+| 🔥 45.86x | 1,330 | 29 | [“UCR 是 UC reject 吗？ #脱稿玩家 #podcast #华人播客 #个人成长 #熱門 #熱門 #认知提升 #播客 #感情 #推薦](https://www.youtube.com/watch?v=q13yX51qswA) by **脱稿玩家—off the cuff** |
+| 🔥 42.82x | 324,981 | 7,590 | [Why Children Copy Everything You Do - The Science of Observational Learning & Parenting](https://www.youtube.com/watch?v=evnMovIpdas) by **DrAnkitDaral Psychiatrist ** |
+| 🔥 41.8x | 94,476 | 2,260 | [99%の人は気づいていない…精神的に覚醒した人だけが持つ「説明不能なオーラ」とは？｜カール・ユング心理学・魂の成長](https://www.youtube.com/watch?v=fxxyh2UTC3M) by **成功した人々** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
