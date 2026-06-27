@@ -3,7 +3,7 @@ title: '為什麼你的聚會總是尷尬收場？解鎖人際連結的秘密武
 original_title: 'Try it For 1 Week: Small Ways to Make Your Life Fun & Exciting Again'
 author: 'melrobbins'
 category: '人際關係'
-date: "2026-01-01"
+date: "2026-06-22"
 tags: ['人際關係', 'melrobbins']
 source_url: "https://www.youtube.com/watch?v=IDqKUXp2ENk"
 thumbnail: "https://img.youtube.com/vi/IDqKUXp2ENk/maxresdefault.jpg"

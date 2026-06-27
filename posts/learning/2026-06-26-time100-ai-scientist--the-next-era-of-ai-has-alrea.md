@@ -3,7 +3,7 @@ title: '超智能AI兩年內實現？未來工作與知識的終極重塑'
 original_title: 'TIME100 AI Scientist: The Next Era of AI Has Already Started | Richard Socher'
 author: 'SiliconValleyGirl'
 category: '科技趨勢'
-date: "2026-01-01"
+date: "2026-06-26"
 tags: ['科技趨勢', 'SiliconValleyGirl']
 source_url: "https://www.youtube.com/watch?v=2j9yjRSpMSo"
 thumbnail: "https://img.youtube.com/vi/2j9yjRSpMSo/maxresdefault.jpg"

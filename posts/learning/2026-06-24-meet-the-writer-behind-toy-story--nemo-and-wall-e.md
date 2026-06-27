@@ -3,7 +3,7 @@ title: '皮克斯神作背後：讓大人小孩都哭笑的魔法秘密'
 original_title: 'Meet The Writer Behind Toy Story, Nemo and Wall-E'
 author: 'DavidPerell'
 category: '創意藝術'
-date: "2026-01-01"
+date: "2026-06-24"
 tags: ['創意藝術', 'DavidPerell']
 source_url: "https://www.youtube.com/watch?v=RM36Po6R25U"
 thumbnail: "https://img.youtube.com/vi/RM36Po6R25U/maxresdefault.jpg"

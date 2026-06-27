@@ -3,7 +3,7 @@ title: '寫小說不必痛苦掙扎？資深作家親授入門秘笈！'
 original_title: 'Learn How to Write Novels in 1 Hour (Andrew Hunter Murray Interview)'
 author: 'DavidPerell'
 category: '創意藝術'
-date: "2026-01-01"
+date: "2026-06-10"
 tags: ['創意藝術', 'DavidPerell']
 source_url: "https://www.youtube.com/watch?v=GE6-wNk-BI8"
 thumbnail: "https://img.youtube.com/vi/GE6-wNk-BI8/maxresdefault.jpg"

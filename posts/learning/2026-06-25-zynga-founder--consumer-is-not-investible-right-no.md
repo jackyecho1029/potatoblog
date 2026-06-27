@@ -3,7 +3,7 @@ title: '別管投資人怎麼想：現在正是你打造下一款消費級爆品
 original_title: 'Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It'
 author: 'ycombinator'
 category: '商業創業'
-date: "2026-01-01"
+date: "2026-06-25"
 tags: ['商業創業', 'ycombinator']
 source_url: "https://www.youtube.com/watch?v=oHwUD9b9_pg"
 thumbnail: "https://img.youtube.com/vi/oHwUD9b9_pg/maxresdefault.jpg"

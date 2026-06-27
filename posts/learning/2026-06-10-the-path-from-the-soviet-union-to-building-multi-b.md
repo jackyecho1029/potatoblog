@@ -3,7 +3,7 @@ title: '從蘇聯到矽谷：Max Levchin 的億萬決策秘訣'
 original_title: 'The Path from The Soviet Union to Building Multi-Billion Dollar Companies — Max Levchin'
 author: 'timferriss'
 category: '商業創業'
-date: "2026-01-01"
+date: "2026-06-10"
 tags: ['商業創業', 'timferriss']
 source_url: "https://www.youtube.com/watch?v=uOjgVxOfxXo"
 thumbnail: "https://img.youtube.com/vi/uOjgVxOfxXo/maxresdefault.jpg"

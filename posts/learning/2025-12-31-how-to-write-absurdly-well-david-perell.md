@@ -3,7 +3,7 @@ title: "如何写出极致优秀的文字：David Perell 写作大师课"
 original_title: "How to Write Absurdly Well"
 author: "David Perell"
 category: "创作技能"
-date: "2026-01-01"
+date: "2025-12-31"
 tags: ["创作技能", "David Perell"]
 source_url: "https://www.youtube.com/watch?v=LO0qHnhpkDs"
 thumbnail: "https://img.youtube.com/vi/LO0qHnhpkDs/maxresdefault.jpg"

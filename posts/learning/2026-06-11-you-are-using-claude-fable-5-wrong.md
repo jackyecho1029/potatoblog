@@ -3,7 +3,7 @@ title: '你用錯了 Fable 5！99%的人沒掌握的賺錢與效率秘密'
 original_title: 'You are using Claude Fable 5 wrong'
 author: 'GregIsenberg'
 category: '商業創業'
-date: "2026-01-01"
+date: "2026-06-11"
 tags: ['商業創業', 'GregIsenberg']
 source_url: "https://www.youtube.com/watch?v=vjdHAWvVCP4"
 thumbnail: "https://img.youtube.com/vi/vjdHAWvVCP4/maxresdefault.jpg"

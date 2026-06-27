@@ -3,7 +3,7 @@ title: 'Lenny''s Podcast 笔记：Fiona Fung 深度访谈'
 original_title: 'What happens after coding is solved? | Fiona Fung (Claude Code & Cowork)'
 author: 'Lenny''s Podcast'
 category: "生活与效率"
-date: "2026-01-01"
+date: "2026-06-21"
 tags:
   - AI 与技术
   - 生活与效率

@@ -3,7 +3,7 @@ title: '別再低估自己了！這個思維轉換，讓你收入暴增10倍'
 original_title: 'This Mindset Shift Can 10x Your Income | Chris Do'
 author: 'podcastbigdeal'
 category: '思維成長'
-date: "2026-01-01"
+date: "2026-06-24"
 tags: ['思維成長', 'podcastbigdeal']
 source_url: "https://www.youtube.com/watch?v=sHut1B9gWWY"
 thumbnail: "https://img.youtube.com/vi/sHut1B9gWWY/maxresdefault.jpg"
