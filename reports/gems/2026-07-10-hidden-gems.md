@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 860.62x | 5,310,012 | 6,170 | [Erling Haaland video revealed to be AI](https://www.youtube.com/watch?v=c5Fc-RfPdMI) by **Panda Paws** |
-| 🔥 474.06x | 4,261,834 | 8,990 | [Himalaya Brahmi - Supports Memory, Focus & Learning](https://www.youtube.com/watch?v=haZnFxn7ZjA) by **Himalaya Wellness** |
-| 🔥 247.14x | 2,360,221 | 9,550 | ["3년 내 1만호 공급 목표"…삼성 AI 모듈러 홈 가보니](https://www.youtube.com/watch?v=xmj5z0okKas) by **팍스경제TV 뉴스** |
-| 🔥 192.25x | 164,949 | 858 | [マイケルの哲学が詰まった一曲とは#音楽 #music #pop](https://www.youtube.com/watch?v=34zWH94A8bE) by **耳学チャンネル** |
-| 🔥 150.18x | 373,944 | 2,490 | [【心理学】スポーツ観戦に興味がない人だけが持っている特徴｜脳の配線が違う科学的理由](https://www.youtube.com/watch?v=zb2KiFeC5l4) by **心理学のおはなし** |
-| 🔥 149.14x | 938,084 | 6,290 | [삼성의 역발상 공포 마케팅](https://www.youtube.com/watch?v=etEeCvIWV7o) by **개발천재 김롤백** |
-| 🔥 146.95x | 258,634 | 1,760 | [【悪用厳禁】揺れるリボンの心理術 #進撃のノア #悪用厳禁 #接客の本質 #モテマインド #心理学 #ビジネス論 #いい女の条件](https://www.youtube.com/watch?v=fXX74hE4t6U) by **進撃のノアCLIPS【公式切り抜き】** |
-| 🔥 144.72x | 649,798 | 4,490 | [軍隊でもヒョンに叩き起こされて、急に哲学者になるジョングクw](https://www.youtube.com/watch?v=LFm96_qtLNw) by **今日の推し** |
-| 🔥 138.94x | 46,268 | 333 | [20260610 营销号hsm 泰语 竖 18](https://www.youtube.com/watch?v=09CpX3ol1vI) by **GameShare** |
-| 🔥 126.54x | 111,232 | 879 | [【最新脳科学】「物忘れ＝老化」は間違いだった！脳が老けない人が一人に時間にしている７つのこと【心理学】](https://www.youtube.com/watch?v=2CzgfPAg3Ww) by **心と脳の話** |
-| 🔥 94.19x | 45,304 | 481 | [Marketing Experiments 🧪](https://www.youtube.com/watch?v=jKSUsZ6cH7k) by **OG Filmy Core** |
-| 🔥 92.81x | 424,146 | 4,570 | [【心理学と脳科学】複数人だと黙る人は](https://www.youtube.com/watch?v=taenAvJzzFk) by **裏まめ学** |
-| 🔥 89.84x | 37,555 | 418 | [還原某些寶媽創業之工地健身房 #抽象 #搞笑 #創業 #剪映](https://www.youtube.com/watch?v=4HBZroVx6lk) by **steven eaststone** |
-| 🔥 86.28x | 427,096 | 4,950 | [メンタルを強くしたい人へ #人生 #心理学 #自己啓発 #メンタル #マインド #格言](https://www.youtube.com/watch?v=FME-7w2_fuU) by **年収を上げる方法** |
-| 🔥 79.42x | 57,499 | 724 | [Sidhu Moosewala 😳 Legend Kaise Bana? Marketing Secret Revealed! #sidhumoosewala #musicmarketing](https://www.youtube.com/watch?v=4gU3xAB45Mg) by **Dr. Himanshu Bansal** |
-| 🔥 70.69x | 291,941 | 4,130 | [腹黒い人ほど無意識に出る仕草3選 #雑学 #人間関係 #shorts](https://www.youtube.com/watch?v=9yjTXV1GXoM) by **人生の知恵袋** |
-| 🔥 68.44x | 63,309 | 925 | [用一天时间装20w的电脑！ #上门装机 #组装电脑 #广州上门装机 #电竞酒店 #创业](https://www.youtube.com/watch?v=RGxNBN1kXdo) by **小马装机日记** |
-| 🔥 62.21x | 571,725 | 9,190 | [【話が通じない日本人が急増】相手の説明が理解できない人の共通点....#人間関係#会話#心理学](https://www.youtube.com/watch?v=qFsHmhGnzyA) by **ナオト【本質の世界】** |
+| 🔥 860.72x | 5,310,640 | 6,170 | [Erling Haaland video revealed to be AI](https://www.youtube.com/watch?v=c5Fc-RfPdMI) by **Panda Paws** |
+| 🔥 476.14x | 4,280,522 | 8,990 | [Himalaya Brahmi - Supports Memory, Focus & Learning](https://www.youtube.com/watch?v=haZnFxn7ZjA) by **Himalaya Wellness** |
+| 🔥 247.43x | 2,365,408 | 9,560 | ["3년 내 1만호 공급 목표"…삼성 AI 모듈러 홈 가보니](https://www.youtube.com/watch?v=xmj5z0okKas) by **팍스경제TV 뉴스** |
+| 🔥 206.5x | 1,652 | 8 | [#douyin #紀錄 #cutegirl #shenzhen #熱門 #推薦 #edit #文案 ,#fypシ゚viral](https://www.youtube.com/watch?v=zHUwU-4OrK8) by **LingXuan** |
+| 🔥 192.31x | 165,196 | 859 | [マイケルの哲学が詰まった一曲とは#音楽 #music #pop](https://www.youtube.com/watch?v=34zWH94A8bE) by **耳学チャンネル** |
+| 🔥 150.24x | 374,108 | 2,490 | [【心理学】スポーツ観戦に興味がない人だけが持っている特徴｜脳の配線が違う科学的理由](https://www.youtube.com/watch?v=zb2KiFeC5l4) by **心理学のおはなし** |
+| 🔥 149.14x | 939,551 | 6,300 | [삼성의 역발상 공포 마케팅](https://www.youtube.com/watch?v=etEeCvIWV7o) by **개발천재 김롤백** |
+| 🔥 146.96x | 258,644 | 1,760 | [【悪用厳禁】揺れるリボンの心理術 #進撃のノア #悪用厳禁 #接客の本質 #モテマインド #心理学 #ビジネス論 #いい女の条件](https://www.youtube.com/watch?v=fXX74hE4t6U) by **進撃のノアCLIPS【公式切り抜き】** |
+| 🔥 144.58x | 650,605 | 4,500 | [軍隊でもヒョンに叩き起こされて、急に哲学者になるジョングクw](https://www.youtube.com/watch?v=LFm96_qtLNw) by **今日の推し** |
+| 🔥 126.63x | 111,436 | 880 | [【最新脳科学】「物忘れ＝老化」は間違いだった！脳が老けない人が一人に時間にしている７つのこと【心理学】](https://www.youtube.com/watch?v=2CzgfPAg3Ww) by **心と脳の話** |
+| 🔥 92.81x | 424,147 | 4,570 | [【心理学と脳科学】複数人だと黙る人は](https://www.youtube.com/watch?v=taenAvJzzFk) by **裏まめ学** |
+| 🔥 89.85x | 37,738 | 420 | [還原某些寶媽創業之工地健身房 #抽象 #搞笑 #創業 #剪映](https://www.youtube.com/watch?v=4HBZroVx6lk) by **steven eaststone** |
+| 🔥 86.38x | 427,587 | 4,950 | [メンタルを強くしたい人へ #人生 #心理学 #自己啓発 #メンタル #マインド #格言](https://www.youtube.com/watch?v=FME-7w2_fuU) by **年収を上げる方法** |
+| 🔥 79.27x | 57,628 | 727 | [Sidhu Moosewala 😳 Legend Kaise Bana? Marketing Secret Revealed! #sidhumoosewala #musicmarketing](https://www.youtube.com/watch?v=4gU3xAB45Mg) by **Dr. Himanshu Bansal** |
+| 🔥 71.25x | 1,140 | 16 | [“女人最好的活法是什么” #人间清醒 #情感 #文案 #能量療愈 #心灵感悟 #人生感悟](https://www.youtube.com/watch?v=UbUEa9Hwsas) by **柠檬味治愈** |
+| 🔥 70.73x | 292,106 | 4,130 | [腹黒い人ほど無意識に出る仕草3選 #雑学 #人間関係 #shorts](https://www.youtube.com/watch?v=9yjTXV1GXoM) by **人生の知恵袋** |
+| 🔥 68.64x | 63,493 | 925 | [用一天时间装20w的电脑！ #上门装机 #组装电脑 #广州上门装机 #电竞酒店 #创业](https://www.youtube.com/watch?v=RGxNBN1kXdo) by **小马装机日记** |
+| 🔥 62.22x | 571,790 | 9,190 | [【話が通じない日本人が急増】相手の説明が理解できない人の共通点....#人間関係#会話#心理学](https://www.youtube.com/watch?v=qFsHmhGnzyA) by **ナオト【本質の世界】** |
 | 🔥 56.74x | 1,078 | 19 | [君子如玉，小人如蛆……#东方玄学 #个人成长 #道家智慧](https://www.youtube.com/watch?v=3H2Fr00WVu4) by **北明先生** |
-| 🔥 52.42x | 18,189 | 347 | [別看文案 看我 #麥可傑克遜 #thriller #蛋卷米萊狄走路 #拉丁舞 #熱門舞蹈計劃](https://www.youtube.com/watch?v=VlBjDSxn10w) by **Lisa Olson** |
+| 🔥 51.57x | 1,186 | 23 | [你就忍忍呗~@林安念ovo @_无声 #求火 #文案 #文案 #互訂 #望火 #望火 #流量 #不要上推薦 #cake #熱門 #按赞 #分享 #推薦](https://www.youtube.com/watch?v=5P1VtGtn8FM) by **^呆萌系.雨棉💤** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
