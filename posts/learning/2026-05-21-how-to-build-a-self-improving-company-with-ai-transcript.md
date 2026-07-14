@@ -1,3 +1,14 @@
+---
+title: '用 AI 打造自我进化的公司 — 完整中文文稿'
+original_title: 'How to Build a Self-Improving Company with AI (Transcript)'
+author: 'Y Combinator'
+category: "AI构建者"
+date: "2026-05-21"
+tags: ["AI构建者", "Y Combinator", "AI-native", "组织设计", "文字稿"]
+source_url: "https://www.youtube.com/watch?v=X_JsIHUfUjc"
+thumbnail: "https://img.youtube.com/vi/X_JsIHUfUjc/maxresdefault.jpg"
+---
+
 # 用 AI 打造自我进化的公司 — 完整中文文稿
 
 > **原视频**：[How to Build a Self-Improving Company with AI](https://www.youtube.com/watch?v=X_JsIHUfUjc)
