@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 212288x | 212,288 | 1 | [踏上AI智能创业之路  找回生活的色彩](https://www.youtube.com/watch?v=ms2VrxY8V6s) by **Olivia Li 网络创业导师** |
-| 🔥 18486x | 18,486 | 1 | [20260624 PH EN 1x1 棋盘玩法 迭代 2D 文案片头+merge合成翻新 改尺寸 0 1d KD KD](https://www.youtube.com/watch?v=ESurexeOKcg) by **Pets Harbor** |
-| 🔥 4383.43x | 3,497,975 | 798 | [Came to the wedding in white  #narcissist #mother-in-law#psychology #personalboundaries #se#funny](https://www.youtube.com/watch?v=-e2_o1FNaPE) by **Domenic** |
-| 🔥 3804.46x | 3,511,519 | 923 | [Dadi ki cycle 😅 Funny video #shorts #ai #viralvideo](https://www.youtube.com/watch?v=KWYB2I5s2P8) by **unique shorts 007** |
-| 🔥 2377.48x | 3,732,651 | 1,570 | [Dass rupye ke tur ture. #ai #babyshorts](https://www.youtube.com/watch?v=eKvxA87nsHE) by **Aniverse Ai Hindi** |
-| 🔥 634.28x | 5,702,192 | 8,990 | [Himalaya Brahmi - Supports Memory, Focus & Learning](https://www.youtube.com/watch?v=haZnFxn7ZjA) by **Himalaya Wellness** |
-| 🔥 377.38x | 2,332,235 | 6,180 | [手把手教你学习舞蹈 快来和我一起学习这个基本功#成人零基础舞蹈培训 #简单易学舞蹈 #爵士基本功 #0基础学舞蹈](https://www.youtube.com/watch?v=uhYMzTYlJzo) by **华翎舞蹈艾莉团队小洒老师** |
-| 🔥 313.88x | 2,677,364 | 8,530 | [O marketing brasileiro é o melhor 😂😂](https://www.youtube.com/watch?v=3jPbJMldXNo) by **Paulo Parente** |
-| 🔥 309.19x | 79,772 | 258 | [自由女神像一日遊 #玩法合夥人計劃 #創意文案玩法集 #創作靈感#創作者扶持計劃 #原創](https://www.youtube.com/watch?v=xUe-6DQ42AE) by **fvawhb** |
-| 🔥 271.83x | 2,644,890 | 9,730 | ["3년 내 1만호 공급 목표"…삼성 AI 모듈러 홈 가보니](https://www.youtube.com/watch?v=xmj5z0okKas) by **팍스경제TV 뉴스** |
-| 🔥 247.12x | 200,417 | 811 | [Baby Learning With Ms Rachel - First Words, Songs and Nursery Rhymes for Babies - Toddler Videos](https://www.youtube.com/watch?v=yHpVHBsSlnI) by **Silent Kindness** |
+| 🔥 18508x | 18,508 | 1 | [20260624 PH EN 1x1 棋盘玩法 迭代 2D 文案片头+merge合成翻新 改尺寸 0 1d KD KD](https://www.youtube.com/watch?v=ESurexeOKcg) by **Pets Harbor** |
+| 🔥 4869.82x | 21,524,625 | 4,420 | [サテライトオフィス/2026③30秒/クラウド+AI/テレビCM](https://www.youtube.com/watch?v=k2RZ0VM5Cyc) by **サテライトオフィス** |
+| 🔥 4388.04x | 3,501,657 | 798 | [Came to the wedding in white  #narcissist #mother-in-law#psychology #personalboundaries #se#funny](https://www.youtube.com/watch?v=-e2_o1FNaPE) by **Domenic** |
+| 🔥 635.43x | 5,712,472 | 8,990 | [Himalaya Brahmi - Supports Memory, Focus & Learning](https://www.youtube.com/watch?v=haZnFxn7ZjA) by **Himalaya Wellness** |
+| 🔥 383.35x | 2,376,795 | 6,200 | [手把手教你学习舞蹈 快来和我一起学习这个基本功#成人零基础舞蹈培训 #简单易学舞蹈 #爵士基本功 #0基础学舞蹈](https://www.youtube.com/watch?v=uhYMzTYlJzo) by **华翎舞蹈艾莉团队小洒老师** |
+| 🔥 316.58x | 2,703,571 | 8,540 | [O marketing brasileiro é o melhor 😂😂](https://www.youtube.com/watch?v=3jPbJMldXNo) by **Paulo Parente** |
+| 🔥 311.14x | 80,273 | 258 | [自由女神像一日遊 #玩法合夥人計劃 #創意文案玩法集 #創作靈感#創作者扶持計劃 #原創](https://www.youtube.com/watch?v=xUe-6DQ42AE) by **fvawhb** |
+| 🔥 247.42x | 200,661 | 811 | [Baby Learning With Ms Rachel - First Words, Songs and Nursery Rhymes for Babies - Toddler Videos](https://www.youtube.com/watch?v=yHpVHBsSlnI) by **Silent Kindness** |
 | 🔥 206.63x | 1,653 | 8 | [#douyin #紀錄 #cutegirl #shenzhen #熱門 #推薦 #edit #文案 ,#fypシ゚viral](https://www.youtube.com/watch?v=zHUwU-4OrK8) by **LingXuan** |
-| 🔥 189.65x | 326,201 | 1,720 | [アドラーが教える「離婚する夫婦」と「添い遂げる夫婦」の決定的な違い](https://www.youtube.com/watch?v=8Jstfq7ZlJo) by **心理で心を軽くする** |
-| 🔥 162.27x | 1,049,897 | 6,470 | [삼성의 역발상 공포 마케팅](https://www.youtube.com/watch?v=etEeCvIWV7o) by **개발천재 김롤백** |
-| 🔥 156.85x | 777,996 | 4,960 | [軍隊でもヒョンに叩き起こされて、急に哲学者になるジョングクw](https://www.youtube.com/watch?v=LFm96_qtLNw) by **今日の推し** |
-| 🔥 138.92x | 308,398 | 2,220 | [#virale #psicologia #relazioni #perte #amore](https://www.youtube.com/watch?v=yfsGZDag0fw) by **Elena Soloviova** |
-| 🔥 123.23x | 103,267 | 838 | [【心理学】老後も仲良し夫婦の女性は、実は夫にコレをしていません！意外な夫婦円満の秘訣](https://www.youtube.com/watch?v=2st41QI5H_w) by **シニアのちょっとほっこりする心理学** |
-| 🔥 81.94x | 46,705 | 570 | [還原某些寶媽創業之工地健身房 #抽象 #搞笑 #創業 #剪映](https://www.youtube.com/watch?v=4HBZroVx6lk) by **steven eaststone** |
-| 🔥 80.79x | 342,562 | 4,240 | [育ちが出る小さな習慣 7選 #心理学 #人生訓 #自己啓発](https://www.youtube.com/watch?v=vZYPazS7pXo) by **高校生の女子** |
-| 🔥 65.89x | 79,723 | 1,210 | [用一天时间装20w的电脑！ #上门装机 #组装电脑 #广州上门装机 #电竞酒店 #创业](https://www.youtube.com/watch?v=RGxNBN1kXdo) by **小马装机日记** |
+| 🔥 189.13x | 327,187 | 1,730 | [アドラーが教える「離婚する夫婦」と「添い遂げる夫婦」の決定的な違い](https://www.youtube.com/watch?v=8Jstfq7ZlJo) by **心理で心を軽くする** |
+| 🔥 162.32x | 1,050,221 | 6,470 | [삼성의 역발상 공포 마케팅](https://www.youtube.com/watch?v=etEeCvIWV7o) by **개발천재 김롤백** |
+| 🔥 156.66x | 778,577 | 4,970 | [軍隊でもヒョンに叩き起こされて、急に哲学者になるジョングクw](https://www.youtube.com/watch?v=LFm96_qtLNw) by **今日の推し** |
+| 🔥 138.98x | 308,532 | 2,220 | [#virale #psicologia #relazioni #perte #amore](https://www.youtube.com/watch?v=yfsGZDag0fw) by **Elena Soloviova** |
+| 🔥 122.27x | 103,560 | 847 | [【心理学】老後も仲良し夫婦の女性は、実は夫にコレをしていません！意外な夫婦円満の秘訣](https://www.youtube.com/watch?v=2st41QI5H_w) by **シニアのちょっとほっこりする心理学** |
+| 🔥 81.98x | 46,727 | 570 | [還原某些寶媽創業之工地健身房 #抽象 #搞笑 #創業 #剪映](https://www.youtube.com/watch?v=4HBZroVx6lk) by **steven eaststone** |
+| 🔥 80.85x | 342,817 | 4,240 | [育ちが出る小さな習慣 7選 #心理学 #人生訓 #自己啓発](https://www.youtube.com/watch?v=vZYPazS7pXo) by **高校生の女子** |
+| 🔥 65.91x | 79,754 | 1,210 | [用一天时间装20w的电脑！ #上门装机 #组装电脑 #广州上门装机 #电竞酒店 #创业](https://www.youtube.com/watch?v=RGxNBN1kXdo) by **小马装机日记** |
+| 🔥 64.83x | 219,135 | 3,380 | [HAALAND: la estrella del mundial conquista a las marcas. #marketing #fifaworldcup](https://www.youtube.com/watch?v=M0sygStgcmA) by **Marketing para llevar, by Armando Ruiz** |
+| 🔥 63.3x | 14,813 | 234 | [【#个人成长】#认知提升 #人生智慧 #长期主义 #留言178 领取10天健康蜕变蓝图](https://www.youtube.com/watch?v=awxij8MElNU) by **James Yap** |
+| 🔥 63.19x | 579,490 | 9,170 | [【話が通じない日本人が急増】相手の説明が理解できない人の共通点....#人間関係#会話#心理学](https://www.youtube.com/watch?v=qFsHmhGnzyA) by **ナオト【本質の世界】** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
