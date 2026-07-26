@@ -3,7 +3,6 @@ import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
 import { fetchTranscript } from './lib/transcript';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });
@@ -35,10 +34,40 @@ function isQuotaError(err: any): boolean {
     return err?.response?.status === 403 ||
         err?.errors?.some((e: any) => e.reason === 'quotaExceeded');
 }
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+// Mimo (Xiaomi) via Anthropic-compatible gateway — replaces Gemini for summarization.
+const MIMO_API_KEY = process.env.MIMO_API_KEY;
+const MIMO_BASE_URL = process.env.MIMO_BASE_URL || 'https://token-plan-sgp.xiaomimimo.com/anthropic';
+const MIMO_MODEL = process.env.MIMO_MODEL || 'mimo-v2.5';
 
-// Initialize Gemini
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || '');
+/** Summarize via Mimo's Anthropic-compatible endpoint. Mimo is a reasoning model
+ *  whose response mixes `text` and `thinking` blocks; we disable thinking (faster,
+ *  and avoids max_tokens contention on long transcripts) and keep only the text. */
+async function summarizeWithMimo(prompt: string): Promise<string> {
+    const response = await fetch(`${MIMO_BASE_URL}/v1/messages`, {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${MIMO_API_KEY}`,
+            'anthropic-version': '2023-06-01',
+            'content-type': 'application/json',
+        },
+        body: JSON.stringify({
+            model: MIMO_MODEL,
+            max_tokens: 8192,
+            thinking: { type: 'disabled' },
+            messages: [{ role: 'user', content: prompt }],
+        }),
+    });
+    if (!response.ok) {
+        throw new Error(`Mimo API error ${response.status}: ${await response.text()}`);
+    }
+    const data: any = await response.json();
+    const text = (data.content || [])
+        .filter((b: any) => b.type === 'text')
+        .map((b: any) => b.text || '')
+        .join('');
+    if (!text) throw new Error('Mimo returned no text content');
+    return text;
+}
 
 const CHANNELS = process.env.YOUTUBE_CHANNELS?.split(',') || [];
 // Max age (in days) of a video to be processed. Default 60. Override via MAX_DAYS env var.
@@ -119,8 +148,6 @@ async function listUploadVideos(uploadsPlaylistId: string): Promise<{ videoId: s
 }
 
 async function summarizeVideo(originalTitle: string, transcriptText: string): Promise<{ hookTitle: string, category: string, summary: string }> {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-
     const prompt = `
 你是一位頂級知識策展人和深度學習顧問。請嚴格按照以下結構深度解析這個視頻內容。
 
@@ -228,9 +255,7 @@ ${transcriptText.substring(0, 25000)}
 `;
 
     try {
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        const text = response.text();
+        const text = await summarizeWithMimo(prompt);
 
         // Extract hook title
         const titleMatch = text.match(/---HOOK_TITLE_START---([\s\S]*?)---HOOK_TITLE_END---/);
@@ -246,14 +271,12 @@ ${transcriptText.substring(0, 25000)}
 
         return { hookTitle, category, summary };
     } catch (error) {
-        console.error("Gemini Error:", error);
+        console.error("Mimo Error:", error);
         return { hookTitle: originalTitle, category: '思維成長', summary: "AI Summarization Failed." };
     }
 }
 
 async function summarizeLennyVideo(guestName: string, transcriptText: string): Promise<string | null> {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-
     const prompt = `
 你是一位頂級商業分析師和知識策展人，深度推崇查理·芒格的多元思維模型和金字塔原理。
 請深度剖析 Lenny's Podcast 的訪談文稿（受訪者：${guestName}）。
@@ -345,18 +368,16 @@ ${transcriptText.substring(0, 30000)}
     `;
 
     try {
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        return response.text();
+        return await summarizeWithMimo(prompt);
     } catch (error) {
-        console.error("Gemini Error for Lenny:", error);
+        console.error("Mimo Error for Lenny:", error);
         return null;
     }
 }
 
 
 async function fetchVideoByUrl(videoUrl: string) {
-    if (!YOUTUBE_API_KEYS.length || !GEMINI_API_KEY) {
+    if (!YOUTUBE_API_KEYS.length || !MIMO_API_KEY) {
         console.error('API Keys are missing');
         return;
     }
@@ -419,7 +440,7 @@ async function fetchVideoByUrl(videoUrl: string) {
             return `${timeStr} ${item.text}`;
         }).join(' ');
 
-        console.log("   Summarizing with Gemini...");
+        console.log("   Summarizing with Mimo...");
         
         // Use the official channel title instead of the handle for display
         const authorName = channelTitle;
@@ -525,7 +546,7 @@ async function fetchLatestVideos() {
         return;
     }
 
-    if (!YOUTUBE_API_KEYS.length || !GEMINI_API_KEY) {
+    if (!YOUTUBE_API_KEYS.length || !MIMO_API_KEY) {
         console.error('API Keys are missing');
         return;
     }
@@ -630,7 +651,7 @@ async function fetchLatestVideos() {
                 }
             }
 
-            const date = video.snippet?.publishedAt?.split('T')[0] || '2026-01-01';
+            const date = video.publishedAt?.split('T')[0] || '2026-01-01';
             const cleanTitle = title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50);
             const filename = `${date}-${cleanTitle}.md`;
             const filePath = path.join(postsDir, filename);
@@ -738,7 +759,7 @@ ${summaryText}
                 }
 
                 // Normal Learning video processing
-                console.log("   Summarizing with Gemini...");
+                console.log("   Summarizing with Mimo...");
                 const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
 
                 const fileContent = `---

@@ -27,7 +27,9 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_API_KEY_2: ${{ secrets.YOUTUBE_API_KEY_2 }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
+          MIMO_BASE_URL: ${{ secrets.MIMO_BASE_URL }}
+          MIMO_MODEL: ${{ secrets.MIMO_MODEL }}
           YOUTUBE_CHANNELS: ${{ secrets.YOUTUBE_CHANNELS }}
         run: npx tsx scripts/fetch-learning.ts
         

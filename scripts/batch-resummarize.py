@@ -2,10 +2,14 @@
 """Batch re-summarize failed learning posts."""
 import json, sys, os, re, subprocess
 
-GLM_KEY = os.environ.get("ZHIPU_API_KEY", "")
-GLM_MODEL = os.environ.get("GLM_MODEL", "glm-4-flash")
-GLM_BASE_URL = os.environ.get("GLM_BASE_URL", "https://open.bigmodel.cn/api/coding/paas/v4")
-HTTPS_PROXY = os.environ.get("HTTPS_PROXY", "http://127.0.0.1:7897")
+# GLM is reached via the Anthropic-compatible gateway. The Zhipu Coding Plan key
+# (ANTHROPIC_AUTH_TOKEN / ANTHROPIC_API_KEY) authenticates here with Bearer; the
+# coding/paas/v4 endpoint rejects the same key with 身份验证失败. The gateway is
+# domestic, so it must NOT be routed through the YouTube proxy.
+GLM_TOKEN = os.environ.get("ANTHROPIC_AUTH_TOKEN") or os.environ.get("ANTHROPIC_API_KEY", "")
+GLM_MODEL = os.environ.get("GLM_MODEL", "glm-5-turbo")
+GLM_BASE_URL = os.environ.get("GLM_BASE_URL", "https://open.bigmodel.cn/api/anthropic")
+HTTPS_PROXY = os.environ.get("HTTPS_PROXY", "http://127.0.0.1:1082")
 POSTS_DIR = "/Users/jackypotato/potatoblog/posts/learning"
 
 SUMMARY_PROMPT = """你是一位资深的商业分析和内容提炼专家。请为以下 YouTube 视频的转录文稿生成一份高质量的中文摘要。
@@ -203,7 +207,7 @@ def fetch_transcript(video_id):
 
 
 def summarize_with_glm(author, transcript_text):
-    """Call GLM API (OpenAI-compatible) for summarization."""
+    """Call GLM via the Anthropic-compatible gateway (open.bigmodel.cn/api/anthropic)."""
     if 'Lenny' in author:
         prompt = LENNY_PROMPT.format(guest=author, transcript=transcript_text[:30000])
     else:
@@ -211,18 +215,19 @@ def summarize_with_glm(author, transcript_text):
 
     payload = json.dumps({
         "model": GLM_MODEL,
+        "max_tokens": 8192,
         "messages": [{"role": "user", "content": prompt}]
     })
 
     curl_args = ["curl", "-s",
-         f"{GLM_BASE_URL}/chat/completions",
-         "-H", "Authorization: Bearer " + GLM_KEY,
+         f"{GLM_BASE_URL}/v1/messages",
+         "-H", "Authorization: Bearer " + GLM_TOKEN,
+         "-H", "anthropic-version: 2023-06-01",
          "-H", "Content-Type: application/json",
          "-d", payload]
-    if HTTPS_PROXY:
-        curl_args.extend(["--proxy", HTTPS_PROXY])
+    # No --proxy: gateway is domestic; proxy is only for YouTube transcript fetch.
 
-    result = subprocess.run(curl_args, capture_output=True, text=True, timeout=180)
+    result = subprocess.run(curl_args, capture_output=True, text=True, timeout=300)
 
     if not result.stdout:
         print(f"  GLM error: empty response (stderr: {result.stderr[:200]})", file=sys.stderr)
@@ -232,9 +237,12 @@ def summarize_with_glm(author, transcript_text):
     except json.JSONDecodeError as e:
         print(f"  GLM error: JSON decode failed: {e}, raw: {result.stdout[:200]}", file=sys.stderr)
         return None
-    text = data.get('choices', [{}])[0].get('message', {}).get('content', '')
+    if data.get("type") == "error":
+        print(f"  GLM error: {json.dumps(data, ensure_ascii=False)[:300]}", file=sys.stderr)
+        return None
+    text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
     if not text:
-        print(f"  GLM error: {json.dumps(data)[:200]}", file=sys.stderr)
+        print(f"  GLM error: no text in response: {json.dumps(data, ensure_ascii=False)[:300]}", file=sys.stderr)
         return None
     return text
 
