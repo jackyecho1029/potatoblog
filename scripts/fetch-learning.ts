@@ -783,8 +783,8 @@ ${summary}
                 console.log(`✅ Saved: ${filename}`);
                 existingIds.add(videoId); // Add to set to prevent duplicate in same run
 
-            } catch (err) {
-                console.error(`   Failed to process ${title}: No transcript or error.`);
+            } catch (err: any) {
+                console.error(`   Failed to process ${title}: ${err?.message || 'No transcript or error.'}`);
             }
         }
       } catch (err: any) {
