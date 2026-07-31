@@ -7,25 +7,25 @@
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
 | 🔥 1786x | 1,786 | 0 | [没有文案有你新婚](https://www.youtube.com/watch?v=zOwuQIoR1Bo) by **我是三老表** |
-| 🔥 1331.06x | 12,179,232 | 9,150 | [#mukbang #roblox #ai  kita lagi makan nasi gor](https://www.youtube.com/watch?v=52E-T5-qRME) by **𝑺𝒐𝒃𝒓𝒊_𝟒𝟓𝟔𝟖** |
+| 🔥 1331.24x | 12,300,684 | 9,240 | [#mukbang #roblox #ai  kita lagi makan nasi gor](https://www.youtube.com/watch?v=52E-T5-qRME) by **𝑺𝒐𝒃𝒓𝒊_𝟒𝟓𝟔𝟖** |
 | 🔥 744.61x | 49,889 | 67 | [ABCD Song A to Z for Kids - Fast Alphabet Song | 3D Animated Learning Video #kidschannel](https://www.youtube.com/watch?v=1bF39KanMno) by **Zuppy Tales ** |
-| 🔥 577.37x | 177,252 | 307 | [Natraj's Secret Marketing Hack.#Natraj #Marketing #Business #Psychology #Facts #India #Branding #cjp](https://www.youtube.com/watch?v=UVTdg8YSxL4) by **Anand case study ** |
+| 🔥 579.62x | 179,103 | 309 | [Natraj's Secret Marketing Hack.#Natraj #Marketing #Business #Psychology #Facts #India #Branding #cjp](https://www.youtube.com/watch?v=UVTdg8YSxL4) by **Anand case study ** |
 | 🔥 546x | 3,276 | 6 | [代入一下被氣暈了 #memes #文案 #台灣 #fyp](https://www.youtube.com/watch?v=QP9yB-GOQvo) by **米可** |
-| 🔥 396.36x | 2,552,571 | 6,440 | [300-Feet Giant Shawarma Festival In Village #shawarma #village #cooking](https://www.youtube.com/watch?v=m52Zh3TNaYg) by **Newty Story** |
-| 🔥 395.89x | 486,947 | 1,230 | [3 Insane Marketing Stunts For Spider-Man: Brand New Day! 🕷️](https://www.youtube.com/watch?v=AC1AiqzxMKo) by **CineNastix ** |
-| 🔥 395.77x | 775,719 | 1,960 | [Gerger king marketingi 📊 #samarsultonov #shorts #marketing #burgerking](https://www.youtube.com/watch?v=ajRCAYfitx8) by **Samar Sultonov ** |
-| 🔥 310.46x | 350,821 | 1,130 | [100万ドル以上の価値がある、ロナウドの教育哲学#ロナウド #教育 #ジョルジーナ](https://www.youtube.com/watch?v=KZLfBxu0sro) by **Dolecki Sholes** |
-| 🔥 301.71x | 19,611 | 65 | [深度还原某些宝妈创业男士卫生巾专卖店belike](https://www.youtube.com/watch?v=KFReHYT_GT0) by **alice** |
-| 🔥 289.2x | 523,450 | 1,810 | [¡LA MEJOR JUGADA DE MARKETING! Cómo Under Armour venció a Nike y Adidas con solo 9 botas ⚽🔥](https://www.youtube.com/watch?v=L5RPTXbOXAo) by **Migthel** |
+| 🔥 522.55x | 93,536 | 179 | [実は、一瞬で品がないと思われる行動5選｜心理学](https://www.youtube.com/watch?v=Sc0yrItpJVs) by **こっそり得する研究所 | 心理学・脳科学・行動経済学で、毎日ちょっと差がつく話** |
+| 🔥 396.4x | 2,552,843 | 6,440 | [300-Feet Giant Shawarma Festival In Village #shawarma #village #cooking](https://www.youtube.com/watch?v=m52Zh3TNaYg) by **Newty Story** |
+| 🔥 396.27x | 776,695 | 1,960 | [Gerger king marketingi 📊 #samarsultonov #shorts #marketing #burgerking](https://www.youtube.com/watch?v=ajRCAYfitx8) by **Samar Sultonov ** |
+| 🔥 395.9x | 486,952 | 1,230 | [3 Insane Marketing Stunts For Spider-Man: Brand New Day! 🕷️](https://www.youtube.com/watch?v=AC1AiqzxMKo) by **CineNastix ** |
+| 🔥 390x | 1,170 | 3 | [恋爱脑，希望你醒一醒，怎么挽回复合？#分手 #分手复合 #挽回 #挽回爱情 #分手挽回](https://www.youtube.com/watch?v=pl-mRtGJn1o) by **qingze Zeng** |
+| 🔥 301.8x | 19,617 | 65 | [深度还原某些宝妈创业男士卫生巾专卖店belike](https://www.youtube.com/watch?v=KFReHYT_GT0) by **alice** |
+| 🔥 290.09x | 525,065 | 1,810 | [¡LA MEJOR JUGADA DE MARKETING! Cómo Under Armour venció a Nike y Adidas con solo 9 botas ⚽🔥](https://www.youtube.com/watch?v=L5RPTXbOXAo) by **Migthel** |
 | 🔥 261.25x | 321,333 | 1,230 | [Cómo diseñar tu mix de medios ideal 🛠️📈 #podcast #marketing](https://www.youtube.com/watch?v=ccHMV-PZtGM) by **IZA BUSINESS CENTERS** |
 | 🔥 241.03x | 203,189 | 843 | [Marketing Stunt at CMAI Exhibition Mumbai 🤯](https://www.youtube.com/watch?v=VYp_WOFeAlY) by **Mohilya** |
-| 🔥 177.12x | 1,544,524 | 8,720 | [Dream Beyond Borders with K.R. Mangalam University - Global Learning Opportunities](https://www.youtube.com/watch?v=MlCmd8MwP-Q) by **K.R. Mangalam University** |
-| 🔥 154.33x | 44,601 | 289 | [【#个人成长】#认知提升 #人生智慧 #长期主义 #留言178 领取10天健康蜕变蓝图](https://www.youtube.com/watch?v=awxij8MElNU) by **James Yap** |
-| 🔥 129.65x | 595,093 | 4,590 | [育ちが出る小さな習慣 7選 #心理学 #人生訓 #自己啓発](https://www.youtube.com/watch?v=vZYPazS7pXo) by **高校生の女子** |
+| 🔥 207.5x | 1,660 | 8 | [#douyin #紀錄 #cutegirl #shenzhen #熱門 #推薦 #edit #文案 ,#fypシ゚viral](https://www.youtube.com/watch?v=zHUwU-4OrK8) by **LingXuan** |
+| 🔥 179.99x | 1,569,552 | 8,720 | [Dream Beyond Borders with K.R. Mangalam University - Global Learning Opportunities](https://www.youtube.com/watch?v=MlCmd8MwP-Q) by **K.R. Mangalam University** |
+| 🔥 154.37x | 44,614 | 289 | [【#个人成长】#认知提升 #人生智慧 #长期主义 #留言178 领取10天健康蜕变蓝图](https://www.youtube.com/watch?v=awxij8MElNU) by **James Yap** |
+| 🔥 129.75x | 595,571 | 4,590 | [育ちが出る小さな習慣 7選 #心理学 #人生訓 #自己啓発](https://www.youtube.com/watch?v=vZYPazS7pXo) by **高校生の女子** |
 | 🔥 125.75x | 1,006 | 8 | [《求你別離開我》 #movie #影視解説 #drama #影视聚焦 #文案 #電影 #kdrama #人間心理](https://www.youtube.com/watch?v=ekhUeeEa_74) by **阿Rich原創《持續更新中…》** |
-| 🔥 121.66x | 12,409 | 102 | [劉耀文，我終于看懂了你的文案（圈地自萌）#宋亞軒 #劉耀文 #碗盆 #宋亞軒劉耀文 #cp](https://www.youtube.com/watch?v=jDisKc9V8jY) by **娱乐啊姊** |
-| 🔥 117.11x | 250,614 | 2,140 | [#餐车 #售货车 #摆摊创业 #蓝牌售货车 @快手创作者中心 @快手热点](https://www.youtube.com/watch?v=J8mDa8Wy4Dw) by **Shuntai Outomobail 796** |
-| 🔥 114.08x | 426,650 | 3,740 | [HAALAND: la estrella del mundial conquista a las marcas. #marketing #fifaworldcup](https://www.youtube.com/watch?v=M0sygStgcmA) by **Marketing para llevar, by Armando Ruiz** |
+| 🔥 118.06x | 252,648 | 2,140 | [#餐车 #售货车 #摆摊创业 #蓝牌售货车 @快手创作者中心 @快手热点](https://www.youtube.com/watch?v=J8mDa8Wy4Dw) by **Shuntai Outomobail 796** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
