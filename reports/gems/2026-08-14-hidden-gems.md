@@ -6,26 +6,26 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 2068.05x | 270,914 | 131 | [Mission:Mix the Colours🎨 - Learning Colours | Kids Games | Mom Baby Playtime | Chinnu Junnu Giggles](https://www.youtube.com/watch?v=EPjlN8avZBs) by **Chinnu Junnu Giggles - Nursery Rhymes & Stories** |
-| 🔥 1637.27x | 2,357,665 | 1,440 | [🐍Sanp or 🧍Insan ki kahanii #aivideo #youtubeshorts #ai #animation #comedy #youtubecreator](https://www.youtube.com/watch?v=mMIVl2bFx3k) by **cartooncreator hub..** |
-| 🔥 942.14x | 2,553,206 | 2,710 | [Poor dog #funny #kpop #rumi #jinu #shorts #kpopdemonhunters #mira #comedy #viral#AI](https://www.youtube.com/watch?v=W5pSnmUnCCU) by **vakje** |
-| 🔥 903.28x | 3,360,213 | 3,720 | [🤣 ulti duniya funny video #shorts #ai #aishorts #fuuny](https://www.youtube.com/watch?v=yBQW6r90CrQ) by **AI DUNIYA ULTA** |
+| 🔥 2036.41x | 270,843 | 133 | [Mission:Mix the Colours🎨 - Learning Colours | Kids Games | Mom Baby Playtime | Chinnu Junnu Giggles](https://www.youtube.com/watch?v=EPjlN8avZBs) by **Chinnu Junnu Giggles - Nursery Rhymes & Stories** |
+| 🔥 1637.24x | 2,357,628 | 1,440 | [🐍Sanp or 🧍Insan ki kahanii #aivideo #youtubeshorts #ai #animation #comedy #youtubecreator](https://www.youtube.com/watch?v=mMIVl2bFx3k) by **cartooncreator hub..** |
+| 🔥 900.94x | 3,360,508 | 3,730 | [🤣 ulti duniya funny video #shorts #ai #aishorts #fuuny](https://www.youtube.com/watch?v=yBQW6r90CrQ) by **AI DUNIYA ULTA** |
 | 🔥 840.87x | 26,067 | 31 | [一周年文案交给zl提笔时总是在想，该用什么词语来形容你呢？后来发现，所有美好的词都太笼统，你对我来说，是多么特别的存在，是我吃到好吃的会想分享的人，是我每天都想在一起的人，是我哪怕只是坐着](https://www.youtube.com/watch?v=aPr3eqTIoxM) by **小小梨** |
-| 🔥 808.08x | 2,585,867 | 3,200 | [Young Biker Falls Learning To Ride 😲](https://www.youtube.com/watch?v=gsSRdwuw9xI) by **Biker Society** |
-| 🔥 667.42x | 48,722 | 73 | [【哲学】人生観を竹田恒泰が語る【竹田恒泰 そこまで言って委員会】](https://www.youtube.com/watch?v=QY1sqAjSp6c) by **一分政治** |
-| 🔥 651.13x | 31,254 | 48 | [分かりやすく教えてください　#考え方 #難しい #哲学 #おすすめにのりたい #shorts](https://www.youtube.com/watch?v=UEeWYhwOZ7I) by **爆笑研究部** |
-| 🔥 602.95x | 144,707 | 240 | [Learn Alphabets for Toddlers #Shorts #shortsdaily #abcd #learning #shortsindia #shortsvideo #yt](https://www.youtube.com/watch?v=ZZUY8tIP5Rw) by **Kiddos Divine** |
+| 🔥 829.96x | 2,655,883 | 3,200 | [Young Biker Falls Learning To Ride 😲](https://www.youtube.com/watch?v=gsSRdwuw9xI) by **Biker Society** |
+| 🔥 688.93x | 51,670 | 75 | [【哲学】人生観を竹田恒泰が語る【竹田恒泰 そこまで言って委員会】](https://www.youtube.com/watch?v=QY1sqAjSp6c) by **一分政治** |
+| 🔥 651.19x | 31,257 | 48 | [分かりやすく教えてください　#考え方 #難しい #哲学 #おすすめにのりたい #shorts](https://www.youtube.com/watch?v=UEeWYhwOZ7I) by **爆笑研究部** |
+| 🔥 611.71x | 147,421 | 241 | [Learn Alphabets for Toddlers #Shorts #shortsdaily #abcd #learning #shortsindia #shortsvideo #yt](https://www.youtube.com/watch?v=ZZUY8tIP5Rw) by **Kiddos Divine** |
 | 🔥 490.74x | 2,463,518 | 5,020 | [Bilkul nye note 💸😂. #ai #funny #money #viral #new #trending #comedy](https://www.youtube.com/watch?v=tK-QX02uHpA) by **AIitihaas** |
-| 🔥 473.56x | 3,196,553 | 6,750 | [धनिया या दुनिया? 😂 ai baby funny video#viral #reels #entertainment #shorts #ai #youtubeshorts#video](https://www.youtube.com/watch?v=ejesp1FQRXk) by **AI Cartoon Verse** |
-| 🔥 411.53x | 1,181,084 | 2,870 | [#餐车 #售货车 #摆摊创业 #蓝牌售货车 @快手创作者中心 @快手热点](https://www.youtube.com/watch?v=J8mDa8Wy4Dw) by **Shuntai Outomobail 796** |
-| 🔥 406.72x | 322,932 | 794 | [মানুষ এখন ছেড়া জুতার ফ্যাশন চালু করে দিয়েছে!! #shorts #marketing #bd](https://www.youtube.com/watch?v=ef_Po291OC4) by **Tahmid Hasan** |
-| 🔥 334.57x | 3,051,287 | 9,120 | [wait for and 😅 ai baby funny video #viral #reels #entertainment #video #shorts #ai #youtubeshorts](https://www.youtube.com/watch?v=FL0mmHxiAEs) by **ai_baby_0011** |
-| 🔥 180.1x | 216,120 | 1,200 | [【もう期待しない】人に執着しない人が手放したもの #心理学 #自己理解](https://www.youtube.com/watch?v=3-i8HFXfhtE) by **雑学ネコのココロラボ** |
-| 🔥 167.7x | 1,677 | 10 | [你是有福之人(    You are truly blessed. ) #个人成长 #道家文化](https://www.youtube.com/watch?v=de15g1gB2Q4) by **易学智慧·姜老师** |
+| 🔥 473.6x | 3,196,805 | 6,750 | [धनिया या दुनिया? 😂 ai baby funny video#viral #reels #entertainment #shorts #ai #youtubeshorts#video](https://www.youtube.com/watch?v=ejesp1FQRXk) by **AI Cartoon Verse** |
+| 🔥 455.29x | 1,620,833 | 3,560 | [😱🌊 बांध टूटा... आलू बन गया पूरे शहर की आख़िरी उम्मीद! 😭🥔❤️ - Emotional Vegetable Story | part 6](https://www.youtube.com/watch?v=aI9dpvLz5G4) by **Enjoy AI Studio** |
+| 🔥 411.83x | 1,181,948 | 2,870 | [#餐车 #售货车 #摆摊创业 #蓝牌售货车 @快手创作者中心 @快手热点](https://www.youtube.com/watch?v=J8mDa8Wy4Dw) by **Shuntai Outomobail 796** |
+| 🔥 405.97x | 323,156 | 796 | [মানুষ এখন ছেড়া জুতার ফ্যাশন চালু করে দিয়েছে!! #shorts #marketing #bd](https://www.youtube.com/watch?v=ef_Po291OC4) by **Tahmid Hasan** |
+| 🔥 334.58x | 3,051,346 | 9,120 | [wait for and 😅 ai baby funny video #viral #reels #entertainment #video #shorts #ai #youtubeshorts](https://www.youtube.com/watch?v=FL0mmHxiAEs) by **ai_baby_0011** |
+| 🔥 327.43x | 2,242,867 | 6,850 | [🌳जब गर्मियों की छुट्टियाँ सच में खास हुआ करती थीं 🥹🌳 - 90s Childhood Memories](https://www.youtube.com/watch?v=xPm6A_GjPLw) by **AI.चर्चा** |
+| 🔥 234.76x | 2,138,673 | 9,110 | [【サザエさん】AIで実写化したら、お茶の間がザワついた件 - Sazae-san Live Action Looks TOO REAL](https://www.youtube.com/watch?v=tpLrUS5edaY) by **もし実写化されたら** |
+| 🔥 180.2x | 216,236 | 1,200 | [【もう期待しない】人に執着しない人が手放したもの #心理学 #自己理解](https://www.youtube.com/watch?v=3-i8HFXfhtE) by **雑学ネコのココロラボ** |
+| 🔥 168x | 1,680 | 10 | [你是有福之人(    You are truly blessed. ) #个人成长 #道家文化](https://www.youtube.com/watch?v=de15g1gB2Q4) by **易学智慧·姜老师** |
 | 🔥 142.61x | 3,280 | 23 | [代入一下被氣暈了 #memes #文案 #台灣 #fyp](https://www.youtube.com/watch?v=QP9yB-GOQvo) by **米可** |
 | 🔥 115.58x | 1,387 | 12 | [今天文案不重要，看视频娱乐一下反转开心](https://www.youtube.com/watch?v=NanRIEm9uzQ) by **巴丞马小军** |
-| 🔥 114.91x | 273,476 | 2,380 | [La pire stratégie marketing du Rap FR ?! 🥵 #misteryou #lacrim #rapfr #rapfrancais #musique](https://www.youtube.com/watch?v=Uemu-ev7Or8) by **Lyrical Flow** |
-| 🔥 111.53x | 655,804 | 5,880 | [2027年4月 現代社会学部【心理学科】誕生！｜京都産業大学](https://www.youtube.com/watch?v=H18XSiQCeAo) by **京都産業大学【公式】Kyoto Sangyo University** |
 
 
 ## 📂 Categorized Findings (Top 5 per Category)
