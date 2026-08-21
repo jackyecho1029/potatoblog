@@ -6,23 +6,23 @@
 
 | Gem Score | Views | Subs | Video |
 |-----------|-------|------|-------|
-| 🔥 1480.47x | 6,958,214 | 4,700 | [This Man Recreated Impossible AI Food…Better Than AI! 😱](https://www.youtube.com/watch?v=e-2m_mckdSQ) by **CONEXTIFY** |
-| 🔥 1141.4x | 7,282,155 | 6,380 | [GUBBY FLOWERS DEFEAT KREEKCRAFT?!?! - Ai Deltarune Gubby | #deltarune #ai #sehar #kreekcraft #gubby](https://www.youtube.com/watch?v=Rw2aCk5Yvyw) by **SUBUS** |
-| 🔥 728.84x | 3,396,397 | 4,660 | [🤣 ulti duniya funny video #shorts #ai #aishorts #fuuny](https://www.youtube.com/watch?v=yBQW6r90CrQ) by **AI DUNIYA ULTA** |
+| 🔥 1483.17x | 6,985,732 | 4,710 | [This Man Recreated Impossible AI Food…Better Than AI! 😱](https://www.youtube.com/watch?v=e-2m_mckdSQ) by **CONEXTIFY** |
+| 🔥 1138.34x | 7,285,378 | 6,400 | [GUBBY FLOWERS DEFEAT KREEKCRAFT?!?! - Ai Deltarune Gubby | #deltarune #ai #sehar #kreekcraft #gubby](https://www.youtube.com/watch?v=Rw2aCk5Yvyw) by **SUBUS** |
+| 🔥 727.29x | 3,396,427 | 4,670 | [🤣 ulti duniya funny video #shorts #ai #aishorts #fuuny](https://www.youtube.com/watch?v=yBQW6r90CrQ) by **AI DUNIYA ULTA** |
 | 🔥 695.42x | 233,661 | 336 | [㊗️20万再生!!【哲学】人生観を竹田恒泰が語る【竹田恒泰 そこまで言って委員会】](https://www.youtube.com/watch?v=QY1sqAjSp6c) by **一分政治** |
-| 🔥 590.74x | 323,725 | 548 | [O que os Gerentes de Marketing não quer que você saiba!](https://www.youtube.com/watch?v=bYI-CtRZ6GY) by **Acessando Adesivos** |
+| 🔥 608.23x | 335,744 | 552 | [O que os Gerentes de Marketing não quer que você saiba!](https://www.youtube.com/watch?v=bYI-CtRZ6GY) by **Acessando Adesivos** |
 | 🔥 579.58x | 183,727 | 317 | [Learn Alphabets for Toddlers #Shorts #shortsdaily #abcd #learning #shortsindia #shortsvideo #yt](https://www.youtube.com/watch?v=ZZUY8tIP5Rw) by **Kiddos Divine** |
-| 🔥 506.92x | 1,728,609 | 3,410 | [#餐车 #售货车 #摆摊创业 #蓝牌售货车 @快手创作者中心 @快手热点](https://www.youtube.com/watch?v=J8mDa8Wy4Dw) by **Shuntai Outomobail 796** |
-| 🔥 296.61x | 2,319,464 | 7,820 | [🥔 Village Girls Make 20-Foot Giant Bread Pakoda ❤️ Whole Village Eats Together #giantbreadpakoda](https://www.youtube.com/watch?v=eyvxXlBMu18) by **AayuNexHQ** |
-| 🔥 219.63x | 357,994 | 1,630 | [Referral Marketing Made Easy - See How Referral Factory Works!](https://www.youtube.com/watch?v=CVPEy7tJSkY) by **Referral Factory** |
-| 🔥 177.14x | 233,829 | 1,320 | [【もう期待しない】人に執着しない人が手放したもの #心理学 #自己理解](https://www.youtube.com/watch?v=3-i8HFXfhtE) by **雑学ネコのココロラボ** |
-| 🔥 148.6x | 875,237 | 5,890 | [2027年4月 現代社会学部【心理学科】誕生！｜京都産業大学](https://www.youtube.com/watch?v=H18XSiQCeAo) by **京都産業大学【公式】Kyoto Sangyo University** |
-| 🔥 145.73x | 21,422 | 147 | [被开除后租荒地创业！林默靠一碗面逆袭，终成食堂大老板#草根创业 #美食逆袭 #励志故事 #工地食堂 #餐饮人](https://www.youtube.com/watch?v=7Ua94nTzaLU) by **小城日常剧场** |
-| 🔥 133.04x | 373,853 | 2,810 | [La pire stratégie marketing du Rap FR ?! 🥵 #misteryou #lacrim #rapfr #rapfrancais #musique](https://www.youtube.com/watch?v=Uemu-ev7Or8) by **Lyrical Flow** |
+| 🔥 507.35x | 1,730,079 | 3,410 | [#餐车 #售货车 #摆摊创业 #蓝牌售货车 @快手创作者中心 @快手热点](https://www.youtube.com/watch?v=J8mDa8Wy4Dw) by **Shuntai Outomobail 796** |
+| 🔥 296.64x | 2,319,715 | 7,820 | [🥔 Village Girls Make 20-Foot Giant Bread Pakoda ❤️ Whole Village Eats Together #giantbreadpakoda](https://www.youtube.com/watch?v=eyvxXlBMu18) by **AayuNexHQ** |
+| 🔥 219.98x | 358,575 | 1,630 | [Referral Marketing Made Easy - See How Referral Factory Works!](https://www.youtube.com/watch?v=CVPEy7tJSkY) by **Referral Factory** |
+| 🔥 177.27x | 233,996 | 1,320 | [【もう期待しない】人に執着しない人が手放したもの #心理学 #自己理解](https://www.youtube.com/watch?v=3-i8HFXfhtE) by **雑学ネコのココロラボ** |
+| 🔥 148.86x | 876,766 | 5,890 | [2027年4月 現代社会学部【心理学科】誕生！｜京都産業大学](https://www.youtube.com/watch?v=H18XSiQCeAo) by **京都産業大学【公式】Kyoto Sangyo University** |
+| 🔥 146.52x | 21,539 | 147 | [被开除后租荒地创业！林默靠一碗面逆袭，终成食堂大老板#草根创业 #美食逆袭 #励志故事 #工地食堂 #餐饮人](https://www.youtube.com/watch?v=7Ua94nTzaLU) by **小城日常剧场** |
+| 🔥 133.11x | 374,036 | 2,810 | [La pire stratégie marketing du Rap FR ?! 🥵 #misteryou #lacrim #rapfr #rapfrancais #musique](https://www.youtube.com/watch?v=Uemu-ev7Or8) by **Lyrical Flow** |
 | 🔥 125.38x | 1,003 | 8 | [美国房产继承，为什么一定要做信托？# #个人成长  #事业#美国房产 #美国信托 #生前信托 #遗嘱认证 #财富传承 #美国生活 #iul](https://www.youtube.com/watch?v=71kkhbiZRQg) by **William** |
 | 🔥 117.85x | 120,210 | 1,020 | [Virat Kohli COPIED Samay Raina Marketing Strategy 📈 #shorts #marketing #business](https://www.youtube.com/watch?v=xGdVuWqAyhM) by **Yashvardhan Singh** |
 | 🔥 89.45x | 1,968 | 22 | [你是有福之人(    You are truly blessed. ) #个人成长 #道家文化](https://www.youtube.com/watch?v=de15g1gB2Q4) by **易学智慧·姜老师** |
-| 🔥 86.41x | 1,901 | 22 | [福运连连 Endless Blessings #个人成长 #道家文化 #正能量](https://www.youtube.com/watch?v=L6ko9zdQnO4) by **易学智慧·姜老师** |
+| 🔥 86.86x | 1,911 | 22 | [福运连连 Endless Blessings #个人成长 #道家文化 #正能量](https://www.youtube.com/watch?v=L6ko9zdQnO4) by **易学智慧·姜老师** |
 | 🔥 78.82x | 1,734 | 22 | [一顺百顺 All things flow smoothly #个人成长 #道家文化 #正能量](https://www.youtube.com/watch?v=vrytFdY7epQ) by **易学智慧·姜老师** |
 | 🔥 73.5x | 1,617 | 22 | [人家有八不争EightThingsNotWorthFightingFor #个人成长 #道家文化 #正能量](https://www.youtube.com/watch?v=N1oc3FNKIjU) by **易学智慧·姜老师** |
 | 🔥 69.41x | 70,796 | 1,020 | [Burger King FAILED As Business 🤡 #shorts #marketing #business](https://www.youtube.com/watch?v=ATZ3jHDEiZs) by **Yashvardhan Singh** |
