@@ -2,9 +2,9 @@
 title: 'How to Get Your Book Published (Hachette CEO Interview)'
 original_title: 'How to Get Your Book Published (Hachette CEO Interview)'
 author: 'DavidPerell'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-08"
-tags: ['思維成長', 'DavidPerell']
+tags: ['思维成长', 'DavidPerell']
 source_url: "https://www.youtube.com/watch?v=xP2C8Z21hKM"
 thumbnail: "https://img.youtube.com/vi/xP2C8Z21hKM/maxresdefault.jpg"
 ---

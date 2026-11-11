@@ -1,5 +1,5 @@
 ---
-title: '用 AI 打造一台「睡覺時也在進化的公司」：Y Combinator 重新定義組織形態'
+title: '用 AI 打造一台「睡觉时也在进化的公司」：Y Combinator 重新定义组织形态'
 original_title: 'How to Build a Self-Improving Company with AI'
 author: 'Y Combinator'
 category: "AI构建者"
@@ -29,7 +29,7 @@ thumbnail: "https://img.youtube.com/vi/X_JsIHUfUjc/maxresdefault.jpg"
 - **核心内容**：YC 从一个能查询数据库的简单 agent 开始 → 加入 RAG 检索创始人信息 → **关键突破：在上方加了监控 agent**。监控 agent 观察每一次 YC 员工的查询，发现失败的查询后自动分析原因（需要新工具？更新 skills 文件？新数据库索引？），**自动写代码、提交 merge request、让 agent review、合并、部署**。第二天人类再来问同样的问题，就已经能成功了。这是 AI 自我改进，不是让人提升 20% 效率。
 - **实战建议**：不要只做「辅助型」agent。在现有 agent 上叠加监控层，让它能发现失败、诊断原因、自动修复——形成真正的自我改进循环。
 
-### 4. 「燒 Token，不燒人頭」
+### 4. 「烧 Token，不烧人头」
 - **核心内容**：YC 观察到，现在达到 Demo Day 的公司，每位员工的收入是 18 个月前的 **5 倍**。未来你被约束的不是 headcount，而是 token 用量。YC 甚至开始衡量每个人的 token 使用量来判断谁在最大化利用 AI。
 - **实战建议**：关注每个团队成员的 AI 使用深度。方向性的判断（谁在「token maxing」，谁没有）比精确的数字更有价值。
 
@@ -45,7 +45,7 @@ thumbnail: "https://img.youtube.com/vi/X_JsIHUfUjc/maxresdefault.jpg"
 - **核心内容**：Codex 已经足够强大，能一次性生成大部分内部工具和仪表盘。**软件是临时的（ephemeral），业务理解和 skills 才是核心资产。** 模型变聪明了？把旧软件扔掉，用同一套指令重新生成。但原始数据永远不要丢。
 - **实战建议**：珍惜你的业务 context 和 know-how。用 markdown 存储所有核心数据，把生成的软件视为可随时丢弃的消耗品。
 
-### 8. 人类的新角色：站在公司大脑的「邊緣」
+### 8. 人类的新角色：站在公司大脑的「边缘」
 - **核心内容**：人类不再位于层级中间做信息传递，而是站在「公司大脑」的边缘——**这是智能与现实世界的接触点**。人类负责：高情感时刻（联合创始人要分手）、伦理判断、 novel 情境、销售对话（未来 20 年仍需人类）。AI 负责内部运转的所有其他环节。
 - **实战建议**：重新定义你和团队的工作——停止做「信息传递」的工作，专注于那些 AI 还无法触及的高价值人际互动。
 

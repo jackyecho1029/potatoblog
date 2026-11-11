@@ -2,9 +2,9 @@
 title: 'Bestselling Author Gives His Best Writing Advice (David Sedaris Interview)'
 original_title: 'Bestselling Author Gives His Best Writing Advice (David Sedaris Interview)'
 author: 'DavidPerell'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-01"
-tags: ['思維成長', 'DavidPerell']
+tags: ['思维成长', 'DavidPerell']
 source_url: "https://www.youtube.com/watch?v=x7anE_kRTw8"
 thumbnail: "https://img.youtube.com/vi/x7anE_kRTw8/maxresdefault.jpg"
 ---

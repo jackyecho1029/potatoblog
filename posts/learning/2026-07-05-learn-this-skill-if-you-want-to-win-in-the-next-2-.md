@@ -2,9 +2,9 @@
 title: 'Learn This Skill If You Want To Win In The Next 2-3 Years'
 original_title: 'Learn This Skill If You Want To Win In The Next 2-3 Years'
 author: 'DanKoe'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-05"
-tags: ['思維成長', 'DanKoe']
+tags: ['思维成长', 'DanKoe']
 source_url: "https://www.youtube.com/watch?v=bWR_3Sg-H-8"
 thumbnail: "https://img.youtube.com/vi/bWR_3Sg-H-8/maxresdefault.jpg"
 ---

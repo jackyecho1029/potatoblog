@@ -2,9 +2,9 @@
 title: 'How To Become So Valuable AI Can Never Replace You'
 original_title: 'How To Become So Valuable AI Can Never Replace You'
 author: 'DanKoe'
-category: '思維成長'
+category: '思维成长'
 date: "2026-06-28"
-tags: ['思維成長', 'DanKoe']
+tags: ['思维成长', 'DanKoe']
 source_url: "https://www.youtube.com/watch?v=K2QvCV1PB1w"
 thumbnail: "https://img.youtube.com/vi/K2QvCV1PB1w/maxresdefault.jpg"
 ---

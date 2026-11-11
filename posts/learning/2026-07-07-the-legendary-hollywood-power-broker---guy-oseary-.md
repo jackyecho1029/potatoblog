@@ -2,9 +2,9 @@
 title: 'The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More'
 original_title: 'The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More'
 author: 'timferriss'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-07"
-tags: ['思維成長', 'timferriss']
+tags: ['思维成长', 'timferriss']
 source_url: "https://www.youtube.com/watch?v=-e-gDi-nB1w"
 thumbnail: "https://img.youtube.com/vi/-e-gDi-nB1w/maxresdefault.jpg"
 ---

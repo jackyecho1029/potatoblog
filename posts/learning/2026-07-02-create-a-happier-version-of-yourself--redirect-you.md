@@ -2,9 +2,9 @@
 title: 'Create a Happier Version of Yourself: Redirect Your Energy for Positive Thinking'
 original_title: 'Create a Happier Version of Yourself: Redirect Your Energy for Positive Thinking'
 author: 'melrobbins'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-02"
-tags: ['思維成長', 'melrobbins']
+tags: ['思维成长', 'melrobbins']
 source_url: "https://www.youtube.com/watch?v=bNEgsvoPQjQ"
 thumbnail: "https://img.youtube.com/vi/bNEgsvoPQjQ/maxresdefault.jpg"
 ---

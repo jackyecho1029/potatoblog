@@ -2,9 +2,9 @@
 title: '#1 Neuroscientist: Why You Dream & What Your Dreams Are Trying to Tell You'
 original_title: '#1 Neuroscientist: Why You Dream & What Your Dreams Are Trying to Tell You'
 author: 'melrobbins'
-category: '思維成長'
+category: '思维成长'
 date: "2026-06-29"
-tags: ['思維成長', 'melrobbins']
+tags: ['思维成长', 'melrobbins']
 source_url: "https://www.youtube.com/watch?v=GIGmGupeD_I"
 thumbnail: "https://img.youtube.com/vi/GIGmGupeD_I/maxresdefault.jpg"
 ---

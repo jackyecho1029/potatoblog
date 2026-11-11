@@ -2,9 +2,9 @@
 title: 'How to Master Any Conversation, Communicate With Confidence, and Deal With Difficult People'
 original_title: 'How to Master Any Conversation, Communicate With Confidence, and Deal With Difficult People'
 author: 'melrobbins'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-06"
-tags: ['思維成長', 'melrobbins']
+tags: ['思维成长', 'melrobbins']
 source_url: "https://www.youtube.com/watch?v=dz23H7Cgylw"
 thumbnail: "https://img.youtube.com/vi/dz23H7Cgylw/maxresdefault.jpg"
 ---

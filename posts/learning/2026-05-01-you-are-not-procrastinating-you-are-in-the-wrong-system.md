@@ -1,6 +1,6 @@
 ---
-title: "你不是在拖延，你只是活在一個錯誤的系統裡"
-original_title: "你不是在拖延，你只是活在一個錯誤的系統裡"
+title: "你不是在拖延，你只是活在一个错误的系统里"
+original_title: "你不是在拖延，你只是活在一个错误的系统里"
 author: "Chaologies 超说"
 category: "思维成长"
 date: "2026-05-01"

@@ -2,9 +2,9 @@
 title: 'AI Agents are the new SaaS'
 original_title: 'AI Agents are the new SaaS'
 author: 'GregIsenberg'
-category: '思維成長'
+category: '思维成长'
 date: "2026-07-01"
-tags: ['思維成長', 'GregIsenberg']
+tags: ['思维成长', 'GregIsenberg']
 source_url: "https://www.youtube.com/watch?v=83fWzQSWB10"
 thumbnail: "https://img.youtube.com/vi/83fWzQSWB10/maxresdefault.jpg"
 ---
