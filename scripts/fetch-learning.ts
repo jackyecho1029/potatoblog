@@ -34,38 +34,38 @@ function isQuotaError(err: any): boolean {
     return err?.response?.status === 403 ||
         err?.errors?.some((e: any) => e.reason === 'quotaExceeded');
 }
-// Mimo (Xiaomi) via Anthropic-compatible gateway — replaces Gemini for summarization.
-const MIMO_API_KEY = process.env.MIMO_API_KEY;
-const MIMO_BASE_URL = process.env.MIMO_BASE_URL || 'https://token-plan-sgp.xiaomimimo.com/anthropic';
-const MIMO_MODEL = process.env.MIMO_MODEL || 'mimo-v2.5';
+// GLM (Zhipu) via Anthropic-compatible gateway — replaces Mimo for summarization.
+const GLM_API_KEY = process.env.GLM_API_KEY || process.env.ZHIPU_API_KEY;
+const GLM_BASE_URL = process.env.GLM_BASE_URL || 'https://open.bigmodel.cn/api/anthropic';
+const GLM_MODEL = process.env.GLM_MODEL || 'glm-5.3-flash';
 
-/** Summarize via Mimo's Anthropic-compatible endpoint. Mimo is a reasoning model
+/** Summarize via GLM's Anthropic-compatible endpoint. GLM is a reasoning model
  *  whose response mixes `text` and `thinking` blocks; we disable thinking (faster,
  *  and avoids max_tokens contention on long transcripts) and keep only the text. */
-async function summarizeWithMimo(prompt: string): Promise<string> {
-    const response = await fetch(`${MIMO_BASE_URL}/v1/messages`, {
+async function summarizeWithGLM(prompt: string): Promise<string> {
+    const response = await fetch(`${GLM_BASE_URL}/v1/messages`, {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${MIMO_API_KEY}`,
+            'Authorization': `Bearer ${GLM_API_KEY}`,
             'anthropic-version': '2023-06-01',
             'content-type': 'application/json',
         },
         body: JSON.stringify({
-            model: MIMO_MODEL,
+            model: GLM_MODEL,
             max_tokens: 8192,
             thinking: { type: 'disabled' },
             messages: [{ role: 'user', content: prompt }],
         }),
     });
     if (!response.ok) {
-        throw new Error(`Mimo API error ${response.status}: ${await response.text()}`);
+        throw new Error(`GLM API error ${response.status}: ${await response.text()}`);
     }
     const data: any = await response.json();
     const text = (data.content || [])
         .filter((b: any) => b.type === 'text')
         .map((b: any) => b.text || '')
         .join('');
-    if (!text) throw new Error('Mimo returned no text content');
+    if (!text) throw new Error('GLM returned no text content');
     return text;
 }
 
@@ -255,7 +255,7 @@ ${transcriptText.substring(0, 25000)}
 `;
 
     try {
-        const text = await summarizeWithMimo(prompt);
+        const text = await summarizeWithGLM(prompt);
 
         // Extract hook title
         const titleMatch = text.match(/---HOOK_TITLE_START---([\s\S]*?)---HOOK_TITLE_END---/);
@@ -271,7 +271,7 @@ ${transcriptText.substring(0, 25000)}
 
         return { hookTitle, category, summary };
     } catch (error) {
-        console.error("Mimo Error:", error);
+        console.error("GLM Error:", error);
         return { hookTitle: originalTitle, category: '思維成長', summary: "AI Summarization Failed." };
     }
 }
@@ -368,16 +368,16 @@ ${transcriptText.substring(0, 30000)}
     `;
 
     try {
-        return await summarizeWithMimo(prompt);
+        return await summarizeWithGLM(prompt);
     } catch (error) {
-        console.error("Mimo Error for Lenny:", error);
+        console.error("GLM Error for Lenny:", error);
         return null;
     }
 }
 
 
 async function fetchVideoByUrl(videoUrl: string) {
-    if (!YOUTUBE_API_KEYS.length || !MIMO_API_KEY) {
+    if (!YOUTUBE_API_KEYS.length || !GLM_API_KEY) {
         console.error('API Keys are missing');
         return;
     }
@@ -440,7 +440,7 @@ async function fetchVideoByUrl(videoUrl: string) {
             return `${timeStr} ${item.text}`;
         }).join(' ');
 
-        console.log("   Summarizing with Mimo...");
+        console.log("   Summarizing with GLM...");
         
         // Use the official channel title instead of the handle for display
         const authorName = channelTitle;
@@ -546,7 +546,7 @@ async function fetchLatestVideos() {
         return;
     }
 
-    if (!YOUTUBE_API_KEYS.length || !MIMO_API_KEY) {
+    if (!YOUTUBE_API_KEYS.length || !GLM_API_KEY) {
         console.error('API Keys are missing');
         return;
     }
@@ -759,7 +759,7 @@ ${summaryText}
                 }
 
                 // Normal Learning video processing
-                console.log("   Summarizing with Mimo...");
+                console.log("   Summarizing with GLM...");
                 const { hookTitle, category, summary } = await summarizeVideo(title, transcriptText);
 
                 const fileContent = `---
