@@ -1,16 +1,10 @@
 ---
-title: '---
-未来10年哪些工作最值钱？答案里居然有个「护士」
----'
+title: '未来10年哪些工作最值钱？答案里居然有个「护士」'
 original_title: 'TOP 10 Highest-Paying Jobs for the next 10 years (and 5 jobs that have NO future)'
 author: 'Silicon Valley Girl'
-category: '---
-职场效率
----'
+category: '职场效率'
 date: "2026-09-18"
-tags: ['---
-职场效率
----', 'Silicon Valley Girl']
+tags: ['职场效率', 'Silicon Valley Girl']
 source_url: "https://www.youtube.com/watch?v=ael24TrS0ws"
 thumbnail: "https://img.youtube.com/vi/ael24TrS0ws/maxresdefault.jpg"
 ---

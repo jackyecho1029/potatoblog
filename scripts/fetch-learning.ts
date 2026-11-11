@@ -10,7 +10,9 @@ dotenv.config({ path: '.env.local' });
 /** YAML-safe scalar: single-quote + double internal single quotes.
  *  Robust against " and \ in titles/authors (the old \" escape broke on backslashes). */
 function yq(s: string): string {
-    return "'" + String(s).replace(/'/g, "''") + "'";
+    // Single-line only: drop separator-only lines (e.g. GLM wrapping a title in ---) and join the rest.
+    const oneLine = String(s).split('\n').map(l => l.trim()).filter(l => l && !/^[-*_=]+$/.test(l)).join(' ');
+    return "'" + oneLine.replace(/'/g, "''") + "'";
 }
 
 const youtube = google.youtube('v3');

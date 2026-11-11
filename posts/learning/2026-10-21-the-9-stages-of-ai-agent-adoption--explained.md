@@ -1,16 +1,10 @@
 ---
-title: '---
-亚马逊为什么要封杀AI代理？这场战争决定未来10年你怎么花钱
----'
+title: '亚马逊为什么要封杀AI代理？这场战争决定未来10年你怎么花钱'
 original_title: 'The 9 Stages of AI Agent Adoption, Explained'
 author: 'Greg Isenberg'
-category: '---
-科技趋势
----'
+category: '科技趋势'
 date: "2026-10-21"
-tags: ['---
-科技趋势
----', 'Greg Isenberg']
+tags: ['科技趋势', 'Greg Isenberg']
 source_url: "https://www.youtube.com/watch?v=nRl-7Yhmbog"
 thumbnail: "https://img.youtube.com/vi/nRl-7Yhmbog/maxresdefault.jpg"
 ---
