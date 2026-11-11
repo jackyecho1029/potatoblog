@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import remarkGfm from 'remark-gfm';
+import { splitInteractive, extractMotto, type Lesson, type Tao } from './lesson-parse';
 
 const postsDirectory = path.join(process.cwd(), 'posts/learning');
 
@@ -97,6 +98,49 @@ export interface LearningPostData {
     anchor_thought?: string;
     private?: boolean;
     password?: string;
+    motto?: string; // 带走一句心法, for list cards
+    lessonCount?: number;
+    interactive?: InteractiveHtml | null;
+}
+
+export type LessonHtml = { [K in keyof Lesson]-?: string } & { practicePlain: string };
+export interface InteractiveHtml {
+    beforeHtml: string;
+    afterHtml: string;
+    lessons: LessonHtml[];
+    tao: (Omit<Tao, 'branches'> & { branches: { view: string; derive: string }[] }) | null;
+}
+
+async function mdToHtml(md?: string): Promise<string> {
+    if (!md) return '';
+    return (await remark().use(remarkGfm).use(html).process(md)).toString();
+}
+
+function mdToPlain(md?: string): string {
+    return (md || '').replace(/\*\*|__|`/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\s+/g, ' ').trim();
+}
+
+async function buildInteractive(markdown: string): Promise<InteractiveHtml | null> {
+    const split = splitInteractive(markdown);
+    if (!split.lessons.length && !split.tao) return null;
+    const lessons = await Promise.all(split.lessons.map(async (l) => ({
+        title: l.title,
+        question: await mdToHtml(l.question),
+        answer: await mdToHtml(l.answer),
+        practice: await mdToHtml(l.practice),
+        check: await mdToHtml(l.check),
+        practicePlain: mdToPlain(l.practice),
+    })));
+    const t = split.tao;
+    const tao = t ? {
+        root: await mdToHtml(t.root),
+        trunk: await mdToHtml(t.trunk),
+        trunkName: t.trunkName,
+        boundary: await mdToHtml(t.boundary),
+        motto: t.motto ? mdToPlain(t.motto) : undefined,
+        branches: t.branches.map((b) => ({ view: mdToPlain(b.view), derive: mdToPlain(b.derive) })),
+    } : null;
+    return { beforeHtml: await mdToHtml(split.before), afterHtml: await mdToHtml(split.after), lessons, tao };
 }
 
 export function getSortedLearningPostsData(): LearningPostData[] {
@@ -123,8 +167,12 @@ export function getSortedLearningPostsData(): LearningPostData[] {
             const matterResult = matter(fileContents);
 
             // Combine the data with the id
+            const motto = extractMotto(matterResult.content);
+            const lessonCount = (matterResult.content.match(/^### 第.{1,2}课/gm) || []).length || undefined;
             return [{
                 id,
+                motto,
+                lessonCount,
                 ...matterResult.data as {
                     title: string;
                     date: string;
@@ -180,10 +228,13 @@ export async function getLearningPostData(id: string): Promise<LearningPostData>
         );
     }
 
+    const interactive = await buildInteractive(matterResult.content);
+
     // Combine the data with the id and contentHtml
     return {
         id,
         contentHtml,
+        interactive,
         ...matterResult.data as { title: string; date: string; tags: string[], source_url?: string },
         category, // Override with intelligent category for Lenny posts
     };

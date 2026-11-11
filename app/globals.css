@@ -266,3 +266,19 @@ article img+em,
 .learning-content [id] {
   scroll-margin-top: 2rem;
 }
+/* Interactive lesson cards (learning articles) */
+.lesson-html p { margin: 0.25rem 0; line-height: 1.75; }
+.lesson-html strong { color: #18181b; font-weight: 600; }
+.lesson-html ul, .lesson-html ol { margin: 0.25rem 0 0.25rem 1.25rem; list-style: disc; }
+.lesson-html ol { list-style: decimal; }
+.lesson-html a { color: #b45309; text-decoration: underline; }
+.lesson-html-dark strong { color: #fef3c7; }
+
+/* "+N XP" toast under the progress badge */
+@keyframes xpToast {
+  0% { opacity: 0; transform: translateY(-4px); }
+  15% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(4px); }
+}
+.xp-toast { animation: xpToast 1.8s ease-out forwards; }

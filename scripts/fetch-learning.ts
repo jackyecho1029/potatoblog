@@ -304,7 +304,8 @@ ${transcriptText.substring(0, 25000)}
         const M = '(?:-{3}|\\*{2})';
         const block = (name: string) => new RegExp(`${M}${name}_START${M}([\\s\\S]*?)${M}${name}_END${M}`);
         const titleMatch = text.match(block('HOOK_TITLE'));
-        const hookTitle = titleMatch ? titleMatch[1].trim() : originalTitle;
+        const rawTitle = titleMatch ? titleMatch[1].replace(/^[\s\-*_=]+|[\s\-*_=]+$/g, '').trim() : '';
+        const hookTitle = rawTitle || originalTitle;
 
         const categoryMatch = text.match(block('CATEGORY'));
         const category = categoryMatch ? categoryMatch[1].trim() : '思维成长';

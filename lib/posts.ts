@@ -13,9 +13,29 @@ export interface PostData {
     title: string;
     date: string;
     tags?: string[];
+    excerpt?: string;
     contentHtml?: string;
     private?: boolean;
     password?: string;
+}
+
+/** First real paragraph of the post as plain text (skips headings, images, quotes, tables, code). */
+function makeExcerpt(md: string, max = 90): string | undefined {
+    let inCode = false;
+    for (const raw of md.split('\n')) {
+        const line = raw.trim();
+        if (line.startsWith('```')) { inCode = !inCode; continue; }
+        if (inCode || !line || /^(#|!\[|>|\||-{3,}|<|\*{3,})/.test(line)) continue;
+        const text = line
+            .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+            .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+            .replace(/[*_`~]/g, '')
+            .replace(/^[-+]\s+|^\d+\.\s+/, '')
+            .trim();
+        if (text.length < 12) continue;
+        return text.length > max ? text.slice(0, max) + '…' : text;
+    }
+    return undefined;
 }
 
 export function getSortedPostsData(): PostData[] {
@@ -42,10 +62,15 @@ export function getSortedPostsData(): PostData[] {
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents);
 
+        const data = matterResult.data as { title: string; date: string; tags?: string[]; private?: boolean; password?: string; description?: string };
+        // Private posts must not leak body text into the public list.
+        const excerpt = data.private ? undefined : (data.description || makeExcerpt(matterResult.content));
+
         // Combine the data with the id
         return {
             id,
-            ...matterResult.data as { title: string; date: string; tags?: string[]; private?: boolean; password?: string },
+            excerpt,
+            ...data,
         };
     });
     // Sort posts by date

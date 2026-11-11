@@ -4,6 +4,8 @@ import GiscusComments from "../../components/GiscusComments";
 import PasswordProtection from "../../components/PasswordProtection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { LessonsSection, TaoSection, ReadTracker, ReadingProgressBar } from "./InteractiveLessons";
+import { normalizeCategory } from "../../../lib/categories";
 
 // Generate static paths for the 100 most recent learning posts to optimize build performace
 export async function generateStaticParams() {
@@ -13,14 +15,19 @@ export async function generateStaticParams() {
     }));
 }
 
+const PROSE = "prose prose-zinc max-w-none learning-content prose-headings:font-bold prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-lg prose-blockquote:border-l-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-zinc-700 prose-li:my-1";
+
 export default async function LearningPost({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
 
     try {
         const postData = await getLearningPostData(id);
+        const title = decodeHtmlEntities(postData.title);
+        const category = normalizeCategory(postData.category);
 
         const content = (
             <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
+                <ReadingProgressBar />
                 <main className="max-w-4xl mx-auto px-6 py-20">
                     <Header />
 
@@ -68,10 +75,17 @@ export default async function LearningPost({ params }: { params: Promise<{ id: s
                         </header>
 
                         {/* Content */}
-                        <div
-                            className="prose prose-zinc max-w-none learning-content prose-headings:font-bold prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-lg prose-blockquote:border-l-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-zinc-700 prose-li:my-1"
-                            dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
-                        />
+                        {postData.interactive ? (
+                            <>
+                                <div className={PROSE} dangerouslySetInnerHTML={{ __html: postData.interactive.beforeHtml }} />
+                                <LessonsSection postId={id} postTitle={title} category={category} data={postData.interactive} />
+                                <TaoSection data={postData.interactive} />
+                                <div className={PROSE} dangerouslySetInnerHTML={{ __html: postData.interactive.afterHtml }} />
+                            </>
+                        ) : (
+                            <div className={PROSE} dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }} />
+                        )}
+                        <ReadTracker postId={id} postTitle={title} category={category} />
                     </article>
 
                     <div className="mt-16 pt-8 border-t border-zinc-200">

@@ -1,5 +1,5 @@
 ---
-title: ''
+title: '大多数人只把 AI 当聊天工具，他用它做出了三门真生意'
 original_title: 'Make cool things with AI that people buy (Gemini 4 Argon)'
 author: 'Greg Isenberg'
 category: ''

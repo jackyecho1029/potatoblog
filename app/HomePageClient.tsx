@@ -52,7 +52,7 @@ export default function HomePageClient({ posts }: HomePageClientProps) {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        {filteredPosts.map(({ id, date, title, tags }, index) => (
+                        {filteredPosts.map(({ id, date, title, tags, excerpt }, index) => (
                             <article key={id} className={`bento-card group flex flex-col justify-between stagger-${(index % 5) + 1}`}>
                                 <div className="mb-8">
                                     <div className="text-xs font-mono text-zinc-300 group-hover:text-amber-600 transition-colors mb-4 uppercase tracking-widest">
@@ -63,7 +63,7 @@ export default function HomePageClient({ posts }: HomePageClientProps) {
                                             {title}
                                         </h4>
                                         <p className="text-zinc-500 leading-relaxed mb-6 font-light line-clamp-3 text-sm md:text-base">
-                                            在这篇文章中，我探讨了相关的核心逻辑与实践心得。点击阅读更多细节...
+                                            {excerpt ?? "点击阅读全文 →"}
                                         </p>
                                     </Link>
                                 </div>
