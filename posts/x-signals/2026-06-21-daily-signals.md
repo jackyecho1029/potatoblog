@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-21"
+game_title: "GLM-5.2逆袭：开源怪闯进顶模殿堂"
 date: "2026-06-21"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

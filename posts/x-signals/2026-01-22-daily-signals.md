@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-22"
+game_title: "AI员工Jerry闯关破亿营收"
 date: "2026-01-22"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

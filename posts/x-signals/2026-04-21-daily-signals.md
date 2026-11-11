@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-21"
+game_title: "30年前的老游戏被AI复活了"
 date: "2026-04-21"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

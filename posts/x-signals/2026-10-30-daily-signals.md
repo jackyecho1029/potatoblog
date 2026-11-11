@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-30"
+game_title: "AI代理大爆发：算力即新豪车"
 date: "2026-10-30"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

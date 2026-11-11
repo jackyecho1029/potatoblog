@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-25"
+game_title: "GLM-5.2觉醒：低成本王者之路"
 date: "2026-06-25"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

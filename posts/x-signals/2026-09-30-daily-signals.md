@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-30"
+game_title: "GPT-6.1 Sol 登场：AGI 关卡已解锁"
 date: "2026-09-30"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

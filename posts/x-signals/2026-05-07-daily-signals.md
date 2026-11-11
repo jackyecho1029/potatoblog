@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-07"
+game_title: "火箭上装满算力，冲向AI星海"
 date: "2026-05-07"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

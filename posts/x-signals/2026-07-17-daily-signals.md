@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-17"
+game_title: "千亿美元级巨兽横空出世"
 date: "2026-07-17"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

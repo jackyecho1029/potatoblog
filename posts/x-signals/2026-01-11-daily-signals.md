@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-10"
+game_title: "马斯克开源算法，零干预横跨全美"
 date: "2026-01-10"
 category: "X Signal"
 tags: ["X", "Daily", "AI", "Marketing", "Wealth"]

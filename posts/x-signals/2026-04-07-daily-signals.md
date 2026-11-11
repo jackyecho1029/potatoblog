@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-07"
+game_title: "OpenClaw 自我测试进化之屋"
 date: "2026-04-07"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

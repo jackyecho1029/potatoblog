@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-01"
+game_title: "15万代理夜聚野性草稿本"
 date: "2026-02-01"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

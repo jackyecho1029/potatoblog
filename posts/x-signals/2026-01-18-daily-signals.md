@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-18"
+game_title: "笨拙学徒挥动AI魔法棒"
 date: "2026-01-18"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

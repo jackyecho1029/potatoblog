@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-20"
+game_title: "Claude大军攻陷交易大厅"
 date: "2026-04-20"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

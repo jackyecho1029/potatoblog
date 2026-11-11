@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-28"
+game_title: "开源猛兽DeepSeek闯关夜"
 date: "2026-10-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

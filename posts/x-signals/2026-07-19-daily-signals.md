@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-19"
+game_title: "Kimi K3逆袭，指数狂飙倒计时"
 date: "2026-07-19"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

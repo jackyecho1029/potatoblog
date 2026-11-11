@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-11-10"
+game_title: "Claude 2.0觉醒与机器人黎明"
 date: "2026-11-10"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

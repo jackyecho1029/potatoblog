@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-12"
+game_title: "AI代理进村，Crypto也扛不住"
 date: "2026-10-12"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

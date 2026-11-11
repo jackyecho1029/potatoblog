@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-06"
+game_title: "自修改AI觉醒：衔尾蛇进化关"
 date: "2026-06-06"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,13 +1,13 @@
 "use client";
 
 import {
-    BookOpen, Brain, CheckSquare, Coins, Compass, Crown, Fire, Flask, Footprints, Heartbeat, Lightbulb, Lightning,
+    BookOpen, Brain, Broadcast, CheckSquare, Coins, Compass, Crown, Fire, Flask, Footprints, Heartbeat, Lightbulb, Lightning,
     Microphone, PaintBrush, PenNib, Robot, Storefront, Sword, Target, Trophy, UsersThree,
     type IconProps,
 } from "@phosphor-icons/react";
 
 const MAP = {
-    BookOpen, Brain, CheckSquare, Coins, Compass, Crown, Fire, Flask, Footprints, Heartbeat, Lightbulb, Lightning,
+    BookOpen, Brain, Broadcast, CheckSquare, Coins, Compass, Crown, Fire, Flask, Footprints, Heartbeat, Lightbulb, Lightning,
     Microphone, PaintBrush, PenNib, Robot, Storefront, Sword, Target, Trophy, UsersThree,
 };
 

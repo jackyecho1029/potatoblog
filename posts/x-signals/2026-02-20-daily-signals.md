@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-20"
+game_title: "告别应用商店，万物即时生成"
 date: "2026-02-20"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

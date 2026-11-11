@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-13"
+game_title: "隐形操作系统悄然接管世界"
 date: "2026-01-13"
 category: "X Signal"
 tags: ["X", "Daily", "AI", "Wealth", "Productivity"]

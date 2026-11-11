@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-04"
+game_title: "GPT-6.1点亮三维新世界"
 date: "2026-10-04"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

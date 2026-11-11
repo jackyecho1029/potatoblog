@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-11-08"
+game_title: "智能体觉醒，权重空间大冒险"
 date: "2026-11-08"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-24"
+game_title: "Claude闯入Slack开启自驱循环"
 date: "2026-06-24"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

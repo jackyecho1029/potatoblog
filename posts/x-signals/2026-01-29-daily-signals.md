@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-29"
+game_title: "20瓦大脑，颠覆大力出奇迹"
 date: "2026-01-29"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

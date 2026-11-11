@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-01"
+game_title: "Sonnet 5 逼近，智能体觉醒之夜"
 date: "2026-07-01"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

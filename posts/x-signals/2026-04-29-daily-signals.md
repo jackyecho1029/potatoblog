@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-29"
+game_title: "Agent军团协作闯关日"
 date: "2026-04-29"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X-Signal 2026-02-26: 代理安全战争 (The Agentic Security War)"
+game_title: "终端交出钥匙的觉醒日"
 date: "2026-02-26"
 category: "X-Signal"
 tags: ["Claude Code", "OpenClaw", "Grok-3", "Karpathy", "Security", "Meta-Analysis"]

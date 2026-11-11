@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-30"
+game_title: "世界引擎从聊天框里诞生"
 date: "2026-01-30"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

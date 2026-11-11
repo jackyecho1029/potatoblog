@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-29"
+game_title: "循环工程开启，Agent组队闯记忆迷宫"
 date: "2026-06-29"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

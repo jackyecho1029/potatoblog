@@ -219,6 +219,36 @@ def call_ai(prompt: str) -> str:
     else:
         raise RuntimeError("未找到 AI API Key（GEMINI_API_KEY 或 GLM_API_KEY）")
 
+GAME_TITLE_PROMPT = """你是一款学习闯关游戏的关卡命名师。下面是今天的 X（推特）信号日报摘要。
+请为这一天起一个关卡名：
+- 简体中文，6 到 16 个字
+- 像游戏关卡名一样好玩、有画面感，同时紧扣今天最重要的那条信号
+- 不要引号、书名号、emoji、日期，不要以「关卡」开头
+- 只输出关卡名本身，一行
+
+今日摘要：
+{digest}"""
+
+
+def clean_game_title(raw: str) -> str:
+    """Keep the first non-empty line, strip quotes/brackets/markdown, cap length."""
+    line = next((l.strip() for l in raw.splitlines() if l.strip()), "")
+    line = line.replace('**', '')
+    line = re.sub(r'^[#>\-\s]+', '', line)
+    line = re.sub(r'^[^：:]{1,5}[：:]\s*', '', line)  # drop a short label such as "关卡名："
+    line = line.strip(' "\'“”「」『』《》【】')
+    return line[:24]
+
+
+def generate_game_title(digest: str) -> str:
+    """Fun, on-topic Simplified Chinese level name for the day. Empty string if the AI call fails."""
+    try:
+        return clean_game_title(call_ai(GAME_TITLE_PROMPT.format(digest=digest[:2500])))
+    except Exception as e:  # a title is nice-to-have; never block the daily briefing
+        print(f"⚠️ 关卡名生成失败: {e}")
+        return ""
+
+
 # ─── 板块信号生成 ─────────────────────────────────────────────────────────────
 
 def generate_category_signal(category_name: str, description: str, tweets: List[Dict], date_str: str) -> Optional[Dict]:
@@ -423,9 +453,13 @@ def main():
     # 生成 Markdown
     category_sections = "---\n\n".join([render_category_section(s) for s in all_signals])
     
+    digest = "\n".join(f"[{sig['category_name']}] " + "；".join(it.get('signal', '') for it in sig['items'][:4]) for sig in all_signals)
+    game_title = generate_game_title(digest)
+    game_title_line = f'game_title: {json.dumps(game_title, ensure_ascii=False)}\n' if game_title else ""
+
     full_content = f"""---
 title: "X Signal Daily Briefing: {date_str}"
-date: "{date_str}"
+{game_title_line}date: "{date_str}"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]
 ---

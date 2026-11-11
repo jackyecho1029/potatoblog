@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-02-27"
+game_title: "机器人闯关果园，AI打工上线"
 date: "2026-02-27"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

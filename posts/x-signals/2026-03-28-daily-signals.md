@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-28"
+game_title: "自动模式上线，Claude自动闯关"
 date: "2026-03-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

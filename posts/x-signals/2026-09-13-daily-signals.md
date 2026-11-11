@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-13"
+game_title: "GPT-6上线，两小时造出爆款网站"
 date: "2026-09-13"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

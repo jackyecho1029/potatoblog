@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-21"
+game_title: "本地AI觉醒，机器人工厂IPO"
 date: "2026-08-21"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

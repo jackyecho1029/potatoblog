@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-09"
+game_title: "提示工程进化为代理循环"
 date: "2026-06-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

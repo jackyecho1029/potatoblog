@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-31"
+game_title: "智能体入侵与边缘微调之夜"
 date: "2026-08-31"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

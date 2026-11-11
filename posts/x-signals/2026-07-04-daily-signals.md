@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-04"
+game_title: "Fable掉线惊魂，OpenClaw逆袭加冕"
 date: "2026-07-04"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-23"
+game_title: "Loop范式闯关：AI自动化进阶之路"
 date: "2026-06-23"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

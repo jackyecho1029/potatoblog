@@ -16,7 +16,6 @@ const NAV: (NavLink | { label: string; children: NavLink[] })[] = [
     {
         label: "洞察",
         children: [
-            { href: "/xhs-viral", label: "小红书爆款" },
             { href: "/writing-analysis", label: "写作拆解" },
             { href: "/x-signals", label: "X 信号" },
         ],

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-07"
+game_title: "现实建筑一秒搬进Blender"
 date: "2026-09-07"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-24"
+game_title: "Claude生态大爆发与算力争夺战"
 date: "2026-03-24"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

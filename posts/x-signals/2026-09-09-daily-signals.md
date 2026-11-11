@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-09"
+game_title: "GPT-6 曙光初现的军备竞赛"
 date: "2026-09-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-20"
+game_title: "七十亿金元收购AI水管工"
 date: "2026-08-20"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

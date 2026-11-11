@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-06"
+game_title: "两句话召唤出可玩游戏新纪元"
 date: "2026-09-06"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

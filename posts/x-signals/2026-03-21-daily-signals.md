@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-21"
+game_title: "Claude审计五角大楼省下42亿"
 date: "2026-03-21"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

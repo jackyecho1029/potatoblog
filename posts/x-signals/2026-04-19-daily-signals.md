@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-19"
+game_title: "Claude交易员回归率2974%"
 date: "2026-04-19"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

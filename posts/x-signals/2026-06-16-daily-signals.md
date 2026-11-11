@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-16"
+game_title: "AI机器人夺走交易员席位"
 date: "2026-06-16"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

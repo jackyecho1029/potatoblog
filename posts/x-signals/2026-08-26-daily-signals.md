@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-26"
+game_title: "谷歌让错先机，苹果本地AI崛起"
 date: "2026-08-26"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

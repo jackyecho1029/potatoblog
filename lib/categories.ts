@@ -16,7 +16,7 @@ export interface World {
     category: string;
     name: string;
     tagline: string;
-    icon: "Brain" | "Storefront" | "Flask" | "Robot" | "Lightning" | "Heartbeat" | "UsersThree" | "Coins" | "PaintBrush" | "PenNib";
+    icon: "Brain" | "Storefront" | "Flask" | "Robot" | "Lightning" | "Heartbeat" | "UsersThree" | "Coins" | "PaintBrush" | "PenNib" | "Broadcast";
 }
 
 export const WORLDS: World[] = [
@@ -30,6 +30,8 @@ export const WORLDS: World[] = [
     { category: "人际关系", name: "关系酒馆", tagline: "和人相处的手艺", icon: "UsersThree" },
     { category: "投资理财", name: "财富矿山", tagline: "让钱替你工作", icon: "Coins" },
     { category: "创作技能", name: "写作高塔", tagline: "把想法写清楚", icon: "PenNib" },
+    // X signals are their own open world (not a learning-level category).
+    { category: "X情报", name: "情报大陆", tagline: "每天一块新区域", icon: "Broadcast" },
 ];
 
 export function worldOf(category?: string): World {

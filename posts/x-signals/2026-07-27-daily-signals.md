@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-27"
+game_title: "我的世界被一句提示偷走了"
 date: "2026-07-27"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

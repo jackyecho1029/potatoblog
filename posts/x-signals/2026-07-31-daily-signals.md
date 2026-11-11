@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-31"
+game_title: "GPT-5.6自我优化之夜"
 date: "2026-07-31"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-18"
+game_title: "智能体学会记笔记的那一夜"
 date: "2026-08-18"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

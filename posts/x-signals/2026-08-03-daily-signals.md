@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-03"
+game_title: "Boss出现：AI智能体化身营销幕僚"
 date: "2026-08-03"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-28"
+game_title: "智能体攻上实体店的那一夜"
 date: "2026-04-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

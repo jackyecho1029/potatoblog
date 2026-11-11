@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-09"
+game_title: "AI代理出征 Telegram"
 date: "2026-03-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

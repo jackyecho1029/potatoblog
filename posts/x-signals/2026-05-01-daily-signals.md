@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-01"
+game_title: "智能体舰队接管代码与交易"
 date: "2026-05-01"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

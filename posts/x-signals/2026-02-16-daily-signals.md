@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-16"
+game_title: "好莱坞防线被AI一帧炸开"
 date: "2026-02-16"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

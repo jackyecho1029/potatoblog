@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-04"
+game_title: "智能体觉醒宪法日"
 date: "2026-08-04"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

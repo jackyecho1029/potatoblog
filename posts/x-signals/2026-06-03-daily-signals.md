@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-03"
+game_title: "OpenClaw爬上Windows企业墙"
 date: "2026-06-03"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

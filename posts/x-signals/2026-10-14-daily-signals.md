@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-14"
+game_title: "谷歌新王登基，OpenAI抓内鬼"
 date: "2026-10-14"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

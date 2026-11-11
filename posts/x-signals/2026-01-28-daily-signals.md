@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-28"
+game_title: "用英语编程的时代大爆发"
 date: "2026-01-28"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

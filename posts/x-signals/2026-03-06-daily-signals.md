@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-06"
+game_title: "Claude霸榜，本地AI闯进手机"
 date: "2026-03-06"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

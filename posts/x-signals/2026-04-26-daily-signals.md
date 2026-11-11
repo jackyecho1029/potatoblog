@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-26"
+game_title: "GPT-5.5刷新AGI天花板"
 date: "2026-04-26"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

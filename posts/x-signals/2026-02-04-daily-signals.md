@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-04"
+game_title: "指挥中心上线，IDE 终局之战"
 date: "2026-02-04"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

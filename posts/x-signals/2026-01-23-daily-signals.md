@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-23"
+game_title: "API 金矿月入十亿美元"
 date: "2026-01-23"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

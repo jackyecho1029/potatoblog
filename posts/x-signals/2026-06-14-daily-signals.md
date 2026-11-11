@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-14"
+game_title: "Fable下架风波：AI时代的至尊 Surviv"
 date: "2026-06-14"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

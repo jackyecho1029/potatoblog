@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-08"
+game_title: "个人智能体大军入侵互联网"
 date: "2026-09-08"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-10"
+game_title: "你只管去构建，代码算什么"
 date: "2026-02-10"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

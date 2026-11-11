@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-17"
+game_title: "OpenClaw 被收编，独狼驯服 AI 龙虾"
 date: "2026-02-17"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

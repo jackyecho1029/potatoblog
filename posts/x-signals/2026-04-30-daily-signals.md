@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-30"
+game_title: "描述即交付，代码从嘴里跑出来"
 date: "2026-04-30"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

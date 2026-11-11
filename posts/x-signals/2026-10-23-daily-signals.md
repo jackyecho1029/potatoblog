@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-23"
+game_title: "无限GPU与智能代理觉醒日"
 date: "2026-10-23"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-26"
+game_title: "太好用以至于被删掉的代码"
 date: "2026-05-26"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

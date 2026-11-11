@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-02"
+game_title: "开源突围极速挑战"
 date: "2026-08-02"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

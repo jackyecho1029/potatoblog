@@ -1,77 +1,124 @@
-import { getXSignalPostData } from "../../../lib/x-signals";
-import Link from 'next/link';
-import GiscusComments from '@/app/components/GiscusComments';
-import Header from '@/app/components/Header';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { ArrowLeft, ArrowRight, Broadcast, CalendarBlank, ChatCircleDots, SquaresFour } from "@phosphor-icons/react/ssr";
+import { countSignals, getSortedXSignalPostsData, getXSignalPostData, type XSignalPostData } from "../../../lib/x-signals";
+import GiscusComments from "@/app/components/GiscusComments";
+import Header from "@/app/components/Header";
+import { IntelQuests, PlantFlag } from "./ExploreClient";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+
+const WEEKDAY = ["日", "一", "二", "三", "四", "五", "六"];
+
+function nameOf(p: Pick<XSignalPostData, "game_title" | "title_best" | "date">) {
+    return p.game_title || p.title_best || `${String(p.date).slice(0, 10)} 情报`;
+}
+
+/** "- 💡 [建议1] 标题：内容" lines from the newer format; older days have none. */
+function questsOf(id: string): string[] {
+    const raw = fs.readFileSync(path.join(process.cwd(), "posts/x-signals", `${id}.md`), "utf8");
+    const body = matter(raw).content;
+    return [...body.matchAll(/^-\s*💡\s*\[[^\]]*\]\s*(.+)$/gm)]
+        .map((m) => m[1].replace(/\*\*/g, "").trim())
+        .filter((q, i, all) => q && all.indexOf(q) === i)
+        .slice(0, 6);
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const { slug } = await params;
+    try {
+        const p = await getXSignalPostData(slug);
+        return { title: `${nameOf(p)} · X 情报`, description: p.anchor_thought ?? `${p.date} 的 X 情报区域` };
+    } catch {
+        return {};
+    }
+}
 
 export default async function XSignalPost({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
-    const postData = await getXSignalPostData(slug);
+    let postData: XSignalPostData;
+    try {
+        postData = await getXSignalPostData(slug);
+    } catch {
+        notFound();
+    }
+
+    const all = getSortedXSignalPostsData().filter((p) => !p.private);
+    const idx = all.findIndex((p) => p.id === slug);
+    const newer = idx > 0 ? all[idx - 1] : null;
+    const older = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
+    const regionNo = idx >= 0 ? all.length - idx : null;
+    const date = String(postData.date).slice(0, 10);
+    const d = new Date(date + "T00:00:00");
+    const title = nameOf(postData);
+    const { signalCount, boardCount } = all[idx] ?? { ...countSignals(""), signalCount: 0, boardCount: 0 };
+    const quests = questsOf(slug);
 
     return (
-        <div className="min-h-screen bg-paper-grid text-zinc-900 font-sans selection:bg-amber-100 selection:text-amber-900 border-t-8 border-amber-600">
-            <main className="max-w-4xl mx-auto px-8 py-24">
-                <div className="animate-fade-in-up stagger-1">
-                    <Header />
-                </div>
+        <div className="min-h-[100dvh] bg-paper-grid font-sans text-ink selection:bg-arcade-soft">
+            <main className="mx-auto max-w-5xl px-4 py-6 md:px-8 md:py-10">
+                <Header />
 
-                {/* Navigation / Metadata */}
-                <header className="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8 border-b border-zinc-100 pb-12 animate-fade-in-up stagger-2">
-                    <div className="flex-1">
-                        <Link href="/x-signals" className="text-[10px] font-bold uppercase tracking-[0.25em] text-zinc-300 hover:text-amber-600 transition-colors mb-8 block">
-                            ← Back to Intelligence Feed
-                        </Link>
-                        <h1 className="text-5xl md:text-7xl font-serif font-medium leading-[1] tracking-tighter text-zinc-900 mb-8">
-                            {postData.title_best || postData.title}
-                        </h1>
-                        <div className="flex items-center gap-6 text-[11px] text-zinc-400 font-mono uppercase tracking-widest">
-                            <time className="flex items-center gap-2">
-                                <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
-                                {postData.date}
-                            </time>
-                            <span className="text-zinc-200">|</span>
-                            <div className="flex gap-3">
-                                {postData.tags?.map(tag => (
-                                    <span key={tag} className="uppercase tracking-widest text-[9px] bg-zinc-50 px-2 py-1 rounded-md border border-zinc-100 italic">
-                                        #{tag}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
+                <header>
+                    <Link href="/x-signals" className="mb-4 inline-flex items-center gap-1 text-sm font-bold text-zinc-500 hover:text-ink">
+                        <ArrowLeft size={14} weight="bold" /> 返回情报地图
+                    </Link>
+                    <div className="flex flex-wrap items-center gap-2">
+                        <span className="chip-arcade bg-arcade-soft text-arcade-deep"><Broadcast size={13} weight="bold" /> 情报大陆</span>
+                        {regionNo && <span className="chip-arcade font-mono">区域 #{regionNo}</span>}
                     </div>
+                    <h1 className="mt-4 text-3xl font-black leading-tight tracking-tight md:text-5xl">{title}</h1>
+                    {postData.anchor_thought && <p className="mt-3 max-w-[65ch] text-ink-soft">{postData.anchor_thought}</p>}
+                    <dl className="mt-6 grid max-w-xl grid-cols-3 gap-2">
+                        <Meta icon={<CalendarBlank size={16} weight="bold" />} label="日期" value={`${d.getMonth() + 1}/${d.getDate()} 周${WEEKDAY[d.getDay()]}`} />
+                        <Meta icon={<Broadcast size={16} weight="bold" />} label="信号" value={signalCount ? `${signalCount} 条` : "—"} />
+                        <Meta icon={<SquaresFour size={16} weight="bold" />} label="板块" value={`${boardCount} 个`} accent />
+                    </dl>
                 </header>
 
-                {/* Article Content */}
-                <article className="max-w-none prose prose-zinc prose-lg prose-headings:font-serif prose-headings:font-medium prose-headings:tracking-tight prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline prose-img:rounded-3xl prose-img:shadow-2xl animate-fade-in-up stagger-3">
-
-                    {postData.anchor_thought && (
-                        <div className="relative pl-12 py-12 mb-20 border-l-2 border-amber-200 bg-amber-50/20 rounded-r-3xl pr-12">
-                            <span className="absolute left-4 top-4 text-7xl font-serif text-amber-200 opacity-30">“</span>
-                            <p className="text-2xl md:text-3xl font-serif italic text-zinc-700 leading-relaxed relative z-10">
-                                {postData.anchor_thought}
-                            </p>
-                        </div>
-                    )}
-
-                    {/* Markdown Content */}
+                <article className="mt-10 rounded-[1.5rem] border-2 border-ink bg-white px-5 py-8 shadow-[5px_5px_0_#1C1B1F] md:px-10">
                     <div
-                        className="markdown-content font-light leading-relaxed text-zinc-800"
-                        dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
+                        className="prose prose-zinc max-w-none learning-content prose-headings:font-black prose-headings:text-ink prose-a:text-arcade-deep prose-blockquote:border-l-arcade prose-blockquote:bg-arcade-soft/50 prose-blockquote:not-italic"
+                        dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
                     />
-
-                    <div className="mt-32 pt-16 border-t border-zinc-100 animate-fade-in-up stagger-4">
-                        <h4 className="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-300 mb-12">Discussion & Feedback</h4>
-                        <GiscusComments />
-                    </div>
                 </article>
 
-                <footer className="mt-48 pt-12 border-t border-zinc-100 flex flex-col md:flex-row justify-between items-center gap-6 text-[11px] uppercase tracking-widest text-zinc-400 font-medium animate-fade-in-up stagger-5">
-                    <span>Potato Echo Knowledge Hub &copy; 2026</span>
-                    <div className="flex gap-8">
-                        <Link href="/" className="hover:text-amber-600 transition-colors">Latest Thinking</Link>
-                        <Link href="/about" className="hover:text-amber-600 transition-colors">About the Curator</Link>
+                <IntelQuests id={slug} title={title} quests={quests} />
+                <PlantFlag id={slug} title={title} />
+
+                <nav className="mt-8 grid gap-3 sm:grid-cols-2" aria-label="相邻区域">
+                    {older ? (
+                        <Link href={`/x-signals/${older.id}`} className="group rounded-xl border-2 border-ink bg-white p-4 shadow-[0_3px_0_#1C1B1F] transition-transform active:translate-y-[2px]">
+                            <span className="flex items-center gap-1 font-mono text-[11px] font-bold text-zinc-500"><ArrowLeft size={12} weight="bold" /> 前一天 · {String(older.date).slice(0, 10)}</span>
+                            <span className="mt-1 block font-bold group-hover:text-arcade-deep">{nameOf(older)}</span>
+                        </Link>
+                    ) : <span />}
+                    {newer && (
+                        <Link href={`/x-signals/${newer.id}`} className="group rounded-xl border-2 border-ink bg-white p-4 text-right shadow-[0_3px_0_#1C1B1F] transition-transform active:translate-y-[2px]">
+                            <span className="flex items-center justify-end gap-1 font-mono text-[11px] font-bold text-zinc-500">后一天 · {String(newer.date).slice(0, 10)} <ArrowRight size={12} weight="bold" /></span>
+                            <span className="mt-1 block font-bold group-hover:text-arcade-deep">{nameOf(newer)}</span>
+                        </Link>
+                    )}
+                </nav>
+
+                <section className="mt-16">
+                    <h2 className="mb-4 flex items-center gap-2 text-xl font-black"><ChatCircleDots size={22} weight="fill" className="text-arcade" /> 玩家讨论区</h2>
+                    <div className="rounded-[1.25rem] border-2 border-ink bg-white p-4 shadow-[4px_4px_0_#1C1B1F]">
+                        <GiscusComments />
                     </div>
-                </footer>
+                </section>
             </main>
+        </div>
+    );
+}
+
+function Meta({ icon, label, value, accent }: { icon: React.ReactNode; label: string; value: string; accent?: boolean }) {
+    return (
+        <div className={`rounded-xl border-2 border-ink px-3 py-2 ${accent ? "bg-[#F5C04A]" : "bg-white"}`}>
+            <dt className="flex items-center gap-1 text-[11px] font-bold text-ink-soft">{icon}{label}</dt>
+            <dd className="font-mono text-sm font-black text-ink">{value}</dd>
         </div>
     );
 }

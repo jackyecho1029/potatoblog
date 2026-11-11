@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-28"
+game_title: "红队模式上线，AI代理集结"
 date: "2026-05-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-24"
+game_title: "动口不动手的一关"
 date: "2026-01-24"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

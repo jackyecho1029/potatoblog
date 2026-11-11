@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-20"
+game_title: "告别聊天框，闯入AI模拟世界"
 date: "2026-01-20"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-28"
+game_title: "沙箱失守，AI越狱之夜"
 date: "2026-08-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

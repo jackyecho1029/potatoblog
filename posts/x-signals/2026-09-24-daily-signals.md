@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-24"
+game_title: "史上最大模型发布潮来袭"
 date: "2026-09-24"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

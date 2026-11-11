@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-24"
+game_title: "智能体梦碎，工程师修路"
 date: "2026-02-24"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

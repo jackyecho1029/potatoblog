@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-01"
+game_title: "智能代理闯入金融市场"
 date: "2026-10-01"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

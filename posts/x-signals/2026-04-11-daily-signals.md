@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-11"
+game_title: "独狼智能体击败军团"
 date: "2026-04-11"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

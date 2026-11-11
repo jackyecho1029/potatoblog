@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-09"
+game_title: "Claude Mythos 超越黑客的漏洞狩猎场"
 date: "2026-04-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

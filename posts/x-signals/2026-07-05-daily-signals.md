@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-05"
+game_title: "机器人8000美元闯关倒计时"
 date: "2026-07-05"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

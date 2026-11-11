@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-31"
+game_title: "提示词宝库开启，算法巨鲸现身"
 date: "2026-03-31"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

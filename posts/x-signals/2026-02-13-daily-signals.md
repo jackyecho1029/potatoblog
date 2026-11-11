@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-13"
+game_title: "一句话召唤大片时代"
 date: "2026-02-13"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

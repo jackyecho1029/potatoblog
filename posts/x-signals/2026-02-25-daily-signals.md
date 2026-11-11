@@ -1,5 +1,6 @@
 ---
 title: "X-Signal 2026-02-25: 算力大对垒与 Agent 幻象下的真相"
+game_title: "Agent 权力争夺战"
 date: "2026-02-25"
 category: "X-Signal"
 tags: ["AI Agents", "OpenClaw", "Claude Code", "Karpathy", "Meta-Analysis"]

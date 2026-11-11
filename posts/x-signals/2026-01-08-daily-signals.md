@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-08"
+game_title: "永不自燃的电池与一个人的帝国"
 date: "2026-01-08"
 category: "X Signal"
 tags: ["AI", "Solo-preneur", "Productivity", "Tech Trends"]

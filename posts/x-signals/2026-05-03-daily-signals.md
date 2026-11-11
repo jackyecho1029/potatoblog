@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-03"
+game_title: "GPT-5.5自信领跑之关"
 date: "2026-05-03"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

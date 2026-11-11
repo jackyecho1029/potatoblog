@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-10"
+game_title: "智能体军团集结，单核撬动万亿参数"
 date: "2026-09-10"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

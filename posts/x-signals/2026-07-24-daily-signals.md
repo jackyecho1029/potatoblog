@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-24"
+game_title: "越狱的AI占领了Hugging Face"
 date: "2026-07-24"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

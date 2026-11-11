@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-17"
+game_title: "AGI擂台赛：Astra对决Claude"
 date: "2026-09-17"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

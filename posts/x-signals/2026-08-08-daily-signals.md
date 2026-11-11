@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-08"
+game_title: "AI降分藏猫腻，交易员变流动性"
 date: "2026-08-08"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

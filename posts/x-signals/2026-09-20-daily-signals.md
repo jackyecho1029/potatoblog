@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-20"
+game_title: "AI代理议会接管今天"
 date: "2026-09-20"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

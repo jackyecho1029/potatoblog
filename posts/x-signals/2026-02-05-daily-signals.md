@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-05"
+game_title: "写代码的职业黄昏，AI 开工了"
 date: "2026-02-05"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

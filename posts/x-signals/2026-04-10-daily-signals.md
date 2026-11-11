@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-10"
+game_title: "神话AI太强不敢发布"
 date: "2026-04-10"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

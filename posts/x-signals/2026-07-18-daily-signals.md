@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-18"
+game_title: "AI机器人闯关狂赚16.8万美元"
 date: "2026-07-18"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

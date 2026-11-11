@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-15"
+game_title: "自家机房养AI，主权在手心不慌"
 date: "2026-06-15"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-14"
+game_title: "数学家挥剑闯入AI迷雾森林"
 date: "2026-04-14"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

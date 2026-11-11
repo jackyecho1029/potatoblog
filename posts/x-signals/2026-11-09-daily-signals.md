@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-11-09"
+game_title: "旧手机变身AI哨兵，插件军团开荒"
 date: "2026-11-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

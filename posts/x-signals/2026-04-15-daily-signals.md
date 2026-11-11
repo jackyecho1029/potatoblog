@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-15"
+game_title: "数字大脑与AI克隆人登场"
 date: "2026-04-15"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

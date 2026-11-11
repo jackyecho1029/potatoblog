@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-31"
+game_title: "一个AI指挥千军万智能体"
 date: "2026-10-31"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

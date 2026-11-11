@@ -114,7 +114,7 @@ export default function MeClient() {
                                         <p className="mt-0.5 text-sm text-ink-soft">{a.text}</p>
                                         <p className="mt-1.5 flex flex-wrap items-center gap-2 text-xs text-zinc-500">
                                             <span className="chip-arcade !border !px-2 !py-0 !text-[10px]"><WorldIcon name={worldOf(a.category).icon} size={11} weight="bold" /> {worldOf(a.category).name}</span>
-                                            <Link href={`/learning/${a.postId}`} className="truncate underline hover:text-arcade-deep">{a.postTitle}</Link>
+                                            <Link href={a.postId.startsWith("xs:") ? `/x-signals/${a.postId.slice(3)}` : `/learning/${a.postId}`} className="truncate underline hover:text-arcade-deep">{a.postTitle}</Link>
                                         </p>
                                     </div>
                                     {!a.doneAt && <span className="hidden self-center font-mono text-sm font-black text-arcade sm:block">+{XP.completeAction}</span>}

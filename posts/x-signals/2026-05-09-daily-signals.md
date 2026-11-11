@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-09"
+game_title: "金融AI来袭，股价惊魂夜"
 date: "2026-05-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

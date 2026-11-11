@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-06"
+game_title: "DeepMind换帅之日的无限世界生成"
 date: "2026-08-06"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

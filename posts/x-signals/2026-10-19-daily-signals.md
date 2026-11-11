@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-19"
+game_title: "密钥泄露的Boss战"
 date: "2026-10-19"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

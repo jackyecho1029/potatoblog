@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-19"
+game_title: "工具学会了打工"
 date: "2026-02-19"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

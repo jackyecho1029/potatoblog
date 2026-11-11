@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-13"
+game_title: "AI 走出屏幕，点亮了现实之门"
 date: "2026-01-13"
 category: "X Signal"
 tags: ["X", "Daily", "AI", "Marketing", "Wealth", "Scott Adams"]

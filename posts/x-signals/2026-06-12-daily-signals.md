@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-12"
+game_title: "Fable觉醒：智能体环游启程"
 date: "2026-06-12"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

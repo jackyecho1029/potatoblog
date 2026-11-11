@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-29"
+game_title: "智能体新标准开荒战"
 date: "2026-08-29"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

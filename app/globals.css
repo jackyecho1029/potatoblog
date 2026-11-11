@@ -384,3 +384,6 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .animate-marquee, .animate-flicker, .animate-floaty, .xp-shimmer::after, .rise-in { animation: none !important; opacity: 1 !important; }
 }
+
+/* Wide markdown tables scroll inside their card instead of stretching the page on mobile */
+.learning-content table { display: block; max-width: 100%; overflow-x: auto; }

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-08"
+game_title: "记忆检索胜过写入的密室"
 date: "2026-03-08"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

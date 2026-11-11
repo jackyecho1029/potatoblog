@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-23"
+game_title: "智能体觉醒，构建者上岗"
 date: "2026-08-23"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

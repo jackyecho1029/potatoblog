@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-11-02"
+game_title: "卡帕西用AI淘金四千万评论"
 date: "2026-11-02"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

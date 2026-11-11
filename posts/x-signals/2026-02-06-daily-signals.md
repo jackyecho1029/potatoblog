@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-06"
+game_title: "双雄对决，AI 通关数学秘境"
 date: "2026-02-06"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

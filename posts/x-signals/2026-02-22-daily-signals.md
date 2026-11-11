@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-22"
+game_title: "蒸汽机图纸已公开，别再铲煤"
 date: "2026-02-22"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

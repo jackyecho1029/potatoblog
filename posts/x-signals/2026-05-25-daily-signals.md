@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-25"
+game_title: "智能体学会了技能秘籍"
 date: "2026-05-25"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

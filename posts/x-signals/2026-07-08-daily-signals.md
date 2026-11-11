@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-08"
+game_title: "机器人军团从演示走向产品化"
 date: "2026-07-08"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

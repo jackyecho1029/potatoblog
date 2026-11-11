@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-05"
+game_title: "AI想太多反变笨，学会及时收手"
 date: "2026-03-05"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

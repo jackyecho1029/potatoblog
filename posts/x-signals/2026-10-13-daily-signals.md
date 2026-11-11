@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-13"
+game_title: "代理接管入口，应用时代谢幕"
 date: "2026-10-13"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

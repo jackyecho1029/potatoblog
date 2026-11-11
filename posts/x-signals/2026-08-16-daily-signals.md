@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-16"
+game_title: "智能体军团上线，一人顶五人"
 date: "2026-08-16"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

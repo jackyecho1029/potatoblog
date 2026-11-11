@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-16"
+game_title: "Gemini 4 惊现，智能体吹响冲锋号"
 date: "2026-10-16"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

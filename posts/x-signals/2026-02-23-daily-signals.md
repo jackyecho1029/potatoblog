@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-23"
+game_title: "Karpathy 的调度脚手架"
 date: "2026-02-23"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

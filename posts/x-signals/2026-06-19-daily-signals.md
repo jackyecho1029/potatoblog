@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-19"
+game_title: "大模型争霸，AI智能体开荒"
 date: "2026-06-19"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

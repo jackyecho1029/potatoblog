@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-11-03"
+game_title: "3D宇宙探索器启航日"
 date: "2026-11-03"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

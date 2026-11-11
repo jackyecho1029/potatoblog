@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-30"
+game_title: "OpenClaw火箭般蹿红的一天"
 date: "2026-08-30"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

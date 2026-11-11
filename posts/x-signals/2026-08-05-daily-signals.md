@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-05"
+game_title: "AI接管键鼠之日的信号风暴"
 date: "2026-08-05"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-05"
+game_title: "GPT-6捏出白宫办公室那关卡"
 date: "2026-09-05"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

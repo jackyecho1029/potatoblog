@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-28"
+game_title: "AI交易机器人闯入熊市斗技场"
 date: "2026-07-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

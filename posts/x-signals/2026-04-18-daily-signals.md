@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-18"
+game_title: "AI军团逆袭金融街"
 date: "2026-04-18"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

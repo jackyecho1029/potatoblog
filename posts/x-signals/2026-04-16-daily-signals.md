@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-16"
+game_title: "记忆环里的智能代理集结"
 date: "2026-04-16"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

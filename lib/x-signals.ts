@@ -15,9 +15,22 @@ export interface XSignalPostData {
     tags?: string[];
     title_best?: string;
     anchor_thought?: string;
+    game_title?: string; // fun Simplified Chinese level name (see scripts/backfill-x-signal-titles.py)
+    signalCount?: number;
+    boardCount?: number;
     contentHtml?: string;
     private?: boolean;
     password?: string;
+}
+
+/** Signals = table rows ("| 1 | ...") in the new format, or bold bullets in the early format. Boards = section headings. */
+export function countSignals(md: string): { signalCount: number; boardCount: number } {
+    // Three formats over time: table rows ("| 1 | ..."), bold bullets ("* [x] **..."), or "### [Author](url): ..." headings.
+    const rows = (md.match(/^\|\s*\d+\s*\|/gm) || []).length;
+    const bullets = (md.match(/^\*\s+(?:[^*\s]+\s+)?\*\*/gm) || []).length; // optional [tag]/emoji before the bold title
+    const authorHeads = (md.match(/^###\s+\[/gm) || []).length;
+    const boards = (md.match(/^#{2,3}\s+(?!\[)(?!.*(更新|重要观点|行动建议)).+$/gm) || []).length;
+    return { signalCount: rows || bullets || authorHeads, boardCount: boards };
 }
 
 export function getSortedXSignalPostsData(): XSignalPostData[] {
@@ -41,12 +54,14 @@ export function getSortedXSignalPostsData(): XSignalPostData[] {
         // Combine the data with the id
         return {
             id,
+            ...countSignals(matterResult.content),
             ...matterResult.data as {
                 title: string;
                 date: string;
                 tags?: string[];
                 title_best?: string;
                 anchor_thought?: string;
+                game_title?: string;
                 private?: boolean;
                 password?: string;
             },
@@ -86,6 +101,7 @@ export async function getXSignalPostData(id: string): Promise<XSignalPostData> {
             tags?: string[];
             title_best?: string;
             anchor_thought?: string;
+            game_title?: string;
         },
     };
 }

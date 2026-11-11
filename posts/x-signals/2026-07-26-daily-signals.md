@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-26"
+game_title: "多智能体集结，进军Jarvis模式"
 date: "2026-07-26"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

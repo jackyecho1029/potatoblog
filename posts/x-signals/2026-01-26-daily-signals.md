@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-26"
+game_title: "百万代理军团铸造浏览器引擎"
 date: "2026-01-26"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

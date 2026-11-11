@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-03"
+game_title: "情绪废墟里长出联席创始人"
 date: "2026-02-03"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

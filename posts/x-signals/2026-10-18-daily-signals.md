@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-18"
+game_title: "提示注入风暴席卷AI代理城"
 date: "2026-10-18"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

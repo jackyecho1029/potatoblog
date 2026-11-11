@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-11"
+game_title: "毫秒之巅决胜局"
 date: "2026-10-11"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-28"
+game_title: "300行代码驯服GPT巨龙"
 date: "2026-06-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

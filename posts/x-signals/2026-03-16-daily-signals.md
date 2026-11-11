@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-16"
+game_title: "自家园子里的开源AI太阳能板"
 date: "2026-03-16"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-04"
+game_title: "想得越多未必更聪明"
 date: "2026-03-04"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

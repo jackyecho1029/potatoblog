@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-17"
+game_title: "Claude掌控交易台，智能代理闯沙箱"
 date: "2026-04-17"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

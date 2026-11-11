@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-02"
+game_title: "六个AI交易员暗中博弈两月无人察觉"
 date: "2026-09-02"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

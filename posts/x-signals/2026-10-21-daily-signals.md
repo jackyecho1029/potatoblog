@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-21"
+game_title: "MacBook 上跑出 7 毫秒的声音"
 date: "2026-10-21"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-02-28"
+game_title: "千亿融资夜，AI 拐点已至"
 date: "2026-02-28"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

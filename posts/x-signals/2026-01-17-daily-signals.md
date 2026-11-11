@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-17"
+game_title: "被动系统爆发前夜，智能体开工"
 date: "2026-01-17"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-11"
+game_title: "代码退场，意图登场"
 date: "2026-02-11"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

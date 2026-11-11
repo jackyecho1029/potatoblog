@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-04-03"
+game_title: "源码泄露！Claude Code 开源惊魂"
 date: "2026-04-03"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

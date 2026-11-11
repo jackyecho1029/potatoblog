@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-08"
+game_title: "极速Haiku闯关，成本暴跌90%"
 date: "2026-10-08"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

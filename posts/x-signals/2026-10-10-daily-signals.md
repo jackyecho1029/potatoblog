@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-10"
+game_title: "AI望远镜揪出新行星的一天"
 date: "2026-10-10"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-15"
+game_title: "一周攻下六道数学前沿关"
 date: "2026-02-15"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

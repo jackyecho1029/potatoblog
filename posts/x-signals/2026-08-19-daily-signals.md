@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-19"
+game_title: "三头AI辩论团激辩护城河之夜"
 date: "2026-08-19"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

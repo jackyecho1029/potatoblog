@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-17"
+game_title: "Gemini一指令造3D游戏闯关夜"
 date: "2026-10-17"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

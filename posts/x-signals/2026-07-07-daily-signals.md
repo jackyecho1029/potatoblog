@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-07-07"
+game_title: "性能翻倍，AI冲出屏幕闯现实"
 date: "2026-07-07"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -100,42 +100,41 @@ export default function HomePageClient({ posts, arcade }: HomePageClientProps) {
                     </div>
                 </section>
 
-                {/* Author's notes (blog) */}
+                {/* Author's notes (blog): one column, header + search on top */}
                 <section className="mt-16">
-                    <div className="grid gap-8 md:grid-cols-12">
-                        <div className="md:col-span-4">
-                            <SectionHead kicker="Field Notes" title="作者手记" note="我自己的实验、复盘和长文。" />
-                            <label className="relative block">
-                                <span className="sr-only">搜索手记</span>
-                                <MagnifyingGlass size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400" />
-                                <input
-                                    value={q}
-                                    onChange={(e) => setQ(e.target.value)}
-                                    placeholder="搜索标题或标签"
-                                    className="w-full rounded-xl border-2 border-ink bg-white py-2.5 pl-10 pr-3 text-sm shadow-[3px_3px_0_#1C1B1F] focus:outline-none focus:ring-4 focus:ring-arcade-soft"
-                                />
-                            </label>
-                        </div>
-                        <ol className="divide-y-2 divide-ink/10 arcade-card px-5 md:col-span-8">
-                            {notes.slice(0, 40).map((post) => (
-                                <li key={post.id}>
-                                    <Link href={`/posts/${post.id}`} className="group grid grid-cols-[auto_1fr] gap-x-4 py-4">
-                                        <span className="pt-0.5 font-mono text-xs text-zinc-400">{post.date}</span>
-                                        <span>
-                                            <span className="block font-bold leading-snug text-ink group-hover:text-arcade-deep">{post.title}</span>
-                                            {post.excerpt && <span className="mt-1 line-clamp-2 block text-sm text-zinc-500">{post.excerpt}</span>}
-                                        </span>
-                                    </Link>
-                                </li>
-                            ))}
-                            {notes.length === 0 && (
-                                <li className="flex flex-col items-center gap-2 py-12 text-center text-zinc-500">
-                                    <Notebook size={32} />
-                                    没找到相关手记，换个关键词试试。
-                                </li>
-                            )}
-                        </ol>
+                    <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+                        <SectionHead kicker="Field Notes" title="作者手记" note="我自己的实验、复盘和长文。" />
+                        <label className="relative mb-6 block w-full md:max-w-sm">
+                            <span className="sr-only">搜索手记</span>
+                            <MagnifyingGlass size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400" />
+                            <input
+                                value={q}
+                                onChange={(e) => setQ(e.target.value)}
+                                placeholder="搜索标题或标签"
+                                className="w-full rounded-xl border-2 border-ink bg-white py-2.5 pl-10 pr-3 text-sm shadow-[3px_3px_0_#1C1B1F] focus:outline-none focus:ring-4 focus:ring-arcade-soft"
+                            />
+                        </label>
                     </div>
+                    <ol className="divide-y-2 divide-ink/10 arcade-card px-5 md:px-8">
+                        {notes.slice(0, 40).map((post) => (
+                            <li key={post.id}>
+                                <Link href={`/posts/${post.id}`} className="group grid gap-x-6 gap-y-1 py-4 md:grid-cols-[110px_1fr_auto] md:items-baseline">
+                                    <span className="font-mono text-xs text-zinc-400">{post.date}</span>
+                                    <span className="min-w-0">
+                                        <span className="block font-bold leading-snug text-ink group-hover:text-arcade-deep">{post.title}</span>
+                                        {post.excerpt && <span className="mt-1 line-clamp-1 block text-sm text-zinc-500">{post.excerpt}</span>}
+                                    </span>
+                                    <ArrowRight size={16} weight="bold" className="hidden text-zinc-300 transition-all group-hover:translate-x-1 group-hover:text-arcade md:block" />
+                                </Link>
+                            </li>
+                        ))}
+                        {notes.length === 0 && (
+                            <li className="flex flex-col items-center gap-2 py-12 text-center text-zinc-500">
+                                <Notebook size={32} />
+                                没找到相关手记，换个关键词试试。
+                            </li>
+                        )}
+                    </ol>
                 </section>
 
                 <footer className="mt-24 flex flex-col items-center justify-between gap-4 border-t-2 border-ink pt-8 text-xs font-bold uppercase tracking-widest text-zinc-500 md:flex-row">

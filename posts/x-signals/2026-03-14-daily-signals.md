@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-03-14"
+game_title: "铁爪驭浏览器横扫千军"
 date: "2026-03-14"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-06"
+game_title: "智能体军团占领云桌面"
 date: "2026-05-06"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

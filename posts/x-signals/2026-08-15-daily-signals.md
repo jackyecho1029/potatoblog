@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-08-15"
+game_title: "Grok智能体潜入工作流深处"
 date: "2026-08-15"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

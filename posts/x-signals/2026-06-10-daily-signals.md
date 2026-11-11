@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-10"
+game_title: "Fable 5飞跃，打破AI停滞"
 date: "2026-06-10"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

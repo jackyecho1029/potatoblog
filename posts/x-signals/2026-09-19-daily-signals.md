@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-19"
+game_title: "AI发现新宇宙定律的突破日"
 date: "2026-09-19"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

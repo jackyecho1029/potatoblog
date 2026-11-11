@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-05-31"
+game_title: "神话级模型解锁AI新纪元"
 date: "2026-05-31"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

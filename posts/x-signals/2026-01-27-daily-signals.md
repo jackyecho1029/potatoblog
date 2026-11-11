@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-01-27"
+game_title: "拒绝NPC剧本，活玩家通关中"
 date: "2026-01-27"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-22"
+game_title: "小队逆袭巨头之日：代理觉醒"
 date: "2026-10-22"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

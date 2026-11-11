@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-09"
+game_title: "AI代理信用时代，信任成新货币"
 date: "2026-02-09"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

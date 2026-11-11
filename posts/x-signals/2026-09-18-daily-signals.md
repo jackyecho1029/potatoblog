@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-09-18"
+game_title: "Astra化身浏览器代驾夜闯万站"
 date: "2026-09-18"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-15"
+game_title: "机器人流量大军占领互联网"
 date: "2026-10-15"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

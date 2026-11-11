@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-10-09"
+game_title: "大模型降价，智能体疯狂上岗"
 date: "2026-10-09"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

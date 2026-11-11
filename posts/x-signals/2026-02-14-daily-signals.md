@@ -1,5 +1,6 @@
 ---
 title: "Daily X Signals: 2026-02-14"
+game_title: "炼丹已透明，堆算力通关"
 date: "2026-02-14"
 category: "X Signal"
 tags: ["X", "AI", "Wealth", "Productivity", "Entrepreneurship"]

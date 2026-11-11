@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-06-13"
+game_title: "卸载IDE，Fable 5降临"
 date: "2026-06-13"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]

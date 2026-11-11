@@ -1,5 +1,6 @@
 ---
 title: "X Signal Daily Briefing: 2026-11-04"
+game_title: "一人军团闯关：AI代理上线"
 date: "2026-11-04"
 category: "X Signal"
 tags: ["X", "AI", "财富", "营销", "智慧", "日报"]
