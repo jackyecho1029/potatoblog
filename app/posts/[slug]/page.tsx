@@ -10,7 +10,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     const postData = await getPostData(slug);
 
     const content = (
-        <div className="min-h-screen bg-[#FDFBF7] text-zinc-900 font-sans selection:bg-amber-100 selection:text-amber-900 border-t-8 border-amber-600">
+        <div className="min-h-screen bg-paper-grid text-zinc-900 font-sans selection:bg-amber-100 selection:text-amber-900 border-t-8 border-amber-600">
             <main className="max-w-4xl mx-auto px-8 py-24">
                 <div className="animate-fade-in-up stagger-1">
                     <Header />

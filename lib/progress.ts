@@ -30,16 +30,13 @@ export interface Progress {
     actions: ActionItem[];
     questBonusDays: string[];
     log: { at: number; xp: number; label: string }[];
+    // Celebration bookkeeping: what the player has already been shown.
+    seenLevel?: number;
+    seenAchievements?: string[];
 }
 
-export const XP = {
-    read: 10,
-    answer: 10,
-    addAction: 5,
-    learned: 15,
-    completeAction: 30,
-    dailyQuest: 50,
-} as const;
+import { XP } from "./xp";
+export { XP };
 
 const LEVELS = [
     { min: 0, title: "新手" },
@@ -57,7 +54,7 @@ const LEVELS = [
 const KEY = "potatoecho-progress-v1";
 const EMPTY: Progress = {
     v: 1, xp: 0, activeDays: [], catXp: {}, read: {}, answers: {}, revealed: {},
-    learned: {}, actions: [], questBonusDays: [], log: [],
+    learned: {}, actions: [], questBonusDays: [], log: [], seenLevel: 1, seenAchievements: [],
 };
 
 export function today(d = new Date()): string {
@@ -175,6 +172,12 @@ export const actions = {
     reset() {
         save({ ...EMPTY });
     },
+    markCelebrated(level: number, achievementIds: string[]) {
+        const p = load();
+        const seen = new Set(p.seenAchievements ?? []);
+        achievementIds.forEach((id) => seen.add(id));
+        save({ ...p, seenLevel: Math.max(p.seenLevel ?? 1, level), seenAchievements: [...seen] });
+    },
 };
 
 export function levelOf(xp: number) {
@@ -209,4 +212,70 @@ export function questStatus(p: Progress) {
     const studied = Object.values(p.revealed).some(isToday) || Object.values(p.answers).some((a) => isToday(a.at));
     const acted = p.actions.some((a) => a.doneAt && isToday(a.doneAt));
     return { studied, acted, done: studied && acted, bonusClaimed: p.questBonusDays.includes(d) };
+}
+
+// ---------------- Achievements ----------------
+
+export interface Achievement {
+    id: string;
+    title: string;
+    desc: string;
+    icon: "Footprints" | "Fire" | "CheckSquare" | "Lightbulb" | "Compass" | "Microphone" | "BookOpen" | "Trophy" | "Crown" | "Target" | "Sword";
+    current: number;
+    target: number;
+    unlocked: boolean;
+}
+
+function longestStreak(days: string[]): number {
+    const sorted = [...new Set(days)].sort();
+    let best = 0, run = 0, prev: number | null = null;
+    for (const d of sorted) {
+        const t = new Date(d + "T00:00:00").getTime();
+        run = prev !== null && t - prev === 86400000 ? run + 1 : 1;
+        best = Math.max(best, run);
+        prev = t;
+    }
+    return best;
+}
+
+export function achievementsOf(p: Progress): Achievement[] {
+    const done = p.actions.filter((a) => a.doneAt).length;
+    const answers = Object.values(p.answers).filter((a) => a.text.trim().length >= 10).length;
+    const reads = Object.keys(p.read).length;
+    const lenny = Object.keys(p.read).filter((id) => id.includes("lenny-")).length;
+    const worlds = Object.keys(p.catXp).length;
+    const learned = Object.keys(p.learned).length;
+    const streak = longestStreak(p.activeDays);
+    const quests = p.questBonusDays.length;
+    const rows: Omit<Achievement, "unlocked">[] = [
+        { id: "first-step", title: "第一步", desc: "获得第一份 XP", icon: "Footprints", current: Math.min(p.xp, 1), target: 1 },
+        { id: "thinker-5", title: "先想后看", desc: "写下 5 次自己的思考", icon: "Lightbulb", current: answers, target: 5 },
+        { id: "doer-1", title: "知行合一", desc: "完成第 1 个行动", icon: "CheckSquare", current: done, target: 1 },
+        { id: "doer-10", title: "行动派", desc: "完成 10 个行动", icon: "Sword", current: done, target: 10 },
+        { id: "streak-3", title: "三日之火", desc: "连续学习 3 天", icon: "Fire", current: streak, target: 3 },
+        { id: "streak-7", title: "一周不断", desc: "连续学习 7 天", icon: "Fire", current: streak, target: 7 },
+        { id: "quest-5", title: "任务猎人", desc: "完成 5 次每日任务", icon: "Target", current: quests, target: 5 },
+        { id: "explorer-3", title: "跨界旅人", desc: "在 3 个世界获得 XP", icon: "Compass", current: worlds, target: 3 },
+        { id: "reader-20", title: "书虫", desc: "读完 20 篇", icon: "BookOpen", current: reads, target: 20 },
+        { id: "lenny-5", title: "Lenny 常客", desc: "读完 5 集 Lenny's Podcast", icon: "Microphone", current: lenny, target: 5 },
+        { id: "master-25", title: "融会贯通", desc: "掌握 25 课", icon: "Trophy", current: learned, target: 25 },
+        { id: "grandmaster", title: "宗师之路", desc: "达到 Lv.10", icon: "Crown", current: levelOf(p.xp).level, target: 10 },
+    ];
+    return rows.map((r) => ({ ...r, current: Math.min(r.current, r.target), unlocked: r.current >= r.target }));
+}
+
+// ---------------- Celebration bus ----------------
+// Components fire celebrate() at the click point; a single <Celebrations/> layer renders confetti.
+
+export type CelebrateDetail = { x: number; y: number; big?: boolean };
+
+export function celebrate(detail: CelebrateDetail) {
+    if (typeof window === "undefined") return;
+    window.dispatchEvent(new CustomEvent<CelebrateDetail>("potatoecho:celebrate", { detail }));
+}
+
+export function celebrateFrom(el: Element | null, big = false) {
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    celebrate({ x: r.left + r.width / 2, y: r.top + r.height / 2, big });
 }

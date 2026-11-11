@@ -3,24 +3,28 @@
 
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F5F2EA;
+  --foreground: #1C1B1F;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  /* Paper Arcade palette: one accent (arcade orange), ink outlines, warm paper. */
+  --color-paper: #F5F2EA;
+  --color-paper-deep: #ECE7DB;
+  --color-ink: #1C1B1F;
+  --color-ink-soft: #3F3D45;
+  --color-arcade: #E8622C;
+  --color-arcade-deep: #B8461A;
+  --color-arcade-soft: #FBE3D6;
+  --color-win: #2F9E6A;
+  --color-win-soft: #DDF2E7;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-serif: var(--font-instrument-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--background);
@@ -34,8 +38,7 @@ body {
   font-family: var(--font-instrument-serif), serif;
 }
 
-/* Blog Article Image Styling */
-article img,
+/* Blog Article Image Styling (content images only, not layout images like level thumbnails) */
 .prose img {
   max-width: 100%;
   width: auto;
@@ -47,7 +50,6 @@ article img,
 }
 
 /* Optional: Image caption styling */
-article img+em,
 .prose img+em {
   display: block;
   text-align: center;
@@ -151,7 +153,7 @@ article img+em,
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #F59E0B;
+  border-bottom: 3px solid #1C1B1F;
   letter-spacing: 0.01em;
 }
 
@@ -160,7 +162,7 @@ article img+em,
   font-size: 1.15rem;
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
-  color: #92400E;
+  color: #B8461A;
   font-weight: 600;
 }
 
@@ -173,8 +175,8 @@ article img+em,
 
 /* Quote block: 重要原話 */
 .learning-content blockquote {
-  border-left: 3px solid #F59E0B;
-  background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+  border-left: 4px solid #E8622C;
+  background: #FBE3D6;
   border-radius: 0 12px 12px 0;
   padding: 1rem 1.25rem;
   margin: 1rem 0 1.5rem 0;
@@ -204,11 +206,11 @@ article img+em,
   font-size: 0.9rem;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid #E7E5E4;
+  border: 2px solid #1C1B1F;
 }
 
 .learning-content thead th {
-  background: #F59E0B;
+  background: #1C1B1F;
   color: white;
   font-weight: 600;
   padding: 0.75rem 1rem;
@@ -222,7 +224,7 @@ article img+em,
 }
 
 .learning-content tbody tr:hover {
-  background: #FFFBEB;
+  background: #FBE3D6;
 }
 
 .learning-content tbody td {
@@ -239,7 +241,7 @@ article img+em,
 .learning-content tbody td:first-child {
   font-family: var(--font-geist-mono), ui-monospace, monospace;
   font-size: 0.82rem;
-  color: #B45309;
+  color: #B8461A;
   white-space: nowrap;
   width: 140px;
 }
@@ -259,7 +261,7 @@ article img+em,
 
 /* Action items — slight emphasis */
 .learning-content p > strong:first-child {
-  color: #92400E;
+  color: #B8461A;
 }
 
 /* Smooth anchor scroll */
@@ -282,3 +284,103 @@ article img+em,
   100% { opacity: 0; transform: translateY(4px); }
 }
 .xp-toast { animation: xpToast 1.8s ease-out forwards; }
+
+
+/* ================= Paper Arcade ================= */
+
+/* Dotted paper grid behind every page */
+.bg-paper-grid {
+  background-color: var(--color-paper);
+  background-image: radial-gradient(rgba(28, 27, 31, 0.09) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Chunky outlined panel with a hard offset shadow */
+.arcade-card {
+  background: #fff;
+  border: 2px solid var(--color-ink);
+  border-radius: 1.25rem;
+  box-shadow: 5px 5px 0 var(--color-ink);
+}
+.arcade-card-hover {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.arcade-card-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--color-ink);
+}
+
+/* Physical 3D key: sits on a darker base and sinks when pressed */
+.btn-arcade {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  border: 2px solid var(--color-ink);
+  border-radius: 0.9rem;
+  padding: 0.7rem 1.2rem;
+  background: var(--color-arcade);
+  color: #fff;
+  box-shadow: 0 5px 0 var(--color-ink);
+  transform: translateY(0);
+  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, background 0.2s;
+  cursor: pointer;
+  user-select: none;
+}
+.btn-arcade:hover { background: #F06D37; }
+.btn-arcade:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--color-ink); }
+.btn-arcade:disabled { opacity: 0.55; cursor: not-allowed; }
+.btn-arcade-ghost { background: #fff; color: var(--color-ink); }
+.btn-arcade-ghost:hover { background: var(--color-paper); }
+.btn-arcade-win { background: var(--color-win); }
+.btn-arcade-win:hover { background: #36AE76; }
+.btn-arcade-ink { background: var(--color-ink); color: #fff; }
+.btn-arcade-ink:hover { background: #2A2930; }
+
+/* Sticker-like pill */
+.chip-arcade {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 2px solid var(--color-ink);
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #fff;
+}
+
+/* Infinite marquee (transform only) */
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.animate-marquee { animation: marquee 60s linear infinite; }
+.animate-marquee:hover { animation-play-state: paused; }
+
+/* Flame flicker for streak icon */
+@keyframes flicker {
+  0%, 100% { transform: scale(1) rotate(-2deg); }
+  50% { transform: scale(1.12) rotate(3deg); }
+}
+.animate-flicker { animation: flicker 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
+
+/* Gentle float for hero sticker */
+@keyframes floaty { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-8px) rotate(-1deg); } }
+.animate-floaty { animation: floaty 4.5s ease-in-out infinite; }
+
+/* Shimmer sweep across XP bars */
+@keyframes shimmer { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+.xp-shimmer { position: relative; overflow: hidden; }
+.xp-shimmer::after {
+  content: "";
+  position: absolute; inset: 0; width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.55), transparent);
+  animation: shimmer 2.4s ease-in-out infinite;
+}
+
+/* Waterfall reveal for grids */
+@keyframes riseIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+.rise-in { opacity: 0; animation: riseIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; animation-delay: calc(var(--i, 0) * 45ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee, .animate-flicker, .animate-floaty, .xp-shimmer::after, .rise-in { animation: none !important; opacity: 1 !important; }
+}

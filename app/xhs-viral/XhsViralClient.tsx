@@ -19,7 +19,7 @@ export default function XhsViralClient({ posts }: XhsViralClientProps) {
     }, []);
 
     return (
-        <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-red-200">
+        <div className="min-h-screen bg-paper-grid text-zinc-800 font-sans selection:bg-red-200">
             <main className="max-w-5xl mx-auto px-6 py-20">
                 <Header />
 

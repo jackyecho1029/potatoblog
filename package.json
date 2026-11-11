@@ -19,8 +19,10 @@
   "dependencies": {
     "@giscus/react": "^3.1.0",
     "@google/generative-ai": "^0.24.1",
+    "@phosphor-icons/react": "^2.1.10",
     "@tailwindcss/typography": "^0.5.19",
     "date-fns": "^4.1.0",
+    "framer-motion": "^14.12.0",
     "gray-matter": "^4.0.3",
     "next": "16.1.1",
     "openai": "^6.22.0",

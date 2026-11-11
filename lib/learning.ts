@@ -168,6 +168,10 @@ export function getSortedLearningPostsData(): LearningPostData[] {
 
             // Combine the data with the id
             const motto = extractMotto(matterResult.content);
+            // Lenny files all carry a generic category; infer a real one so they land in the right world.
+            const inferred = id.includes('lenny-')
+                ? inferLennyCategory(matterResult.content, (matterResult.data.tags as string[]) || [], (matterResult.data.title as string) || '')
+                : undefined;
             const lessonCount = (matterResult.content.match(/^### 第.{1,2}课/gm) || []).length || undefined;
             return [{
                 id,
@@ -185,6 +189,7 @@ export function getSortedLearningPostsData(): LearningPostData[] {
                     private?: boolean;
                     password?: string;
                 },
+                ...(inferred ? { category: inferred } : {}),
             }];
         } catch (err) {
             // One malformed frontmatter file must not fail the whole build — skip it.

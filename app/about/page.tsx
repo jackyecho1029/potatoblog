@@ -4,7 +4,7 @@ import Header from '../components/Header';
 
 export default function About() {
     return (
-        <div className="min-h-screen bg-[#FDFBF7] text-zinc-800 font-sans selection:bg-amber-200">
+        <div className="min-h-screen bg-paper-grid text-zinc-800 font-sans selection:bg-amber-200">
             <main className="max-w-2xl mx-auto px-6 py-20">
                 <Header />
 

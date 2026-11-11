@@ -41,7 +41,7 @@ export default function PasswordProtection({
     }
 
     return (
-        <div className="min-h-screen bg-[#FDFBF7] flex items-center justify-center px-4">
+        <div className="min-h-screen bg-paper-grid flex items-center justify-center px-4">
             <div className="max-w-md w-full bg-white rounded-2xl shadow-lg p-8">
                 <div className="text-center mb-6">
                     <span className="text-4xl mb-4 block">🔒</span>
