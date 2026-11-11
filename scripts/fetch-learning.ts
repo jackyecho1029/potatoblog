@@ -257,17 +257,19 @@ ${transcriptText.substring(0, 25000)}
     try {
         const text = await summarizeWithGLM(prompt);
 
-        // Extract hook title
-        const titleMatch = text.match(/---HOOK_TITLE_START---([\s\S]*?)---HOOK_TITLE_END---/);
+        // Extract hook title / category. GLM sometimes renders the `---X---` markers
+        // as `**X**`, so accept either delimiter.
+        const M = '(?:-{3}|\\*{2})';
+        const block = (name: string) => new RegExp(`${M}${name}_START${M}([\\s\\S]*?)${M}${name}_END${M}`);
+        const titleMatch = text.match(block('HOOK_TITLE'));
         const hookTitle = titleMatch ? titleMatch[1].trim() : originalTitle;
 
-        // Extract category
-        const categoryMatch = text.match(/---CATEGORY_START---([\s\S]*?)---CATEGORY_END---/);
+        const categoryMatch = text.match(block('CATEGORY'));
         const category = categoryMatch ? categoryMatch[1].trim() : '思維成長';
 
         // Remove the markers from summary
-        let summary = text.replace(/---HOOK_TITLE_START---[\s\S]*?---HOOK_TITLE_END---/, '').trim();
-        summary = summary.replace(/---CATEGORY_START---[\s\S]*?---CATEGORY_END---/, '').trim();
+        let summary = text.replace(block('HOOK_TITLE'), '').trim();
+        summary = summary.replace(block('CATEGORY'), '').trim();
 
         return { hookTitle, category, summary };
     } catch (error) {

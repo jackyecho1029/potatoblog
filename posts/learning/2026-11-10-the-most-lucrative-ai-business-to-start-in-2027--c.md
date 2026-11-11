@@ -1,23 +1,15 @@
 ---
-title: 'The Most Lucrative AI Business To Start In 2027 (Complete Guide)'
+title: '2027年最賺錢的AI生意，竟然是這個？'
 original_title: 'The Most Lucrative AI Business To Start In 2027 (Complete Guide)'
 author: 'Dan Koe'
-category: '思維成長'
+category: '商業創業'
 date: "2026-11-10"
-tags: ['思維成長', 'Dan Koe']
+tags: ['商業創業', 'Dan Koe']
 source_url: "https://www.youtube.com/watch?v=zdshL1IcetU"
 thumbnail: "https://img.youtube.com/vi/zdshL1IcetU/maxresdefault.jpg"
 ---
 
 # 影片深度解析
-
-**HOOK_TITLE_START**
-2027年最賺錢的AI生意，竟然是這個？
-**HOOK_TITLE_END**
-
-**CATEGORY_START**
-商業創業
-**CATEGORY_END**
 
 ## 📋 Brief
 
