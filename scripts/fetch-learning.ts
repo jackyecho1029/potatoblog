@@ -532,16 +532,8 @@ async function fetchVideoByUrl(videoUrl: string) {
         if (isLennyPodcast) {
             console.log(`🎙️ Detected Lenny's Podcast: ${title}`);
             // Extract guest name from title
-            let guestName = 'unknown-guest';
-            if (title.includes(':')) {
-                guestName = title.split(':')[0].trim();
-            } else if (title.includes('|')) {
-                const parts = title.split('|').map(p => p.trim());
-                guestName = parts.sort((a, b) => a.length - b.length)[0];
-            }
-            
-            guestName = guestName.replace(/\s*\(.*?\)\s*/g, '').replace(/\s*\[.*?\]\s*/g, '').trim();
-            
+            const guestName = extractLennyGuest(title);
+
             const summaryText = await summarizeLennyVideo(guestName, transcriptText);
             if (summaryText) {
                 const lennyFilename = `${dateString}-lenny-${guestName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().substring(0, 50)}.md`;
@@ -585,6 +577,19 @@ ${linkedSummary}`;
     } catch (error) {
         console.error("Error processing specific video:", error);
     }
+}
+
+/** Lenny titles are usually "Topic | Guest (Role)" or "Guest: Topic". */
+function extractLennyGuest(title: string): string {
+    let guest = 'unknown-guest';
+    if (title.includes('|')) {
+        guest = title.split('|').pop()!.trim();
+    } else if (title.includes(':')) {
+        const first = title.split(':')[0].trim();
+        const topicWord = /\b(how|why|what|when|where|the|this|best|secrets|guide|tips)\b/i;
+        if (!topicWord.test(first) && first.length < 50 && first.split(' ').length <= 5) guest = first;
+    }
+    return guest.replace(/\s*\(.*?\)\s*/g, '').replace(/\s*\[.*?\]\s*/g, '').replace(/[""]/g, '').trim() || 'unknown-guest';
 }
 
 const BLOCKED_IDS = new Set([
@@ -773,41 +778,7 @@ async function fetchLatestVideos() {
                     // - "Guest Name: Topic" (most common)
                     // - "Topic | Guest Name"
                     // - "Guest Name | Topic"
-                    let guestName = 'unknown-guest';
-
-                    // First try colon separator (most reliable for Lenny's format)
-                    if (title.includes(':')) {
-                        const colonParts = title.split(':').map(p => p.trim());
-                        const firstPart = colonParts[0];
-
-                        // Check if first part looks like a name (contains capital letters, short, no common topic words)
-                        const topicKeywords = ['how', 'why', 'what', 'the', 'this', 'best', 'secrets', 'guide', 'tips'];
-                        const hasTopicKeyword = topicKeywords.some(kw => firstPart.toLowerCase().includes(kw));
-
-                        if (!hasTopicKeyword && firstPart.length < 50 && firstPart.split(' ').length <= 5) {
-                            guestName = firstPart;
-                        }
-                    }
-
-                    // Fallback to pipe separator
-                    if (guestName === 'unknown-guest' && title.includes('|')) {
-                        const parts = title.split('|').map(p => p.trim());
-                        // Heuristic: The guest name is usually the shorter part and doesn't contain question words
-                        const sortedParts = parts.sort((a, b) => a.length - b.length);
-                        for (const part of sortedParts) {
-                            if (!part.toLowerCase().match(/\b(how|why|what|when|where)\b/) && part.length < 50) {
-                                guestName = part;
-                                break;
-                            }
-                        }
-                    }
-
-                    // Clean up the guest name
-                    guestName = guestName
-                        .replace(/\s*\(.*?\)\s*/g, '') // Remove parentheses content like "(2x unicorn founder)"
-                        .replace(/\s*\[.*?\]\s*/g, '') // Remove brackets
-                        .replace(/[""]/g, '') // Remove quotes
-                        .trim();
+                    const guestName = extractLennyGuest(title);
 
                     console.log(`   Generating Lenny-style deep analysis...`);
                     const summaryText = await summarizeLennyVideo(guestName, transcriptText);
