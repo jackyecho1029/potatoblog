@@ -31,7 +31,7 @@ export function IntelQuests({ id, title, quests }: { id: string; title: string; 
                                     <Sword size={18} weight="fill" className="mt-0.5 shrink-0 text-arcade" />
                                     {hasHead ? head : `任务 ${i + 1}`}
                                 </p>
-                                <p className="mt-1 line-clamp-4 text-sm text-ink-soft">{hasHead ? rest.join("：") : q}</p>
+                                <p className="mt-1 line-clamp-2 text-sm text-ink-soft">{hasHead ? rest.join("：") : q}</p>
                             </div>
                             {taken ? (
                                 <Link href="/me" className="inline-flex items-center gap-1.5 text-sm font-bold text-arcade-deep">

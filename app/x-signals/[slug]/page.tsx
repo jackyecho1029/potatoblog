@@ -80,7 +80,7 @@ export default async function XSignalPost({ params }: { params: Promise<{ slug: 
 
                 <article className="mt-10 rounded-[1.5rem] border-2 border-ink bg-white px-5 py-8 shadow-[5px_5px_0_#1C1B1F] md:px-10">
                     <div
-                        className="prose prose-zinc max-w-none learning-content prose-headings:font-black prose-headings:text-ink prose-a:text-arcade-deep prose-blockquote:border-l-arcade prose-blockquote:bg-arcade-soft/50 prose-blockquote:not-italic"
+                        className="prose prose-zinc max-w-none xs-content prose-headings:text-ink prose-a:text-arcade-deep prose-blockquote:border-l-arcade prose-blockquote:bg-arcade-soft/50 prose-blockquote:not-italic prose-li:my-1.5"
                         dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
                     />
                 </article>

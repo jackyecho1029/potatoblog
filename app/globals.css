@@ -387,3 +387,56 @@ body {
 
 /* Wide markdown tables scroll inside their card instead of stretching the page on mobile */
 .learning-content table { display: block; max-width: 100%; overflow-x: auto; }
+
+/* ===== X intel briefing (output of beautifyXSignalHtml) ===== */
+.xs-content h2 {
+  margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.5rem;
+  font-size: 1.5rem; font-weight: 900; border-bottom: 3px solid var(--color-ink);
+}
+.xs-content h2:first-child { margin-top: 0; }
+.xs-content hr { display: none; }
+
+/* signals: numbered rows, text first, source as quiet meta */
+.prose ol.xs-signals { list-style: none; padding: 0; margin: 0; }
+.prose ol.xs-signals > li {
+  display: grid; grid-template-columns: 2rem 1fr; gap: 0.75rem;
+  margin: 0; padding: 0.85rem 0; border-bottom: 1px dashed rgba(28, 27, 31, 0.15);
+}
+.prose ol.xs-signals > li:last-child { border-bottom: 0; }
+.xs-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.75rem; height: 1.75rem; margin-top: 0.1rem;
+  border: 2px solid var(--color-ink); border-radius: 0.5rem;
+  font-family: var(--font-mono); font-size: 0.75rem; font-weight: 900;
+  background: var(--color-paper); color: var(--color-ink);
+}
+.prose .xs-text { margin: 0; font-size: 1rem; line-height: 1.7; color: var(--color-ink); }
+.prose .xs-meta { margin: 0.2rem 0 0; font-size: 0.78rem; color: #71717a; }
+.xs-src { font-family: var(--font-mono); }
+.prose .xs-link { margin-left: 0.5rem; font-weight: 700; color: var(--color-arcade-deep); text-decoration: none; }
+.prose .xs-link:hover { text-decoration: underline; }
+
+/* shared label used by summary and actions */
+.prose .xs-label {
+  margin: 0 0 0.6rem; font-family: var(--font-mono); font-size: 0.72rem; font-weight: 800;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-arcade-deep);
+}
+
+.xs-summary {
+  margin: 1.25rem 0; padding: 1rem 1.25rem;
+  border: 2px solid var(--color-ink); border-radius: 1rem; background: var(--color-paper);
+}
+.prose .xs-summary p:not(.xs-label) { margin: 0; line-height: 1.8; color: var(--color-ink-soft); }
+
+.xs-actions {
+  margin: 1.25rem 0 0; padding: 1.1rem 1.25rem;
+  border: 2px solid var(--color-ink); border-radius: 1rem; background: var(--color-arcade-soft);
+}
+.prose .xs-actions ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.9rem; }
+.prose .xs-actions li { display: grid; grid-template-columns: 2rem 1fr; gap: 0.75rem; margin: 0; padding: 0; }
+.xs-actions .xs-num { background: var(--color-arcade); color: #fff; }
+.prose .xs-action-head { margin: 0; font-size: 1rem; font-weight: 800; line-height: 1.5; color: var(--color-ink); }
+.prose .xs-action-body { margin: 0.2rem 0 0; font-size: 0.92rem; line-height: 1.75; color: var(--color-ink-soft); }
+/* Typography plugin wraps blockquotes in curly quotes; the briefing quotes are labels, not citations. */
+.xs-content blockquote p:first-of-type::before,
+.xs-content blockquote p:last-of-type::after { content: none; }
