@@ -1,9 +1,6 @@
 name: Update Learning Content
 
 on:
-  schedule:
-    # 每天北京时间 9:00 运行（UTC 1:00）
-    - cron: '0 1 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
